@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>The AI Power Tax · Is the data-center boom on your electricity bill?</title>
+  <meta name="description" content="Type your address to see how your electricity bill changed, what's inside it, and how much of the increase traces back to data centers, with the evidence on both sides." />
+  <meta name="theme-color" content="#08090b" />
+  <meta property="og:title" content="The AI Power Tax" />
+  <meta property="og:description" content="Type your address. See how much your power bill has gone up, and how much of it is because of data centers." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0b0b'/%3E%3Cpath d='M36 6 16 36h14l-4 22 22-32H34z' fill='%23ffd60a'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body class="home">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="The AI Power Tax, home">
+      <span class="bolt" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M36 6 16 36h14l-4 22 22-32H34z" /></svg></span>
+      <span>The AI Power Tax</span>
+    </a>
+    <nav class="nav" aria-label="Pages">
+      <a href="index.html" aria-current="page" class="current">Your bill</a>
+      <a href="story.html">How it works</a>
+      <a href="findings.html">Findings</a>
+      <a href="story.html#ch-evidence">The evidence</a>
+      <a href="story.html#about">About</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO: 3D spike map + lookup -->
+    <section class="hero3d" id="top">
+      <div class="h3-stage" id="h3-stage" aria-label="Animated 3D map: how much more the same electricity costs than in 2020, and the data-center share in PJM">
+        <canvas id="h3-cv"></canvas>
+        <div class="h3-cap">
+          <div class="h3-year"><span id="h3-yr">2020</span><small id="h3-yr-s">vs 2020 prices</small></div>
+          <div class="h3-stat"><b id="h3-n">+$0</b><span id="h3-l">a month more for a typical US home than in 2020, for the same electricity</span><small id="h3-s"></small></div>
+        </div>
+        <div class="h3-legend">
+          <div><span class="ramp"></span><span>Each spike is a group of ZIP codes. <b>Height</b> = extra $ a month for the same electricity as 2020</span></div>
+          <div id="h3-lg-dc"><svg width="22" height="16" viewBox="0 0 22 16" aria-hidden="true"><path d="M5 15 11 1 17 15Z" fill="#7a5a1a" /><path d="M8.4 7 11 1 13.6 7Z" fill="#ff3b4a" /></svg><span><b class="r">Red tip</b> = share traced to data-center demand (PJM, market-monitor estimate)</span></div>
+          <div id="h3-lg-b"><svg width="22" height="16" viewBox="0 0 22 16" aria-hidden="true"><line x1="11" y1="15" x2="11" y2="1" stroke="#8fd3ff" stroke-width="2" /><ellipse cx="11" cy="14" rx="6" ry="2" fill="none" stroke="#8fd3ff" /></svg><span><b class="b">Blue beams</b> = major data-center campuses</span></div>
+        </div>
+        <div class="h3-ctrl" role="group" aria-label="Animation controls">
+          <button id="h3-play" aria-label="Pause animation">❚❚</button>
+          <button id="h3-replay">↺ Replay</button>
+          <label>Year <input type="range" id="h3-year" min="2020" max="2026" step="1" value="2026" aria-label="Year" /></label>
+          <button id="h3-dc" aria-pressed="false">Data-center share</button>
+        </div>
+      </div>
+      <div class="h3-copy">
+        <p class="kicker">A data investigation · <span id="updated">data through 2026</span></p>
+        <h1>How much of your <span class="hl">electricity bill</span> is AI?</h1>
+        <p class="dek">Type your address. In seconds you'll see how much your bill went up, <span class="ul-volt">how much of it traces to data centers</span>, and what's already locked in.</p>
+        <form class="lookup" id="lookup" autocomplete="off" role="search">
+          <label class="sr-only" for="addr">Your US street address, city or ZIP code</label>
+          <div class="lookup-box">
+            <svg class="pin" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.1 7-12a7 7 0 1 0-14 0c0 5.9 7 12 7 12z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="2.6" fill="currentColor"/></svg>
+            <input id="addr" type="text" inputmode="search" placeholder="Address or ZIP" aria-autocomplete="list" aria-controls="suggest" aria-expanded="false" />
+            <button type="button" class="locate" id="locate" title="Use my location" aria-label="Use my location"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.2" fill="currentColor"/><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 1v4M12 19v4M1 12h4M19 12h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+            <button type="submit" class="go">Show my bill <span aria-hidden="true">→</span></button>
+          </div>
+          <ul class="suggest" id="suggest" role="listbox" hidden></ul>
+          <p class="lookup-status" id="lookup-status" role="status" aria-live="polite"></p>
+        </form>
+        <p class="tryline">Try: <button class="try" data-q="Ashburn, Virginia">Ashburn, VA</button> <button class="try" data-q="Baltimore, Maryland">Baltimore, MD</button> <button class="try" data-q="Columbus, Ohio">Columbus, OH</button> <button class="try" data-q="Phoenix, Arizona">Phoenix, AZ</button></p>
+      </div>
+    </section>
+
+    <!-- REPORT (the bill) -->
+    <section class="report-wrap" id="report" hidden aria-live="polite"></section>
+
+    <!-- WHAT YOU GET -->
+    <section class="promise" id="promise">
+      <p class="kicker">What you get</p>
+      <h2>Three straight answers about <em>your</em> bill</h2>
+      <div class="pc-grid">
+        <div class="pc"><span class="pc-k">01 · How much it went up</span><b class="pc-big" id="pc-1">+$42</b><p>What a typical US home pays extra each month versus 2020, for the same electricity. You get your own utility's number, next to your state and the country.</p></div>
+        <div class="pc"><span class="pc-k">02 · How much is data centers</span><b class="pc-big r" id="pc-2">≈$7</b><p>A month of a typical bill in PJM, the 13-state grid where the market monitor has measured it. Outside PJM we show the evidence for your grid, both sides.</p></div>
+        <div class="pc"><span class="pc-k">03 · What's already locked in</span><b class="pc-big" id="pc-3">2029</b><p>PJM's auctions have already set capacity charges through May 2029. We show your next bills before they arrive.</p></div>
+      </div>
+      <a class="btn" href="#top">Look up my bill ↑</a>
+    </section>
+
+    <!-- GO DEEPER -->
+    <section class="deeper" aria-labelledby="deeper-h">
+      <h2 id="deeper-h">Go deeper</h2>
+      <div class="dp-grid">
+        <a class="dp" href="story.html"><span class="dp-k">The full story</span><b>How data centers reach your bill</b><span>A kilowatt-hour's journey, the price map, the PJM auction spike and the wires, in eight short chapters.</span></a>
+        <a class="dp" href="findings.html"><span class="dp-k">14 findings</span><b>What the data says</b><span>Double-digit increases, who added the demand, who profits and who pays the most.</span></a>
+        <a class="dp" href="story.html#ch-evidence"><span class="dp-k">26 studies</span><b>The evidence, both sides</b><span>Market monitors, national labs and advocates: which say data centers raise bills, and which don't.</span></a>
+        <a class="dp" href="story.html#ch-act"><span class="dp-k">Take part</span><b>What you can do</b><span>Your rates are set in public cases. How to comment, and who to contact.</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p><strong>The AI Power Tax</strong> is an open-source data investigation. Companion to <a href="https://aalind0.github.io/compute-atlas/">Compute Atlas</a>. Data: EIA, FERC via Catalyst PUDL, PJM and its market monitor, LBNL, EPRI, DOE LEAD, state PUCs, and the studies cited. Not financial, legal or energy advice.</p>
+  </footer>
+
+  <div class="tip" id="tip" role="tooltip" hidden></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

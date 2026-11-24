@@ -1,0 +1,297 @@
+{
+ "generated_from": [
+  "bills_state_annual.csv",
+  "bills_state_monthly.csv",
+  "bills_utility_prices.csv",
+  "bills_utility_monthly.csv"
+ ],
+ "latest_month": "2026-08",
+ "cpi_u_change_pct": {
+  "2019_2025": 25.93,
+  "2020_2025": 24.39,
+  "2024_2025": 2.63
+ },
+ "us": {
+  "2015": {
+   "res_price_cents_kwh": 12.65,
+   "res_price_real2025_cents_kwh": 17.183,
+   "res_avg_monthly_bill_usd": 114.03,
+   "res_avg_monthly_kwh": 901.4
+  },
+  "2016": {
+   "res_price_cents_kwh": 12.549,
+   "res_price_real2025_cents_kwh": 16.833,
+   "res_avg_monthly_bill_usd": 112.59,
+   "res_avg_monthly_kwh": 897.1
+  },
+  "2017": {
+   "res_price_cents_kwh": 12.887,
+   "res_price_real2025_cents_kwh": 16.925,
+   "res_avg_monthly_bill_usd": 111.67,
+   "res_avg_monthly_kwh": 866.6
+  },
+  "2018": {
+   "res_price_cents_kwh": 12.867,
+   "res_price_real2025_cents_kwh": 16.497,
+   "res_avg_monthly_bill_usd": 117.65,
+   "res_avg_monthly_kwh": 914.3
+  },
+  "2019": {
+   "res_price_cents_kwh": 13.014,
+   "res_price_real2025_cents_kwh": 16.388,
+   "res_avg_monthly_bill_usd": 115.49,
+   "res_avg_monthly_kwh": 887.4
+  },
+  "2020": {
+   "res_price_cents_kwh": 13.155,
+   "res_price_real2025_cents_kwh": 16.363,
+   "res_avg_monthly_bill_usd": 117.46,
+   "res_avg_monthly_kwh": 893.0
+  },
+  "2021": {
+   "res_price_cents_kwh": 13.658,
+   "res_price_real2025_cents_kwh": 16.227,
+   "res_avg_monthly_bill_usd": 121.01,
+   "res_avg_monthly_kwh": 886.0
+  },
+  "2022": {
+   "res_price_cents_kwh": 15.04,
+   "res_price_real2025_cents_kwh": 16.545,
+   "res_avg_monthly_bill_usd": 135.25,
+   "res_avg_monthly_kwh": 899.3
+  },
+  "2023": {
+   "res_price_cents_kwh": 15.999,
+   "res_price_real2025_cents_kwh": 16.905,
+   "res_avg_monthly_bill_usd": 136.84,
+   "res_avg_monthly_kwh": 855.3
+  },
+  "2024": {
+   "res_price_cents_kwh": 16.479,
+   "res_price_real2025_cents_kwh": 16.913,
+   "res_avg_monthly_bill_usd": 142.26,
+   "res_avg_monthly_kwh": 863.3
+  },
+  "2025": {
+   "res_price_cents_kwh": 17.235,
+   "res_price_real2025_cents_kwh": 17.235,
+   "res_avg_monthly_bill_usd": 150.68,
+   "res_avg_monthly_kwh": 874.3
+  }
+ },
+ "us_latest": {
+  "res_price_cents_kwh": 18.165,
+  "res_price_yoy_pct": 3.403,
+  "res_price_ttm_cents_kwh": 18.04,
+  "res_price_ttm_yoy_pct": 6.488,
+  "cpi_u_all_items_yoy_pct": 3.397
+ },
+ "states_real_2020_2025_pct": {
+  "DC": 39.49,
+  "ME": 32.43,
+  "CA": 23.25,
+  "MD": 20.69,
+  "NY": 15.54,
+  "PA": 14.18,
+  "NJ": 12.77,
+  "OR": 11.32,
+  "MA": 11.28,
+  "OH": 10.59,
+  "DE": 9.74,
+  "IL": 8.91,
+  "FL": 8.53,
+  "RI": 7.68,
+  "HI": 7.24,
+  "WA": 7.24,
+  "TX": 5.67,
+  "OK": 4.94,
+  "WV": 4.81,
+  "LA": 4.09,
+  "CT": 3.74,
+  "NH": 3.57,
+  "AL": 2.87,
+  "VA": 2.15,
+  "CO": 2.08,
+  "WI": 1.49,
+  "MS": 0.94,
+  "UT": 0.26,
+  "IN": 0.04,
+  "AZ": -0.07,
+  "AR": -0.61,
+  "MI": -0.96,
+  "NC": -1.12,
+  "TN": -1.23,
+  "GA": -1.38,
+  "KY": -2.84,
+  "WY": -3.28,
+  "MN": -3.38,
+  "ID": -4.39,
+  "MO": -4.74,
+  "SC": -4.95,
+  "NV": -6.0,
+  "VT": -6.23,
+  "AK": -7.01,
+  "MT": -7.08,
+  "NM": -7.74,
+  "SD": -8.82,
+  "ND": -8.99,
+  "KS": -9.72,
+  "NE": -10.25,
+  "IA": -12.09
+ },
+ "states_ttm_yoy_pct_latest": {
+  "DC": 19.83,
+  "NH": 13.76,
+  "MD": 12.74,
+  "PA": 12.31,
+  "WA": 11.85,
+  "OH": 11.68,
+  "VA": 11.54,
+  "NY": 11.25,
+  "IL": 10.57,
+  "NJ": 10.21,
+  "ID": 9.84,
+  "ME": 9.74,
+  "MT": 9.51,
+  "HI": 8.84,
+  "IN": 8.84,
+  "SD": 8.23,
+  "MI": 7.96,
+  "CO": 7.93,
+  "MS": 7.78,
+  "WY": 7.49,
+  "NE": 7.23,
+  "AR": 7.17,
+  "KY": 6.81,
+  "ND": 6.62,
+  "OK": 6.29,
+  "WI": 6.14,
+  "MO": 6.12,
+  "DE": 6.1,
+  "VT": 6.02,
+  "KS": 5.86,
+  "SC": 5.55,
+  "NC": 5.54,
+  "LA": 5.31,
+  "AK": 5.03,
+  "NM": 4.95,
+  "IA": 4.91,
+  "TX": 4.81,
+  "FL": 4.4,
+  "GA": 4.39,
+  "MN": 4.19,
+  "AL": 3.93,
+  "CA": 3.68,
+  "TN": 3.67,
+  "UT": 3.5,
+  "OR": 2.21,
+  "AZ": 1.7,
+  "RI": 1.16,
+  "WV": 0.92,
+  "MA": 0.78,
+  "NV": -0.7,
+  "CT": -8.95
+ },
+ "utilities_2024_2025": {
+  "n_utilities_ge10k_customers": 927,
+  "share_ge10pct": 11.4,
+  "share_above_cpi": 61.6,
+  "share_decrease": 19.7
+ },
+ "utilities_2026ytd_vs_2025ytd": {
+  "months": "Jan-8",
+  "n_utilities_ge10k_customers": 300,
+  "share_ge10pct": 23.7,
+  "customer_weighted_mean_pct": 6.39
+ },
+ "by_rto_2020_2025": [
+  {
+   "rto_iso": "CAISO",
+   "n": 15.0,
+   "cust_m": 5.8,
+   "wavg_nom_24_25": -2.35,
+   "wavg_real_20_25": 32.92,
+   "share_ge10_24_25": 13.33
+  },
+  {
+   "rto_iso": "ERCOT",
+   "n": 75.0,
+   "cust_m": 10.37,
+   "wavg_nom_24_25": 3.54,
+   "wavg_real_20_25": 6.09,
+   "share_ge10_24_25": 8.0
+  },
+  {
+   "rto_iso": "ERCOT;SPP",
+   "n": 1.0,
+   "cust_m": 0.06,
+   "wavg_nom_24_25": 6.45,
+   "wavg_real_20_25": -8.26,
+   "share_ge10_24_25": 0.0
+  },
+  {
+   "rto_iso": "ISO-NE",
+   "n": 29.0,
+   "cust_m": 3.83,
+   "wavg_nom_24_25": 2.23,
+   "wavg_real_20_25": 7.95,
+   "share_ge10_24_25": 10.34
+  },
+  {
+   "rto_iso": "ISO-NE;none",
+   "n": 1.0,
+   "cust_m": 0.13,
+   "wavg_nom_24_25": 7.37,
+   "wavg_real_20_25": 38.79,
+   "share_ge10_24_25": 0.0
+  },
+  {
+   "rto_iso": "MISO",
+   "n": 167.0,
+   "cust_m": 19.26,
+   "wavg_nom_24_25": 5.17,
+   "wavg_real_20_25": 1.61,
+   "share_ge10_24_25": 10.18
+  },
+  {
+   "rto_iso": "NYISO",
+   "n": 10.0,
+   "cust_m": 6.79,
+   "wavg_nom_24_25": 9.61,
+   "wavg_real_20_25": 20.27,
+   "share_ge10_24_25": 60.0
+  },
+  {
+   "rto_iso": "NYISO;PJM",
+   "n": 1.0,
+   "cust_m": 0.06,
+   "wavg_nom_24_25": 10.45,
+   "wavg_real_20_25": 13.8,
+   "share_ge10_24_25": 100.0
+  },
+  {
+   "rto_iso": "PJM",
+   "n": 111.0,
+   "cust_m": 20.37,
+   "wavg_nom_24_25": 10.35,
+   "wavg_real_20_25": 11.23,
+   "share_ge10_24_25": 17.12
+  },
+  {
+   "rto_iso": "SPP",
+   "n": 72.0,
+   "cust_m": 5.75,
+   "wavg_nom_24_25": 4.17,
+   "wavg_real_20_25": -2.2,
+   "share_ge10_24_25": 5.56
+  },
+  {
+   "rto_iso": "none",
+   "n": 425.0,
+   "cust_m": 49.18,
+   "wavg_nom_24_25": 5.01,
+   "wavg_real_20_25": 2.79,
+   "share_ge10_24_25": 10.82
+  }
+ ]
+}

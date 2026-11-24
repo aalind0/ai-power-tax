@@ -1,0 +1,65 @@
+ba_code,ba_id,ba_name,states,rto_iso,res_customers_2025_bundled
+AECI,924.0,"Associated Electric Cooperative, Inc.",AR;IA;MO;OK,none,791064.0
+AMPL,599.0,Anchorage Municipal Light & Power,AK,none,
+AVA,20169.0,Avista Corporation,ID;MT;WA,none,426160.0
+AVRN,15399.0,Avangrid Renewables LLC,OR;WA,none,
+AZPS,803.0,Arizona Public Service Company,AZ;NM,none,1321175.0
+BANC,65289.0,Balancing Authority of Northern California,CA,none,813932.0
+BPAT,1738.0,Bonneville Power Administration,ID;MT;NV;OR;UT;WA;WY,none,1638891.0
+CEA,3522.0,Chugach Electric Assn Inc,AK,none,97742.0
+CHPD,3413.0,Public Utility District No. 1 of Chelan County,WA,none,42571.0
+CISO,2775.0,California Independent System Operator,AZ;CA;NV,CAISO,11344093.0
+CPLE,3046.0,Duke Energy Progress East,NC;SC,none,2385307.0
+CPLW,58786.0,Duke Energy Progress West,NC,none,
+DEAA,56812.0,"Arlington Valley, LLC - AVBA",AZ,none,
+DOPD,5326.0,PUD No. 1 of Douglas County,WA,none,35139.0
+DUK,5416.0,Duke Energy Carolinas,GA;NC;SC,none,3478782.0
+EPE,5701.0,El Paso Electric Company,NM;TX,none,417810.0
+ERCO,5723.0,"Electric Reliability Council of Texas, Inc.",NM;TX,ERCOT,11162087.0
+FMPP,65277.0,Florida Municipal Power Pool,FL,none,585452.0
+FPC,6455.0,Duke Energy Florida Inc,FL,none,1857739.0
+FPL,6452.0,Florida Power & Light Company,FL,none,5673650.0
+GCPD,14624.0,"Public Utility District No. 2 of Grant County, Washington",WA,none,43160.0
+GRID,58790.0,"Gridforce Energy Management, LLC",WA,none,
+GRIS,56545.0,Gridforce South,NM,none,
+GVL,6909.0,Gainesville Regional Utilities,FL,none,93214.0
+GWA,56365.0,"NaturEner Power Watch, LLC (GWA)",MT,none,
+HECO,19547.0,Hawaiian Electric Co Inc,HI,none,276853.0
+HST,8795.0,City of Homestead,FL,none,24277.0
+IID,9216.0,Imperial Irrigation District,CA,none,142916.0
+IPCO,9191.0,Idaho Power Company,ID;OR,none,556637.0
+ISNE,13434.0,ISO New England Inc.,CT;MA;ME;NH;NY;RI;VT,ISO-NE,6510849.0
+JEA,9617.0,JEA,FL,none,505341.0
+LDWP,11208.0,Los Angeles Department of Water and Power,CA;UT,none,1540392.0
+LGEE,11249.0,Louisville Gas and Electric Company and Kentucky Utilities Company,KY;VA,none,917121.0
+MISO,56669.0,"Midcontinent Independent Transmission System Operator, Inc..",AR;IA;IL;IN;KS;KY;LA;MI;MN;MO;MS;ND;OK;SD;TN;TX;WI,MISO,20302099.0
+NBSO,1.0,New Brunswick System Operator,ME,none,146255.0
+NEVP,13407.0,Nevada Power Company,CA;NV;UT,none,1317458.0
+NWMT,12825.0,NorthWestern Energy (NWMT),ID;MT;WY,none,350363.0
+NYIS,13501.0,New York Independent System Operator,NJ;NY;PA,NYISO,7488654.0
+PACE,14379.0,PacifiCorp - East,AZ;CO;ID;MT;NM;UT;WY,none,1453518.0
+PACW,14378.0,PacifiCorp - West,CA;NV;OR;WA,none,728048.0
+PGE,15248.0,Portland General Electric Company,OR,none,840457.0
+PJM,14725.0,"PJM Interconnection, LLC",DC;DE;IL;IN;KY;MD;MI;NC;NJ;NY;OH;PA;TN;VA;WV,PJM,27163746.0
+PNM,15473.0,Public Service Company of New Mexico,AZ;CO;NM;OK;TX,none,591783.0
+PSCO,15466.0,Public Service Company of Colorado,AZ;CO;NM;WY,none,1911846.0
+PSEI,15500.0,Puget Sound Energy,WA,none,1104338.0
+SC,17543.0,South Carolina Public Service Authority,SC,none,777403.0
+SCEG,17539.0,Dominion Energy South Carolina,GA;SC,none,733361.0
+SCL,16868.0,Seattle City Light,WA,none,472309.0
+SEC,21554.0,Seminole Electric Cooperative,FL,none,854406.0
+SEPA,29304.0,Southeastern Power Administration,GA;NC;SC,none,13680.0
+SOCO,18195.0,"Southern Company Services, Inc. - Trans",AL;FL;GA;MS,none,6739641.0
+SPA,17716.0,Southwestern Power Administration,AR;MO;OK,none,19575.0
+SRP,16572.0,Salt River Project,AZ,none,1074095.0
+SWPP,59504.0,Southwest Power Pool,AR;CO;IA;KS;LA;MN;MO;MT;ND;NE;NM;OK;SD;TX,SPP,6124907.0
+TAL,18445.0,City of Tallahassee,FL,none,105945.0
+TEC,18454.0,Tampa Electric Company,FL,none,768806.0
+TEPC,24211.0,Tucson Electric Power Company,AZ;NM,none,553851.0
+TIDC,19281.0,Turlock Irrigation District,CA,none,80976.0
+TPWR,18429.0,"City of Tacoma, Department of Public Utilities, Light Division",WA,none,177554.0
+TVA,18642.0,Tennessee Valley Authority,AL;GA;KY;MS;NC;TN;VA,none,4541158.0
+WACM,28503.0,Western Area Power Administration - Rocky Mountain Region,CO;KS;MT;ND;NE;NM;SD;UT;WY,none,869101.0
+WALC,25471.0,Western Area Power Administration - Desert Southwest Region,AZ;CA;NM;NV;UT,none,216751.0
+WAUW,19610.0,Western Area Power Administration UGP West,MT;UT;WY,none,45707.0
+YAD,317.0,"Alcoa Power Generating, Inc. - Yadkin Division",NC,none,

@@ -1,0 +1,1078 @@
+{
+ "description": "Residential bill anatomy at 1,000 kWh/month for large US utilities, assembled from tariffs/commission pages (2025-2026). See research/bills/FINDINGS.md.",
+ "generated": "2026-11-23",
+ "kwh_basis": 1000,
+ "categories": {
+  "fixed": "monthly customer/meter charges",
+  "distribution": "local wires (per kWh)",
+  "transmission": "high-voltage grid",
+  "supply": "generation/energy incl. capacity (default/standard-offer service in restructured states)",
+  "base_energy": "bundled base rate (generation+T+D) in vertically integrated utilities",
+  "riders": "surcharges/adjustment clauses (fuel, EE, storm, public-purpose, nuclear support, etc.)"
+ },
+ "pjm_capacity_context": {
+  "how_it_reaches_bills": [
+   "PJM runs the Base Residual Auction ~3 years ahead (recently compressed); each delivery year runs June 1 - May 31.",
+   "Load-serving entities pay the zonal clearing price x their customers' peak-load contribution; for default-service customers that cost is inside the supply/Price-to-Compare/SOS/BGS rate.",
+   "Restructured PJM states reset default-service prices on June 1 (PA, OH, IL, MD, NJ, DE, DC), so capacity changes show up in June bills; states that ladder procurement (NJ 3-year BGS, MD/DC/PA multi-year tranches) phase the change in over 2-3 years.",
+   "Shopping customers see it when their retail contract renews; vertically integrated PJM utilities (Dominion, APCo, many co-ops) recover capacity through base rates/riders instead of a June reset."
+  ],
+  "pjm_weighted_capacity_price_usd_mw_day": {
+   "2023/24": 42.01,
+   "2024/25": 45.57,
+   "2025/26": 296.98,
+   "2026/27": 329.17,
+   "2027/28": 333.44,
+   "source": "https://emp.lbl.gov/sites/default/files/2026-07/Retail%20Price%20Trends_2026%20edition_%20JulyUpdate_Data%20File.xlsx",
+   "verified": true
+  },
+  "pjm_capacity_cost_cents_per_kwh_all_load": {
+   "2024": 0.361,
+   "2025": 1.276,
+   "2026_est": 1.957,
+   "source": "https://emp.lbl.gov/sites/default/files/2026-07/Retail%20Price%20Trends_2026%20edition_%20JulyUpdate_Data%20File.xlsx (tab: PJM capacity prices; from PJM IMM Q3-2025 State of the Market)",
+   "verified": true
+  },
+  "rule_of_thumb": "At ~$330/MW-day, capacity is roughly 2 c/kWh averaged over all PJM load (~$20 on a 1,000 kWh bill); residential load is peakier than average, so the residential share can be higher. Pepco DC example: +1.7 c/kWh, +$10/mo (+9%) from the 2025/26 auction (Synapse for DC OPC)."
+ },
+ "utilities": [
+  {
+   "utility": "PECO Energy Co",
+   "eia_utility_id": 14940,
+   "state": "PA",
+   "rto_iso": "PJM",
+   "market": "restructured (retail choice); default service",
+   "rate": "Rate R (residence service) + default service (Price to Compare)",
+   "effective": "distribution 2026-01-01; PTC 2026-06-01 to 2026-11-30",
+   "lines": [
+    {
+     "category": "fixed",
+     "label": "Fixed distribution service charge",
+     "cents_per_kwh": null,
+     "fixed_usd_per_month": 11.3,
+     "usd_at_1000kwh": 11.3,
+     "source": "https://azure-na-assets.contentstack.com/v3/assets/blt1b5616c79bacadb4/bltef2bb157cc587eac/695440f39dd7d11ce0542224/Pages_52_Rate_R_from_clean_up_pages_for_ICUS_FARS_Supp_no._21_eff_Jan_1_2026.pdf",
+     "verified": true,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 4.8
+    },
+    {
+     "category": "distribution",
+     "label": "Variable distribution service charge",
+     "cents_per_kwh": 10.276,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 102.76,
+     "source": "https://azure-na-assets.contentstack.com/v3/assets/blt1b5616c79bacadb4/bltef2bb157cc587eac/695440f39dd7d11ce0542224/Pages_52_Rate_R_from_clean_up_pages_for_ICUS_FARS_Supp_no._21_eff_Jan_1_2026.pdf",
+     "verified": true,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 43.6
+    },
+    {
+     "category": "riders",
+     "label": "Riders: USF, EE&C (Act 129), DSIC, NBT, consumer-ed, COVID uncollectible, fiber surcharge",
+     "cents_per_kwh": 0.584,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 5.84,
+     "source": "https://apps.openei.org/IURDB/rate/view/69e650226746522c70079989",
+     "verified": false,
+     "derived": true,
+     "note": "URDB adjustments 1.371 c/kWh (Jan 2026) minus the transmission estimate below; approximate",
+     "pct_of_bill": 2.5
+    },
+    {
+     "category": "transmission",
+     "label": "Transmission Service Charge (inside the Price to Compare)",
+     "cents_per_kwh": 0.787,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 7.87,
+     "source": "https://www.puc.pa.gov/press-release/2026/puc-alerts-consumers-to-june-1-electric-price-changes-and-higher-summer-energy-costs-5-20-26",
+     "verified": false,
+     "derived": true,
+     "note": "PTC 11.572 c (PA PUC, June 1 2026, marked \"estimated\") minus default-service generation rate 10.785 c (PUC filing, UNVERIFIED)",
+     "pct_of_bill": 3.3
+    },
+    {
+     "category": "supply",
+     "label": "Default-service generation (GSA), incl. PJM capacity",
+     "cents_per_kwh": 10.785,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 107.85,
+     "source": "https://www.puc.pa.gov/pcdocs/1923196.pdf",
+     "verified": false,
+     "derived": false,
+     "note": "UNVERIFIED: figure from search snippet of PECO default-service filing; PTC 11.572 c verified on PA PUC press release",
+     "pct_of_bill": 45.8
+    }
+   ],
+   "capacity_note": "PJM capacity is embedded in the generation (GSA) rate; PECO buys default supply via laddered full-requirements auctions, so June 2025/2026 capacity jumps flowed in over ~2 years.",
+   "taxes_note": "PA gross receipts tax is embedded in rates; no sales tax on residential electricity.",
+   "total_usd_at_1000kwh": 235.62,
+   "implied_cents_per_kwh": 23.56,
+   "eia861m_check": {
+    "period": "2026-01..2026-08",
+    "avg_revenue_cents_per_kwh": 19.71,
+    "avg_monthly_kwh": 807.0,
+    "note": "EIA-861M bundled revenue/sales; includes taxes billed as revenue, CAP/low-income discounts and seasonal usage mix, so it differs from a tariff sum"
+   },
+   "by_category_usd": {
+    "fixed": 11.3,
+    "distribution": 102.76,
+    "riders": 5.84,
+    "transmission": 7.87,
+    "supply": 107.85
+   }
+  },
+  {
+   "utility": "Baltimore Gas & Electric Co",
+   "eia_utility_id": 1167,
+   "state": "MD",
+   "rto_iso": "PJM",
+   "market": "restructured; standard offer service (SOS)",
+   "rate": "Schedule R (residential) with SOS",
+   "effective": "2026-01-01 (URDB record); SOS resets each June 1 and Oct 1",
+   "lines": [
+    {
+     "category": "fixed",
+     "label": "Customer charge",
+     "cents_per_kwh": null,
+     "fixed_usd_per_month": 10.32,
+     "usd_at_1000kwh": 10.32,
+     "source": "https://apps.openei.org/IURDB/rate/view/69a728bdd1ab4183610bb29a",
+     "verified": false,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 4.3
+    },
+    {
+     "category": "distribution",
+     "label": "Delivery (distribution) energy charge",
+     "cents_per_kwh": 4.859,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 48.59,
+     "source": "https://apps.openei.org/IURDB/rate/view/69a72480d189752a6d0863a9",
+     "verified": false,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 20.3
+    },
+    {
+     "category": "supply",
+     "label": "Standard Offer Service: generation + transmission + admin charge (incl. PJM capacity)",
+     "cents_per_kwh": 16.678,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 166.78,
+     "source": "https://apps.openei.org/IURDB/rate/view/69a728bdd1ab4183610bb29a",
+     "verified": false,
+     "derived": true,
+     "note": "URDB \"delivery + SOS\" 21.537 c minus delivery-only 4.859 c",
+     "pct_of_bill": 69.6
+    },
+    {
+     "category": "riders",
+     "label": "Riders: EmPOWER Maryland EE charge, demand response, multi-year-plan adjustment",
+     "cents_per_kwh": 1.381,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 13.81,
+     "source": "https://apps.openei.org/IURDB/rate/view/69a728bdd1ab4183610bb29a",
+     "verified": false,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 5.8
+    }
+   ],
+   "capacity_note": "BGE zone cleared at a separate, higher price in the 2025/26 PJM auction (LDA constraint). Maryland OPC (advocacy) projected ~19% higher BGE bills from that auction (pre-June-2025 estimate, via PIRG summary).",
+   "taxes_note": "Excludes local energy taxes, MD universal service and franchise charges where billed separately.",
+   "total_usd_at_1000kwh": 239.5,
+   "implied_cents_per_kwh": 23.95,
+   "eia861m_check": {
+    "period": "2026-01..2026-08",
+    "avg_revenue_cents_per_kwh": 22.18,
+    "avg_monthly_kwh": 932.0,
+    "note": "EIA-861M bundled revenue/sales; includes taxes billed as revenue, CAP/low-income discounts and seasonal usage mix, so it differs from a tariff sum"
+   },
+   "by_category_usd": {
+    "fixed": 10.32,
+    "distribution": 48.59,
+    "supply": 166.78,
+    "riders": 13.81
+   }
+  },
+  {
+   "utility": "Commonwealth Edison Co",
+   "eia_utility_id": 4110,
+   "state": "IL",
+   "rto_iso": "PJM",
+   "market": "restructured; utility default supply procured by Illinois Power Agency",
+   "rate": "Single-family non-space-heat; delivery (RDS) + ComEd supply (BES)",
+   "effective": "supply & transmission 2026-10-01 to 2027-05-31; delivery URDB record eff. 2025-01-01 (stale)",
+   "lines": [
+    {
+     "category": "fixed",
+     "label": "Customer + standard metering charges",
+     "cents_per_kwh": null,
+     "fixed_usd_per_month": 19.52,
+     "usd_at_1000kwh": 19.52,
+     "source": "https://apps.openei.org/IURDB/rate/view/679c05e9addfd4b96500e1d3",
+     "verified": false,
+     "derived": false,
+     "note": "2025 level; ComEd delivery rates step up each January under its multi-year rate plan",
+     "pct_of_bill": 10.0
+    },
+    {
+     "category": "distribution",
+     "label": "Distribution facilities charge",
+     "cents_per_kwh": 6.187,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 61.87,
+     "source": "https://apps.openei.org/IURDB/rate/view/679c05e9addfd4b96500e1d3",
+     "verified": false,
+     "derived": false,
+     "note": "2025 level",
+     "pct_of_bill": 31.7
+    },
+    {
+     "category": "riders",
+     "label": "Riders: zero-emission & carbon-free adjustments, EE, environmental, energy-transition assistance, renewable",
+     "cents_per_kwh": 1.296,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 12.96,
+     "source": "https://apps.openei.org/IURDB/rate/view/679c05efaddfd4b96500e1d4",
+     "verified": false,
+     "derived": false,
+     "note": "2025 level",
+     "pct_of_bill": 6.6
+    },
+    {
+     "category": "transmission",
+     "label": "Transmission services charge",
+     "cents_per_kwh": 1.69,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 16.9,
+     "source": "https://plugin.illinois.gov/understanding-the-price-to-compare/price-to-compare-comed.html",
+     "verified": true,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 8.6
+    },
+    {
+     "category": "supply",
+     "label": "Electric supply charge (incl. PJM capacity), non-summer",
+     "cents_per_kwh": 8.413,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 84.13,
+     "source": "https://plugin.illinois.gov/understanding-the-price-to-compare/price-to-compare-comed.html",
+     "verified": true,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 43.1
+    }
+   ],
+   "capacity_note": "ComEd supply passes PJM capacity through each June. Citizens Utility Board (advocacy) says capacity is ~20% of supply; a consumer-advocate provision turns part of it into a credit when energy prices are high (~1.3 c/kWh lower in June 2026, per CUB, UNVERIFIED). Summer (Jun-Sep 2026) PTC was 10.399 c.",
+   "taxes_note": "Excludes IL electricity excise tax and municipal utility taxes (e.g., Chicago); Plug In Illinois also lists a Renewable Energy Adjustment in Taxes & Fees.",
+   "total_usd_at_1000kwh": 195.38,
+   "implied_cents_per_kwh": 19.54,
+   "eia861m_check": {
+    "period": "2026-01..2026-08",
+    "avg_revenue_cents_per_kwh": 19.87,
+    "avg_monthly_kwh": 602.0,
+    "note": "EIA-861M bundled revenue/sales; includes taxes billed as revenue, CAP/low-income discounts and seasonal usage mix, so it differs from a tariff sum"
+   },
+   "by_category_usd": {
+    "fixed": 19.52,
+    "distribution": 61.87,
+    "riders": 12.96,
+    "transmission": 16.9,
+    "supply": 84.13
+   }
+  },
+  {
+   "utility": "Ohio Power Co (AEP Ohio)",
+   "eia_utility_id": 14006,
+   "state": "OH",
+   "rto_iso": "PJM",
+   "market": "restructured; standard service offer (SSO) via auctions",
+   "rate": "RS (Ohio Power rate zone), SSO customer",
+   "effective": "2026-04-10 (URDB record)",
+   "lines": [
+    {
+     "category": "fixed",
+     "label": "Customer charge (incl. fixed riders)",
+     "cents_per_kwh": null,
+     "fixed_usd_per_month": 18.788,
+     "usd_at_1000kwh": 18.79,
+     "source": "https://apps.openei.org/IURDB/rate/view/69dd1b5381bf8b311c0576a8",
+     "verified": false,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 10.1
+    },
+    {
+     "category": "distribution",
+     "label": "Base distribution energy charge",
+     "cents_per_kwh": 3.47738,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 34.77,
+     "source": "https://apps.openei.org/IURDB/rate/view/69dd1b5381bf8b311c0576a8",
+     "verified": false,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 18.6
+    },
+    {
+     "category": "riders",
+     "label": "Transmission (BTCR) + kWh tax + riders: PIPP, enhanced reliability, distribution investment, econ. development, EE, storm, gridSMART",
+     "cents_per_kwh": 5.6109,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 56.11,
+     "source": "https://apps.openei.org/IURDB/rate/view/69dd1b5381bf8b311c0576a8",
+     "verified": false,
+     "derived": false,
+     "note": "URDB delivery-only adjustments (tier <=2000 kWh); transmission not separable from URDB",
+     "pct_of_bill": 30.1
+    },
+    {
+     "category": "supply",
+     "label": "SSO generation: generation energy + generation capacity riders (+ auction cost)",
+     "cents_per_kwh": 7.6881,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 76.88,
+     "source": "https://apps.openei.org/IURDB/rate/view/69dd1b5381bf8b311c0576a8",
+     "verified": false,
+     "derived": true,
+     "note": "URDB bundled adjustments 13.299 c minus delivery-only adjustments 5.611 c; check against PUCO Apples-to-Apples SSO price",
+     "pct_of_bill": 41.2
+    }
+   ],
+   "capacity_note": "Ohio SSO bills show a separate \"Generation Capacity\" rider; it resets every June 1 with the PJM delivery year.",
+   "taxes_note": "Ohio kWh excise tax is inside the riders line.",
+   "total_usd_at_1000kwh": 186.55,
+   "implied_cents_per_kwh": 18.66,
+   "eia861m_check": {
+    "period": "2026-01..2026-08",
+    "avg_revenue_cents_per_kwh": 20.92,
+    "avg_monthly_kwh": 968.0,
+    "note": "EIA-861M bundled revenue/sales; includes taxes billed as revenue, CAP/low-income discounts and seasonal usage mix, so it differs from a tariff sum"
+   },
+   "by_category_usd": {
+    "fixed": 18.79,
+    "distribution": 34.77,
+    "riders": 56.11,
+    "supply": 76.88
+   }
+  },
+  {
+   "utility": "Jersey Central Power & Light (JCP&L)",
+   "eia_utility_id": 9726,
+   "state": "NJ",
+   "rto_iso": "PJM",
+   "market": "restructured; Basic Generation Service (BGS) via annual statewide auction (3-year ladder)",
+   "rate": "Residential Service (RS), summer (June-Sept) month",
+   "effective": "2025-07-01 (URDB record); BGS reset 2026-06-01",
+   "lines": [
+    {
+     "category": "fixed",
+     "label": "Customer charge",
+     "cents_per_kwh": null,
+     "fixed_usd_per_month": 4.27,
+     "usd_at_1000kwh": 4.27,
+     "source": "https://apps.openei.org/IURDB/rate/view/689ad92169e023ffe701ba9d",
+     "verified": false,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 2.1
+    },
+    {
+     "category": "distribution",
+     "label": "Distribution (summer: 2.0182 c first 600 kWh, 7.981 c above)",
+     "cents_per_kwh": 4.4033,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 44.03,
+     "source": "https://apps.openei.org/IURDB/rate/view/689ad92169e023ffe701ba9d",
+     "verified": false,
+     "derived": true,
+     "note": "blended for 1,000 kWh",
+     "pct_of_bill": 21.4
+    },
+    {
+     "category": "supply",
+     "label": "BGS supply incl. transmission & PJM capacity (summer: 14.0765 c first 600 kWh, 14.999 c above)",
+     "cents_per_kwh": 14.4455,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 144.46,
+     "source": "https://apps.openei.org/IURDB/rate/view/689b0eb4f8eb73eda90d3bd6",
+     "verified": false,
+     "derived": true,
+     "note": "URDB \"delivery + BGS\" minus delivery-only rates; transmission not separable",
+     "pct_of_bill": 70.2
+    },
+    {
+     "category": "riders",
+     "label": "Riders: Societal Benefits (incl. clean energy, USF), non-utility generation, RGGI, nuclear ZEC, reliability plus, LRAM, COVID",
+     "cents_per_kwh": 1.31,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 13.1,
+     "source": "https://apps.openei.org/IURDB/rate/view/689ad92169e023ffe701ba9d",
+     "verified": false,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 6.4
+    }
+   ],
+   "official_typical_bill": {
+    "kwh": 650,
+    "usd_before_june_2026": 135.24,
+    "usd_after_june_1_2026": 137.47,
+    "source": "https://nj.gov/bpu/newsroom/2026/approved/20260212.html",
+    "verified": true
+   },
+   "capacity_note": "NJ BGS buys one-third of residential supply each February for 3 years, so a PJM capacity spike is phased in over 3 auctions. BPU: 2026 BGS prices rose slightly, driven by wholesale energy and PJM capacity, damped by the PJM price collar ($175-$325/MW-day).",
+   "taxes_note": "NJ sales tax (6.625%) applies to residential electricity; BPU/URDB figures include SUT inside rates (NJ tariffs are SUT-inclusive) - UNVERIFIED.",
+   "sibling_utility": {
+    "utility": "PSE&G",
+    "eia_utility_id": 15477,
+    "kwh": 650,
+    "usd_before_june_2026": 183.46,
+    "usd_after_june_1_2026": 180.23,
+    "pct_change": -1.8,
+    "source": "https://nj.gov/bpu/newsroom/2026/approved/20260212.html",
+    "verified": true,
+    "note": "Component split not obtained (URDB API rate-limited). Before Residential Universal Bill Credits ordered under Gov. Sherrill EO No. 1."
+   },
+   "total_usd_at_1000kwh": 205.86,
+   "implied_cents_per_kwh": 20.59,
+   "eia861m_check": {
+    "period": "2026-01..2026-08",
+    "avg_revenue_cents_per_kwh": 19.51,
+    "avg_monthly_kwh": 859.0,
+    "note": "EIA-861M bundled revenue/sales; includes taxes billed as revenue, CAP/low-income discounts and seasonal usage mix, so it differs from a tariff sum"
+   },
+   "by_category_usd": {
+    "fixed": 4.27,
+    "distribution": 44.03,
+    "supply": 144.46,
+    "riders": 13.1
+   }
+  },
+  {
+   "utility": "Virginia Electric & Power Co (Dominion Energy Virginia)",
+   "eia_utility_id": 19876,
+   "state": "VA",
+   "rto_iso": "PJM",
+   "market": "vertically integrated (PJM member)",
+   "rate": "Schedule 1 residential (annualized: Jun-Sep summer blocks, other months winter blocks)",
+   "effective": "2026-01-01 (URDB record; after SCC biennial order)",
+   "lines": [
+    {
+     "category": "fixed",
+     "label": "Basic customer charge",
+     "cents_per_kwh": null,
+     "fixed_usd_per_month": 7.58,
+     "usd_at_1000kwh": 7.58,
+     "source": "https://apps.openei.org/IURDB/rate/view/6997c46543b6aa9b2a015f78",
+     "verified": false,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 4.5
+    },
+    {
+     "category": "base_energy",
+     "label": "Base energy (distribution + generation + transmission base rates), annualized",
+     "cents_per_kwh": 7.4007,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 74.01,
+     "source": "https://apps.openei.org/IURDB/rate/view/6997c46543b6aa9b2a015f78",
+     "verified": false,
+     "derived": true,
+     "note": "summer 7.6602 c first 800 kWh / 7.9539 c above; winter 7.5454 c / 6.0261 c",
+     "pct_of_bill": 43.9
+    },
+    {
+     "category": "riders",
+     "label": "Fuel rider A + rate-adjustment-clause riders (transmission T1, CVOW offshore wind, RPS, nuclear life extension, grid transformation, undergrounding, EE, new plants, coal-ash closure)",
+     "cents_per_kwh": 8.6944,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 86.94,
+     "source": "https://apps.openei.org/IURDB/rate/view/6997c46543b6aa9b2a015f78",
+     "verified": false,
+     "derived": false,
+     "note": "URDB lumps fuel and all riders; riders are ~half the bill",
+     "pct_of_bill": 51.6
+    }
+   ],
+   "typical_bill_1000kwh": {
+    "2025-07-01": 149.92,
+    "base_rate_increase_2026": 11.24,
+    "base_rate_increase_2027": 2.36,
+    "source": "https://cardinalnews.org/2025/11/26/regulators-approve-dominion-energy-rate-increase/",
+    "verified": true,
+    "note": "SCC final order (biennial review), 2025-11-25; ROE 9.8%; new GS-5 class for >=25 MW loads from 2027-01-01; SCC rejected moving capacity costs from base rates into the fuel factor. Fuel factor set in a separate case."
+   },
+   "capacity_note": "As a vertically integrated utility Dominion recovers capacity through base rates/riders, not a June supply reset.",
+   "taxes_note": "VA consumption tax and local utility taxes extra.",
+   "total_usd_at_1000kwh": 168.53,
+   "implied_cents_per_kwh": 16.85,
+   "eia861m_check": {
+    "period": "2026-01..2026-08",
+    "avg_revenue_cents_per_kwh": 17.73,
+    "avg_monthly_kwh": 1092.0,
+    "note": "EIA-861M bundled revenue/sales; includes taxes billed as revenue, CAP/low-income discounts and seasonal usage mix, so it differs from a tariff sum"
+   },
+   "by_category_usd": {
+    "fixed": 7.58,
+    "base_energy": 74.01,
+    "riders": 86.94
+   }
+  },
+  {
+   "utility": "Public Service Electric & Gas (PSE&G)",
+   "eia_utility_id": 15477,
+   "state": "NJ",
+   "rto_iso": "PJM",
+   "market": "restructured; Basic Generation Service (3-year laddered auction)",
+   "rate": "RS residential, annualized (Jun-Sep summer)",
+   "effective": "URDB record 2026-04-01 (delivery); BGS portion likely the June 2025-May 2026 BGS - UNVERIFIED",
+   "lines": [
+    {
+     "category": "fixed",
+     "label": "Service charge",
+     "cents_per_kwh": null,
+     "fixed_usd_per_month": 6.0,
+     "usd_at_1000kwh": 6.0,
+     "source": "https://apps.openei.org/IURDB/rate/view/69e244d3a999a8521d0fed8c",
+     "verified": false,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 2.2
+    },
+    {
+     "category": "distribution",
+     "label": "Distribution charges (winter 4.7989 c; summer 8.2602 c first 600 kWh, 8.6677 c above), annualized",
+     "cents_per_kwh": 6.007,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 60.07,
+     "source": "https://apps.openei.org/IURDB/rate/view/69e244d3a999a8521d0fed8c",
+     "verified": false,
+     "derived": true,
+     "note": null,
+     "pct_of_bill": 21.7
+    },
+    {
+     "category": "supply",
+     "label": "BGS supply + transmission (incl. PJM capacity), annualized",
+     "cents_per_kwh": 19.8904,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 198.9,
+     "source": "https://apps.openei.org/IURDB/rate/view/69e244d8f454c9f31002aaac",
+     "verified": false,
+     "derived": true,
+     "note": "URDB \"delivery + BGS + transmission\" minus delivery-only rate",
+     "pct_of_bill": 71.8
+    },
+    {
+     "category": "riders",
+     "label": "Societal Benefits, non-utility generation, solar pilot, green programs, nuclear ZEC, CIP, infrastructure (IIP) charges, tax adjustment credit",
+     "cents_per_kwh": 1.2232,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 12.23,
+     "source": "https://apps.openei.org/IURDB/rate/view/69e244d3a999a8521d0fed8c",
+     "verified": false,
+     "derived": true,
+     "note": null,
+     "pct_of_bill": 4.4
+    }
+   ],
+   "official_typical_bill": {
+    "kwh": 650,
+    "usd_before_june_2026": 183.46,
+    "usd_after_june_1_2026": 180.23,
+    "pct_change": -1.8,
+    "source": "https://nj.gov/bpu/newsroom/2026/approved/20260212.html",
+    "verified": true,
+    "note": "before Residential Universal Bill Credits (Gov. Sherrill EO No. 1)"
+   },
+   "capacity_note": "One-third of BGS supply is re-auctioned each February for 3 years, so PJM capacity changes phase in over 3 years from each June 1.",
+   "taxes_note": "NJ tariffs are quoted including 6.625% sales and use tax (UNVERIFIED for URDB values).",
+   "total_usd_at_1000kwh": 277.2,
+   "implied_cents_per_kwh": 27.72,
+   "eia861m_check": {
+    "period": "2026-01..2026-08",
+    "avg_revenue_cents_per_kwh": 26.44,
+    "avg_monthly_kwh": 619.0,
+    "note": "EIA-861M bundled revenue/sales; includes taxes billed as revenue, CAP/low-income discounts and seasonal usage mix, so it differs from a tariff sum"
+   },
+   "by_category_usd": {
+    "fixed": 6.0,
+    "distribution": 60.07,
+    "supply": 198.9,
+    "riders": 12.23
+   }
+  },
+  {
+   "utility": "Potomac Electric Power Co (Pepco) - District of Columbia",
+   "eia_utility_id": 15270,
+   "state": "DC",
+   "rto_iso": "PJM",
+   "market": "restructured; standard offer service (SOS)",
+   "rate": "Schedule R with SOS, annualized (Jun-Oct summer)",
+   "effective": "2025-08-01 (URDB record; SOS from June 1 2025 - superseded June 1 2026)",
+   "lines": [
+    {
+     "category": "fixed",
+     "label": "Customer charge",
+     "cents_per_kwh": null,
+     "fixed_usd_per_month": 17.09,
+     "usd_at_1000kwh": 17.09,
+     "source": "https://apps.openei.org/IURDB/rate/view/68b397ff25d85a1c070f0a0d",
+     "verified": false,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 8.8
+    },
+    {
+     "category": "distribution",
+     "label": "Distribution (1.715 c first 400 kWh; 4.895 c summer / 3.419 c winter above), annualized",
+     "cents_per_kwh": 3.1064,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 31.06,
+     "source": "https://apps.openei.org/IURDB/rate/view/68b397ff25d85a1c070f0a0d",
+     "verified": false,
+     "derived": true,
+     "note": null,
+     "pct_of_bill": 16.0
+    },
+    {
+     "category": "supply",
+     "label": "SOS generation + transmission + procurement cost adjustment (incl. PJM capacity), annualized",
+     "cents_per_kwh": 12.9303,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 129.3,
+     "source": "https://apps.openei.org/IURDB/rate/view/68b399e19d10ce4ee705c572",
+     "verified": false,
+     "derived": true,
+     "note": "URDB with-SOS minus delivery-only; URDB shows no supply rate on the first 30 kWh (transcription quirk)",
+     "pct_of_bill": 66.5
+    },
+    {
+     "category": "riders",
+     "label": "DC delivery tax, public space occupancy, residential aid discount, sustainable energy & energy assistance trust funds, undergrounding riders",
+     "cents_per_kwh": 1.696,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 16.96,
+     "source": "https://apps.openei.org/IURDB/rate/view/68b397ff25d85a1c070f0a0d",
+     "verified": false,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 8.7
+    }
+   ],
+   "capacity_impact_2025_26": {
+    "residential_cents_per_kwh": 1.7,
+    "usd_per_month": 10,
+    "pct": 9,
+    "source": "https://opc-dc.gov/wp-content/uploads/2025/05/PJM-Capacity-Market-Report-FINAL-OPC-Synapse.pdf",
+    "verified": true,
+    "publisher": "Synapse Energy Economics for DC Office of the People's Counsel (consumer advocate)"
+   },
+   "capacity_note": "SOS is procured in laddered tranches; June 1 resets carry PJM capacity costs.",
+   "taxes_note": "DC delivery tax is inside the riders line.",
+   "total_usd_at_1000kwh": 194.41,
+   "implied_cents_per_kwh": 19.44,
+   "eia861m_check": {
+    "period": "2026-01..2026-08",
+    "avg_revenue_cents_per_kwh": 23.49,
+    "avg_monthly_kwh": 625.0,
+    "note": "EIA-861M bundled revenue/sales; includes taxes billed as revenue, CAP/low-income discounts and seasonal usage mix, so it differs from a tariff sum"
+   },
+   "by_category_usd": {
+    "fixed": 17.09,
+    "distribution": 31.06,
+    "supply": 129.3,
+    "riders": 16.96
+   }
+  },
+  {
+   "utility": "Georgia Power Co",
+   "eia_utility_id": 7140,
+   "state": "GA",
+   "rto_iso": "none (Southern Co. BA)",
+   "market": "vertically integrated",
+   "rate": "Schedule R-30 residential (annualized: 4 summer months Jun-Sep tiered, 8 winter months flat)",
+   "effective": "2025-01-01 (URDB record)",
+   "lines": [
+    {
+     "category": "fixed",
+     "label": "Basic service charge ($0.4603/day x 30.4)",
+     "cents_per_kwh": null,
+     "fixed_usd_per_month": 14.0,
+     "usd_at_1000kwh": 14.0,
+     "source": "https://apps.openei.org/IURDB/rate/view/677c384de1bf88853903410c",
+     "verified": false,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 8.8
+    },
+    {
+     "category": "base_energy",
+     "label": "Base energy charge (generation + T&D + Vogtle NCCR in base), annualized",
+     "cents_per_kwh": 8.9083,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 89.08,
+     "source": "https://apps.openei.org/IURDB/rate/view/677c384de1bf88853903410c",
+     "verified": false,
+     "derived": true,
+     "note": null,
+     "pct_of_bill": 55.7
+    },
+    {
+     "category": "riders",
+     "label": "Fuel cost recovery + environmental compliance (ECCR) + demand-side management",
+     "cents_per_kwh": 5.6862,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 56.86,
+     "source": "https://apps.openei.org/IURDB/rate/view/677c384de1bf88853903410c",
+     "verified": false,
+     "derived": true,
+     "note": null,
+     "pct_of_bill": 35.6
+    }
+   ],
+   "seasonal_usd_at_1000kwh": {
+    "summer": 181.39,
+    "winter": 149.22
+   },
+   "capacity_note": "No capacity market: generation capacity (incl. Plant Vogtle units 3-4) is in base rates; new data-center-driven generation is certified by the GA PSC. GA PSC conditioned large-load service on downward pressure of $8.50/mo on residential bills in 2029-2031 (per LBNL compilation; utility/regulator claim).",
+   "taxes_note": "Excludes municipal franchise fee and local sales tax lines.",
+   "total_usd_at_1000kwh": 159.94,
+   "implied_cents_per_kwh": 15.99,
+   "eia861m_check": {
+    "period": "2026-01..2026-08",
+    "avg_revenue_cents_per_kwh": 16.9,
+    "avg_monthly_kwh": 1043.0,
+    "note": "EIA-861M bundled revenue/sales; includes taxes billed as revenue, CAP/low-income discounts and seasonal usage mix, so it differs from a tariff sum"
+   },
+   "by_category_usd": {
+    "fixed": 14.0,
+    "base_energy": 89.08,
+    "riders": 56.86
+   }
+  },
+  {
+   "utility": "Oncor Electric Delivery (TDU) + competitive retail provider",
+   "eia_utility_id": 44372,
+   "state": "TX",
+   "rto_iso": "ERCOT",
+   "market": "fully competitive retail (no default utility supply)",
+   "rate": "Oncor residential TDU charges + statewide average retail energy charge",
+   "effective": "TDU as of 2026-11-01",
+   "lines": [
+    {
+     "category": "fixed",
+     "label": "TDU customer charge + metering charge",
+     "cents_per_kwh": null,
+     "fixed_usd_per_month": 4.0600000000000005,
+     "usd_at_1000kwh": 4.06,
+     "source": "https://www.puc.texas.gov/industry/electric/rates/tdr/",
+     "verified": true,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 2.1
+    },
+    {
+     "category": "distribution",
+     "label": "TDU volumetric delivery charge (distribution + transmission cost recovery riders)",
+     "cents_per_kwh": 6.8673,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 68.67,
+     "source": "https://www.puc.texas.gov/industry/electric/rates/tdr/",
+     "verified": true,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 36.3
+    },
+    {
+     "category": "supply",
+     "label": "Retail energy charge (REP energy, ERCOT wholesale, REP margin) - statewide estimate",
+     "cents_per_kwh": 11.635,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 116.35,
+     "source": "EIA-861 2025 (this repo: bills_utility_prices.csv tx_rep_all_in_price_cents_kwh 17.273 minus Oncor 2025 delivery revenue/kWh 5.638)",
+     "verified": false,
+     "derived": true,
+     "note": "Estimate; actual plans vary widely - compare on PowerToChoose",
+     "pct_of_bill": 61.5
+    }
+   ],
+   "official_typical_tdu_bill": {
+    "kwh": 1000,
+    "usd": 72.73,
+    "source": "https://www.puc.texas.gov/industry/electric/rates/tdr/",
+    "verified": true
+   },
+   "capacity_note": "ERCOT has no capacity market (energy-only); scarcity pricing sits inside the retail energy charge.",
+   "taxes_note": "Excludes PUCT assessment, gross receipts pass-through and local sales tax (TX residential electricity is exempt from state sales tax).",
+   "total_usd_at_1000kwh": 189.08,
+   "implied_cents_per_kwh": 18.91,
+   "by_category_usd": {
+    "fixed": 4.06,
+    "distribution": 68.67,
+    "supply": 116.35
+   }
+  },
+  {
+   "utility": "Duke Energy Carolinas, LLC (NC)",
+   "eia_utility_id": 5416,
+   "state": "NC",
+   "rto_iso": "none (Duke BA)",
+   "market": "vertically integrated",
+   "rate": "Schedule RS (residential)",
+   "effective": "2026-01-01 (URDB record)",
+   "lines": [
+    {
+     "category": "fixed",
+     "label": "Basic customer charge",
+     "cents_per_kwh": null,
+     "fixed_usd_per_month": 14.0,
+     "usd_at_1000kwh": 14.0,
+     "source": "https://apps.openei.org/IURDB/rate/view/6998c205a746c90e550cb23f",
+     "verified": false,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 9.9
+    },
+    {
+     "category": "base_energy",
+     "label": "Energy charge (generation, transmission, distribution, base fuel)",
+     "cents_per_kwh": 12.2604,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 122.6,
+     "source": "https://apps.openei.org/IURDB/rate/view/6998c205a746c90e550cb23f",
+     "verified": false,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 86.6
+    },
+    {
+     "category": "riders",
+     "label": "Riders: fuel adjustment, EE/DSM, CPRE, EDIT-4, customer assistance, nuclear PTC credit",
+     "cents_per_kwh": 0.4951,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 4.95,
+     "source": "https://apps.openei.org/IURDB/rate/view/6998c205a746c90e550cb23f",
+     "verified": false,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 3.5
+    }
+   ],
+   "capacity_note": "No capacity market; generation capacity in base rates (Carbon Plan / IRP resources approved by NCUC).",
+   "taxes_note": "NC 7% sales tax on residential electricity not included (UNVERIFIED rate).",
+   "total_usd_at_1000kwh": 141.55,
+   "implied_cents_per_kwh": 14.15,
+   "eia861m_check": {
+    "period": "2026-01..2026-08",
+    "avg_revenue_cents_per_kwh": 14.14,
+    "avg_monthly_kwh": 1048.0,
+    "note": "EIA-861M bundled revenue/sales; includes taxes billed as revenue, CAP/low-income discounts and seasonal usage mix, so it differs from a tariff sum"
+   },
+   "by_category_usd": {
+    "fixed": 14.0,
+    "base_energy": 122.6,
+    "riders": 4.95
+   }
+  },
+  {
+   "utility": "Entergy Louisiana LLC",
+   "eia_utility_id": 11241,
+   "state": "LA",
+   "rto_iso": "MISO",
+   "market": "vertically integrated (MISO member)",
+   "rate": "Residential Service (RS), legacy ELL area",
+   "effective": "2026-03-02 (URDB record)",
+   "lines": [
+    {
+     "category": "fixed",
+     "label": "Customer charge incl. advanced-meter charge",
+     "cents_per_kwh": null,
+     "fixed_usd_per_month": 11.99,
+     "usd_at_1000kwh": 11.99,
+     "source": "https://apps.openei.org/IURDB/rate/view/69a99f187cef8411ae01894b",
+     "verified": false,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 13.0
+    },
+    {
+     "category": "base_energy",
+     "label": "Base energy charge",
+     "cents_per_kwh": 3.762,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 37.62,
+     "source": "https://apps.openei.org/IURDB/rate/view/69a99f187cef8411ae01894b",
+     "verified": false,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 40.7
+    },
+    {
+     "category": "riders",
+     "label": "Fuel adjustment + fuel stabilization + financed storm cost riders/offsets + environmental + EE + resilience plan",
+     "cents_per_kwh": 4.2923,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 42.92,
+     "source": "https://apps.openei.org/IURDB/rate/view/69a99f187cef8411ae01894b",
+     "verified": false,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 46.4
+    }
+   ],
+   "capacity_note": "MISO capacity auction exists but most capacity is self-supplied; storm securitization (Hurricane Ida etc.) is a visible bill line (LBNL: ~1.43 c/kWh in 2025).",
+   "taxes_note": "Excludes Formula Rate Plan rider and local franchise/sales taxes; URDB fuel adjustment may lag monthly FAC - tariff sum (9.3 c/kWh) is well below EIA-861M 2026 YTD average revenue (12.7 c/kWh), so treat as partial.",
+   "total_usd_at_1000kwh": 92.53,
+   "implied_cents_per_kwh": 9.25,
+   "eia861m_check": {
+    "period": "2026-01..2026-08",
+    "avg_revenue_cents_per_kwh": 12.67,
+    "avg_monthly_kwh": 1236.0,
+    "note": "EIA-861M bundled revenue/sales; includes taxes billed as revenue, CAP/low-income discounts and seasonal usage mix, so it differs from a tariff sum"
+   },
+   "by_category_usd": {
+    "fixed": 11.99,
+    "base_energy": 37.62,
+    "riders": 42.92
+   }
+  },
+  {
+   "utility": "Pacific Gas & Electric Co. (bundled, Baseline Region X)",
+   "eia_utility_id": 14328,
+   "state": "CA",
+   "rto_iso": "CAISO",
+   "market": "vertically integrated IOU (CCA/DA customers buy generation elsewhere)",
+   "rate": "E-1 tiered residential, Income Tier 3 base services charge",
+   "effective": "2026-06-01 (Advice 7921-E, D.26-04-036)",
+   "lines": [
+    {
+     "category": "fixed",
+     "label": "Base services charge (income tier 3: $0.79343/day)",
+     "cents_per_kwh": null,
+     "fixed_usd_per_month": 24.12,
+     "usd_at_1000kwh": 24.12,
+     "source": "https://www.pge.com/tariffs/assets/pdf/tariffbook/ELEC_SCHEDS_E-1.pdf",
+     "verified": true,
+     "derived": false,
+     "note": "New income-graduated fixed charge; tier 1 $0.19713/day, tier 2 $0.39688/day",
+     "pct_of_bill": 5.9
+    },
+    {
+     "category": "supply",
+     "label": "Generation",
+     "cents_per_kwh": 12.855,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 128.55,
+     "source": "https://www.pge.com/tariffs/assets/pdf/tariffbook/ELEC_SCHEDS_E-1.pdf",
+     "verified": true,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 31.6
+    },
+    {
+     "category": "distribution",
+     "label": "Distribution",
+     "cents_per_kwh": 18.042,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 180.42,
+     "source": "https://www.pge.com/tariffs/assets/pdf/tariffbook/ELEC_SCHEDS_E-1.pdf",
+     "verified": true,
+     "derived": false,
+     "note": "includes embedded wildfire mitigation capex/O&M",
+     "pct_of_bill": 44.3
+    },
+    {
+     "category": "distribution",
+     "label": "Conservation incentive adjustment (tier 1 -4.052 c, tier 2 +4.089 c; blended for 1,000 kWh with ~298 kWh baseline)",
+     "cents_per_kwh": 1.6636,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 16.64,
+     "source": "https://www.pge.com/tariffs/assets/pdf/tariffbook/ELEC_SCHEDS_E-1.pdf",
+     "verified": true,
+     "derived": true,
+     "note": null,
+     "pct_of_bill": 4.1
+    },
+    {
+     "category": "transmission",
+     "label": "Transmission + transmission rate adjustments + reliability services",
+     "cents_per_kwh": 5.104,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 51.04,
+     "source": "https://www.pge.com/tariffs/assets/pdf/tariffbook/ELEC_SCHEDS_E-1.pdf",
+     "verified": true,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 12.5
+    },
+    {
+     "category": "riders",
+     "label": "Wildfire Fund charge (0.591 c) + wildfire hardening charge (0.391 c)",
+     "cents_per_kwh": 0.982,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 9.82,
+     "source": "https://www.pge.com/tariffs/assets/pdf/tariffbook/ELEC_SCHEDS_E-1.pdf",
+     "verified": true,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 2.4
+    },
+    {
+     "category": "riders",
+     "label": "Public purpose programs, nuclear decommissioning, CTC, ECRA (recovery bond charge and credit net to zero)",
+     "cents_per_kwh": 0.641,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": 6.41,
+     "source": "https://www.pge.com/tariffs/assets/pdf/tariffbook/ELEC_SCHEDS_E-1.pdf",
+     "verified": true,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": 1.6
+    },
+    {
+     "category": "riders",
+     "label": "Power charge indifference adjustment (credit)",
+     "cents_per_kwh": -1.011,
+     "fixed_usd_per_month": null,
+     "usd_at_1000kwh": -10.11,
+     "source": "https://www.pge.com/tariffs/assets/pdf/tariffbook/ELEC_SCHEDS_E-1.pdf",
+     "verified": true,
+     "derived": false,
+     "note": null,
+     "pct_of_bill": -2.5
+    }
+   ],
+   "other_credits": {
+    "california_climate_credit_semiannual_usd": -36.18,
+    "annualized_usd_per_month": -6.03,
+    "source": "https://www.pge.com/tariffs/assets/pdf/tariffbook/ELEC_SCHEDS_E-1.pdf"
+   },
+   "capacity_note": "No capacity market; CPUC resource-adequacy obligations are inside generation.",
+   "taxes_note": "Excludes local utility users taxes and the state electrical energy surcharge if billed separately. LBNL estimates wildfire mitigation and liability at ~5.0 c/kWh of PG&E 2025 prices in total (most of it inside distribution).",
+   "usage_note": "Average PG&E bundled residential use is ~450 kWh/month (EIA-861M 2026), so a 1,000 kWh bill reaches tier 2 and is not typical.",
+   "total_usd_at_1000kwh": 406.89,
+   "implied_cents_per_kwh": 40.69,
+   "eia861m_check": {
+    "period": "2026-01..2026-08",
+    "avg_revenue_cents_per_kwh": 34.84,
+    "avg_monthly_kwh": 453.0,
+    "note": "EIA-861M bundled revenue/sales; includes taxes billed as revenue, CAP/low-income discounts and seasonal usage mix, so it differs from a tariff sum"
+   },
+   "by_category_usd": {
+    "fixed": 24.12,
+    "supply": 128.55,
+    "distribution": 197.06,
+    "transmission": 51.04,
+    "riders": 6.12
+   }
+  }
+ ]
+}

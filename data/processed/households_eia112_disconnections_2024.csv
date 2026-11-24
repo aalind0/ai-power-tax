@@ -1,0 +1,1329 @@
+state,utility_name,eia_utility_id,id_match,final_notices,disconnections,reconnections,avg_residential_customers,disconnections_per_100_customers,months_reported,year
+AK,Alaska Electric Light & Power Co.,213,name+state,4376,665,444,15271,4.35,12,2024
+AK,Alaska Power And Telephone Co,219,name+state,240,232,165,8456,2.74,12,2024
+AK,"Alaska Village Elec Coop, Inc",221,name+state,11596,2034,1679,11517,17.66,12,2024
+AK,"Barrow Utils & Elec Coop, Inc",1276,name+state,1990,47,45,998,4.71,12,2024
+AK,Chugach Electric Assn Inc,3522,name+state,19886,1492,1668,98555,1.51,12,2024
+AK,Golden Valley Elec Assn Inc,7353,name+state,19908,2228,1575,40674,5.48,12,2024
+AK,Homer Electric Assn Inc,19558,name+state,2795,206,113,29580,0.7,12,2024
+AK,Ketchikan Public Utilities,10210,name+state,6298,206,128,8017,2.57,12,2024
+AK,Kodiak Electric Assn Inc,10433,name+state,2429,857,822,4772,17.96,12,2024
+AK,Kotzebue Electric Assn Inc,10451,name+state,771,3,3,1195,0.25,2,2024
+AK,Matanuska Electric Assn Inc,11824,name+state,19197,629,375,64385,0.98,12,2024
+AK,State Adjustment,,n/a,-5223,-1244,-862,16354,-7.61,12,2024
+AK,State Total,,n/a,84262,7354,6154,299775,2.45,12,2024
+AL,Alabama Power Co,195,name+state,269813,208579,155901,1335705,15.62,12,2024
+AL,Baldwin County El Member Corp,1149,name+state,17577,5488,4198,81882,6.7,12,2024
+AL,Black Warrior Elec Member Corp,1780,name+state,65921,721,324,20053,3.6,12,2024
+AL,City Of Athens - (AL),944,name+state,,6423,6557,71737,8.95,10,2024
+AL,City Of Dothan - Al,,unmatched,63695,8497,7466,26722,31.8,12,2024
+AL,City Of Florence - (AL),6422,name+state,81352,6383,5230,52194,12.23,12,2024
+AL,City Of Opelika - Al,,unmatched,13914,3272,2959,13318,24.57,12,2024
+AL,City Of Troy - (AL),19225,name+state,20249,2155,1922,7858,27.42,12,2024
+AL,City of Huntsville - (AL),9094,name+state,430307,107061,48610,198345,53.98,12,2024
+AL,City of Piedmont - (AL),15022,name+state,,483,336,1806,26.74,12,2024
+AL,City of Robertsdale,16140,name+state,1678,576,536,2950,19.53,12,2024
+AL,City of Tuscumbia,19307,name+state,13951,622,490,4071,15.28,12,2024
+AL,Clarke-Washington E M C,40127,name+state,20403,1344,796,20514,6.55,12,2024
+AL,Coosa Valley Electric Coop Inc,4327,name+state,,2472,1713,18426,13.42,12,2024
+AL,"Covington Electric Coop, Inc",4430,name+state,24200,1076,923,24526,4.39,12,2024
+AL,Decatur Utilities,4958,name+state,30524,3392,3042,21429,15.83,12,2024
+AL,Diverse Power Incorporated,19219,name+state,65,122,56,685,17.81,12,2024
+AL,Dixie Electric Coop,5204,name+state,7720,2541,2441,21094,12.05,12,2024
+AL,Foley Board Of Utilities,6491,name+state,22712,5284,4712,46687,11.32,12,2024
+AL,Joe Wheeler Elec Member Corp,9739,name+state,74353,2624,2385,36748,7.14,12,2024
+AL,Pea River Electric Coop,14602,name+state,43706,3284,2805,14937,21.99,12,2024
+AL,Sand Mountain Electric Coop,16629,name+state,5691,346,402,27108,1.28,12,2024
+AL,Sheffield Utilities,17033,name+state,42679,3133,2700,15635,20.04,12,2024
+AL,Singing River Elec Cooperative,17252,name+state,47,3,3,342,0.88,12,2024
+AL,"South Alabama Elec Coop, Inc",17534,name+state,44016,2430,2180,17719,13.71,12,2024
+AL,"Southern Pine Elec Coop, Inc",17646,name+state,4800,1109,1109,20605,5.38,12,2024
+AL,Sylacauga Utilities Board,18395,name+state,23192,3907,3881,5125,76.23,12,2024
+AL,Tallapoosa River Elec Coop Inc,18203,name+state,83654,4471,2735,30288,14.76,12,2024
+AL,"Wiregrass Electric Coop, Inc",20841,name+state,5107,1194,801,20448,5.84,12,2024
+AL,State Adjustment,,n/a,418741,65822,48204,239889,27.44,12,2024
+AL,State Total,,n/a,1830067,454814,315417,2398847,18.96,12,2024
+AR,Arkansas Valley Elec Coop Corp,817,name+state,103889,7215,8003,58566,12.32,12,2024
+AR,Carroll Electric Coop Corp - (AR),3093,name+state,136575,6313,5027,105972,5.96,12,2024
+AR,City Of Benton - (AR),1581,name+state,3150,169,166,12929,1.31,10,2024
+AR,City Of Bentonville - (AR),1586,name+state,34219,2171,1919,28709,7.56,12,2024
+AR,City Of Hope,8840,name+state,18162,1109,1022,5620,19.73,12,2024
+AR,City Of North Little Rock - (AR),13718,name+state,0,14584,14171,35587,40.98,12,2024
+AR,City Of Siloam Springs - (AR),17184,name+state,21153,3038,601,9787,31.04,12,2024
+AR,City Of West Memphis - (AR),20382,name+state,2618,3750,3520,10198,36.77,12,2024
+AR,City Water And Light Plant,9879,name+state,113546,4317,2850,34179,12.63,12,2024
+AR,Clarksville Connected Utilities,3705,name+state,7166,833,669,3812,21.85,12,2024
+AR,Clay County Electric Coop Corp - (AR),3712,name+state,2380,1724,1518,10559,16.33,12,2024
+AR,Conway Corporation,4280,name+state,90521,3924,3924,31145,12.6,12,2024
+AR,Craighead Electric Coop Corp,4509,name+state,53141,4332,3884,24674,17.56,12,2024
+AR,Empire District Electric Co,5860,name+state,9994,60,35,4780,1.26,12,2024
+AR,Entergy Arkansas LLC,814,name+state,731098,91283,79898,608363,15.0,12,2024
+AR,First Electric Coop Corp,6342,name+state,122386,20217,18454,102477,19.73,12,2024
+AR,Mississippi County Electric Co,12681,name+state,12301,198,126,4968,3.99,12,2024
+AR,"North Arkansas Elec Coop, Inc",13676,name+state,61949,3398,2845,36355,9.35,12,2024
+AR,Oklahoma Gas & Electric Co,14063,name+state,170638,16153,14264,58224,27.74,12,2024
+AR,Ouachita Electric Coop Corp,14238,name+state,11949,868,648,8385,10.35,12,2024
+AR,Ozarks Electric Coop Corp - (AR),14289,name+state,108933,2851,592,61344,4.65,12,2024
+AR,Paragould Light & Water Comm,14446,name+state,33472,1295,731,12540,10.33,12,2024
+AR,Petit Jean Electric Coop Corp,14864,name+state,12424,1654,1278,21415,7.72,12,2024
+AR,"South Central Ark El Coop, Inc",17540,name+state,10450,4602,4232,6023,76.41,12,2024
+AR,Southwest Arkansas E C C,17671,name+state,8775,2212,1279,16875,13.11,12,2024
+AR,Southwestern Electric Power Co,17698,name+state,138839,4989,2837,108104,4.62,12,2024
+AR,Woodruff Electric Coop Corp,20963,name+state,22293,956,651,12125,7.88,12,2024
+AR,State Adjustment,,n/a,43025,6686,6596,56160,11.91,12,2024
+AR,State Total,,n/a,2085046,210901,181740,1489876,14.16,12,2024
+AZ,Ajo Improvement Co,176,name+state,,40,,821,4.87,12,2024
+AZ,Arizona Public Service Co,803,name+state,59903,41871,33155,1258323,3.33,12,2024
+AZ,City Of Mesa - (AZ),12351,name+state,22344,1240,869,18101,6.85,12,2024
+AZ,City of Safford - (AZ),16538,name+state,1076,816,1064,4703,17.35,12,2024
+AZ,"Dixie Escalante R E A, Inc",40165,name+state,901,63,53,2411,2.61,12,2024
+AZ,Electrical Dist No3 Pinal County,30518,name+state,1610,212,1398,31378,0.68,12,2024
+AZ,Gila River Indian Utility Authority Gricua,,unmatched,1226,1213,1213,2651,45.76,12,2024
+AZ,Graham County Electric Coop Inc,7456,name+state,11399,1405,1355,7247,19.39,12,2024
+AZ,"Mohave Electric Cooperative, Inc.",21538,name+state,42158,8054,7502,40606,19.83,12,2024
+AZ,Morenci Water And Electric,12919,name+state,,13,,2232,0.58,12,2024
+AZ,Salt River Project,16572,name+state,377198,32759,16934,1053407,3.11,10,2024
+AZ,Trico Electric Cooperative Inc,19189,name+state,36609,1642,1381,51789,3.17,12,2024
+AZ,Tucson Electric Power Co,24211,name+state,48125,12914,11844,409548,3.15,7,2024
+AZ,"Uns Electric, Inc",19728,name+state,8319,2205,1907,94425,2.34,7,2024
+AZ,Usbia-San Carlos Project,19604,name+state,966,835,645,11462,7.28,12,2024
+AZ,State Adjustment,,n/a,37003,6491,40134,144214,4.5,12,2024
+AZ,State Total,,n/a,648837,111773,119454,3133319,3.57,12,2024
+CA,Alameda Municipal Power,207,name+state,25125,2112,1480,33616,6.28,12,2024
+CA,City & County Of San Francisco,16612,name+state,1249,427,212,3134,13.62,12,2024
+CA,City Of Anaheim - (CA),590,name+state,100727,7046,6511,108212,6.51,12,2024
+CA,City Of Azusa,1050,name+state,22392,2231,2085,23539,9.48,12,2024
+CA,City Of Burbank Water And Power,2507,name+state,15682,1450,1617,35614,4.07,12,2024
+CA,City Of Corona - (CA),4390,name+state,615,1,1,1285,0.08,1,2024
+CA,City Of Glendale - (CA),7294,name+state,63457,2344,2155,81077,2.89,12,2024
+CA,City Of Lodi - (CA),11124,name+state,,,,,,0,2024
+CA,City Of Moreno Valley - (CA),55787,name+state,9491,3532,3518,7395,47.76,12,2024
+CA,City Of Palo Alto - (CA),14401,name+state,3805,105,73,29459,0.36,12,2024
+CA,City Of Pasadena - (CA),14534,name+state,44052,3596,2616,58556,6.14,12,2024
+CA,City Of Riverside - (CA),16088,name+state,120289,12799,11017,100871,12.69,12,2024
+CA,City Of Roseville - (CA),16295,name+state,50511,7495,7223,55338,13.54,12,2024
+CA,City Of Santa Clara - (CA),16655,name+state,19368,1415,1278,51728,2.74,12,2024
+CA,City Of Vernon,19798,name+state,127,0,0,74,0.0,12,2024
+CA,Imperial Irrigation District,9216,name+state,374124,14965,13461,142108,10.53,12,2024
+CA,Los Angeles Department Of Water & Power,11208,name+state,9030,940,769,1440138,0.07,9,2024
+CA,Merced Irrigation District,12312,name+state,12603,1460,1343,13140,11.11,12,2024
+CA,Modesto Irrigation District,12745,name+state,115273,8983,8319,107012,8.39,12,2024
+CA,Pacific Gas & Electric Co.,14328,name+state,1022257,191055,153290,4750916,4.02,12,2024
+CA,Pacificorp,14354,name+state,1840,842,725,36675,2.3,12,2024
+CA,Pittsburg Power Company,58126,name+state,328,7,5,593,1.18,5,2024
+CA,Sacramento Municipal Utility District,,unmatched,440594,70815,68912,592557,11.95,12,2024
+CA,San Diego Gas & Electric Co,16609,name+state,163632,36881,30209,1360226,2.71,12,2024
+CA,Southern California Edison Co,17609,name+state,815094,88061,64116,4624551,1.9,12,2024
+CA,Surprise Valley Electrification,18260,name+state,149,44,58,2785,1.58,12,2024
+CA,Turlock Irrigation District,19281,name+state,92167,5812,5369,76383,7.61,12,2024
+CA,State Adjustment,,n/a,68392,9125,8004,248151,3.68,12,2024
+CA,State Total,,n/a,3592373,473543,394366,13985134,3.39,12,2024
+CO,"Black Hills Colorado Electric, Llc",56146,name+state,7344,1835,1365,89252,2.06,12,2024
+CO,City Of Colorado Springs - (CO),3989,name+state,48268,9871,8014,244200,4.04,12,2024
+CO,City Of Fort Collins - (CO),6604,name+state,57548,12224,11855,70803,17.26,12,2024
+CO,City Of Fountain,6638,name+state,29103,5906,5690,16970,34.8,12,2024
+CO,City Of Longmont,11187,name+state,53329,2880,2868,42365,6.8,12,2024
+CO,City Of Loveland - (CO),11256,name+state,18804,6671,4306,36769,18.14,12,2024
+CO,City of Fort Morgan,6610,name+state,1423,728,728,5953,12.23,12,2024
+CO,City of Trinidad - (CO),19204,name+state,6718,302,290,4021,7.51,12,2024
+CO,Core Electric Cooperative,9336,name+state,91114,11857,12984,165008,7.19,12,2024
+CO,Delta Montrose Electric Assn,5086,name+state,5937,3411,3269,32575,10.47,12,2024
+CO,"Empire Electric Assn, Inc",5862,name+state,3018,551,491,12898,4.27,12,2024
+CO,Grand Valley Power,7563,name+state,1729,1071,1062,17277,6.2,12,2024
+CO,"High West Energy, Inc",27058,name+state,27,5,6,21,23.81,12,2024
+CO,Highline Electric Assn,8570,name+state,6771,273,231,5145,5.31,11,2024
+CO,"Holy Cross Electric Assn, Inc",8773,name+state,1957,446,309,50010,0.89,12,2024
+CO,K C Electric Association,10066,name+state,3701,222,194,6624,3.35,12,2024
+CO,"La Plata Electric Assn, Inc",10539,name+state,7160,950,780,39777,2.39,12,2024
+CO,Moon Lake Electric Assn Inc,12866,name+state,328,31,10,2226,1.39,12,2024
+CO,Morgan County Rural Elec Assn,12860,name+state,8006,269,260,5825,4.62,12,2024
+CO,"Mountain Parks Electric, Inc",13050,name+state,304,30,32,18957,0.16,12,2024
+CO,"Mountain View Elec Assn, Inc",13058,name+state,24022,8010,7672,56421,14.2,12,2024
+CO,"Poudre Valley Rea, Inc",15257,name+state,4201,1869,1752,49162,3.8,12,2024
+CO,Public Service Co of Colorado,15466,name+state,462868,41786,24270,1365052,3.06,12,2024
+CO,"San Isabel Electric Assn, Inc",16616,name+state,5327,712,555,20018,3.56,12,2024
+CO,"San Miguel Power Assn, Inc",16622,name+state,297,201,79,15294,1.31,12,2024
+CO,Southeast Colorado Power Assn,17592,name+state,11202,311,215,11113,2.8,12,2024
+CO,"United Power, Inc",19499,name+state,87715,14274,13619,114019,12.52,11,2024
+CO,"White River Electric Assn, Inc",20576,name+state,68,3,2,2632,0.11,12,2024
+CO,Y-W Electric Assn Inc,21075,name+state,2621,187,171,3446,5.43,11,2024
+CO,Yampa Valley Electric Assn Inc,21081,name+state,3420,1262,1074,29327,4.3,12,2024
+CO,State Adjustment,,n/a,39967,5549,4746,58065,9.56,12,2024
+CO,State Total,,n/a,994297,133697,108899,2591228,5.16,12,2024
+CT,Bozrah Light & Power Company,2089,name+state,1331,42,40,2873,1.46,12,2024
+CT,City Of Norwich - (CT),13831,name+state,11347,1748,1429,18868,9.26,12,2024
+CT,Connecticut Light & Power Co,4176,name+state,244789,28405,21760,1161171,2.45,12,2024
+CT,Groton Dept Of Utilities - (CT),7716,name+state,3654,371,355,14499,2.56,12,2024
+CT,Town Of Wallingford - (CT),20038,name+state,20815,775,775,25079,3.09,12,2024
+CT,United Illuminating Co,19497,name+state,146621,36503,39795,368234,9.91,12,2024
+CT,State Adjustment,,n/a,4926,815,771,11042,7.38,12,2024
+CT,State Total,,n/a,433483,68659,64925,1601766,4.29,12,2024
+DC,Potomac Electric Power Co,15270,name+state,216970,15623,12853,318780,4.9,12,2024
+DC,State Adjustment,,n/a,0,0,0,0,,12,2024
+DC,State Total,,n/a,216970,15623,12853,318780,4.9,12,2024
+DE,City Of Dover - (DE),5335,name+state,5217,3580,3018,25025,14.31,11,2024
+DE,City Of Newark - (DE),13519,name+state,9999,324,314,13440,2.41,12,2024
+DE,Delaware Electric Cooperative,5070,name+state,32925,1927,1414,118328,1.63,12,2024
+DE,Delmarva Power,5027,name+state,57660,19833,16238,302040,6.57,12,2024
+DE,Town Of Middletown - (DE),12478,name+state,,3089,3069,9071,34.05,12,2024
+DE,State Adjustment,,n/a,10777,1783,1687,24159,7.38,12,2024
+DE,State Total,,n/a,116578,30536,25740,492063,6.21,12,2024
+FL,Beaches Energy Services,9616,name+state,29630,2120,2120,30411,6.97,12,2024
+FL,"Central Florida Elec Coop, Inc",3245,name+state,5718,1874,1555,32583,5.75,12,2024
+FL,"Choctawhatche Elec Coop, Inc",3502,name+state,80593,12473,12103,56764,21.97,12,2024
+FL,City Of Bartow - (FL),1300,name+state,4080,4001,3695,11196,35.74,12,2024
+FL,City Of Homestead - (FL),8795,name+state,108520,1297,600,24600,5.27,12,2024
+FL,City Of Lake Worth Beach - (FL),10620,name+state,42366,6929,5632,24498,28.28,12,2024
+FL,City Of Ocala,13955,name+state,57328,33849,32663,46885,72.2,12,2024
+FL,City Of Tallahassee - (FL),18445,name+state,64033,33605,32622,108476,30.98,12,2024
+FL,City of Blountstown - (FL),1876,name+state,189,177,98,968,18.29,12,2024
+FL,City of Chattahoochee - (FL),3406,name+state,,175,99,1068,16.39,12,2024
+FL,City of Starke - (FL),18004,name+state,0,464,376,2958,15.69,12,2024
+FL,City of Williston - (FL),20735,name+state,0,132,75,1749,7.55,12,2024
+FL,"Clay Electric Cooperative, Inc",3757,name+state,241557,47325,43723,171257,27.63,12,2024
+FL,"Duke Energy Florida, Llc",6455,name+state,2024652,275826,246320,1820759,15.15,12,2024
+FL,"Florida Keys El Coop Assn, Inc",6443,name+state,21929,566,458,28751,1.97,12,2024
+FL,Florida Power & Light Co,6452,name+state,5974157,1229818,1159358,5297328,23.22,12,2024
+FL,Florida Public Utilities Co,6457,name+state,26697,395,218,33012,1.2,12,2024
+FL,Fort Pierce Utilities Authority,6616,name+state,89573,7592,6233,24309,31.23,12,2024
+FL,"Gulf Coast Electric Coop, Inc",7785,name+state,43777,2709,2472,21179,12.79,12,2024
+FL,Havana Power & Light Company,8276,name+state,6389,4694,3978,23625,19.87,12,2024
+FL,JEA,9617,name+state,509623,74025,59670,470564,15.73,12,2024
+FL,Kissimmee Utility Authority,10376,name+state,232113,26907,25619,80032,33.62,12,2024
+FL,"Lee County Electric Coop, Inc",10857,name+state,133745,20633,18513,227666,9.06,12,2024
+FL,New Smyrna Beach City Of,13485,name+state,32399,624,440,31046,2.01,12,2024
+FL,Okefenoke Rural El Member Corp,31833,name+state,17675,365,314,8045,4.54,12,2024
+FL,"Peace River Electric Coop, Inc",14606,name+state,83849,10333,9810,57580,17.95,12,2024
+FL,"Sumter Electric Coop, Inc",18304,name+state,209490,68617,68333,247294,27.75,12,2024
+FL,Suwannee Valley Elec Coop Inc,18360,name+state,23830,1328,1197,25814,5.14,12,2024
+FL,"Talquin Electric Coop, Inc",18449,name+state,106564,14633,13582,57278,25.55,12,2024
+FL,Tampa Electric Co,18454,name+state,1055467,168629,167395,757280,22.27,12,2024
+FL,"Utility Board Of The City Of Key West, FL",,unmatched,4957,715,650,27041,2.64,12,2024
+FL,"West Florida El Coop Assn, Inc",20371,name+state,3047,2800,404,29884,9.37,12,2024
+FL,Withlacoochee River Elec Coop,20885,name+state,244197,16120,14027,255749,6.3,12,2024
+FL,State Adjustment,,n/a,567236,105474,97733,555054,19.0,12,2024
+FL,State Total,,n/a,12045492,2177336,2032173,10572548,20.59,12,2024
+GA,Albany Utility Board,230,name+state,36000,17164,10733,28106,61.07,12,2024
+GA,Altamaha Electric Member Corp,407,name+state,42390,539,148,21965,2.45,12,2024
+GA,Amicalola Electric Member Corp,562,name+state,5433,1596,1274,50014,3.19,12,2024
+GA,Canoochee Electric Member Corp,2903,name+state,71202,3362,3744,20119,16.71,12,2024
+GA,Carroll Electric Member Corp - (GA),3081,name+state,118890,8624,8037,47606,18.12,12,2024
+GA,Central Georgia Electric Member Corp,,unmatched,113435,6578,5048,56054,11.74,12,2024
+GA,City Of Calhoun - (GA),2812,name+state,10928,809,764,4726,17.12,12,2024
+GA,City Of Chattanooga - (TN),3408,name+state,39002,7056,6937,10369,68.05,12,2024
+GA,City Of Chickamauga,3475,name+state,2253,94,64,891,10.55,12,2024
+GA,City Of College Park - (GA),3939,name+state,13185,1922,1197,8933,21.52,10,2024
+GA,City Of Covington - (GA),4433,name+state,21472,6887,6733,14443,47.68,12,2024
+GA,City Of East Point - (GA),5582,name+state,20503,7103,6889,19411,36.59,12,2024
+GA,City Of Griffin - (GA),7679,name+state,44426,5484,3716,13594,40.34,12,2024
+GA,City Of Lawrenceville - (GA),10800,name+state,102412,1819,1590,10388,17.51,11,2024
+GA,City Of Sylvania - (GA),18397,name+state,,445,292,1726,25.78,12,2024
+GA,City of Adel- (GA),123,name+state,1003,295,295,2937,10.04,12,2024
+GA,City of Buford,2487,name+state,0,353,353,4063,8.69,12,2024
+GA,City of Camilla,2910,name+state,1933,1921,451,2481,77.43,12,2024
+GA,City of Cartersville - (GA),3108,name+state,2870,1727,1553,9427,18.32,12,2024
+GA,City of Douglas,5325,name+state,1716,1716,1689,5794,29.62,10,2024
+GA,City of Elberton,5730,name+state,,664,540,3488,19.04,12,2024
+GA,City of La Grange - (GA),10585,name+state,2857,2602,2031,13957,18.64,12,2024
+GA,Cobb Electric Membership Corp,3916,name+state,127964,24214,24293,200601,12.07,12,2024
+GA,Colquitt Electric Membership Corp,40212,name+state,46099,1375,334,55075,2.5,12,2024
+GA,Coweta-Fayette El Member Corp,4432,name+state,49811,702,1216,91062,0.77,12,2024
+GA,Crisp County Power Comm,4538,name+state,9210,2573,2253,9232,27.87,12,2024
+GA,Dalton Utilities,4744,name+state,970,676,467,12177,5.55,12,2024
+GA,Diverse Power Incorporated,19219,name+state,3502,6630,2996,32234,20.57,12,2024
+GA,Fitzgerald Wtr Lgt & Bond Comm,6380,name+state,188,83,94,5280,1.57,5,2024
+GA,Flint Electric Membership Corp,6411,name+state,148680,1603,1,96943,1.65,12,2024
+GA,Georgia Power Co,7140,name+state,5367532,187007,138327,2429276,7.7,11,2024
+GA,Greystone Power Corporation,7090,name+state,118587,24006,22577,139028,17.27,12,2024
+GA,Habersham Electric Membership Corp,7887,name+state,4958,1012,702,34568,2.93,12,2024
+GA,Hart Electric Member Corp,8210,name+state,49810,366,84,30136,1.21,12,2024
+GA,Jackson Electric Member Corp - (GA),9601,name+state,279098,42893,25546,203592,21.07,12,2024
+GA,Jefferson Electric Member Corp,9689,name+state,59754,678,3936,37448,1.81,12,2024
+GA,Mitchell Electric Member Corp,12706,name+state,0,5610,4155,16869,33.26,12,2024
+GA,"Newnan Wtr, Sewer & Light Comm",13547,name+state,34437,5696,5696,8559,66.55,12,2024
+GA,Oconee Electric Member Corp,13962,name+state,,972,851,10676,9.1,12,2024
+GA,Okefenoke Rural El Member Corp,31833,name+state,36799,1107,940,18919,5.85,12,2024
+GA,Planters Electric Member Corp,14649,name+state,34612,2836,2427,18197,15.58,12,2024
+GA,Rayle Electric Membership Corp,15700,name+state,40149,554,495,16369,3.38,12,2024
+GA,Sawnee Electric Membership Corporation,16865,name+state,104784,654,10840,179486,0.36,12,2024
+GA,Southern Rivers Energy,10624,name+state,36974,272,58,21614,1.26,12,2024
+GA,Sumter Electric Member Corp,18305,name+state,27561,2396,1485,15086,15.88,12,2024
+GA,Three Notch Elec Member Corp,18499,name+state,0,597,388,13695,4.36,12,2024
+GA,Tri-County Elec Member Corp Ga,,unmatched,12333,1502,1253,21056,7.13,12,2024
+GA,Tri-State Electric Member Corp,19154,name+state,23143,250,206,13025,1.92,12,2024
+GA,Washington Elec Member Corp,20146,name+state,38838,1343,1176,15200,8.84,12,2024
+GA,State Adjustment,,n/a,430425,62068,49509,660614,9.4,12,2024
+GA,State Total,,n/a,7738128,458435,366383,4756508,9.64,12,2024
+HI,Hawaii Electric Light Co Inc,8287,name+state,24262,3339,3174,78386,4.26,12,2024
+HI,Hawaiian Electric Co Inc,19547,name+state,84448,10011,9514,276206,3.62,12,2024
+HI,Kauai Island Utility Cooperative,10071,name+state,49199,98,22,30234,0.32,12,2024
+HI,Maui Electric Co LTD,11843,name+state,2621,138,109,61811,0.22,12,2024
+HI,State Adjustment,,n/a,0,0,0,0,,12,2024
+HI,State Total,,n/a,160530,13586,12819,446636,3.04,12,2024
+IA,Access Energy Coop,16611,name+state,1975,128,98,7228,1.77,12,2024
+IA,Amana Society Service Co,471,name+state,846,1,1,713,0.14,12,2024
+IA,Board Of Water Electric & Communications,13143,name+state,1942,294,192,10080,2.92,12,2024
+IA,Butler County Rural Elec Coop - IA,,unmatched,215,30,27,5105,0.59,12,2024
+IA,Calhoun County Elec Coop Assn,4040,name+state,3,1,1,1647,0.06,1,2024
+IA,Cascade Mun Util - IA,,unmatched,240,3,2,1156,0.26,12,2024
+IA,Cedar Falls Utilities,3203,name+state,16687,284,212,16049,1.77,11,2024
+IA,City Of Ames - IA,,unmatched,6830,899,339,24979,3.6,12,2024
+IA,City Of Independence - IA,,unmatched,2334,31,33,2737,1.13,12,2024
+IA,City Of Maquoketa - IA,,unmatched,4672,182,167,2805,6.49,12,2024
+IA,City Of Preston,15349,name+state,10,1,,592,0.17,1,2024
+IA,City of Alton,198,name+state,150,6,6,453,1.32,12,2024
+IA,City of Bloomfield - (IA),1869,name+state,298,37,31,1113,3.32,12,2024
+IA,City of Brooklyn - (IA),2287,name+state,216,30,26,696,4.31,10,2024
+IA,City of Fairbank - (IA),6127,name+state,787,8,8,505,1.58,12,2024
+IA,City of Hartley - (IA),8214,name+state,120,60,12,809,7.42,12,2024
+IA,City of Hawarden - (IA),8288,name+state,406,6,5,1026,0.58,12,2024
+IA,City of Lake Park - (IA),10608,name+state,64,0,0,528,0.0,12,2024
+IA,City of Lamoni - (IA),10650,name+state,516,2,1,890,0.22,12,2024
+IA,City of Manning - (IA),11581,name+state,773,9,8,690,1.3,12,2024
+IA,City of Mapleton- (IA),11609,name+state,2985,5,5,583,0.86,4,2024
+IA,City of Orange City - (IA),14159,name+state,611,57,56,51,111.76,9,2024
+IA,City of Osage - (IA),14201,name+state,3447,31,24,2250,1.38,12,2024
+IA,City of Remsen - (IA),15846,name+state,266,8,8,872,0.92,12,2024
+IA,City of Sabula - (IA),16528,name+state,754,9,6,380,2.37,5,2024
+IA,City of Sanborn - (IA),16628,name+state,30,5,5,622,0.8,12,2024
+IA,City of Traer - (IA),19062,name+state,290,6,10,1102,0.54,12,2024
+IA,City of Wall Lake - (IA),20025,name+state,47,4,4,420,0.95,2,2024
+IA,City of West Bend - (IA),20364,name+state,1,0,0,444,0.0,12,2024
+IA,Consumers Energy,11788,name+state,933,93,78,6844,1.36,12,2024
+IA,East-Central Iowa Rural Elec Coop,5588,name+state,159,21,14,7349,0.29,11,2024
+IA,Eastern Iowa Light & Power Coop,5605,name+state,2261,200,159,18909,1.06,12,2024
+IA,Federated Rural Electric Assn,6258,name+state,16,0,0,51,0.0,12,2024
+IA,Harlan Municipal Utilities - (IA),8122,name+state,895,22,22,2889,0.76,12,2024
+IA,Heartland Power Coop,8319,name+state,329,24,10,5304,0.45,12,2024
+IA,Interstate Power and Light Co,9417,name+state,170724,20276,16172,429779,4.72,12,2024
+IA,Iowa Lakes Electric Coop,9425,name+state,234,46,38,13188,0.35,12,2024
+IA,Linn County Rec,11053,name+state,4780,368,275,29415,1.25,12,2024
+IA,Lyon Rural Electric Coop,11298,name+state,13,2,1,1721,0.12,2,2024
+IA,Maquoketa Valley Rrl Elec Coop,12642,name+state,2126,78,50,15578,0.5,12,2024
+IA,MidAmerican Energy Co,12341,name+state,228366,15107,11694,631006,2.39,12,2024
+IA,Midland Power Coop,12450,name+state,320,21,15,11739,0.18,8,2024
+IA,Mienergy Cooperative,19157,name+state,32,8,7,7239,0.11,12,2024
+IA,North West Rural Electric Coop,17260,name+state,122,2,2,6830,0.03,12,2024
+IA,Prairie Energy Coop,15291,name+state,98,22,12,3447,0.64,12,2024
+IA,Rock Rapids Municipal Utility - (IA),16206,name+state,85,15,15,1181,1.27,12,2024
+IA,Town of Manilla - (IA),11568,name+state,48,12,12,10,120.0,12,2024
+IA,State Adjustment,,n/a,166092,7860,6386,174930,4.49,12,2024
+IA,State Total,,n/a,625148,46314,36249,1453931,3.19,12,2024
+ID,Avista Corp,20169,name+state,36677,3441,2662,137574,2.5,12,2024
+ID,City Of Idaho Falls - ID,,unmatched,32973,6045,5554,32315,18.71,12,2024
+ID,Fall River Rural Elec Coop Inc,6169,name+state,5063,53,53,15118,0.35,12,2024
+ID,Idaho Power Co,9191,name+state,120983,35591,32685,508099,7.0,12,2024
+ID,Inland Power & Light Company,8699,name+state,239,124,122,1772,7.0,12,2024
+ID,Kootenai Electric Cooperative,10454,name+state,7961,4038,3994,29325,13.77,12,2024
+ID,Lower Valley Energy Inc,11273,name+state,1166,4,1,1610,0.25,12,2024
+ID,"Northern Lights, Inc",13758,name+state,2607,768,919,23694,3.24,12,2024
+ID,Pacificorp,14354,name+state,2685,1532,1548,74588,2.05,12,2024
+ID,Raft Rural Elec Coop Inc,22814,name+state,1238,78,71,1384,5.64,12,2024
+ID,Salmon River Electric Coop Inc,16565,name+state,,12,12,2980,0.4,7,2024
+ID,"United Electric Co-Op, Inc - ID",,unmatched,4883,82,80,7503,1.09,12,2024
+ID,State Adjustment,,n/a,8653,2877,2408,26833,10.72,12,2024
+ID,State Total,,n/a,225128,54645,50109,862794,6.33,12,2024
+IL,Ameren Illinois Company,56697,name+state,385970,72296,52964,1060675,6.82,12,2024
+IL,City of Batavia - (IL),1325,name+state,6133,641,637,9984,6.42,12,2024
+IL,City of Bushnell - (IL),2634,name+state,3610,63,43,1327,4.75,6,2024
+IL,City of Geneva- (IL),7096,name+state,2580,248,237,8668,2.86,12,2024
+IL,City of McLeansboro - (IL),12167,name+state,636,156,157,1311,11.9,11,2024
+IL,City of Naperville - (IL),13208,name+state,67571,2670,2448,63156,4.23,12,2024
+IL,City of Peru - (IL),14840,name+state,8984,185,183,4844,3.82,12,2024
+IL,City of Red Bud - (IL),15772,name+state,1787,338,338,1756,19.25,12,2024
+IL,City of Springfield - (IL),17828,name+state,132761,5594,4053,58444,9.57,12,2024
+IL,City of St Charles - (IL),17860,name+state,282,282,304,14415,1.96,12,2024
+IL,City of Sullivan - (IL),18277,name+state,4819,263,250,2212,11.89,12,2024
+IL,Coles-Moultrie Electric Coop,3931,name+state,1052,277,211,8464,3.27,12,2024
+IL,Commonwealth Edison Co,4110,name+state,686033,95605,71483,3691840,2.59,12,2024
+IL,Corn Belt Energy Corporation,4362,name+state,19903,1543,1476,34401,4.49,12,2024
+IL,Eastern Illinois Elec Coop,5585,name+state,6202,488,447,11092,4.4,12,2024
+IL,Egyptian Electric Coop Assn,5535,name+state,7920,506,494,15731,3.22,12,2024
+IL,"Jo-Carroll Energy, Inc",9750,name+state,15922,130,25,16593,0.78,12,2024
+IL,Menard Electric Coop,12395,name+state,8729,233,186,9048,2.58,12,2024
+IL,MidAmerican Energy Co,12341,name+state,43825,1940,1414,73192,2.65,12,2024
+IL,Mt Carmel Public Utility Co,13032,name+state,7851,170,112,4355,3.9,12,2024
+IL,Norris Electric Coop,13292,name+state,1219,147,156,16303,0.9,12,2024
+IL,Rochelle Municipal Utilities,16179,name+state,3856,234,234,5854,4.0,12,2024
+IL,Rock Energy Cooperative,16196,name+state,154,154,130,9336,1.65,8,2024
+IL,"Shelby Electric Coop, Inc",17040,name+state,13069,340,338,9772,3.48,12,2024
+IL,"Southeastern Il Elec Coop, Inc",17585,name+state,3677,528,352,22709,2.33,12,2024
+IL,"Tri-County Electric Coop, Inc Il",,unmatched,10464,267,209,14011,1.91,12,2024
+IL,Village of Bethany - (IL),1648,name+state,127,0,0,610,0.0,12,2024
+IL,Village of Greenup - (IL),7633,name+state,23,23,23,758,3.03,12,2024
+IL,Village of Riverton - (IL),16092,name+state,2879,170,134,1678,10.13,12,2024
+IL,Wayne-White Counties Elec Coop,20222,name+state,6515,140,122,13644,1.03,12,2024
+IL,State Adjustment,,n/a,128125,5906,4721,174011,3.39,12,2024
+IL,State Total,,n/a,1582678,191537,143881,5360195,3.57,12,2024
+IN,Bartholomew County Rural E M C,1283,name+state,3822,272,225,11427,2.38,12,2024
+IN,Carroll-White REMC,27599,name+state,9752,208,191,13696,1.52,12,2024
+IN,City Of Mishawaka,12674,name+state,69092,3665,3285,28835,12.71,12,2024
+IN,City of Auburn - (IN),994,name+state,7057,918,995,6751,13.6,12,2024
+IN,City of Bluffton - (IN),1896,name+state,9580,448,379,4989,8.98,12,2024
+IN,City of Frankfort - (IN),6707,name+state,20295,1381,1291,7820,17.66,12,2024
+IN,City of Greenfield - (IN),7627,name+state,8410,872,725,11683,7.46,12,2024
+IN,City of Huntingburg - (IN),9088,name+state,7011,58,58,3706,1.57,12,2024
+IN,City of Jasper - (IN),9667,name+state,10636,124,124,8140,1.52,12,2024
+IN,City of Lebanon - (IN),9613,name+state,15647,1413,1297,9330,15.14,12,2024
+IN,City of Logansport - (IN),11142,name+state,25278,1394,1268,13331,10.46,12,2024
+IN,City of Peru - (IN),14839,name+state,2996,1609,1464,9242,17.41,12,2024
+IN,City of Rensselaer - (IN),15860,name+state,2855,413,361,2690,15.35,11,2024
+IN,Clark County Rural E M C - (IN),22822,name+state,41875,6463,5955,27113,23.84,12,2024
+IN,"Crawfordsville Elec, Lgt & Pwr",4508,name+state,18936,787,12,9641,8.16,12,2024
+IN,Daviess Martin County R E M C,4848,name+state,2085,369,332,7947,4.64,12,2024
+IN,Decatur County Rural E M C,4960,name+state,3878,504,363,8071,6.24,12,2024
+IN,Dubois Rural Electric Coop Inc,5394,name+state,1562,167,121,13377,1.25,12,2024
+IN,"Duke Energy Indiana, LLC",15470,name+state,318065,36644,26671,784677,4.67,12,2024
+IN,Harrison County Rural E M C,8179,name+state,,2018,1939,23221,8.69,12,2024
+IN,Heartland REMC,59505,name+state,19611,284,225,16550,1.72,12,2024
+IN,Hendricks County Rural E M C,8447,name+state,950,842,682,39562,2.13,12,2024
+IN,Indiana Michigan Power Co,9324,name+state,492906,66766,57718,422062,15.82,12,2024
+IN,Jackson County Rural E M C - (IN),9576,name+state,87801,16115,15797,20678,77.93,12,2024
+IN,Jasper County Rural E M C,9665,name+state,2246,376,376,7718,4.87,12,2024
+IN,Johnson County Rural E M C,9778,name+state,18466,4674,4522,27948,16.72,12,2024
+IN,Kankakee Valley Rural E M C,9999,name+state,24460,546,507,18946,2.88,12,2024
+IN,Kosciusko County Rural E M C,10448,name+state,1723,466,355,18792,2.48,12,2024
+IN,Midwest Energy Cooperative - (MI),12377,name+state,517,63,62,306,20.59,11,2024
+IN,Ninestar Connect,8000,name+state,3854,1544,1509,18897,8.17,12,2024
+IN,Noble County R E M C,13647,name+state,1968,550,506,9883,5.57,12,2024
+IN,Northeastern Rural E M C,20603,name+state,5084,921,847,30610,3.01,12,2024
+IN,Northern Indiana Pub Serv Co,13756,name+state,421125,3576,1738,490669,0.73,12,2024
+IN,"Paulding-Putman Elec Coop, Inc",14599,name+state,677,131,107,3851,3.4,12,2024
+IN,Rushshelby Energy,17038,name+state,4376,488,367,14710,3.32,12,2024
+IN,South Central Indiana Remc,12929,name+state,224,3072,2185,35779,8.59,12,2024
+IN,Southeastern Indiana R E M C,17599,name+state,37646,3755,3529,28527,13.16,12,2024
+IN,Southern Indiana Gas & Elec Co,17633,name+state,104610,6368,5479,133124,4.78,12,2024
+IN,"Southern Indiana R E C, Inc",19445,name+state,6440,2384,2323,8145,29.27,12,2024
+IN,Tipmont Rural Elec Member Corp,18940,name+state,25971,1042,815,30338,3.43,12,2024
+IN,Utilities Dist-Western IN REMC,19667,name+state,1090,310,226,20059,1.55,12,2024
+IN,Western Indiana Energy REMC,25295,name+state,785,217,104,14601,1.49,12,2024
+IN,Whitewater Valley Rural EMC,20216,name+state,2043,279,180,9810,2.84,12,2024
+IN,State Adjustment,,n/a,107268,14079,12091,742202,1.9,12,2024
+IN,State Total,,n/a,1950673,188575,159306,3169452,5.95,12,2024
+KS,"Alfalfa Electric Coop, Inc",296,name+state,15,4,4,205,1.95,12,2024
+KS,CMS Electric Coop Inc,2774,name+state,1352,36,30,732,4.92,12,2024
+KS,City Of Garden City,6941,name+state,24340,3314,3118,10422,31.8,8,2024
+KS,City Of Kansas City - KS,,unmatched,280773,27716,30165,58383,47.47,12,2024
+KS,City of Alma - (KS),385,name+state,0,0,0,560,0.0,12,2024
+KS,City of Altamont - (KS),408,name+state,490,4,4,520,0.77,12,2024
+KS,City of Burlingame - (KS),2547,name+state,100,15,15,675,2.22,10,2024
+KS,City of Chanute (KS),3355,name+state,9817,426,266,4553,9.36,12,2024
+KS,City of McPherson - (KS),12208,name+state,6670,606,575,7433,8.15,12,2024
+KS,City of Moundridge - (KS),13029,name+state,347,9,9,1060,0.85,4,2024
+KS,City of Neodesha - (KS),13380,name+state,2553,140,85,1549,9.04,12,2024
+KS,City of Osage City - (KS),14199,name+state,2419,202,176,1452,13.91,12,2024
+KS,City of Winfield - (KS),20813,name+state,20407,1564,1390,6335,24.69,12,2024
+KS,Empire District Electric Co,5860,name+state,19612,53,20,8341,0.64,12,2024
+KS,"Evergy Kansas Central, Inc",22500,name+state,66634,23649,20212,341806,6.92,12,2024
+KS,"Evergy Kansas South, Inc",10005,name+state,81096,28725,24762,302508,9.5,12,2024
+KS,Evergy Metro,10000,name+state,33758,13443,12428,244554,5.5,12,2024
+KS,Freestate Electric Coop,10019,name+state,5323,813,768,15345,5.3,12,2024
+KS,Midwest Energy Inc,12524,name+state,27990,1430,1171,29813,4.8,7,2024
+KS,"Pioneer Electric Coop, Inc - (KS)",15073,name+state,9813,703,655,5060,13.89,12,2024
+KS,Prairie Land Electric Coop Inc,13799,name+state,17561,712,678,13110,5.43,12,2024
+KS,Southern Pioneer Electric Company,60839,name+state,34485,2495,2253,12797,19.5,12,2024
+KS,"Tri-County Electric Coop, Inc - (OK)",19160,name+state,255,12,12,862,1.39,12,2024
+KS,Victory Electric Coop Assn Inc,19820,name+state,34356,1661,1530,14230,11.67,12,2024
+KS,Western Coop Electric Assn Inc,20476,name+state,2228,476,423,5758,8.27,12,2024
+KS,State Adjustment,,n/a,-186924,22379,20895,223913,9.99,12,2024
+KS,State Total,,n/a,495469,130587,121644,1311978,9.95,12,2024
+KY,Big Sandy Rural Elec Coop Corp,1708,name+state,26578,670,526,12607,5.31,12,2024
+KY,Blue Grass Energy Coop Corp,1886,name+state,83612,3141,2844,60641,5.18,12,2024
+KY,City of Bardstown - (KY),690,name+state,1200,458,336,4668,9.81,12,2024
+KY,City of Bardwell - (KY),1205,name+state,346,15,14,376,3.99,12,2024
+KY,City of Bowling Green - (KY),2056,name+state,17820,2695,2695,28439,9.48,12,2024
+KY,City of Frankfort - (KY),6708,name+state,14160,2318,2058,16955,13.67,12,2024
+KY,City of Franklin - (KY),6718,name+state,12185,734,651,4544,16.15,12,2024
+KY,City of Fulton - (KY),6840,name+state,1129,184,142,1516,12.14,12,2024
+KY,City of Mayfield Plant Board,11871,name+state,2970,439,364,4816,9.12,12,2024
+KY,City of Owensboro - (KY),14268,name+state,65062,3194,2733,25457,12.55,12,2024
+KY,City of Paducah - (KY),14371,name+state,41139,1701,1385,18858,9.02,12,2024
+KY,City of Providence - (KY),15443,name+state,0,133,105,1177,11.3,12,2024
+KY,City of Vanceburg,19716,name+state,5289,237,198,2601,9.11,9,2024
+KY,Clark Energy Coop Inc - (KY),3687,name+state,35000,3610,3223,28178,12.81,12,2024
+KY,"Cumberland Valley Electric, Inc.",4622,name+state,51888,3963,3606,22478,17.63,12,2024
+KY,Duke Energy Kentucky,19446,name+state,,6977,5132,139405,5.0,12,2024
+KY,Farmers Rural Electric Coop Corp - (KY),6194,name+state,39401,1702,1342,24838,6.85,12,2024
+KY,Fleming-Mason Energy Coop Inc,6442,name+state,44277,2371,2164,23887,9.93,12,2024
+KY,Grayson Rural Electric Coop Corp,7558,name+state,20866,663,457,15398,4.31,12,2024
+KY,Henderson City Utility Comm,8449,name+state,34149,974,685,12260,7.94,12,2024
+KY,Inter County Energy Coop Corp,9292,name+state,43435,1260,1071,26655,4.73,12,2024
+KY,Jackson Energy Coop Corp - (KY),9575,name+state,96205,3958,3428,48399,8.18,12,2024
+KY,Jackson Purchase Energy Corporation,9605,name+state,52608,2218,1876,23979,9.25,12,2024
+KY,Kenergy Corp,9964,name+state,80922,4760,4178,59189,8.04,12,2024
+KY,Kentucky Power Co,22053,name+state,181628,4406,2018,130852,3.37,12,2024
+KY,Kentucky Utilities Co,10171,name+state,85434,6837,4616,474646,1.44,12,2024
+KY,Licking Valley Rural E C C,11011,name+state,9990,1328,1126,16234,8.18,12,2024
+KY,Louisville Gas & Electric Co,11249,name+state,781656,46431,45861,469547,9.89,12,2024
+KY,Madisonville Municipal Utils,11488,name+state,4470,646,523,6916,9.34,12,2024
+KY,Meade County Rural E C C,12243,name+state,7947,1383,1070,29232,4.73,12,2024
+KY,Nolin Rural Electric Coop Corp,13651,name+state,54520,2157,1801,32951,6.55,12,2024
+KY,Owen Electric Coop Inc,14251,name+state,101142,6351,5769,63616,9.98,12,2024
+KY,Salt River Electric Coop Corp,16587,name+state,101973,1676,922,56858,2.95,12,2024
+KY,"Shelby Energy Co-Op, Inc",17044,name+state,19562,1273,1171,13891,9.16,12,2024
+KY,South Kentucky Rural E C C,17564,name+state,488373,55643,55037,64563,86.18,12,2024
+KY,Taylor County Rural E C C,18498,name+state,54760,1199,876,28085,4.27,12,2024
+KY,Warren Rural Elec Coop Corp,20130,name+state,103065,14153,13167,60839,23.26,12,2024
+KY,West Kentucky Rural E C C,20377,name+state,21200,3125,2495,32056,9.75,12,2024
+KY,State Adjustment,,n/a,-280485,-42184,-43491,119662,-35.25,12,2024
+KY,State Total,,n/a,2505475,152798,134173,2207268,6.92,12,2024
+LA,"Beauregard Electric Coop, Inc",1458,name+state,83704,5024,4234,44424,11.31,12,2024
+LA,City of Alexandria - (LA),298,name+state,,8609,7979,21484,40.07,12,2024
+LA,City of Kaplan - (LA),10025,name+state,301,68,30,1790,3.8,12,2024
+LA,City of Lafayette - (LA),9096,name+state,187386,7061,6709,56434,12.51,12,2024
+LA,City of Natchitoches,13228,name+state,18267,13937,4930,7235,192.63,12,2024
+LA,City of Plaquemine - (LA),15137,name+state,5845,563,511,4536,12.41,12,2024
+LA,City of Ruston - (LA),16463,name+state,31509,5727,5176,9982,57.37,12,2024
+LA,"Claiborne Electric Coop, Inc",3641,name+state,21906,48104,47113,17473,275.3,12,2024
+LA,Cleco Power LLC,3265,name+state,536032,80509,77731,235328,34.21,12,2024
+LA,"Concordia Electric Coop, Inc",4153,name+state,0,504,353,9194,5.48,12,2024
+LA,Dixie Electric Membership Corp,5202,name+state,248637,11812,8399,110020,10.74,12,2024
+LA,Entergy Louisiana LLC,11241,name+state,1290583,153971,140773,957522,16.08,12,2024
+LA,"Entergy New Orleans, LLC",13478,name+state,199154,29392,25510,188178,15.62,12,2024
+LA,"Jefferson Davis Elec Coop, Inc",9682,name+state,20553,949,821,7354,12.9,12,2024
+LA,Morgan City - (LA),12927,name+state,2271,1840,1242,4217,43.63,12,2024
+LA,Northeast Louisiana Power Coop Inc.,13783,name+state,994,677,733,17755,3.81,12,2024
+LA,"Panola-Harrison Elec Coop, Inc",14424,name+state,21291,326,200,8476,3.85,10,2024
+LA,South Louisiana Elec Coop Assn,17565,name+state,40252,242,168,16997,1.42,12,2024
+LA,Southwest Louisiana E M C,17684,name+state,218949,22374,19447,108368,20.65,12,2024
+LA,Southwestern Electric Power Co,17698,name+state,313272,32864,25152,207338,15.85,12,2024
+LA,Town of Boyce,2064,name+state,,62,62,348,17.82,11,2024
+LA,Town of Gueydan,7760,name+state,,76,60,626,12.14,12,2024
+LA,Town of Vidalia - (LA),19828,name+state,3541,58,31,1874,3.09,9,2024
+LA,State Adjustment,,n/a,115596,-27149,-28684,104052,-26.09,12,2024
+LA,State Total,,n/a,3360043,397599,348679,2141006,18.57,12,2024
+MA,City of Chicopee - (MA),3477,name+state,43803,2119,2119,23198,9.13,12,2024
+MA,City of Holyoke - (MA),8774,name+state,14463,1525,1294,15040,10.14,9,2024
+MA,City of Peabody - (MA),14605,name+state,3766,1456,1456,22537,6.46,12,2024
+MA,City of Taunton,18488,name+state,19236,1291,871,34331,3.76,12,2024
+MA,City of Westfield - (MA),20481,name+state,11917,684,617,16200,4.22,12,2024
+MA,Fitchburg Gas & Elec Light Co,6374,name+state,20091,1303,1064,26290,4.96,12,2024
+MA,Massachusetts Electric Co,11804,name+state,644490,25121,20104,1210221,2.08,12,2024
+MA,NSTAR Electric Company,54913,name+state,230569,12630,11115,1082432,1.17,12,2024
+MA,Nantucket Electric Co,13206,name+state,2662,46,37,12823,0.36,12,2024
+MA,Town of Braintree - (MA),2144,name+state,3802,88,79,13976,0.63,12,2024
+MA,Town of Danvers,5480,name+state,1137,65,63,11529,0.56,12,2024
+MA,Town of Hudson - (MA),8973,name+state,629,236,226,13458,1.75,5,2024
+MA,Town of Littleton - (MA),11085,name+state,288,46,45,6698,0.69,12,2024
+MA,Town of Mansfield - (MA),11586,name+state,974,103,103,10539,0.98,12,2024
+MA,Town of Middleborough - (MA),12473,name+state,6727,290,290,14836,1.95,12,2024
+MA,Town of North Attleborough - (MA),13679,name+state,8586,329,300,12596,2.61,12,2024
+MA,Town of Shrewsbury - (MA),17127,name+state,2458,150,128,15193,0.99,7,2024
+MA,Town of Wakefield - (MA),19979,name+state,1074,31,30,10470,0.3,12,2024
+MA,Town of Wellesley - (MA),20310,name+state,12,0,0,9326,0.0,12,2024
+MA,State Adjustment,,n/a,53723,2602,2186,142821,1.82,12,2024
+MA,State Total,,n/a,1070407,50115,42127,2704513,1.85,12,2024
+MD,Baltimore Gas & Electric Co,1167,name+state,1055613,46591,31729,1206868,3.86,12,2024
+MD,"Choptank Electric Cooperative, Inc",3503,name+state,15332,2958,2629,50558,5.85,12,2024
+MD,Delmarva Power,5027,name+state,62344,7729,6256,186368,4.15,12,2024
+MD,Easton Utilities Comm,5625,name+state,17296,171,152,8590,1.99,11,2024
+MD,Hagerstown Light Department,7908,name+state,1455,1331,1093,15076,8.83,12,2024
+MD,Potomac Electric Power Co,15270,name+state,102010,12611,7595,553607,2.28,12,2024
+MD,Southern Maryland Elec Coop Inc,17637,name+state,233490,6080,5080,162580,3.74,12,2024
+MD,The Potomac Edison Company,15263,name+state,250849,5456,4945,256766,2.12,12,2024
+MD,State Adjustment,,n/a,2281,117,95,5842,2.0,12,2024
+MD,State Total,,n/a,1740670,83044,59574,2446256,3.39,12,2024
+ME,Central Maine Power Co,3266,name+state,292460,33158,29253,589868,5.62,12,2024
+ME,Eastern Maine Electric Coop,5609,name+state,6362,653,537,13213,4.94,7,2024
+ME,Houlton Water Company,8883,name+state,3139,134,117,3961,3.38,8,2024
+ME,Versant Power,1179,name+state,65782,3496,2594,109130,3.2,12,2024
+ME,State Adjustment,,n/a,4392,382,259,11978,3.19,12,2024
+ME,State Total,,n/a,372135,37823,32760,728150,5.19,12,2024
+MI,Alger-Delta Coop Electric Assn,305,name+state,5960,59,26,9812,0.6,12,2024
+MI,Alpena Power Co,392,name+state,7157,196,163,13752,1.43,12,2024
+MI,Cherryland Electric Coop Inc,3436,name+state,12158,1631,1518,33808,4.82,12,2024
+MI,City of Bay City - (MI),1366,name+state,,,,,,0,2024
+MI,City of Crystal Falls,4604,name+state,123,5,4,1308,0.38,2,2024
+MI,City of Gladstone,7265,name+state,572,97,97,2966,3.27,12,2024
+MI,City of Grand Haven - (MI),7483,name+state,9093,841,716,13231,6.36,12,2024
+MI,City of Holland,8723,name+state,38501,1996,1849,26586,7.51,12,2024
+MI,City of Lansing - (MI),10704,name+state,111873,27372,24199,87404,31.32,12,2024
+MI,City of Marquette - (MI),11701,name+state,7222,242,221,15014,1.61,12,2024
+MI,City of Negaunee,13352,name+state,492,35,31,2266,1.54,12,2024
+MI,City of Norway,13826,name+state,883,14,11,2084,0.67,9,2024
+MI,City of Sturgis - (MI),18252,name+state,3344,460,407,6094,7.55,12,2024
+MI,City of Zeeland - (MI),21158,name+state,2848,74,73,5989,1.24,7,2024
+MI,Cloverland Electric Co-Op,3828,name+state,6691,907,756,35981,2.52,12,2024
+MI,Consumers Energy Co,4254,name+state,2612844,97706,83480,1677450,5.82,12,2024
+MI,DTE Electric Company,5109,name+state,1041643,190173,152204,2065856,9.21,12,2024
+MI,Great Lakes Energy Coop,38084,name+state,75719,4887,4484,119249,4.1,12,2024
+MI,Indiana Michigan Power Co,9324,name+state,120903,14399,12720,112600,12.79,12,2024
+MI,Midwest Energy Cooperative - (MI),12377,name+state,47766,15828,15620,29260,54.09,12,2024
+MI,Northern States Power Co,13780,name+state,4418,219,163,7579,2.89,7,2024
+MI,Presque Isle Elec & Gas Coop,15340,name+state,6561,402,330,35260,1.14,12,2024
+MI,Tri-County Electric Coop Mi,,unmatched,8170,185,65,27116,0.68,12,2024
+MI,Upper Michigan Energy Resources Corp.,60631,name+state,3025,1000,848,25079,3.99,12,2024
+MI,Upper Peninsula Power Company,19578,name+state,22815,2221,1997,47654,4.66,12,2024
+MI,Village of Baraga - (MI),1196,name+state,2399,105,105,790,13.29,12,2024
+MI,Village of L'Anse - (MI),10508,name+state,79,25,25,1117,2.24,4,2024
+MI,Wyandotte Municipal Serv Comm - (MI),21048,name+state,14692,1073,831,11794,9.1,12,2024
+MI,State Adjustment,,n/a,110044,13358,11970,121588,10.99,12,2024
+MI,State Total,,n/a,4277995,375510,314913,4538689,8.27,12,2024
+MN,"ALLETE, Inc.",12647,name+state,20485,3116,2287,108003,2.89,12,2024
+MN,Agralite Electric Coop,155,name+state,1119,48,40,4293,1.12,12,2024
+MN,BENCO Electric Cooperative,1884,name+state,10217,577,509,18360,3.14,12,2024
+MN,"Beltrami Electric Coop, Inc",1529,name+state,10666,406,248,20732,1.96,12,2024
+MN,City Of Alexandria - (MN),295,name+state,4638,567,564,8729,6.5,12,2024
+MN,City Of Anoka,691,name+state,6378,900,885,10777,8.35,12,2024
+MN,City Of Austin - (MN),1009,name+state,5903,588,459,10703,5.49,12,2024
+MN,City Of Chaska - (MN),3400,name+state,6656,428,424,10713,4.0,12,2024
+MN,City Of Elk River,5773,name+state,15238,468,464,5038,9.29,12,2024
+MN,City Of Lake Crystal - Mn,,unmatched,1717,18,18,1246,1.44,3,2024
+MN,City Of Marshall - (MN),11731,name+state,8517,339,324,5857,5.79,12,2024
+MN,City Of Moorhead - (MN),12894,name+state,7621,1198,1122,18438,6.5,12,2024
+MN,City Of Owatonna - (MN),14246,name+state,18536,1222,1165,12188,10.03,12,2024
+MN,City Of Worthington - (MN),21013,name+state,6561,91,83,4662,1.95,12,2024
+MN,City of Henning - (MN),8459,name+state,29,11,11,547,2.01,12,2024
+MN,City of Lake Park - (MN),10609,name+state,146,0,0,612,0.0,12,2024
+MN,City of Randall - (MN),15665,name+state,12,3,1,359,0.84,2,2024
+MN,City of Round Lake - (MN),27026,name+state,54,2,2,196,1.02,12,2024
+MN,City of Two Harbors- (MN),19321,name+state,214,54,50,1870,2.89,12,2024
+MN,City of Tyler - (MN),19332,name+state,233,0,0,552,0.0,12,2024
+MN,City of Virginia - (MN),19883,name+state,1911,87,80,3982,2.18,12,2024
+MN,Connexus Energy,689,name+state,108935,5645,5622,146641,3.85,12,2024
+MN,Crow Wing Cooperative Power & Light Comp,4577,name+state,16653,357,309,44641,0.8,12,2024
+MN,Dakota Electric Association,25177,name+state,48434,2247,2297,116753,1.92,12,2024
+MN,East Central Energy,5574,name+state,33952,808,505,61738,1.31,12,2024
+MN,Federated Rural Electric Assn,6258,name+state,5427,32,15,5498,0.58,12,2024
+MN,Freeborn Mower Electric Cooperative,6782,name+state,22953,796,705,17858,4.46,12,2024
+MN,Hibbing Public Utilities Comm,8543,name+state,11600,305,277,6489,4.7,12,2024
+MN,Hutchinson Utilities Comm,9130,name+state,6472,493,493,6633,7.43,12,2024
+MN,Itasca-Mantrap Co-Op Electrical Assn,9475,name+state,5884,73,42,11133,0.66,12,2024
+MN,Lake Country Power,10697,name+state,13319,1010,1355,47828,2.11,12,2024
+MN,Lake Region Electric Cooperative - (MN),10618,name+state,7863,54,31,30062,0.18,12,2024
+MN,Meeker Coop Light & Power Assn,12227,name+state,3585,45,33,9361,0.48,12,2024
+MN,Mienergy Cooperative,19157,name+state,361,59,39,16262,0.36,12,2024
+MN,Mille Lacs Energy Cooperative,12546,name+state,981,238,168,14493,1.64,12,2024
+MN,Minnesota Valley Coop L&P Assn,40304,name+state,790,24,17,5310,0.45,10,2024
+MN,Minnesota Valley Electric Coop,12651,name+state,2538,905,895,42344,2.14,12,2024
+MN,New Ulm Public Utilities Comm,13488,name+state,7152,346,337,6522,5.31,12,2024
+MN,Northern States Power Co - Minnesota,13781,name+state,533766,52259,45717,1230056,4.25,12,2024
+MN,Northwestern Wisconsin Elec Co,13815,name+state,20,0,0,88,0.0,12,2024
+MN,Otter Tail Power Co,14232,name+state,48390,1631,1154,52145,3.13,12,2024
+MN,People'S Cooperative Services,14468,name+state,16699,706,656,21538,3.28,12,2024
+MN,Rochester Public Utilities,16181,name+state,50363,1475,1469,54944,2.68,5,2024
+MN,Runestone Electric Assn,16368,name+state,2346,32,17,15317,0.21,12,2024
+MN,Shakopee Public Utilities Comm,16971,name+state,17954,1021,1017,18197,5.61,12,2024
+MN,Sioux Valley SW Elec Coop,17267,name+state,1158,257,256,3894,6.6,12,2024
+MN,South Central Electric Assn,17550,name+state,681,68,46,4664,1.46,12,2024
+MN,Stearns Cooperative Elec Assn,18019,name+state,21304,60,45,26092,0.23,12,2024
+MN,Steele-Waseca Cooperative Electric,18047,name+state,277,139,128,9537,1.46,12,2024
+MN,"Wild Rice Electric Coop, Inc",20639,name+state,6515,559,497,7789,7.18,12,2024
+MN,Willmar Municipal Utilities (MN),20737,name+state,19865,115,124,8662,1.33,12,2024
+MN,Wright-Hennepin Coop Elec Assn,20996,name+state,19397,315,240,60014,0.52,11,2024
+MN,State Adjustment,,n/a,105951,6579,5574,243931,2.7,12,2024
+MN,State Total,,n/a,1268436,88776,78816,2594290,3.42,12,2024
+MO,Black River Electric Coop - (MO),1775,name+state,3265,1265,1056,18896,6.69,12,2024
+MO,Boone Electric Coop,2001,name+state,48543,5456,4802,27999,19.49,12,2024
+MO,Callaway Electric Cooperative,4160,name+state,11307,614,545,12648,4.85,12,2024
+MO,Carroll Electric Coop Corp - (AR),3093,name+state,9643,354,244,12999,2.72,12,2024
+MO,Central Missouri Elec Coop Inc,3268,name+state,969,161,114,11043,1.46,12,2024
+MO,Citizens Electric Corporation - (MO),3600,name+state,34511,1318,1253,24826,5.31,12,2024
+MO,City Utilities of Springfield - (MO),17833,name+state,24717,8131,,104562,7.78,12,2024
+MO,City of Albany - (MO),228,name+state,1342,31,25,821,3.78,12,2024
+MO,City of Columbia - (MO),4045,name+state,0,3595,3595,53221,6.75,12,2024
+MO,City of Cuba - (MO),4608,name+state,3117,287,287,1623,17.68,12,2024
+MO,City of Hannibal - (MO),8055,name+state,19762,1936,1751,8798,22.01,12,2024
+MO,City of Independence - (MO),9231,name+state,97731,10295,6921,53806,19.13,12,2024
+MO,City of Kirkwood - (MO),10370,name+state,192,192,123,10232,1.88,11,2024
+MO,City of Lebanon - (MO),10832,name+state,11452,1141,966,5969,19.12,12,2024
+MO,City of Liberal - (MO),10977,name+state,789,15,14,363,4.13,12,2024
+MO,City of Macon - (MO),11460,name+state,3337,323,288,2665,12.12,12,2024
+MO,City of Monett - (MO),12782,name+state,1697,720,655,4611,15.61,12,2024
+MO,City of Monroe City - (MO),12802,name+state,261,99,96,1363,7.26,12,2024
+MO,City of Perry - (MO),14806,name+state,,10,9,458,2.18,5,2024
+MO,City of Poplar Bluff - (MO),15229,name+state,25641,2241,1922,9931,22.57,12,2024
+MO,City of Richland - (MO),15981,name+state,76,118,103,828,14.25,12,2024
+MO,City of Rolla - (MO),16259,name+state,1963,1335,1029,9043,14.76,12,2024
+MO,City of Shelbina - (MO),17035,name+state,1202,104,95,753,13.81,12,2024
+MO,City of Sikeston - (MO),17177,name+state,16024,2386,2207,8718,27.37,10,2024
+MO,City of Stanberry - (MO),17946,name+state,810,1,1,714,0.14,12,2024
+MO,City of Waynesville - (MO),20224,name+state,4529,1037,990,2406,43.1,12,2024
+MO,Co-Mo Electric Coop Inc,4063,name+state,12472,791,575,31121,2.54,12,2024
+MO,Consolidated Electric Coop,4237,name+state,2311,108,91,8885,1.22,12,2024
+MO,"Crawford Electric Coop, Inc",4524,name+state,1639,895,574,19735,4.54,12,2024
+MO,Cuivre River Electric Coop Inc,4675,name+state,15869,6739,6471,72974,9.23,12,2024
+MO,Empire District Electric Co,5860,name+state,300229,408,202,141381,0.29,12,2024
+MO,Evergy Metro,10000,name+state,151516,19300,16631,273860,7.05,12,2024
+MO,Evergy Missouri West,12698,name+state,116471,19034,18476,305583,6.23,12,2024
+MO,"Farmers Electric Coop, Inc - (MO)",6181,name+state,669,135,76,9277,1.46,12,2024
+MO,"Howell-Oregon Elec Coop, Inc",8934,name+state,29751,1099,854,25754,4.27,12,2024
+MO,Intercounty Electric Coop Assn - (MO),9331,name+state,25032,20782,19464,29630,70.14,12,2024
+MO,"Laclede Electric Coop, Inc",10603,name+state,36737,4146,3548,34910,11.88,12,2024
+MO,Macon Electric Coop,11463,name+state,10784,960,859,9993,9.61,12,2024
+MO,Missouri Rural Electric Coop,12700,name+state,2345,132,105,5088,2.59,12,2024
+MO,"New-Mac Electric Coop, Inc",13520,name+state,14787,981,791,18770,5.23,12,2024
+MO,Osage Valley Elec Coop Assn,14192,name+state,10178,757,672,16417,4.61,12,2024
+MO,Ozark Border Electric Coop,14285,name+state,70028,2843,2365,40897,6.95,12,2024
+MO,Ozark Electric Coop Inc - (MO),14288,name+state,13061,821,711,35290,2.33,12,2024
+MO,"Platte-Clay Electric Coop, Inc",15138,name+state,17698,329,273,23440,1.4,12,2024
+MO,SEMO Electric Cooperative,16805,name+state,13743,174,67,10728,1.62,12,2024
+MO,"Southwest Electric Coop, Inc",27238,name+state,45870,6198,2007,44496,13.93,12,2024
+MO,Three Rivers Electric Coop,16751,name+state,7455,1161,1070,22446,5.17,12,2024
+MO,Union Electric Co - (MO),19436,name+state,875882,100575,87633,1093848,9.19,12,2024
+MO,Webster Electric Coop,20318,name+state,16001,2046,1774,18677,10.95,12,2024
+MO,West Central Electric Coop Inc - (MO),20363,name+state,7655,4256,4132,15145,28.1,12,2024
+MO,White River Valley El Coop Inc,20574,name+state,17259,16772,16259,39216,42.77,12,2024
+MO,State Adjustment,,n/a,111483,18305,28407,201846,9.07,12,2024
+MO,State Total,,n/a,2249805,272912,243178,2938704,9.29,12,2024
+MS,Central Electric Power Assn - (MS),2849,name+state,79012,2608,1964,38826,6.72,12,2024
+MS,City of Amory,571,name+state,1889,290,232,2818,10.29,12,2024
+MS,City of New Albany - (MS),13412,name+state,5530,865,691,8154,10.61,12,2024
+MS,City of Philadelphia - (MS),14947,name+state,1769,271,208,2673,10.14,12,2024
+MS,City of Starkville,18006,name+state,25411,2109,3842,12521,16.84,12,2024
+MS,Coast Electric Power Assn - (MS),3841,name+state,91735,3949,2465,82505,4.79,12,2024
+MS,Delta Electric Power Assn,22815,name+state,3124,2175,1835,28934,7.52,12,2024
+MS,Dixie Electric Power Assn - (MS),5175,name+state,7365,1772,1470,41323,4.29,12,2024
+MS,Entergy Mississippi LLC,12685,name+state,664047,87163,79209,384611,22.66,12,2024
+MS,Greenwood Utilities Comm,7651,name+state,20476,1733,1432,8919,19.43,12,2024
+MS,Magnolia Electric Power Assn,11519,name+state,40325,1472,1478,33216,4.43,12,2024
+MS,Mississippi Power Co,12686,name+state,13220,10988,4513,157437,6.98,12,2024
+MS,North East Mississippi EPA,40302,name+state,24189,3435,3124,26087,13.17,12,2024
+MS,Pearl River Valley El Pwr Assn,14563,name+state,138391,1220,232,54279,2.25,12,2024
+MS,Singing River Elec Cooperative,17252,name+state,96936,25202,23577,77513,32.51,12,2024
+MS,Southern Pine Electric Cooperative,17647,name+state,45293,8263,6636,65011,12.71,12,2024
+MS,Tallahatchie Valley E P A,18447,name+state,40423,7458,6506,21521,34.65,12,2024
+MS,Tishomingo County E P A,18951,name+state,4334,877,468,10969,8.0,12,2024
+MS,Yazoo Valley Elec Power Assn,21114,name+state,,838,620,9488,8.83,12,2024
+MS,State Adjustment,,n/a,338701,53758,45465,286520,18.76,12,2024
+MS,State Total,,n/a,1642170,216446,185967,1353324,15.99,12,2024
+MT,Fall River Rural Elec Coop Inc,6169,name+state,547,3,3,1469,0.2,12,2024
+MT,"Fergus Electric Coop, Inc",21513,name+state,173,5,1,7000,0.07,12,2024
+MT,Flathead Electric Coop Inc,6395,name+state,18207,2654,2632,63317,4.19,12,2024
+MT,"Lower Yellowstone R E A, Inc",11272,name+state,2056,27,22,5216,0.52,12,2024
+MT,McKenzie Electric Coop Inc,12087,name+state,15,,,116,,0,2024
+MT,"Missoula Electric Coop, Inc",12692,name+state,1030,322,294,14686,2.19,12,2024
+MT,Montana-Dakota Utilities Co,12199,name+state,324,304,81,19596,1.55,12,2024
+MT,NorthWestern Energy LLC - (MT),12825,name+state,24876,4500,3600,293481,1.53,11,2024
+MT,Powder River Energy Corp,19156,name+state,17,0,0,52,0.0,12,2024
+MT,USBIA-Mission Valley Power,19603,name+state,5150,614,540,22869,2.68,12,2024
+MT,State Adjustment,,n/a,10702,893,627,95242,0.94,12,2024
+MT,State Total,,n/a,63097,9322,7800,523044,1.78,12,2024
+NC,Albemarle Electric Member Corp,240,name+state,2279,210,121,13795,1.52,12,2024
+NC,Blue Ridge Elec Member Corp - (NC),1889,name+state,43184,1198,1002,80742,1.48,12,2024
+NC,Brunswick Electric Member Corp,24889,name+state,75813,6709,3027,114831,5.84,12,2024
+NC,Carteret-Craven El Member Corp,3107,name+state,42232,1096,930,43136,2.54,12,2024
+NC,Central Electric Membership Corp. - (NC),3250,name+state,30175,34,24,21550,0.16,9,2024
+NC,City Of Lexington - (NC),10966,name+state,5324,3216,3271,18053,17.81,12,2024
+NC,City of Albemarle - (NC),232,name+state,18898,2929,2767,10720,27.32,12,2024
+NC,City of Concord - (NC),4150,name+state,26004,5098,5284,29840,17.08,12,2024
+NC,City of Elizabeth City - (NC),5760,name+state,19872,2906,6833,13492,21.54,12,2024
+NC,City of Gastonia - (NC),7027,name+state,144990,9598,9420,27008,35.54,12,2024
+NC,City of Kings Mountain - (NC),10324,name+state,15763,985,878,5154,19.11,12,2024
+NC,City of Kinston - (NC),10345,name+state,40502,2806,2386,9902,28.34,12,2024
+NC,City of Lumberton - (NC),11318,name+state,3788,1181,1380,11134,10.61,12,2024
+NC,City of Monroe - (NC),12801,name+state,,2959,2705,10542,28.07,12,2024
+NC,City of Morganton - (NC),12944,name+state,1654,1654,1610,7051,23.46,12,2024
+NC,City of New Bern - (NC),13416,name+state,8192,2721,2402,21049,12.93,12,2024
+NC,City of Rocky Mount - (NC),16226,name+state,5493,6260,5475,25666,24.39,12,2024
+NC,City of Statesville - (NC),18022,name+state,44200,5391,5209,11973,45.03,12,2024
+NC,City of Washington - (NC),20142,name+state,8812,1951,1828,14292,13.65,12,2024
+NC,City of Wilson,20785,name+state,86405,10078,7379,32076,31.42,12,2024
+NC,"Duke Energy Carolinas, Llc",5416,name+state,799698,87502,60963,1919372,4.56,12,2024
+NC,Duke Energy Progress - NC,,unmatched,475056,53109,35873,1356079,3.92,12,2024
+NC,Edgecombe-Martin County E M C,5656,name+state,27437,748,660,10623,7.04,12,2024
+NC,EnergyUnited Elec Member Corp,21632,name+state,129735,18476,16950,121251,15.24,12,2024
+NC,Fayetteville Public Works Commission,6235,name+state,40428,31585,27688,75987,41.57,12,2024
+NC,French Broad Elec Member Corp,6784,name+state,11229,470,204,36144,1.3,12,2024
+NC,Greenville Utilities Comm,7639,name+state,174933,16066,14952,65823,24.41,12,2024
+NC,Haywood Electric Member Corp,8333,name+state,22473,772,620,28123,2.75,12,2024
+NC,Jones-Onslow Elec Member Corp,9837,name+state,82854,8288,7344,78924,10.5,12,2024
+NC,Lumbee River Elec Member Corp,11291,name+state,144648,47637,45572,63038,75.57,12,2024
+NC,New River Light & Power Co,13482,name+state,1541,449,447,7458,6.02,12,2024
+NC,Pee Dee Electric Member Corp,14717,name+state,26797,5536,2221,19480,28.42,12,2024
+NC,Piedmont Electric Member Corp,15023,name+state,823,5686,5381,30112,18.88,12,2024
+NC,Randolph Electric Member Corp,15671,name+state,9667,1579,1359,25596,6.17,12,2024
+NC,Roanoke Electric Member Corp,16101,name+state,84364,24750,24374,12025,205.82,12,2024
+NC,Rutherford Elec Member Corp,16496,name+state,15841,5017,4115,65661,7.64,12,2024
+NC,South River Elec Member Corp,17572,name+state,79029,3693,3289,41496,8.9,12,2024
+NC,Surry-Yadkin Elec Member Corp,18339,name+state,28816,614,464,28263,2.17,12,2024
+NC,Town of Apex- (NC),719,name+state,15061,397,380,30684,1.29,12,2024
+NC,Town of High Point,8571,name+state,198304,10903,8809,38789,28.11,12,2024
+NC,Town of Huntersville - (NC),9087,name+state,4149,658,624,8737,7.53,10,2024
+NC,Town of Tarboro - (NC),18466,name+state,13960,134,16,5565,2.41,11,2024
+NC,Tri-County Elec Member Corp (NC),18957,name+state,24384,1759,1512,26981,6.52,12,2024
+NC,Tri-State Electric Member Corp,19154,name+state,2905,36,28,1553,2.32,12,2024
+NC,Union Electric Membership Corp - (NC),19435,name+state,146112,3516,3175,87132,4.04,12,2024
+NC,Virginia Electric & Power Co,19876,name+state,74645,2956,1712,108656,2.72,12,2024
+NC,Wake Electric Membership Corp,19981,name+state,17430,2981,2733,53167,5.61,12,2024
+NC,State Adjustment,,n/a,-67976,-2340,-6380,213901,-1.09,12,2024
+NC,State Total,,n/a,3207922,401956,329015,5082629,7.91,12,2024
+ND,Burke-Divide Electric Coop Inc,2394,name+state,123,4,4,1606,0.25,12,2024
+ND,"Capital Electric Coop, Inc",2985,name+state,960,499,458,19453,2.57,12,2024
+ND,Cass County Elec Coop Inc,24949,name+state,7959,1740,1727,51470,3.38,12,2024
+ND,Dakota Valley Elec Coop Inc,4717,name+state,582,141,141,5721,2.46,12,2024
+ND,"Lower Yellowstone R E A, Inc",11272,name+state,451,19,18,1152,1.65,12,2024
+ND,McKenzie Electric Coop Inc,12087,name+state,6632,707,698,13576,5.21,12,2024
+ND,"Mclean Electric Coop, Inc",12090,name+state,1907,26,23,3711,0.7,12,2024
+ND,Montana-Dakota Utilities Co,12199,name+state,2234,2179,323,79239,2.75,12,2024
+ND,Mountrail-Williams Elec Coop,20413,name+state,5652,474,368,7830,6.05,12,2024
+ND,Nodak Electric Coop Inc,12301,name+state,3278,186,166,20697,0.9,12,2024
+ND,"North Central Elec Coop, Inc - (ND)",13694,name+state,3175,3024,2948,6061,49.89,12,2024
+ND,Northern Plains Electric Coop,13196,name+state,1200,1116,1028,10345,10.79,12,2024
+ND,Northern States Power Co - Minnesota,13781,name+state,27588,4498,3454,82987,5.42,12,2024
+ND,Otter Tail Power Co,14232,name+state,41791,1060,657,46554,2.28,12,2024
+ND,Roughrider Electric Cooperativ,55959,name+state,8677,1506,1404,11183,13.47,12,2024
+ND,Slope Electric Coop Inc,17261,name+state,189,12,12,4085,0.29,12,2024
+ND,Verendrye Electric Coop Inc,19790,name+state,4744,214,202,14336,1.49,12,2024
+ND,State Adjustment,,n/a,8938,-2747,-2765,17894,-15.35,12,2024
+ND,State Total,,n/a,126080,14657,10865,397899,3.68,12,2024
+NE,Cedar-Knox Public Power Dist,3205,name+state,3368,203,195,4520,4.49,12,2024
+NE,City Of Grand Island - NE,,unmatched,17618,3120,3080,27638,11.29,12,2024
+NE,City of Central City,3235,name+state,1956,64,63,1493,4.29,12,2024
+NE,City of Falls City - (NE),6175,name+state,2922,177,142,2097,8.44,12,2024
+NE,City of Fremont - (NE),6779,name+state,21848,1062,847,13526,7.85,12,2024
+NE,City of Hastings - (NE),8245,name+state,6046,390,209,11667,3.34,12,2024
+NE,City of Lexington - (NE),10967,name+state,3213,526,577,3815,13.79,12,2024
+NE,City of Lyons - (NE),11372,name+state,325,1,1,442,0.23,12,2024
+NE,City of Nebraska City - (NE),13334,name+state,7357,518,463,4910,10.55,8,2024
+NE,City of North Platte,13725,name+state,12862,1226,1021,11221,10.93,12,2024
+NE,City of Pender - (NE),14656,name+state,525,3,3,700,0.43,12,2024
+NE,City of Scribner - (NE),16610,name+state,680,3,3,443,0.68,12,2024
+NE,City of South Sioux City,17577,name+state,20691,1508,1549,6326,23.84,12,2024
+NE,City of Stromsburg - (NE),18217,name+state,452,9,7,685,1.31,12,2024
+NE,City of Stuart - (NE),18230,name+state,3,3,4,444,0.68,12,2024
+NE,City of Superior - (NE),18330,name+state,45,10,7,1043,0.96,12,2024
+NE,City of Wahoo - (NE),19968,name+state,3027,45,45,2020,2.23,12,2024
+NE,City of Wisner (NE),20880,name+state,641,26,26,781,3.33,9,2024
+NE,Cornhusker Public Power Dist,4373,name+state,5765,99,90,5959,1.66,12,2024
+NE,Dawson Power District,4911,name+state,7902,351,317,16081,2.18,12,2024
+NE,Elkhorn Rural Public Pwr Dist,5780,name+state,1665,99,99,6136,1.61,12,2024
+NE,"High West Energy, Inc",27058,name+state,44,15,14,44,34.09,12,2024
+NE,Highline Electric Assn,8570,name+state,811,10,7,759,1.32,7,2024
+NE,Lincoln Electric System,11018,name+state,38604,7382,6161,134912,5.47,12,2024
+NE,Loup River Public Power Dist,11251,name+state,3000,210,105,20276,1.04,12,2024
+NE,Midwest Electric Member Corp - (NE),12539,name+state,1133,3,0,2389,0.13,12,2024
+NE,Nebraska Public Power District,13337,name+state,62624,9410,8721,73528,12.8,12,2024
+NE,Norris Public Power District,13664,name+state,8469,331,302,27874,1.19,12,2024
+NE,Northeast Power,13739,name+state,4372,43,43,8540,0.5,11,2024
+NE,Omaha Public Power District,14127,name+state,231533,8540,6378,361412,2.36,12,2024
+NE,Perennial Public Power Dist,21111,name+state,399,99,95,7712,1.28,12,2024
+NE,Southern Public Power District,17642,name+state,7732,681,590,14070,4.84,12,2024
+NE,Southwest Public Power Dist,17692,name+state,2925,54,47,3192,1.69,12,2024
+NE,State Adjustment,,n/a,79997,10398,8937,118640,8.76,12,2024
+NE,State Total,,n/a,560554,46619,40148,895296,5.21,12,2024
+NH,Liberty Utilities (Granite State Electri,26510,name+state,11358,1801,745,39874,4.52,8,2024
+NH,New Hampshire Elec Coop Inc,13441,name+state,20205,1160,1013,84122,1.38,12,2024
+NH,Public Service Co of NH,15472,name+state,143942,14573,12065,455078,3.2,12,2024
+NH,Unitil Energy Systems,24590,name+state,22730,1542,1326,68551,2.25,12,2024
+NH,State Adjustment,,n/a,5617,350,239,10288,3.4,12,2024
+NH,State Total,,n/a,203852,19426,15388,657913,2.95,12,2024
+NJ,Atlantic City Electric Co,963,name+state,186257,13992,11224,506472,2.76,12,2024
+NJ,City of Vineland - (NJ),19856,name+state,8890,1150,1154,22728,5.06,12,2024
+NJ,Jersey Central Power & Lt Co,9726,name+state,287260,13155,11519,1035046,1.27,12,2024
+NJ,Public Service Elec & Gas Co,15477,name+state,1934409,98288,82331,2056231,4.78,12,2024
+NJ,State Adjustment,,n/a,43700,2243,1833,111887,2.0,12,2024
+NJ,State Total,,n/a,2460516,128828,108061,3732364,3.45,12,2024
+NM,"Central New Mexico El Coop, Inc",3273,name+state,1105,2671,1663,19711,13.55,12,2024
+NM,"Central Valley Elec Coop, Inc",3287,name+state,3570,313,244,3884,8.06,12,2024
+NM,City of Farmington - (NM),6204,name+state,59847,23312,3520,39005,59.77,12,2024
+NM,Continental Divide El Coop Inc,4265,name+state,58266,1638,1115,20442,8.01,12,2024
+NM,El Paso Electric Co,5701,name+state,119449,8505,6809,107378,7.92,12,2024
+NM,"Jemez Mountains Elec Coop, Inc",9699,name+state,22954,1751,1125,31676,5.53,12,2024
+NM,"Kit Carson Electric Coop, Inc",10378,name+state,11157,660,212,30591,2.16,12,2024
+NM,"Lea County Electric Coop, Inc - (NM)",10817,name+state,7478,1084,967,5027,21.56,12,2024
+NM,Los Alamos County,11204,name+state,,127,127,8031,1.58,9,2024
+NM,Otero County Electric Coop Inc,14224,name+state,12787,1383,1102,16434,8.42,12,2024
+NM,Public Service Co of NM,15473,name+state,342982,8057,4047,492945,1.63,12,2024
+NM,"Rio Grande Electric Coop, Inc",16057,name+state,186,12,12,162,7.41,12,2024
+NM,Roosevelt County Elec Coop Inc,22690,name+state,5954,105,55,2548,4.12,12,2024
+NM,Southwestern Electric Coop Inc - (NM),17715,name+state,119,9,7,1016,0.89,12,2024
+NM,"Springer Electric Coop, Inc",17826,name+state,592,87,64,2299,3.78,12,2024
+NM,State Adjustment,,n/a,78421,10606,8878,179378,5.91,12,2024
+NM,State Total,,n/a,724867,60320,29947,960527,6.28,12,2024
+NV,City of Boulder City - (NV),2008,name+state,10594,363,352,8273,4.39,12,2024
+NV,"Mt Wheeler Power, Inc",13073,name+state,3952,134,130,5169,2.59,12,2024
+NV,Nevada Power Co,13407,name+state,719153,139553,121630,916385,15.23,12,2024
+NV,Overton Power District No 5,14245,name+state,14039,732,607,15544,4.71,12,2024
+NV,Raft Rural Elec Coop Inc,22814,name+state,2321,245,231,1561,15.7,12,2024
+NV,Sierra Pacific Power Co,17166,name+state,165880,38203,34018,330890,11.55,12,2024
+NV,"Valley Electric Assn, Inc",19840,name+state,5509,4688,4045,22368,20.96,12,2024
+NV,Wells Rural Electric Co,20332,name+state,2611,45,38,4541,0.99,10,2024
+NV,State Adjustment,,n/a,10020,1339,1170,8067,16.6,12,2024
+NV,State Total,,n/a,934079,185302,162221,1312801,14.12,12,2024
+NY,Central Hudson Gas & Elec Corp,3249,name+state,35592,733,476,275025,0.27,12,2024
+NY,City of Plattsburgh - (NY),15145,name+state,6035,174,94,8801,1.98,12,2024
+NY,Consolidated Edison Co-Ny Inc,4226,name+state,2856306,12690,17246,3077966,0.41,9,2024
+NY,Firstenergy Pennsylvania Electric Co,66101,name+state,1769,177,118,3399,5.21,12,2024
+NY,Fishers Island Utility Co Inc,6369,name+state,0,0,0,769,0.0,12,2024
+NY,Jamestown Board of Public Util,9645,name+state,47740,2433,2183,16384,14.85,12,2024
+NY,Long Island Power Authority,11171,name+state,111253,25295,20959,767754,3.29,12,2024
+NY,New York State Elec & Gas Corp,13511,name+state,964489,28114,18248,724621,3.88,12,2024
+NY,Niagara Mohawk Power Corp.,13573,name+state,473349,48918,36157,1515683,3.23,12,2024
+NY,Orange & Rockland Utils Inc,14154,name+state,213977,38919,14633,211943,18.36,9,2024
+NY,Rochester Gas & Electric Corp,16183,name+state,551,4011,3999,522,768.39,12,2024
+NY,Town of Massena - (NY),11811,name+state,8993,297,207,8156,3.64,10,2024
+NY,Village of Fairport - (NY),5930,name+state,2481,125,125,17996,0.69,12,2024
+NY,Village of Freeport - (NY),6775,name+state,25221,269,191,13384,2.01,11,2024
+NY,Village of Solvay - (NY),17512,name+state,0,0,0,4680,0.0,12,2024
+NY,State Adjustment,,n/a,247369,11456,6550,448164,2.56,12,2024
+NY,State Total,,n/a,4995125,173612,121186,7095248,2.45,12,2024
+OH,"Buckeye Rural Elec Coop, Inc",2502,name+state,12843,1392,1175,16088,8.65,12,2024
+OH,Butler Rural Electric Coop Inc - (OH),2651,name+state,7075,1081,1016,11781,9.18,12,2024
+OH,City of Bowling Green - (OH),2054,name+state,11761,636,632,13026,4.88,12,2024
+OH,City of Celina - (OH),3216,name+state,10653,588,533,8118,7.24,12,2024
+OH,City of Cleveland - (OH),3762,name+state,5157,3982,3325,73667,5.41,12,2024
+OH,City of Columbus - (OH),4065,name+state,40640,1558,990,14931,10.43,12,2024
+OH,City of Cuyahoga Falls - (OH),4683,name+state,3904,804,604,23546,3.41,12,2024
+OH,City of Dover - (OH),5336,name+state,3030,230,169,5869,3.92,12,2024
+OH,City of Hamilton - (OH),7977,name+state,7770,2103,1713,29890,7.04,12,2024
+OH,City of Lebanon - (OH),10830,name+state,944,363,237,9839,3.69,12,2024
+OH,City of Niles - (OH),13602,name+state,9068,1336,1037,11875,11.25,12,2024
+OH,City of Orrville - (OH),14194,name+state,5892,270,226,7174,3.76,12,2024
+OH,City of Painesville - (OH),14381,name+state,20759,759,689,10832,7.01,12,2024
+OH,City of Piqua - (OH),15095,name+state,23397,1495,1310,9734,15.36,12,2024
+OH,City of Wadsworth - (OH),19951,name+state,14248,153,38,13812,1.11,12,2024
+OH,City of Wapakoneta - (OH),20077,name+state,4055,543,498,5578,9.73,12,2024
+OH,City of Westerville - (OH),20477,name+state,7956,687,682,17924,3.83,12,2024
+OH,Cleveland Electric Illum Co,3755,name+state,807471,21684,16437,676708,3.2,12,2024
+OH,Clyde Light & Power,3824,name+state,6516,498,465,2770,17.98,12,2024
+OH,Consolidated Cooperative,12990,name+state,15138,548,464,19269,2.84,12,2024
+OH,Dayton Power & Light Co,4922,name+state,135940,14470,11116,481025,3.01,12,2024
+OH,Duke Energy Ohio Inc,3542,name+state,111943,38009,28574,693435,5.48,12,2024
+OH,Guernsey-Muskingum El Coop Inc,7891,name+state,6328,397,205,14381,2.76,12,2024
+OH,Hancock-Wood Electric Coop Inc,8034,name+state,7689,51,32,11308,0.45,11,2024
+OH,Holmes-Wayne Electric Coop Inc,8761,name+state,9083,94,53,17893,0.53,12,2024
+OH,Licking Rural Electric Inc,10668,name+state,479,111,89,27918,0.4,12,2024
+OH,"Lorain-Medina R E C, Inc",11200,name+state,1503,492,394,14979,3.28,12,2024
+OH,"Midwest Electric, Inc - (OH)",12515,name+state,4409,53,34,10836,0.49,12,2024
+OH,Midwest Energy Cooperative - (MI),12377,name+state,1178,161,159,865,18.61,11,2024
+OH,"North Central Elec Coop, Inc - (OH)",13693,name+state,629,293,204,8428,3.48,12,2024
+OH,Ohio Edison Co,13998,name+state,834833,27574,20044,959319,2.87,12,2024
+OH,Ohio Power Co,14006,name+state,1975985,172411,149275,1339232,12.87,12,2024
+OH,"Paulding-Putman Elec Coop, Inc",14599,name+state,1464,202,158,9176,2.2,12,2024
+OH,"Pioneer Rural Elec Coop, Inc - - (OH)",15054,name+state,14352,798,737,17407,4.58,11,2024
+OH,South Central Power Company,18085,name+state,151351,11018,9151,130770,8.43,12,2024
+OH,The Toledo Edison Co,18997,name+state,300352,14302,10628,279790,5.11,12,2024
+OH,"Union Rural Electric Coop, Inc",19501,name+state,1626,283,264,10557,2.68,12,2024
+OH,State Adjustment,,n/a,151549,12220,10193,171604,7.12,12,2024
+OH,State Total,,n/a,4728970,333649,273550,5181356,6.44,12,2024
+OK,"Alfalfa Electric Coop, Inc",296,name+state,528,180,167,2630,6.84,12,2024
+OK,Arkansas Valley Elec Coop Corp,817,name+state,11438,767,915,4766,16.09,12,2024
+OK,CKenergy Electric Cooperative,60482,name+state,3579,1654,1452,15977,10.35,12,2024
+OK,"Canadian Valley Elec Coop, Inc",2911,name+state,26989,2839,2510,24311,11.68,12,2024
+OK,"Central Rural Electric Cooperative, Inc",3226,name+state,14750,569,387,19658,2.89,12,2024
+OK,Cimarron Electric Coop,3478,name+state,26990,158,122,15081,1.05,12,2024
+OK,City of Edmond - (OK),5661,name+state,11018,5549,4979,43988,12.61,12,2024
+OK,City of Geary - (OK),7048,name+state,142,126,83,378,33.33,12,2024
+OK,City of Granite - (OK),7501,name+state,183,3,3,546,0.55,12,2024
+OK,City of Ponca City - (OK),15202,name+state,15515,3302,815,15574,21.2,12,2024
+OK,City of Pryor - (OK),15462,name+state,5272,522,403,3976,13.13,12,2024
+OK,City of Yale - (OK),19719,name+state,659,58,38,534,10.86,12,2024
+OK,"Cookson Hills Elec Coop, Inc",4296,name+state,19062,27,5,18961,0.14,12,2024
+OK,"Cotton Electric Coop, Inc",4401,name+state,300,6737,6435,19552,34.46,12,2024
+OK,East Central Oklahoma Elec Coop Inc,5598,name+state,13763,9180,9183,33049,27.78,12,2024
+OK,Empire District Electric Co,5860,name+state,11498,30,12,3874,0.77,12,2024
+OK,"Indian Electric Coop, Inc",9246,name+state,25684,1221,1093,14842,8.23,12,2024
+OK,Kay Electric Coop,10012,name+state,2360,142,128,4379,3.24,10,2024
+OK,"Kiamichi Electric Coop, Inc",10170,name+state,6368,667,248,19258,3.46,12,2024
+OK,Northeast Oklahoma Electric Co,13734,name+state,21696,4373,3585,30533,14.32,12,2024
+OK,Northwestern Electric Coop Inc - (OK),13807,name+state,5511,70,50,9199,0.76,12,2024
+OK,Oklahoma Electric Coop Inc,14062,name+state,72842,3519,3219,64246,5.48,12,2024
+OK,Oklahoma Gas & Electric Co,14063,name+state,1252971,167275,150615,711360,23.51,12,2024
+OK,Ozarks Electric Coop Corp - (AR),14289,name+state,20812,412,249,9220,4.47,12,2024
+OK,Public Service Co Of Oklahoma,15474,name+state,1207605,290739,105970,498578,58.31,12,2024
+OK,Red River Valley Rrl Elec Assn,15746,name+state,8207,633,153,17745,3.57,12,2024
+OK,"Rural Electric Coop, Inc - (OK)",16382,name+state,20880,686,542,6504,10.55,12,2024
+OK,Southeastern Electric Coop Inc - (OK),17603,name+state,25224,23700,21072,15583,152.09,12,2024
+OK,Southwest Arkansas E C C,17671,name+state,75,11,4,135,8.15,10,2024
+OK,Stillwater Utilities Authority,18125,name+state,21489,1996,1622,19640,10.16,12,2024
+OK,Town of Mannford - (OK),11578,name+state,166,166,151,1143,14.52,12,2024
+OK,"Tri-County Electric Coop, Inc Ok",,unmatched,4075,108,102,11945,0.9,12,2024
+OK,Verdigris Valley Elec Coop Inc,19785,name+state,8172,1614,1273,35102,4.6,12,2024
+OK,State Adjustment,,n/a,306525,43447,31699,192786,22.54,12,2024
+OK,State Total,,n/a,3172348,572480,349284,1885053,30.37,12,2024
+OR,Central Electric Coop Inc - (OR),3240,name+state,17284,437,367,34394,1.27,12,2024
+OR,Central Lincoln People's Ut Dt,3264,name+state,14767,4172,3976,35570,11.73,12,2024
+OR,City of Eugene - (OR),6022,name+state,39161,4567,2324,118000,3.87,10,2024
+OR,City of Forest Grove,6582,name+state,15693,207,203,10312,2.01,12,2024
+OR,City of Mcminnville - (OR),12187,name+state,2717,530,0,15026,3.53,12,2024
+OR,City of Springfield - (OR),17839,name+state,10770,1470,1242,29660,4.96,12,2024
+OR,Clatskanie Peoples Util Dist,28541,name+state,4239,72,30,3760,1.91,12,2024
+OR,Columbia River Peoples Ut Dist,40438,name+state,11604,1096,324,20306,5.4,12,2024
+OR,"Columbia Rural Elec Assn, Inc",4041,name+state,37,0,0,45,0.0,12,2024
+OR,"Consumers Power, Inc",4743,name+state,20512,258,184,18737,1.38,12,2024
+OR,"Coos-Curry Electric Coop, Inc",4317,name+state,8162,655,539,15865,4.13,12,2024
+OR,Emerald People's Utility Dist,40437,name+state,19220,3122,3080,19968,15.64,12,2024
+OR,Idaho Power Co,9191,name+state,1730,754,770,13799,5.46,12,2024
+OR,Lane Electric Coop Inc,10681,name+state,3008,254,207,12534,2.03,12,2024
+OR,"Midstate Electric Coop, Inc",12439,name+state,58740,3318,3559,18604,17.83,12,2024
+OR,Northern Wasco County PUD - (OR),13788,name+state,5637,281,6,5295,5.31,12,2024
+OR,"Oregon Trail El Cons Coop, Inc",14109,name+state,13551,1108,944,25628,4.32,12,2024
+OR,Pacificorp,14354,name+state,39431,21124,21041,553547,3.82,12,2024
+OR,Portland General Electric Co,15248,name+state,464882,35324,30174,829629,4.26,12,2024
+OR,Salem Electric - (OR),16555,name+state,16311,2808,2505,20845,13.47,12,2024
+OR,Surprise Valley Electrification,18260,name+state,60,16,11,1211,1.32,12,2024
+OR,Tillamook Peoples Utility Dist,18917,name+state,13728,329,308,20131,1.63,12,2024
+OR,Umatilla Electric Coop Assn,19325,name+state,9540,1378,1326,12620,10.92,11,2024
+OR,Umpqua Indian Utility Cooperative,65352,name+state,120,60,12,69,86.96,12,2024
+OR,State Adjustment,,n/a,1644,1949,5009,39141,4.98,12,2024
+OR,State Total,,n/a,792548,85289,78141,1874696,4.55,12,2024
+PA,Adams Electric Cooperative Inc,40220,name+state,6639,1485,1453,32498,4.57,11,2024
+PA,"Bedford Rural Elec Coop, Inc",40221,name+state,1913,159,126,7704,2.06,8,2024
+PA,Borough of Chambersburg - (PA),3329,name+state,7560,1596,1056,11274,14.16,12,2024
+PA,"Central Electric Coop, Inc - (PA)",40224,name+state,2036,315,195,19288,1.63,8,2024
+PA,Citizens Electric Co - (PA),3597,name+state,2990,40,34,7174,0.56,12,2024
+PA,Claverack Rural Elec Coop Inc,40289,name+state,7599,368,298,13478,2.73,8,2024
+PA,Duquesne Light Co,5487,name+state,102413,26746,20150,550405,4.86,12,2024
+PA,Firstenergy Pennsylvania Electric Co,66101,name+state,431398,91163,74801,1806010,5.05,12,2024
+PA,"Northwestern Rural E C A, Inc - (PA)",40293,name+state,13736,819,706,21453,3.82,8,2024
+PA,PECO Energy Co,14940,name+state,247599,67258,59657,1534058,4.38,6,2024
+PA,PPL Electric Utilities Corp,14715,name+state,284682,62802,49639,1285925,4.88,12,2024
+PA,Pike County Light & Power Co,15045,name+state,3181,107,95,4304,2.49,8,2024
+PA,REA Energy Coop Inc,40292,name+state,832,310,279,20935,1.48,8,2024
+PA,"Somerset Rural Elec Coop, Inc",40167,name+state,5136,214,238,13118,1.63,8,2024
+PA,Tri-County Rural Elec Coop Inc (PA),40290,name+state,5259,283,261,19542,1.45,8,2024
+PA,"UGI Utilities, INC",19390,name+state,15969,1443,1172,55004,2.62,12,2024
+PA,Valley Rural Electric Coop Inc,40222,name+state,4351,191,119,18168,1.05,8,2024
+PA,Wellsborough Electric Co,20334,name+state,2064,36,25,5160,0.7,12,2024
+PA,State Adjustment,,n/a,30711,3135,2579,99285,3.16,12,2024
+PA,State Total,,n/a,1176068,258470,212883,5524784,4.68,12,2024
+RI,Block Island Utility District,1857,name+state,248,12,12,1629,0.74,12,2024
+RI,Pascoag Utility District,14537,name+state,5506,196,185,4373,4.48,12,2024
+RI,The Narragansett Electric Co,13214,name+state,264796,6746,5891,452383,1.49,4,2024
+RI,State Adjustment,,n/a,0,0,0,0,,12,2024
+RI,State Total,,n/a,270550,6954,6088,458385,1.52,12,2024
+SC,Aiken Electric Coop Inc,162,name+state,256228,1751,1709,34240,5.11,12,2024
+SC,Bamberg Board of Public Works,1170,name+state,5373,431,409,1440,29.93,12,2024
+SC,Berkeley Electric Coop Inc,1613,name+state,132444,16041,15295,112886,14.21,12,2024
+SC,"Black River Electric Coop, Inc - (SC)",1763,name+state,22537,6299,4095,34841,18.08,12,2024
+SC,Blue Ridge Electric Coop Inc - (SC),1890,name+state,35975,11646,4151,74144,15.71,12,2024
+SC,City of Gaffney - (SC),6894,name+state,18189,3608,3424,6314,57.14,12,2024
+SC,City of Laurens - (SC),21526,name+state,7394,41,33,5513,0.74,7,2024
+SC,City of Newberry - (SC),13523,name+state,16183,3181,3162,4502,70.66,12,2024
+SC,City of Orangeburg - (SC),14164,name+state,86716,15709,14136,20616,76.2,12,2024
+SC,City of Rock Hill - (SC),16195,name+state,55321,10249,10181,34699,29.54,12,2024
+SC,City of Union - (SC),19431,name+state,406,328,113,5794,5.66,12,2024
+SC,"Dominion Energy South Carolina, Inc",17539,name+state,877504,67673,56603,696385,9.72,12,2024
+SC,"Duke Energy Carolinas, Llc",5416,name+state,167521,29833,20154,568586,5.25,12,2024
+SC,Duke Energy Progress - NC,,unmatched,68345,16860,9366,143713,11.73,12,2024
+SC,Easley Combined Utility System,6709,name+state,31070,3875,3579,17128,22.62,12,2024
+SC,"Edisto Electric Coop, Inc",5644,name+state,46168,336,59,15304,2.2,12,2024
+SC,"Fairfield Electric Coop, Inc",5929,name+state,9439,4509,4277,33985,13.27,12,2024
+SC,Greenwood CPW,7646,name+state,10217,2340,1523,11950,19.58,12,2024
+SC,Greer Commission of Public Wks,7654,name+state,10845,5009,4484,22412,22.35,12,2024
+SC,Horry Electric Coop Inc,8786,name+state,112252,1143,974,74143,1.54,12,2024
+SC,"Laurens Electric Coop, Inc",10768,name+state,95067,3405,2920,58099,5.86,12,2024
+SC,Lockhart Power Co,11118,name+state,4566,685,557,4976,13.77,12,2024
+SC,"Lynches River Elec Coop, Inc",11355,name+state,15169,11563,7801,21207,54.52,12,2024
+SC,Mid-Carolina Electric Coop Inc,12462,name+state,79501,6163,5266,56463,10.92,12,2024
+SC,"Newberry Electric Coop, Inc",13524,name+state,,417,356,12208,3.42,12,2024
+SC,Palmetto Electric Coop Inc,14398,name+state,2149,2183,1942,68334,3.19,12,2024
+SC,South Carolina Public Service Authority,17543,name+state,28373,7457,6480,183162,4.07,12,2024
+SC,Town of Winnsboro - (SC),20826,name+state,55,236,181,2663,8.86,2,2024
+SC,"Tri-County Electric Coop, Inc (SC)",14175,name+state,61191,403,114,17642,2.28,12,2024
+SC,York Electric Coop Inc,21002,name+state,20124,1804,1523,59685,3.02,12,2024
+SC,State Adjustment,,n/a,-99351,20344,15872,172066,11.82,12,2024
+SC,State Total,,n/a,2176970,255522,200739,2575100,9.92,12,2024
+SD,"Black Hills Electric Coop, Inc",1769,name+state,1335,179,170,9227,1.94,12,2024
+SD,"Black Hills Power, Inc.",19545,name+state,3648,931,705,60951,1.53,9,2024
+SD,"Central Electric Coop, Inc - (SD)",3236,name+state,3634,649,527,5536,11.72,12,2024
+SD,City of Brookings - (SD),2285,name+state,8714,270,228,10544,2.56,12,2024
+SD,City of Madison - (SD),11475,name+state,1489,247,213,2804,8.81,12,2024
+SD,City of Pierre - (SD),15040,name+state,570,538,538,7470,7.2,12,2024
+SD,City of Volga - (SD),19896,name+state,623,46,46,1263,3.64,12,2024
+SD,Dakota Energy Coop Inc,4720,name+state,553,,1,3215,,0,2024
+SD,MidAmerican Energy Co,12341,name+state,838,98,70,4230,2.32,12,2024
+SD,Montana-Dakota Utilities Co,12199,name+state,92,86,17,6294,1.37,12,2024
+SD,Nebraska Public Power District,13337,name+state,2003,316,283,1042,30.33,12,2024
+SD,NorthWestern Energy - (SD),13809,name+state,7904,1511,1213,46939,3.22,11,2024
+SD,"Northern Electric Coop, Inc",13750,name+state,942,26,19,6886,0.38,12,2024
+SD,"Oahe Electric Cooperative, Inc.",,unmatched,792,36,30,2311,1.56,8,2024
+SD,Otter Tail Power Co,14232,name+state,9212,307,246,9445,3.25,12,2024
+SD,Rosebud Electric Coop Inc,16286,name+state,618,25,24,5636,0.44,12,2024
+SD,Sioux Valley SW Elec Coop,17267,name+state,7964,3738,3748,25421,14.7,12,2024
+SD,Southeastern Electric Coop Inc - (SD),19293,name+state,2353,1879,1864,20160,9.32,12,2024
+SD,Watertown Municipal Utilities,20187,name+state,12804,1178,451,11633,10.13,12,2024
+SD,West River Electric Assn Inc,20401,name+state,18881,3387,3186,14420,23.49,12,2024
+SD,State Adjustment,,n/a,38373,10442,9945,174197,5.99,12,2024
+SD,State Total,,n/a,123342,25889,23524,429623,6.03,12,2024
+TN,Appalachian Electric Coop,727,name+state,60042,17597,15116,43954,40.04,12,2024
+TN,Athens Utility Board,947,name+state,5151,914,639,11612,7.87,12,2024
+TN,Benton County,1578,name+state,7734,660,608,10604,6.22,12,2024
+TN,Carroll County - (TN),3075,name+state,22293,956,651,12125,7.88,10,2024
+TN,City Of Chattanooga - (TN),3408,name+state,326710,73540,72063,163693,44.93,12,2024
+TN,City of Alcoa Utilities,577,name+state,53099,4187,3832,27773,15.08,12,2024
+TN,City of Bristol - (TN),2247,name+state,33576,1578,1214,33963,4.65,12,2024
+TN,City of Brownsville,2411,name+state,,2277,1590,7559,30.12,12,2024
+TN,City of Clarksville - (TN),3704,name+state,5880,1176,768,73520,1.6,12,2024
+TN,City of Cleveland - (TN),3758,name+state,60486,6855,4173,29046,23.6,12,2024
+TN,City of Clinton - (TN),3812,name+state,9847,9518,6736,31149,30.56,12,2024
+TN,City of Dayton - (TN),4920,name+state,16338,1314,1453,11987,10.96,12,2024
+TN,City of Elizabethton - (TN),5763,name+state,20577,2410,2304,24509,9.83,11,2024
+TN,City of Etowah,6008,name+state,625,631,558,4437,14.22,12,2024
+TN,City of Fayetteville,6234,name+state,26135,1327,1167,16607,7.99,12,2024
+TN,City of Gallatin - (TN),6923,name+state,37277,2695,2561,22570,11.94,12,2024
+TN,City of Harriman - (TN),8147,name+state,14078,1603,1402,9311,17.22,12,2024
+TN,City of Humboldt,9023,name+state,7708,452,297,3444,13.12,12,2024
+TN,City of Jackson - (TN),9612,name+state,125356,9774,8583,38095,25.66,12,2024
+TN,City of Lawrenceburg,10799,name+state,7284,3670,3509,21688,16.92,12,2024
+TN,City of Lenoir - (TN),10906,name+state,5676,1140,732,70892,1.61,12,2024
+TN,City of Lexington - (TN),10968,name+state,41175,2491,2172,17898,13.92,12,2024
+TN,City of Memphis - (TN),12293,name+state,1107634,182151,167370,380286,47.9,12,2024
+TN,City of Morristown - (TN),12988,name+state,46941,2665,2500,16424,16.23,12,2024
+TN,City of Newbern,13437,name+state,3193,845,768,1834,46.07,12,2024
+TN,City of Newport - (TN),13550,name+state,36022,2220,3789,24081,9.22,12,2024
+TN,City of Oak Ridge,13933,name+state,29254,2396,2171,18405,13.02,12,2024
+TN,City of Pulaski - (TN),15507,name+state,4588,3013,2707,12742,23.65,12,2024
+TN,City of Rockwood - (TN),16223,name+state,567,198,187,15368,1.29,12,2024
+TN,City of Sweetwater,18384,name+state,13806,574,668,9792,5.86,12,2024
+TN,City of Winchester - (TN),20793,name+state,582,106,92,5737,1.85,12,2024
+TN,Columbia Power System - (TN),3855,name+state,63244,4875,4586,36057,13.52,12,2024
+TN,Cumberland Elec Member Corp,4624,name+state,105600,21120,13680,100597,20.99,12,2024
+TN,Duck River Elec Member Corp,5399,name+state,94778,592,64,71335,0.83,12,2024
+TN,French Broad Elec Member Corp,6784,name+state,214,10,3,997,1.0,12,2024
+TN,Johnson City - (TN),9777,name+state,3204,636,420,40000,1.59,12,2024
+TN,Kingsport Power Co,10331,name+state,43722,4642,3863,43158,10.76,12,2024
+TN,Knoxville Utilities Board,10421,name+state,68441,11198,9082,189110,5.92,12,2024
+TN,Loudon Utilities Board,11222,name+state,13828,755,578,12527,6.03,12,2024
+TN,Meriwether Lewis Electric Coop,12330,name+state,31821,3535,3268,30213,11.7,12,2024
+TN,Middle Tennessee E M C,12470,name+state,155999,37907,33813,303851,12.48,12,2024
+TN,Nashville Electric Service,13216,name+state,141600,14100,9480,418000,3.37,12,2024
+TN,Pickwick Electric Coop,15016,name+state,6531,3339,2986,16333,20.44,12,2024
+TN,Powell Valley Electric Coop,15293,name+state,12076,529,274,21144,2.5,12,2024
+TN,Sevier County Electric System,16949,name+state,57450,2837,1996,35935,7.89,12,2024
+TN,South Kentucky Rural E C C,17564,name+state,710,4,4,150,2.67,12,2024
+TN,Southwest Tennessee E M C,17694,name+state,58104,13030,12142,43662,29.84,12,2024
+TN,Tri-State Electric Member Corp,19154,name+state,4467,69,58,2778,2.48,12,2024
+TN,Upper Cumberland E M C,19574,name+state,6121,553,195,45300,1.22,12,2024
+TN,Volunteer Electric Coop,19898,name+state,108480,21720,14160,113000,19.22,12,2024
+TN,Weakley County Mun Elec Sys,20228,name+state,30847,2963,2636,15194,19.5,12,2024
+TN,State Adjustment,,n/a,572025,72301,66438,457023,15.82,12,2024
+TN,State Total,,n/a,3708896,557648,492106,3167473,17.61,12,2024
+TX,Austin Energy,1015,name+state,117367,31835,25132,503869,6.32,12,2024
+TX,Bailey County Elec Coop Assn,1169,name+state,179,150,143,1455,10.31,12,2024
+TX,"Bandera Electric Coop, Inc",1175,name+state,56182,4006,223,33416,11.99,12,2024
+TX,"Bartlett Electric Coop, Inc",1273,name+state,27508,924,828,11519,8.02,12,2024
+TX,"Big Country Electric Coop, Inc",1591,name+state,10697,62,162,9566,0.65,12,2024
+TX,"Bluebonnet Electric Coop, Inc",1892,name+state,39995,9982,8702,95238,10.48,12,2024
+TX,Centerpoint Energy,8901,name+state,,954139,794582,2493149,38.27,11,2024
+TX,"Central Texas Elec Coop, Inc",3282,name+state,2712,622,428,29420,2.11,12,2024
+TX,Cherokee County Elec Coop Assn - (TX),3470,name+state,43578,1002,665,23772,4.22,12,2024
+TX,City Of San Antonio - TX,,unmatched,382391,105131,102331,857189,12.26,12,2024
+TX,City of Brady - (TX),2135,name+state,3736,62,26,2396,2.59,12,2024
+TX,City of Bryan - (TX),2442,name+state,90587,12922,12760,69030,18.72,12,2024
+TX,City of Castroville - (TX),3168,name+state,2365,370,370,1282,28.86,12,2024
+TX,City of College Station - (TX),3940,name+state,7462,3947,2753,52155,7.57,12,2024
+TX,City of Denton - (TX),5063,name+state,40448,9638,8272,66968,14.39,12,2024
+TX,City of Floresville,6427,name+state,2206,1497,1621,17915,8.36,12,2024
+TX,City of Garland - (TX),6958,name+state,122026,26140,21762,90179,28.99,12,2024
+TX,City of Georgetown - (TX),7129,name+state,24302,4308,3538,34219,12.59,12,2024
+TX,City of Goldsmith - (TX),7419,name+state,155,12,12,271,4.43,12,2024
+TX,City of Greenville - (TX),7634,name+state,38188,5104,3391,17123,29.81,12,2024
+TX,City of Hemphill - (TX),8432,name+state,178,56,29,531,10.55,12,2024
+TX,City of Lubbock - (TX),11292,name+state,24,12,12,10,120.0,12,2024
+TX,City of San Marcos - (TX),28978,name+state,43778,4421,3648,22832,19.36,12,2024
+TX,Comanche County Elec Coop Assn,4295,name+state,1550,1453,1406,19569,7.43,12,2024
+TX,Concho Valley Elec Coop Inc,4146,name+state,4436,458,401,8370,5.47,12,2024
+TX,Cooke County Elec Coop Assn,4262,name+state,16590,1423,1300,18275,7.79,12,2024
+TX,"Deaf Smith Electric Coop, Inc",4939,name+state,4330,388,360,2627,14.77,12,2024
+TX,Deep East Texas Elec Coop Inc,4975,name+state,36325,1043,841,37629,2.77,12,2024
+TX,"Denton County Elec Coop, Inc",5078,name+state,24029,21594,12818,317097,6.81,12,2024
+TX,El Paso Electric Co,5701,name+state,502408,48700,42354,352021,13.83,12,2024
+TX,Entergy Texas Inc.,55937,name+state,879474,53334,48918,457369,11.66,12,2024
+TX,"Farmers Electric Coop, Inc - (TX)",6182,name+state,187289,12979,12151,81768,15.87,12,2024
+TX,"Fayette Electric Coop, Inc",6183,name+state,3508,215,158,9678,2.22,12,2024
+TX,"Greenbelt Electric Coop, Inc",7561,name+state,544,32,28,3912,0.82,12,2024
+TX,"HILCO Electric Cooperative, Inc.",8620,name+state,6419,2514,2387,26333,9.55,12,2024
+TX,Hamilton County Elec Coop Assn,7979,name+state,1446,1223,1260,14015,8.73,12,2024
+TX,Heart of Texas Electric Coop,55982,name+state,6648,465,351,18722,2.48,12,2024
+TX,Houston County Elec Coop Inc,8898,name+state,34461,1687,1343,21752,7.76,12,2024
+TX,"Jackson Electric Coop, Inc - (TX)",9590,name+state,24321,962,865,15652,6.15,12,2024
+TX,"Jasper-Newton Elec Coop, Inc",9668,name+state,46221,295,347,21161,1.39,12,2024
+TX,Karnes Electric Coop Inc,10009,name+state,8111,120,11,13157,0.91,12,2024
+TX,Kerrville Public Utility Board,28604,name+state,62805,1393,1232,20206,6.89,12,2024
+TX,Lamar County Elec Coop Assn,10649,name+state,7395,693,594,12870,5.38,12,2024
+TX,"Lamb County Electric Coop, Inc",10625,name+state,2098,275,232,2226,12.35,12,2024
+TX,"Lea County Electric Coop, Inc - (NM)",10817,name+state,1768,285,239,1947,14.64,12,2024
+TX,"Lighthouse Electric Coop, Inc",11014,name+state,3884,253,157,9680,2.61,12,2024
+TX,"Lyntegar Electric Coop, Inc",11364,name+state,13435,252,166,4861,5.18,12,2024
+TX,Magic Valley Electric Coop Inc,11501,name+state,426800,31381,2833,124074,25.29,12,2024
+TX,"Medina Electric Coop, Inc",12268,name+state,19791,2723,2163,22736,11.98,12,2024
+TX,Mid-South Electric Coop Assn,12452,name+state,12711,6218,5714,35819,17.36,12,2024
+TX,"Navarro County Elec Coop, Inc",13332,name+state,2706,555,412,20015,2.77,12,2024
+TX,North Plains Electric Coop Inc,13757,name+state,2061,4,2,3063,0.13,12,2024
+TX,Nueces Electric Cooperative,13830,name+state,62833,3717,3297,47693,7.79,12,2024
+TX,Oncor Electric Delivery Company LLC,44372,name+state,,1241425,1067112,3477214,35.7,12,2024
+TX,"Panola-Harrison Elec Coop, Inc",14424,name+state,20257,211,121,9419,2.24,10,2024
+TX,"Pedernales Electric Coop, Inc",14626,name+state,133634,29867,26739,381494,7.83,12,2024
+TX,"Rio Grande Electric Coop, Inc",16057,name+state,10566,66,22,6293,1.05,12,2024
+TX,"Rita Blanca Electric Coop, Inc",16063,name+state,4918,263,257,2917,9.02,12,2024
+TX,"Rusk County Electric Coop, Inc",16461,name+state,41474,659,494,17684,3.73,12,2024
+TX,Sam Houston Electric Coop Inc,16613,name+state,199243,21200,19634,91576,23.15,12,2024
+TX,"San Bernard Electric Coop, Inc",16638,name+state,31859,310,5443,32726,0.95,12,2024
+TX,San Patricio Electric Coop Inc,16627,name+state,4659,563,464,7568,7.44,12,2024
+TX,South Plains Electric Coop Inc,17561,name+state,138146,640,144,55057,1.16,12,2024
+TX,Southwest Arkansas E C C,17671,name+state,390,128,31,811,15.78,12,2024
+TX,"Southwest Texas Elec Coop, Inc",17693,name+state,262,30,28,5855,0.51,12,2024
+TX,Southwestern Electric Power Co,17698,name+state,190754,29645,24662,156280,18.97,12,2024
+TX,Taylor Electric Coop Inc - (TX),27369,name+state,9725,1554,1295,17925,8.67,12,2024
+TX,Texas-New Mexico Power Co,40051,name+state,,62740,52992,232882,26.94,12,2024
+TX,"Tri-County Electric Coop, Inc (OK)",19159,name+state,72,3,3,175,1.71,12,2024
+TX,Trinity Valley Elec Coop Inc,18976,name+state,159364,17865,23986,78792,22.67,12,2024
+TX,Upshur Rural Elec Coop Corp,19579,name+state,46582,9701,8892,44151,21.97,12,2024
+TX,"Victoria Electric Coop, Inc",19806,name+state,36613,1176,1008,21500,5.47,12,2024
+TX,"Wharton County Elec Coop, Inc",20472,name+state,8066,160,94,5548,2.88,12,2024
+TX,Wise Electric Coop Inc,20948,name+state,41212,2160,1941,26728,8.08,12,2024
+TX,"Wood County Electric Coop, Inc",20927,name+state,37080,2031,1802,41521,4.89,12,2024
+TX,State Adjustment,,n/a,1689622,232777,197808,1922700,12.11,12,2024
+TX,State Total,,n/a,6266959,3028150,2570702,12814619,23.63,12,2024
+UT,City Of St George,17874,name+state,23839,2271,1877,34072,6.67,12,2024
+UT,City of Logan - (UT),11135,name+state,29599,3314,3045,19455,17.03,12,2024
+UT,City of Murray - (UT),13137,name+state,15879,1178,1178,16903,6.97,12,2024
+UT,City of Springville - (UT),17845,name+state,9480,736,675,11828,6.22,12,2024
+UT,"Dixie Escalante R E A, Inc",40165,name+state,9884,623,572,24470,2.55,12,2024
+UT,"Empire Electric Assn, Inc",5862,name+state,,42,38,946,4.44,12,2024
+UT,Lehi City Corporation,10879,name+state,5012,1668,1606,29375,5.68,12,2024
+UT,Moon Lake Electric Assn Inc,12866,name+state,3118,378,241,18150,2.08,12,2024
+UT,"Mt Wheeler Power, Inc",13073,name+state,37,0,0,212,0.0,12,2024
+UT,Nephi City Corporation,13388,name+state,3232,95,95,2973,3.2,12,2024
+UT,Pacificorp,14354,name+state,45105,10059,9894,940760,1.07,12,2024
+UT,Provo City Corp,15444,name+state,42681,5099,4989,34914,14.6,12,2024
+UT,Raft Rural Elec Coop Inc,22814,name+state,355,22,20,378,5.82,12,2024
+UT,Strawberry Electric Serv Dist,18206,name+state,484,39,39,4072,0.96,12,2024
+UT,Wells Rural Electric Co,20332,name+state,285,10,8,492,2.03,5,2024
+UT,State Adjustment,,n/a,67746,8549,7147,138785,6.16,12,2024
+UT,State Total,,n/a,256736,34083,31424,1277784,2.67,12,2024
+VA,Appalachian Power Co,733,name+state,523906,44007,34234,465283,9.46,12,2024
+VA,Bristol Virginia Utilities,2248,name+state,25850,2897,2647,13621,21.27,12,2024
+VA,Central Virginia Electric Coop,3291,name+state,24741,1203,1183,34489,3.49,12,2024
+VA,City of Danville - (VA),4794,name+state,45118,4339,3717,34650,12.52,12,2024
+VA,City of Harrisonburg - (VA),8198,name+state,20416,2459,1991,18089,13.59,12,2024
+VA,City of Manassas - (VA),11560,name+state,27567,952,933,13944,6.83,12,2024
+VA,City of Salem - (VA),16558,name+state,13370,1126,1068,11091,10.15,12,2024
+VA,"Northern Neck Elec Coop, Inc",13762,name+state,15668,570,434,17743,3.21,12,2024
+VA,Northern Virginia Elec Coop,13640,name+state,68458,5252,4841,165918,3.17,12,2024
+VA,Powell Valley Electric Coop,15293,name+state,4367,189,145,6571,2.88,12,2024
+VA,Prince George Electric Coop,15410,name+state,14849,1564,1379,11441,13.67,12,2024
+VA,Rappahannock Electric Coop,40228,name+state,145510,9578,7617,167259,5.73,12,2024
+VA,Shenandoah Valley Elec Coop,17066,name+state,57524,3113,2468,85280,3.65,12,2024
+VA,"Southside Electric Coop, Inc",21244,name+state,95105,3968,3630,56735,6.99,12,2024
+VA,Town of Bedford - (VA),1456,name+state,7868,560,464,5949,9.41,12,2024
+VA,Virginia Electric & Power Co,19876,name+state,1222331,368473,329790,2383548,15.46,12,2024
+VA,Virginia Tech Electric Service,19882,name+state,3169,322,321,5796,5.56,12,2024
+VA,State Adjustment,,n/a,168754,11014,9436,149962,7.34,12,2024
+VA,State Total,,n/a,2484571,461586,406298,3647370,12.66,12,2024
+VT,City Of Burlington Electric - Vt,,unmatched,27312,308,276,17858,1.72,12,2024
+VT,Green Mountain Power Corp,7601,name+state,419261,8264,7474,229573,3.6,12,2024
+VT,"Vermont Electric Cooperative, Inc",19791,name+state,51817,827,634,35601,2.32,12,2024
+VT,Washington Electric Coop - (VT),20151,name+state,13257,65,45,10894,0.6,12,2024
+VT,State Adjustment,,n/a,17529,1093,745,32102,3.4,12,2024
+VT,State Total,,n/a,529176,10557,9174,326028,3.24,12,2024
+WA,Avista Corp,20169,name+state,63639,11285,9461,252575,4.47,12,2024
+WA,Benton Rural Electric Assn,1625,name+state,2467,167,122,13307,1.25,12,2024
+WA,"Big Bend Electric Coop, Inc",1723,name+state,6453,214,196,5808,3.68,12,2024
+WA,City of Ellensburg - (WA),6149,name+state,5543,244,207,10993,2.22,12,2024
+WA,City of Port Angeles - (WA),15231,name+state,20633,124,62,11048,1.12,12,2024
+WA,City of Richland - (WA),15979,name+state,8073,2532,2266,29002,8.73,12,2024
+WA,City of Seattle - (WA),16868,name+state,69610,14406,14082,424079,3.4,12,2024
+WA,City of Tacoma - (WA),18429,name+state,156975,37882,37640,175582,21.58,12,2024
+WA,"Columbia Rural Elec Assn, Inc",4041,name+state,2071,16,15,4385,0.36,12,2024
+WA,Elmhurst Mutual Power & Light Co,5832,name+state,19790,2538,2393,16159,15.71,12,2024
+WA,Inland Power & Light Company,8699,name+state,5683,1975,1942,34130,5.79,12,2024
+WA,Kootenai Electric Cooperative,10454,name+state,5,0,0,85,0.0,12,2024
+WA,Lakeview Light & Power,10627,name+state,9775,2684,2437,10457,25.67,12,2024
+WA,Modern Electric Water Company,12744,name+state,9220,1756,1740,9036,19.43,12,2024
+WA,Orcas Power & Light Coop,14170,name+state,4461,109,103,14407,0.76,12,2024
+WA,PUD 1 of Snohomish County,17470,name+state,10606,6658,6570,339910,1.96,12,2024
+WA,PUD No 1 Of Clark County - WA,,unmatched,44443,2501,2262,217653,1.15,12,2024
+WA,PUD No 1 of Benton County,1579,name+state,42648,3627,3289,48263,7.52,12,2024
+WA,PUD No 1 of Chelan County - (WA),3413,name+state,12648,527,527,42120,1.25,12,2024
+WA,PUD No 1 of Clallam County,3644,name+state,22518,1681,1610,30475,5.52,12,2024
+WA,PUD No 1 of Cowlitz County,4442,name+state,17245,7774,7722,48267,16.11,12,2024
+WA,PUD No 1 of Franklin County,6716,name+state,59174,2857,2744,29025,9.84,12,2024
+WA,PUD No 1 of Grays Harbor County,7548,name+state,53194,1368,441,45311,3.02,12,2024
+WA,PUD No 1 of Klickitat County,10393,name+state,10823,22,18,11918,0.18,12,2024
+WA,PUD No 1 of Lewis County - (WA),10944,name+state,16648,661,481,36924,1.79,12,2024
+WA,PUD No 1 of Okanogan County,14055,name+state,5315,777,705,18133,4.29,12,2024
+WA,PUD No 1 of Pend Oreille County - (WA),14653,name+state,5631,84,56,9120,0.92,12,2024
+WA,PUD No 2 of Grant County - (WA),14624,name+state,12460,1503,1197,37118,4.05,12,2024
+WA,PUD No 2 of Pacific County,14324,name+state,7922,568,475,16436,3.46,12,2024
+WA,PUD No 3 of Mason County,15419,name+state,30686,570,570,33838,1.68,12,2024
+WA,Pacificorp,14354,name+state,11492,1090,738,115751,0.94,12,2024
+WA,Peninsula Light Company,14668,name+state,28819,397,359,31182,1.27,12,2024
+WA,Puget Sound Energy Inc,15500,name+state,85315,7532,5199,1091599,0.69,12,2024
+WA,Vera Irrigation District #15,19784,name+state,23064,697,412,12133,5.74,12,2024
+WA,State Adjustment,,n/a,42087,5925,4736,97040,6.11,12,2024
+WA,State Total,,n/a,927136,122751,112777,3323267,3.69,12,2024
+WI,Adams-Columbia Electric Coop,108,name+state,6423,473,384,32927,1.44,12,2024
+WI,Algoma Utility Comm,307,name+state,387,13,13,1649,0.79,12,2024
+WI,Barron Electric Coop,1251,name+state,2168,262,224,12320,2.13,12,2024
+WI,Brodhead Water & Lighting Comm,2273,name+state,2642,24,23,1899,1.26,7,2024
+WI,Cedarburg Light & Water Comm,3208,name+state,799,47,47,6120,0.77,6,2024
+WI,City of Black River Falls,1776,name+state,5785,151,147,2900,5.21,7,2024
+WI,City of Boscobel - (WI),1997,name+state,837,57,56,1424,4.0,6,2024
+WI,City of Columbus - (WI),4073,name+state,1465,72,71,2459,2.93,12,2024
+WI,City of Cuba City,4607,name+state,205,4,4,984,0.41,12,2024
+WI,City of Eagle River - (WI),5551,name+state,440,2,2,1052,0.19,2,2024
+WI,City of Evansville,6043,name+state,774,126,100,193,65.28,12,2024
+WI,City of Kaukauna (WI),10056,name+state,4863,248,248,14538,1.71,12,2024
+WI,City of Lodi - (WI),11125,name+state,284,11,11,1488,0.74,12,2024
+WI,City of Marshfield - (WI),11740,name+state,6599,179,176,11927,1.5,12,2024
+WI,City of Menasha - (WI),12298,name+state,18021,590,570,8609,6.85,12,2024
+WI,City of New Holstein - (WI),13448,name+state,309,22,22,2254,0.98,12,2024
+WI,City of New Richmond,13481,name+state,961,56,56,4977,1.13,8,2024
+WI,City of Plymouth - (WI),15159,name+state,2229,177,177,8676,2.04,11,2024
+WI,City of Richland Center - (WI),15978,name+state,494,19,16,2337,0.81,12,2024
+WI,City of River Falls,16082,name+state,160,44,44,6439,0.68,12,2024
+WI,City of Stoughton - (WI),18181,name+state,493,160,146,8134,1.97,12,2024
+WI,City of Sturgeon Bay - (WI),18249,name+state,3065,367,366,9614,3.82,12,2024
+WI,City of Westby,20434,name+state,35,33,29,1256,2.63,12,2024
+WI,Consolidated Water Power Co,4247,name+state,50,8,8,70,11.43,12,2024
+WI,Dahlberg Light & Power Co,4715,name+state,17500,72,61,10939,0.66,12,2024
+WI,Dunn County Electric Coop,5417,name+state,3046,303,280,10596,2.86,12,2024
+WI,East Central Energy,5574,name+state,1923,46,27,5539,0.83,12,2024
+WI,Florence Utility Comm,6424,name+state,135,27,20,1426,1.89,12,2024
+WI,Hartford Electric,8212,name+state,1426,338,223,4117,8.21,12,2024
+WI,Hustisford Utilities,9124,name+state,141,1,1,1626,0.06,12,2024
+WI,Jefferson Utilities,9690,name+state,2125,265,264,4359,6.08,7,2024
+WI,Juneau Utility Comm,9936,name+state,236,74,71,965,7.67,12,2024
+WI,Lake Mills Light & Water,10605,name+state,7213,533,18,,,5,2024
+WI,Madison Gas & Electric Co,11479,name+state,6715,2575,2088,144610,1.78,12,2024
+WI,Manitowoc Public Utilities,11571,name+state,19945,788,779,15713,5.01,12,2024
+WI,New London Electric&Water Util,13467,name+state,948,169,169,4163,4.06,12,2024
+WI,North Central Power Co Inc,13697,name+state,187,14,6,4991,0.28,12,2024
+WI,Northern States Power Co,13780,name+state,135718,12107,10690,220574,5.49,9,2024
+WI,Northwestern Wisconsin Elec Co,13815,name+state,5831,142,158,12965,1.1,12,2024
+WI,Oakdale Electric Coop,13936,name+state,4057,428,375,16215,2.64,12,2024
+WI,Oconomowoc Utilities,13963,name+state,1563,160,158,9878,1.62,12,2024
+WI,Oconto Falls Water & Light Comm,13965,name+state,255,84,83,1674,5.02,10,2024
+WI,Polk-Burnett Electric Coop,15344,name+state,7126,121,83,20378,0.59,12,2024
+WI,Reedsburg Utility Comm,15804,name+state,9968,116,95,4772,2.43,12,2024
+WI,Rock Energy Cooperative,16196,name+state,58,58,54,7310,0.79,7,2024
+WI,Scenic Rivers Energy Coop,16740,name+state,2104,61,45,13609,0.45,12,2024
+WI,Shawano Municipal Utilities,17011,name+state,9380,291,286,4932,5.9,12,2024
+WI,Slinger Utilities,17324,name+state,187,107,107,2552,4.19,12,2024
+WI,Sun Prairie Utilities,18312,name+state,19121,1204,498,18374,6.55,9,2024
+WI,Superior Water and Light Co,18336,name+state,3555,502,467,12952,3.88,12,2024
+WI,Two Rivers Water & Light,19324,name+state,561,108,70,5494,1.97,7,2024
+WI,Village of Mt. Horeb - (WI),13036,name+state,1601,75,75,3601,2.08,12,2024
+WI,Village of Muscoda - (WI),13145,name+state,2205,38,37,1125,3.38,12,2024
+WI,Village of New Glarus - (WI),13438,name+state,554,10,9,1101,0.91,4,2024
+WI,Village of Prairie Du Sac - (WI),15312,name+state,2929,67,67,1923,3.48,7,2024
+WI,Waterloo Light & Water Comm,20182,name+state,544,100,100,1626,6.15,7,2024
+WI,Waupun Utilities,20213,name+state,4322,210,199,3945,5.32,7,2024
+WI,Whitehall Electric Utility,20583,name+state,599,37,37,964,3.84,6,2024
+WI,Wisconsin Electric Power Co,20847,name+state,215473,60877,59251,1039208,5.86,12,2024
+WI,Wisconsin Power & Light Co,20856,name+state,101803,13869,12650,444284,3.12,7,2024
+WI,Wisconsin Public Service Corp,20860,name+state,59901,14007,13805,414076,3.38,12,2024
+WI,Wisconsin Rapids W W & L Comm,20862,name+state,4854,1041,981,12353,8.43,12,2024
+WI,State Adjustment,,n/a,50895,6314,6289,213130,2.96,12,2024
+WI,State Total,,n/a,766192,120484,113616,2842305,4.24,12,2024
+WV,Appalachian Power Co,733,name+state,507599,64766,52253,348946,18.56,12,2024
+WV,Black Diamond Power Co,1764,name+state,927,562,861,3870,14.52,12,2024
+WV,Monongahela Power Co,12796,name+state,195583,12205,9015,334588,3.65,12,2024
+WV,The Potomac Edison Company,15263,name+state,82342,4304,3409,135266,3.18,12,2024
+WV,Wheeling Power Co,20521,name+state,40248,5074,4219,34392,14.75,12,2024
+WV,State Adjustment,,n/a,8888,978,798,9785,9.99,12,2024
+WV,State Total,,n/a,835587,87889,70555,866847,10.14,12,2024
+WY,"Black Hills Power, Inc.",19545,name+state,198,69,49,2018,3.42,7,2024
+WY,Cheyenne Light Fuel & Power,3461,name+state,4755,795,686,39953,1.99,12,2024
+WY,Fall River Rural Elec Coop Inc,6169,name+state,126,0,0,338,0.0,12,2024
+WY,"High West Energy, Inc",27058,name+state,228,39,39,228,17.11,12,2024
+WY,Lower Valley Energy Inc,11273,name+state,18073,9,7,22584,0.04,12,2024
+WY,Montana-Dakota Utilities Co,12199,name+state,258,234,60,14593,1.6,12,2024
+WY,Pacificorp,14354,name+state,8091,1195,950,116560,1.03,12,2024
+WY,Powder River Energy Corp,19156,name+state,24136,317,279,15406,2.06,12,2024
+WY,Yampa Valley Electric Assn Inc,21081,name+state,87,30,28,901,3.33,12,2024
+WY,State Adjustment,,n/a,10297,843,640,71964,1.17,12,2024
+WY,State Total,,n/a,66249,3531,2738,284545,1.24,12,2024

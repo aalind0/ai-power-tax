@@ -1,0 +1,267 @@
+iso,zone,zone_name,states,year,period,nits_rate_usd_per_mw_yr,usd_per_kw_month,as_of,zonal_atrr_usd,source,verified,note,pct_change_vs_2015
+PJM,AECO,Atlantic City Electric,NJ,2015,mid-year (in effect 1 Jul),40731.0,3.39,2015 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,AECO,Atlantic City Electric,NJ,2016,mid-year (in effect 1 Jul),36810.0,3.07,2016 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,-9.6
+PJM,AECO,Atlantic City Electric,NJ,2017,mid-year (in effect 1 Jul),,,2017 (June update),,ETCC compilation of PJM TO formula-rate filings,False,value truncated in ETCC source PDF,
+PJM,AECO,Atlantic City Electric,NJ,2018,mid-year (in effect 1 Jul),53775.0,4.48,2018 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,32.0
+PJM,AECO,Atlantic City Electric,NJ,2019,mid-year (in effect 1 Jul),56171.0,4.68,2019 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,37.9
+PJM,AECO,Atlantic City Electric,NJ,2020,mid-year (in effect 1 Jul),45693.0,3.81,2020 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,12.2
+PJM,AECO,Atlantic City Electric,NJ,2021,mid-year (in effect 1 Jul),66741.0,5.56,2021 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,63.9
+PJM,AECO,Atlantic City Electric,NJ,2022,mid-year (in effect 1 Jul),79876.0,6.66,2022-06-01,,PJM ATRR & NITS rates posting,True,,96.1
+PJM,AECO,Atlantic City Electric,NJ,2023,mid-year (in effect 1 Jul),91559.0,7.63,2023-06-01,,PJM ATRR & NITS rates posting,True,,124.8
+PJM,AECO,Atlantic City Electric,NJ,2024,mid-year (in effect 1 Jul),103398.0,8.62,2024-06-01,,PJM ATRR & NITS rates posting,True,,153.9
+PJM,AECO,Atlantic City Electric,NJ,2025,mid-year (in effect 1 Jul),83665.0,6.97,2025-06-01,,PJM ATRR & NITS rates posting,True,,105.4
+PJM,AECO,Atlantic City Electric,NJ,2026,mid-year (in effect 1 Jul),85511.0,7.13,2026-06-01,231657800.0,PJM ATRR & NITS rates posting,True,,109.9
+PJM,AECO,Atlantic City Electric,NJ,2026,latest (posting as of 2026-10-01),85511.0,7.13,2026-10-01,231657800.0,PJM ATRR & NITS rates posting (latest),True,,109.9
+PJM,AEP,"AEP East (Appalachian Power, Ohio Power, Indiana Michigan, Kentucky Power, Wheeling, Kingsport + AEP transcos)",OH;WV;VA;IN;MI;KY;TN,2015,mid-year (in effect 1 Jul),41438.0,3.45,2015 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,AEP,"AEP East (Appalachian Power, Ohio Power, Indiana Michigan, Kentucky Power, Wheeling, Kingsport + AEP transcos)",OH;WV;VA;IN;MI;KY;TN,2016,mid-year (in effect 1 Jul),41438.0,3.45,2016 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,AEP,"AEP East (Appalachian Power, Ohio Power, Indiana Michigan, Kentucky Power, Wheeling, Kingsport + AEP transcos)",OH;WV;VA;IN;MI;KY;TN,2017,mid-year (in effect 1 Jul),56991.0,4.75,2017 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,37.5
+PJM,AEP,"AEP East (Appalachian Power, Ohio Power, Indiana Michigan, Kentucky Power, Wheeling, Kingsport + AEP transcos)",OH;WV;VA;IN;MI;KY;TN,2018,mid-year (in effect 1 Jul),59818.0,4.98,2018 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,44.4
+PJM,AEP,"AEP East (Appalachian Power, Ohio Power, Indiana Michigan, Kentucky Power, Wheeling, Kingsport + AEP transcos)",OH;WV;VA;IN;MI;KY;TN,2019,mid-year (in effect 1 Jul),65923.0,5.49,2019 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,59.1
+PJM,AEP,"AEP East (Appalachian Power, Ohio Power, Indiana Michigan, Kentucky Power, Wheeling, Kingsport + AEP transcos)",OH;WV;VA;IN;MI;KY;TN,2020,mid-year (in effect 1 Jul),80306.0,6.69,2020 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,93.8
+PJM,AEP,"AEP East (Appalachian Power, Ohio Power, Indiana Michigan, Kentucky Power, Wheeling, Kingsport + AEP transcos)",OH;WV;VA;IN;MI;KY;TN,2021,mid-year (in effect 1 Jul),95598.0,7.97,2021 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,130.7
+PJM,AEP,"AEP East (Appalachian Power, Ohio Power, Indiana Michigan, Kentucky Power, Wheeling, Kingsport + AEP transcos)",OH;WV;VA;IN;MI;KY;TN,2022,mid-year (in effect 1 Jul),110857.47,9.24,2022-06-01,,PJM ATRR & NITS rates posting,True,,167.5
+PJM,AEP,"AEP East (Appalachian Power, Ohio Power, Indiana Michigan, Kentucky Power, Wheeling, Kingsport + AEP transcos)",OH;WV;VA;IN;MI;KY;TN,2023,mid-year (in effect 1 Jul),123924.8,10.33,2023-06-01,,PJM ATRR & NITS rates posting,True,,199.1
+PJM,AEP,"AEP East (Appalachian Power, Ohio Power, Indiana Michigan, Kentucky Power, Wheeling, Kingsport + AEP transcos)",OH;WV;VA;IN;MI;KY;TN,2024,mid-year (in effect 1 Jul),125466.6,10.46,2024-06-01,,PJM ATRR & NITS rates posting,True,,202.8
+PJM,AEP,"AEP East (Appalachian Power, Ohio Power, Indiana Michigan, Kentucky Power, Wheeling, Kingsport + AEP transcos)",OH;WV;VA;IN;MI;KY;TN,2025,mid-year (in effect 1 Jul),130204.25,10.85,2025-06-01,,PJM ATRR & NITS rates posting,True,,214.2
+PJM,AEP,"AEP East (Appalachian Power, Ohio Power, Indiana Michigan, Kentucky Power, Wheeling, Kingsport + AEP transcos)",OH;WV;VA;IN;MI;KY;TN,2026,mid-year (in effect 1 Jul),138848.55,11.57,2026-06-01,3292129176.97,PJM ATRR & NITS rates posting,True,,235.1
+PJM,AEP,"AEP East (Appalachian Power, Ohio Power, Indiana Michigan, Kentucky Power, Wheeling, Kingsport + AEP transcos)",OH;WV;VA;IN;MI;KY;TN,2026,latest (posting as of 2026-10-01),138848.55,11.57,2026-10-01,3292129176.97,PJM ATRR & NITS rates posting (latest),True,,235.1
+PJM,APS,"Allegheny Power (Potomac Edison, Mon Power, West Penn)",PA;MD;WV;VA,2015,mid-year (in effect 1 Jul),17895.0,1.49,2015 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,APS,"Allegheny Power (Potomac Edison, Mon Power, West Penn)",PA;MD;WV;VA,2016,mid-year (in effect 1 Jul),17895.0,1.49,2016 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,APS,"Allegheny Power (Potomac Edison, Mon Power, West Penn)",PA;MD;WV;VA,2017,mid-year (in effect 1 Jul),17895.0,1.49,2017 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,APS,"Allegheny Power (Potomac Edison, Mon Power, West Penn)",PA;MD;WV;VA,2018,mid-year (in effect 1 Jul),17895.0,1.49,2018 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,APS,"Allegheny Power (Potomac Edison, Mon Power, West Penn)",PA;MD;WV;VA,2019,mid-year (in effect 1 Jul),17895.0,1.49,2019 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,APS,"Allegheny Power (Potomac Edison, Mon Power, West Penn)",PA;MD;WV;VA,2020,mid-year (in effect 1 Jul),17895.0,1.49,2020 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,APS,"Allegheny Power (Potomac Edison, Mon Power, West Penn)",PA;MD;WV;VA,2021,mid-year (in effect 1 Jul),13930.0,1.16,2021 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,-22.2
+PJM,APS,"Allegheny Power (Potomac Edison, Mon Power, West Penn)",PA;MD;WV;VA,2022,mid-year (in effect 1 Jul),18162.0,1.51,2022-06-01,,PJM ATRR & NITS rates posting,True,,1.5
+PJM,APS,"Allegheny Power (Potomac Edison, Mon Power, West Penn)",PA;MD;WV;VA,2023,mid-year (in effect 1 Jul),16759.96,1.4,2023-06-01,,PJM ATRR & NITS rates posting,True,,-6.3
+PJM,APS,"Allegheny Power (Potomac Edison, Mon Power, West Penn)",PA;MD;WV;VA,2024,mid-year (in effect 1 Jul),17114.75,1.43,2024-06-01,,PJM ATRR & NITS rates posting,True,,-4.4
+PJM,APS,"Allegheny Power (Potomac Edison, Mon Power, West Penn)",PA;MD;WV;VA,2025,mid-year (in effect 1 Jul),25051.72,2.09,2025-06-01,,PJM ATRR & NITS rates posting,True,,40.0
+PJM,APS,"Allegheny Power (Potomac Edison, Mon Power, West Penn)",PA;MD;WV;VA,2026,mid-year (in effect 1 Jul),28519.21,2.38,2026-06-01,279248994.0,PJM ATRR & NITS rates posting,True,,59.4
+PJM,APS,"Allegheny Power (Potomac Edison, Mon Power, West Penn)",PA;MD;WV;VA,2026,latest (posting as of 2026-10-01),28519.21,2.38,2026-10-01,279248994.0,PJM ATRR & NITS rates posting (latest),True,,59.4
+PJM,ATSI,American Transmission Systems (FirstEnergy Ohio + Penn Power),OH;PA,2015,mid-year (in effect 1 Jul),37014.0,3.08,2015 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,ATSI,American Transmission Systems (FirstEnergy Ohio + Penn Power),OH;PA,2016,mid-year (in effect 1 Jul),43391.0,3.62,2016 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,17.2
+PJM,ATSI,American Transmission Systems (FirstEnergy Ohio + Penn Power),OH;PA,2017,mid-year (in effect 1 Jul),45058.0,3.75,2017 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,21.7
+PJM,ATSI,American Transmission Systems (FirstEnergy Ohio + Penn Power),OH;PA,2018,mid-year (in effect 1 Jul),54689.0,4.56,2018 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,47.8
+PJM,ATSI,American Transmission Systems (FirstEnergy Ohio + Penn Power),OH;PA,2019,mid-year (in effect 1 Jul),55185.0,4.6,2019 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,49.1
+PJM,ATSI,American Transmission Systems (FirstEnergy Ohio + Penn Power),OH;PA,2020,mid-year (in effect 1 Jul),57482.0,4.79,2020 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,55.3
+PJM,ATSI,American Transmission Systems (FirstEnergy Ohio + Penn Power),OH;PA,2021,mid-year (in effect 1 Jul),66399.0,5.53,2021 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,79.4
+PJM,ATSI,American Transmission Systems (FirstEnergy Ohio + Penn Power),OH;PA,2022,mid-year (in effect 1 Jul),67420.78,5.62,2022-06-01,,PJM ATRR & NITS rates posting,True,,82.1
+PJM,ATSI,American Transmission Systems (FirstEnergy Ohio + Penn Power),OH;PA,2023,mid-year (in effect 1 Jul),66479.3,5.54,2023-06-01,,PJM ATRR & NITS rates posting,True,,79.6
+PJM,ATSI,American Transmission Systems (FirstEnergy Ohio + Penn Power),OH;PA,2024,mid-year (in effect 1 Jul),87624.38,7.3,2024-06-01,,PJM ATRR & NITS rates posting,True,,136.7
+PJM,ATSI,American Transmission Systems (FirstEnergy Ohio + Penn Power),OH;PA,2025,mid-year (in effect 1 Jul),88389.94,7.37,2025-06-01,,PJM ATRR & NITS rates posting,True,,138.8
+PJM,ATSI,American Transmission Systems (FirstEnergy Ohio + Penn Power),OH;PA,2026,mid-year (in effect 1 Jul),91371.62,7.61,2026-06-01,1156645895.76,PJM ATRR & NITS rates posting,True,,146.9
+PJM,ATSI,American Transmission Systems (FirstEnergy Ohio + Penn Power),OH;PA,2026,latest (posting as of 2026-10-01),89693.38,7.47,2026-10-01,1135401600.89,PJM ATRR & NITS rates posting (latest),True,,142.3
+PJM,BGE,Baltimore Gas and Electric,MD,2015,mid-year (in effect 1 Jul),25237.0,2.1,2015 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,BGE,Baltimore Gas and Electric,MD,2016,mid-year (in effect 1 Jul),27285.0,2.27,2016 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,8.1
+PJM,BGE,Baltimore Gas and Electric,MD,2017,mid-year (in effect 1 Jul),32851.0,2.74,2017 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,30.2
+PJM,BGE,Baltimore Gas and Electric,MD,2018,mid-year (in effect 1 Jul),35762.0,2.98,2018 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,41.7
+PJM,BGE,Baltimore Gas and Electric,MD,2019,mid-year (in effect 1 Jul),29860.0,2.49,2019 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,18.3
+PJM,BGE,Baltimore Gas and Electric,MD,2020,mid-year (in effect 1 Jul),31311.0,2.61,2020 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,24.1
+PJM,BGE,Baltimore Gas and Electric,MD,2021,mid-year (in effect 1 Jul),40962.0,3.41,2021 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,62.3
+PJM,BGE,Baltimore Gas and Electric,MD,2022,mid-year (in effect 1 Jul),45531.0,3.79,2022-06-01,,PJM ATRR & NITS rates posting,True,,80.4
+PJM,BGE,Baltimore Gas and Electric,MD,2023,mid-year (in effect 1 Jul),46400.0,3.87,2023-06-01,,PJM ATRR & NITS rates posting,True,,83.9
+PJM,BGE,Baltimore Gas and Electric,MD,2024,mid-year (in effect 1 Jul),55851.0,4.65,2024-06-01,,PJM ATRR & NITS rates posting,True,,121.3
+PJM,BGE,Baltimore Gas and Electric,MD,2025,mid-year (in effect 1 Jul),59070.0,4.92,2025-06-01,,PJM ATRR & NITS rates posting,True,,134.1
+PJM,BGE,Baltimore Gas and Electric,MD,2026,mid-year (in effect 1 Jul),56999.0,4.75,2026-06-01,375334975.0,PJM ATRR & NITS rates posting,True,,125.9
+PJM,BGE,Baltimore Gas and Electric,MD,2026,latest (posting as of 2026-10-01),56999.0,4.75,2026-10-01,375334975.0,PJM ATRR & NITS rates posting (latest),True,,125.9
+PJM,ComEd,Commonwealth Edison,IL,2015,mid-year (in effect 1 Jul),31470.0,2.62,2015 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,ComEd,Commonwealth Edison,IL,2016,mid-year (in effect 1 Jul),35544.0,2.96,2016 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,12.9
+PJM,ComEd,Commonwealth Edison,IL,2017,mid-year (in effect 1 Jul),34392.0,2.87,2017 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,9.3
+PJM,ComEd,Commonwealth Edison,IL,2018,mid-year (in effect 1 Jul),34516.0,2.88,2018 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,9.7
+PJM,ComEd,Commonwealth Edison,IL,2019,mid-year (in effect 1 Jul),33116.0,2.76,2019 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,5.2
+PJM,ComEd,Commonwealth Edison,IL,2020,mid-year (in effect 1 Jul),34280.0,2.86,2020 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,8.9
+PJM,ComEd,Commonwealth Edison,IL,2021,mid-year (in effect 1 Jul),37749.0,3.15,2021 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,20.0
+PJM,ComEd,Commonwealth Edison,IL,2022,mid-year (in effect 1 Jul),36069.0,3.01,2022-06-01,,PJM ATRR & NITS rates posting,True,,14.6
+PJM,ComEd,Commonwealth Edison,IL,2023,mid-year (in effect 1 Jul),39796.0,3.32,2023-06-01,,PJM ATRR & NITS rates posting,True,,26.5
+PJM,ComEd,Commonwealth Edison,IL,2024,mid-year (in effect 1 Jul),38531.0,3.21,2024-06-01,,PJM ATRR & NITS rates posting,True,,22.4
+PJM,ComEd,Commonwealth Edison,IL,2025,mid-year (in effect 1 Jul),46025.0,3.84,2025-06-01,,PJM ATRR & NITS rates posting,True,,46.3
+PJM,ComEd,Commonwealth Edison,IL,2026,mid-year (in effect 1 Jul),46876.0,3.91,2026-06-01,970989028.0,PJM ATRR & NITS rates posting,True,,49.0
+PJM,ComEd,Commonwealth Edison,IL,2026,latest (posting as of 2026-10-01),46876.0,3.91,2026-10-01,970989028.0,PJM ATRR & NITS rates posting (latest),True,,49.0
+PJM,DAY,Dayton Power & Light (AES Ohio),OH,2015,mid-year (in effect 1 Jul),13296.0,1.11,2015 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,DAY,Dayton Power & Light (AES Ohio),OH,2016,mid-year (in effect 1 Jul),13296.0,1.11,2016 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,DAY,Dayton Power & Light (AES Ohio),OH,2017,mid-year (in effect 1 Jul),13296.0,1.11,2017 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,DAY,Dayton Power & Light (AES Ohio),OH,2018,mid-year (in effect 1 Jul),13296.0,1.11,2018 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,DAY,Dayton Power & Light (AES Ohio),OH,2019,mid-year (in effect 1 Jul),12561.0,1.05,2019 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,-5.5
+PJM,DAY,Dayton Power & Light (AES Ohio),OH,2020,mid-year (in effect 1 Jul),14456.0,1.2,2020 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,8.7
+PJM,DAY,Dayton Power & Light (AES Ohio),OH,2021,mid-year (in effect 1 Jul),19203.0,1.6,2021 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,44.4
+PJM,DAY,Dayton Power & Light (AES Ohio),OH,2022,mid-year (in effect 1 Jul),18410.22,1.53,2022-06-01,,PJM ATRR & NITS rates posting,True,,38.5
+PJM,DAY,Dayton Power & Light (AES Ohio),OH,2023,mid-year (in effect 1 Jul),18687.35,1.56,2023-06-01,,PJM ATRR & NITS rates posting,True,,40.5
+PJM,DAY,Dayton Power & Light (AES Ohio),OH,2024,mid-year (in effect 1 Jul),32781.54,2.73,2024-06-01,,PJM ATRR & NITS rates posting,True,,146.6
+PJM,DAY,Dayton Power & Light (AES Ohio),OH,2025,mid-year (in effect 1 Jul),45060.48,3.76,2025-06-01,,PJM ATRR & NITS rates posting,True,,238.9
+PJM,DAY,Dayton Power & Light (AES Ohio),OH,2026,mid-year (in effect 1 Jul),54290.7,4.52,2026-06-01,184387513.8,PJM ATRR & NITS rates posting,True,,308.3
+PJM,DAY,Dayton Power & Light (AES Ohio),OH,2026,latest (posting as of 2026-10-01),54742.51,4.56,2026-10-01,184239471.8,PJM ATRR & NITS rates posting (latest),True,,311.7
+PJM,DEOK,Duke Energy Ohio/Kentucky,OH;KY,2015,mid-year (in effect 1 Jul),17039.0,1.42,2015 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,DEOK,Duke Energy Ohio/Kentucky,OH;KY,2016,mid-year (in effect 1 Jul),19881.0,1.66,2016 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,16.7
+PJM,DEOK,Duke Energy Ohio/Kentucky,OH;KY,2017,mid-year (in effect 1 Jul),20055.0,1.67,2017 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,17.7
+PJM,DEOK,Duke Energy Ohio/Kentucky,OH;KY,2018,mid-year (in effect 1 Jul),24077.0,2.01,2018 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,41.3
+PJM,DEOK,Duke Energy Ohio/Kentucky,OH;KY,2019,mid-year (in effect 1 Jul),25840.0,2.15,2019 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,51.7
+PJM,DEOK,Duke Energy Ohio/Kentucky,OH;KY,2020,mid-year (in effect 1 Jul),32143.0,2.68,2020 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,88.6
+PJM,DEOK,Duke Energy Ohio/Kentucky,OH;KY,2021,mid-year (in effect 1 Jul),35136.0,2.93,2021 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,106.2
+PJM,DEOK,Duke Energy Ohio/Kentucky,OH;KY,2022,mid-year (in effect 1 Jul),37718.0,3.14,2022-06-01,,PJM ATRR & NITS rates posting,True,,121.4
+PJM,DEOK,Duke Energy Ohio/Kentucky,OH;KY,2023,mid-year (in effect 1 Jul),40717.0,3.39,2023-06-01,,PJM ATRR & NITS rates posting,True,,139.0
+PJM,DEOK,Duke Energy Ohio/Kentucky,OH;KY,2024,mid-year (in effect 1 Jul),45820.0,3.82,2024-06-01,,PJM ATRR & NITS rates posting,True,,168.9
+PJM,DEOK,Duke Energy Ohio/Kentucky,OH;KY,2025,mid-year (in effect 1 Jul),47248.0,3.94,2025-06-01,,PJM ATRR & NITS rates posting,True,,177.3
+PJM,DEOK,Duke Energy Ohio/Kentucky,OH;KY,2026,mid-year (in effect 1 Jul),52721.0,4.39,2026-06-01,273623291.0,PJM ATRR & NITS rates posting,True,,209.4
+PJM,DEOK,Duke Energy Ohio/Kentucky,OH;KY,2026,latest (posting as of 2026-10-01),51847.0,4.32,2026-10-01,269087300.0,PJM ATRR & NITS rates posting (latest),True,,204.3
+PJM,DOM,Dominion Energy Virginia (Virginia Electric and Power),VA;NC,2015,mid-year (in effect 1 Jul),42902.0,3.58,2015 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,DOM,Dominion Energy Virginia (Virginia Electric and Power),VA;NC,2016,mid-year (in effect 1 Jul),41245.0,3.44,2016 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,-3.9
+PJM,DOM,Dominion Energy Virginia (Virginia Electric and Power),VA;NC,2017,mid-year (in effect 1 Jul),47376.0,3.95,2017 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,10.4
+PJM,DOM,Dominion Energy Virginia (Virginia Electric and Power),VA;NC,2018,mid-year (in effect 1 Jul),52457.0,4.37,2018 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,22.3
+PJM,DOM,Dominion Energy Virginia (Virginia Electric and Power),VA;NC,2019,mid-year (in effect 1 Jul),47471.0,3.96,2019 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,10.6
+PJM,DOM,Dominion Energy Virginia (Virginia Electric and Power),VA;NC,2020,mid-year (in effect 1 Jul),54914.0,4.58,2020 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,28.0
+PJM,DOM,Dominion Energy Virginia (Virginia Electric and Power),VA;NC,2021,mid-year (in effect 1 Jul),61729.0,5.14,2021 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,43.9
+PJM,DOM,Dominion Energy Virginia (Virginia Electric and Power),VA;NC,2022,mid-year (in effect 1 Jul),62645.46,5.22,2022-06-01,,PJM ATRR & NITS rates posting,True,,46.0
+PJM,DOM,Dominion Energy Virginia (Virginia Electric and Power),VA;NC,2023,mid-year (in effect 1 Jul),63208.24,5.27,2023-06-01,,PJM ATRR & NITS rates posting,True,ETCC table shows 64053,47.3
+PJM,DOM,Dominion Energy Virginia (Virginia Electric and Power),VA;NC,2024,mid-year (in effect 1 Jul),68234.51,5.69,2024-06-01,,PJM ATRR & NITS rates posting,True,,59.0
+PJM,DOM,Dominion Energy Virginia (Virginia Electric and Power),VA;NC,2025,mid-year (in effect 1 Jul),75876.81,6.32,2025-06-01,,PJM ATRR & NITS rates posting,True,,76.9
+PJM,DOM,Dominion Energy Virginia (Virginia Electric and Power),VA;NC,2026,mid-year (in effect 1 Jul),85190.65,7.1,2026-06-01,2102343435.98,PJM ATRR & NITS rates posting,True,,98.6
+PJM,DOM,Dominion Energy Virginia (Virginia Electric and Power),VA;NC,2026,latest (posting as of 2026-10-01),85190.65,7.1,2026-10-01,2102343435.98,PJM ATRR & NITS rates posting (latest),True,,98.6
+PJM,DPL,Delmarva Power & Light,DE;MD;VA,2015,mid-year (in effect 1 Jul),34807.0,2.9,2015 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,DPL,Delmarva Power & Light,DE;MD;VA,2016,mid-year (in effect 1 Jul),30298.0,2.52,2016 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,-13.0
+PJM,DPL,Delmarva Power & Light,DE;MD;VA,2017,mid-year (in effect 1 Jul),32938.0,2.74,2017 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,-5.4
+PJM,DPL,Delmarva Power & Light,DE;MD;VA,2018,mid-year (in effect 1 Jul),42812.0,3.57,2018 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,23.0
+PJM,DPL,Delmarva Power & Light,DE;MD;VA,2019,mid-year (in effect 1 Jul),44803.0,3.73,2019 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,28.7
+PJM,DPL,Delmarva Power & Light,DE;MD;VA,2020,mid-year (in effect 1 Jul),33000.0,2.75,2020 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,-5.2
+PJM,DPL,Delmarva Power & Light,DE;MD;VA,2021,mid-year (in effect 1 Jul),46184.0,3.85,2021 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,32.7
+PJM,DPL,Delmarva Power & Light,DE;MD;VA,2022,mid-year (in effect 1 Jul),49476.0,4.12,2022-06-01,,PJM ATRR & NITS rates posting,True,,42.1
+PJM,DPL,Delmarva Power & Light,DE;MD;VA,2023,mid-year (in effect 1 Jul),55166.0,4.6,2023-06-01,,PJM ATRR & NITS rates posting,True,,58.5
+PJM,DPL,Delmarva Power & Light,DE;MD;VA,2024,mid-year (in effect 1 Jul),61897.0,5.16,2024-06-01,,PJM ATRR & NITS rates posting,True,,77.8
+PJM,DPL,Delmarva Power & Light,DE;MD;VA,2025,mid-year (in effect 1 Jul),65833.0,5.49,2025-06-01,,PJM ATRR & NITS rates posting,True,,89.1
+PJM,DPL,Delmarva Power & Light,DE;MD;VA,2026,mid-year (in effect 1 Jul),67517.0,5.63,2026-06-01,283465821.0,PJM ATRR & NITS rates posting,True,,94.0
+PJM,DPL,Delmarva Power & Light,DE;MD;VA,2026,latest (posting as of 2026-10-01),67517.0,5.63,2026-10-01,283465821.0,PJM ATRR & NITS rates posting (latest),True,,94.0
+PJM,DUQ,Duquesne Light,PA,2015,mid-year (in effect 1 Jul),38880.0,3.24,2015 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,DUQ,Duquesne Light,PA,2016,mid-year (in effect 1 Jul),50695.0,4.22,2016 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,30.4
+PJM,DUQ,Duquesne Light,PA,2017,mid-year (in effect 1 Jul),47892.0,3.99,2017 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,23.2
+PJM,DUQ,Duquesne Light,PA,2018,mid-year (in effect 1 Jul),51954.0,4.33,2018 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,33.6
+PJM,DUQ,Duquesne Light,PA,2019,mid-year (in effect 1 Jul),49200.0,4.1,2019 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,26.5
+PJM,DUQ,Duquesne Light,PA,2020,mid-year (in effect 1 Jul),53072.0,4.42,2020 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,36.5
+PJM,DUQ,Duquesne Light,PA,2021,mid-year (in effect 1 Jul),51001.0,4.25,2021 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,31.2
+PJM,DUQ,Duquesne Light,PA,2022,mid-year (in effect 1 Jul),60850.63,5.07,2022-06-01,,PJM ATRR & NITS rates posting,True,,56.5
+PJM,DUQ,Duquesne Light,PA,2023,mid-year (in effect 1 Jul),63330.2,5.28,2023-06-01,,PJM ATRR & NITS rates posting,True,,62.9
+PJM,DUQ,Duquesne Light,PA,2024,mid-year (in effect 1 Jul),63698.77,5.31,2024-06-01,,PJM ATRR & NITS rates posting,True,,63.8
+PJM,DUQ,Duquesne Light,PA,2025,mid-year (in effect 1 Jul),67636.44,5.64,2025-06-01,,PJM ATRR & NITS rates posting,True,,74.0
+PJM,DUQ,Duquesne Light,PA,2026,mid-year (in effect 1 Jul),74004.25,6.17,2026-06-01,199367459.0,PJM ATRR & NITS rates posting,True,,90.3
+PJM,DUQ,Duquesne Light,PA,2026,latest (posting as of 2026-10-01),74004.25,6.17,2026-10-01,199367459.0,PJM ATRR & NITS rates posting (latest),True,,90.3
+PJM,EKPC,East Kentucky Power Cooperative,KY,2015,mid-year (in effect 1 Jul),25753.0,2.15,2015 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,EKPC,East Kentucky Power Cooperative,KY,2016,mid-year (in effect 1 Jul),21334.0,1.78,2016 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,-17.2
+PJM,EKPC,East Kentucky Power Cooperative,KY,2017,mid-year (in effect 1 Jul),26424.0,2.2,2017 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,2.6
+PJM,EKPC,East Kentucky Power Cooperative,KY,2018,mid-year (in effect 1 Jul),24441.0,2.04,2018 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,-5.1
+PJM,EKPC,East Kentucky Power Cooperative,KY,2019,mid-year (in effect 1 Jul),30251.0,2.52,2019 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,17.5
+PJM,EKPC,East Kentucky Power Cooperative,KY,2020,mid-year (in effect 1 Jul),23763.0,1.98,2020 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,-7.7
+PJM,EKPC,East Kentucky Power Cooperative,KY,2021,mid-year (in effect 1 Jul),26038.0,2.17,2021 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,1.1
+PJM,EKPC,East Kentucky Power Cooperative,KY,2022,mid-year (in effect 1 Jul),28271.0,2.36,2022-06-01,,PJM ATRR & NITS rates posting,True,,9.8
+PJM,EKPC,East Kentucky Power Cooperative,KY,2023,mid-year (in effect 1 Jul),34784.0,2.9,2023-06-01,,PJM ATRR & NITS rates posting,True,,35.1
+PJM,EKPC,East Kentucky Power Cooperative,KY,2024,mid-year (in effect 1 Jul),30818.0,2.57,2024-06-01,,PJM ATRR & NITS rates posting,True,,19.7
+PJM,EKPC,East Kentucky Power Cooperative,KY,2025,mid-year (in effect 1 Jul),27020.0,2.25,2025-06-01,,PJM ATRR & NITS rates posting,True,,4.9
+PJM,EKPC,East Kentucky Power Cooperative,KY,2026,mid-year (in effect 1 Jul),26173.0,2.18,2026-06-01,92370242.0,PJM ATRR & NITS rates posting,True,,1.6
+PJM,EKPC,East Kentucky Power Cooperative,KY,2026,latest (posting as of 2026-10-01),25424.0,2.12,2026-10-01,89724603.0,PJM ATRR & NITS rates posting (latest),True,,-1.3
+PJM,JCPL,Jersey Central Power & Light,NJ,2015,mid-year (in effect 1 Jul),15112.0,1.26,2015 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,JCPL,Jersey Central Power & Light,NJ,2016,mid-year (in effect 1 Jul),15112.0,1.26,2016 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,JCPL,Jersey Central Power & Light,NJ,2017,mid-year (in effect 1 Jul),23232.0,1.94,2017 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,53.7
+PJM,JCPL,Jersey Central Power & Light,NJ,2018,mid-year (in effect 1 Jul),23597.0,1.97,2018 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,56.1
+PJM,JCPL,Jersey Central Power & Light,NJ,2019,mid-year (in effect 1 Jul),22588.0,1.88,2019 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,49.5
+PJM,JCPL,Jersey Central Power & Light,NJ,2020,mid-year (in effect 1 Jul),24354.0,2.03,2020 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,61.2
+PJM,JCPL,Jersey Central Power & Light,NJ,2021,mid-year (in effect 1 Jul),27327.0,2.28,2021 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,80.8
+PJM,JCPL,Jersey Central Power & Light,NJ,2022,mid-year (in effect 1 Jul),27008.48,2.25,2022-06-01,,PJM ATRR & NITS rates posting,True,,78.7
+PJM,JCPL,Jersey Central Power & Light,NJ,2023,mid-year (in effect 1 Jul),27303.86,2.28,2023-06-01,,PJM ATRR & NITS rates posting,True,,80.7
+PJM,JCPL,Jersey Central Power & Light,NJ,2024,mid-year (in effect 1 Jul),37937.4,3.16,2024-06-01,,PJM ATRR & NITS rates posting,True,,151.0
+PJM,JCPL,Jersey Central Power & Light,NJ,2025,mid-year (in effect 1 Jul),39842.98,3.32,2025-06-01,,PJM ATRR & NITS rates posting,True,,163.7
+PJM,JCPL,Jersey Central Power & Light,NJ,2026,mid-year (in effect 1 Jul),45900.24,3.83,2026-06-01,287950569.0,PJM ATRR & NITS rates posting,True,,203.7
+PJM,JCPL,Jersey Central Power & Light,NJ,2026,latest (posting as of 2026-10-01),45900.24,3.83,2026-10-01,287950569.0,PJM ATRR & NITS rates posting (latest),True,,203.7
+PJM,ME,Met-Ed (FirstEnergy PA; MAIT),PA,2015,mid-year (in effect 1 Jul),15112.0,1.26,2015 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,ME,Met-Ed (FirstEnergy PA; MAIT),PA,2016,mid-year (in effect 1 Jul),15112.0,1.26,2016 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,ME,Met-Ed (FirstEnergy PA; MAIT),PA,2017,mid-year (in effect 1 Jul),22612.0,1.88,2017 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,49.6
+PJM,ME,Met-Ed (FirstEnergy PA; MAIT),PA,2018,mid-year (in effect 1 Jul),25132.0,2.09,2018 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,66.3
+PJM,ME,Met-Ed (FirstEnergy PA; MAIT),PA,2019,mid-year (in effect 1 Jul),28796.0,2.4,2019 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,90.6
+PJM,ME,Met-Ed (FirstEnergy PA; MAIT),PA,2020,mid-year (in effect 1 Jul),37083.0,3.09,2020 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,145.4
+PJM,ME,Met-Ed (FirstEnergy PA; MAIT),PA,2021,mid-year (in effect 1 Jul),50128.0,4.18,2021 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,231.7
+PJM,ME,Met-Ed (FirstEnergy PA; MAIT),PA,2022,mid-year (in effect 1 Jul),45112.82,3.76,2022-06-01,,PJM ATRR & NITS rates posting,True,,198.5
+PJM,ME,Met-Ed (FirstEnergy PA; MAIT),PA,2023,mid-year (in effect 1 Jul),52088.37,4.34,2023-06-01,,PJM ATRR & NITS rates posting,True,,244.7
+PJM,ME,Met-Ed (FirstEnergy PA; MAIT),PA,2024,mid-year (in effect 1 Jul),73260.14,6.11,2024-06-01,,PJM ATRR & NITS rates posting,True,,384.8
+PJM,ME,Met-Ed (FirstEnergy PA; MAIT),PA,2025,mid-year (in effect 1 Jul),82591.58,6.88,2025-06-01,,PJM ATRR & NITS rates posting,True,,446.5
+PJM,ME,Met-Ed (FirstEnergy PA; MAIT),PA,2026,mid-year (in effect 1 Jul),96066.49,8.01,2026-06-01,567608844.0,PJM ATRR & NITS rates posting,True,,535.7
+PJM,ME,Met-Ed (FirstEnergy PA; MAIT),PA,2026,latest (posting as of 2026-10-01),96066.49,8.01,2026-10-01,567608844.0,PJM ATRR & NITS rates posting (latest),True,,535.7
+PJM,PENELEC,Penelec (FirstEnergy PA; MAIT),PA,2015,mid-year (in effect 1 Jul),15112.0,1.26,2015 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,PENELEC,Penelec (FirstEnergy PA; MAIT),PA,2016,mid-year (in effect 1 Jul),15112.0,1.26,2016 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,PENELEC,Penelec (FirstEnergy PA; MAIT),PA,2017,mid-year (in effect 1 Jul),22612.0,1.88,2017 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,49.6
+PJM,PENELEC,Penelec (FirstEnergy PA; MAIT),PA,2018,mid-year (in effect 1 Jul),25132.0,2.09,2018 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,66.3
+PJM,PENELEC,Penelec (FirstEnergy PA; MAIT),PA,2019,mid-year (in effect 1 Jul),28796.0,2.4,2019 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,90.6
+PJM,PENELEC,Penelec (FirstEnergy PA; MAIT),PA,2020,mid-year (in effect 1 Jul),37083.0,3.09,2020 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,145.4
+PJM,PENELEC,Penelec (FirstEnergy PA; MAIT),PA,2021,mid-year (in effect 1 Jul),50128.0,4.18,2021 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,231.7
+PJM,PENELEC,Penelec (FirstEnergy PA; MAIT),PA,2022,mid-year (in effect 1 Jul),45112.82,3.76,2022-06-01,,PJM ATRR & NITS rates posting,True,,198.5
+PJM,PENELEC,Penelec (FirstEnergy PA; MAIT),PA,2023,mid-year (in effect 1 Jul),52088.37,4.34,2023-06-01,,PJM ATRR & NITS rates posting,True,,244.7
+PJM,PENELEC,Penelec (FirstEnergy PA; MAIT),PA,2024,mid-year (in effect 1 Jul),73260.14,6.11,2024-06-01,,PJM ATRR & NITS rates posting,True,,384.8
+PJM,PENELEC,Penelec (FirstEnergy PA; MAIT),PA,2025,mid-year (in effect 1 Jul),82591.58,6.88,2025-06-01,,PJM ATRR & NITS rates posting,True,,446.5
+PJM,PENELEC,Penelec (FirstEnergy PA; MAIT),PA,2026,mid-year (in effect 1 Jul),96066.49,8.01,2026-06-01,,PJM ATRR & NITS rates posting,True,,535.7
+PJM,PENELEC,Penelec (FirstEnergy PA; MAIT),PA,2026,latest (posting as of 2026-10-01),96066.49,8.01,2026-10-01,,PJM ATRR & NITS rates posting (latest),True,,535.7
+PJM,OVEC,Ohio Valley Electric Corp,OH;IN,2022,mid-year (in effect 1 Jul),5163.73,0.43,2022-06-01,,PJM ATRR & NITS rates posting,True,,
+PJM,OVEC,Ohio Valley Electric Corp,OH;IN,2023,mid-year (in effect 1 Jul),5163.73,0.43,2023-06-01,,PJM ATRR & NITS rates posting,True,,
+PJM,OVEC,Ohio Valley Electric Corp,OH;IN,2024,mid-year (in effect 1 Jul),5163.73,0.43,2024-06-01,,PJM ATRR & NITS rates posting,True,,
+PJM,OVEC,Ohio Valley Electric Corp,OH;IN,2025,mid-year (in effect 1 Jul),5163.73,0.43,2025-06-01,,PJM ATRR & NITS rates posting,True,,
+PJM,OVEC,Ohio Valley Electric Corp,OH;IN,2026,mid-year (in effect 1 Jul),5163.73,0.43,2026-06-01,11256927.0,PJM ATRR & NITS rates posting,True,,
+PJM,OVEC,Ohio Valley Electric Corp,OH;IN,2026,latest (posting as of 2026-10-01),5163.73,0.43,2026-10-01,11256927.0,PJM ATRR & NITS rates posting (latest),True,,
+PJM,PECO,PECO Energy,PA,2015,mid-year (in effect 1 Jul),20942.0,1.75,2015 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,PECO,PECO Energy,PA,2016,mid-year (in effect 1 Jul),20942.0,1.75,2016 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,PECO,PECO Energy,PA,2017,mid-year (in effect 1 Jul),20942.0,1.75,2017 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,PECO,PECO Energy,PA,2018,mid-year (in effect 1 Jul),19093.0,1.59,2018 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,-8.8
+PJM,PECO,PECO Energy,PA,2019,mid-year (in effect 1 Jul),18922.0,1.58,2019 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,-9.6
+PJM,PECO,PECO Energy,PA,2020,mid-year (in effect 1 Jul),16022.0,1.34,2020 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,-23.5
+PJM,PECO,PECO Energy,PA,2021,mid-year (in effect 1 Jul),19517.0,1.63,2021 (June update),,ETCC compilation of PJM TO formula-rate filings,True,,-6.8
+PJM,PECO,PECO Energy,PA,2022,mid-year (in effect 1 Jul),22998.0,1.92,2022-06-01,,PJM ATRR & NITS rates posting,True,,9.8
+PJM,PECO,PECO Energy,PA,2023,mid-year (in effect 1 Jul),25648.0,2.14,2023-06-01,,PJM ATRR & NITS rates posting,True,,22.5
+PJM,PECO,PECO Energy,PA,2024,mid-year (in effect 1 Jul),25611.0,2.13,2024-06-01,,PJM ATRR & NITS rates posting,True,,22.3
+PJM,PECO,PECO Energy,PA,2025,mid-year (in effect 1 Jul),25634.0,2.14,2025-06-01,,PJM ATRR & NITS rates posting,True,,22.4
+PJM,PECO,PECO Energy,PA,2026,mid-year (in effect 1 Jul),29542.0,2.46,2026-06-01,247544537.0,PJM ATRR & NITS rates posting,True,,41.1
+PJM,PECO,PECO Energy,PA,2026,latest (posting as of 2026-10-01),29542.0,2.46,2026-10-01,247544537.0,PJM ATRR & NITS rates posting (latest),True,,41.1
+PJM,PEPCO,Potomac Electric Power,DC;MD,2015,mid-year (in effect 1 Jul),26521.0,2.21,2015 (Jan/Jun update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,PEPCO,Potomac Electric Power,DC;MD,2016,mid-year (in effect 1 Jul),23232.0,1.94,2016 (Jan/Jun update),,ETCC compilation of PJM TO formula-rate filings,True,,-12.4
+PJM,PEPCO,Potomac Electric Power,DC;MD,2017,mid-year (in effect 1 Jul),25229.0,2.1,2017 (Jan/Jun update),,ETCC compilation of PJM TO formula-rate filings,True,,-4.9
+PJM,PEPCO,Potomac Electric Power,DC;MD,2018,mid-year (in effect 1 Jul),31304.0,2.61,2018 (Jan/Jun update),,ETCC compilation of PJM TO formula-rate filings,True,,18.0
+PJM,PEPCO,Potomac Electric Power,DC;MD,2019,mid-year (in effect 1 Jul),33874.0,2.82,2019 (Jan/Jun update),,ETCC compilation of PJM TO formula-rate filings,True,,27.7
+PJM,PEPCO,Potomac Electric Power,DC;MD,2020,mid-year (in effect 1 Jul),28022.0,2.34,2020 (Jan/Jun update),,ETCC compilation of PJM TO formula-rate filings,True,,5.7
+PJM,PEPCO,Potomac Electric Power,DC;MD,2021,mid-year (in effect 1 Jul),31497.0,2.62,2021 (Jan/Jun update),,ETCC compilation of PJM TO formula-rate filings,True,,18.8
+PJM,PEPCO,Potomac Electric Power,DC;MD,2022,mid-year (in effect 1 Jul),37201.24,3.1,2022-06-01,,PJM ATRR & NITS rates posting,True,ETCC table shows 37199,40.3
+PJM,PEPCO,Potomac Electric Power,DC;MD,2023,mid-year (in effect 1 Jul),42674.83,3.56,2023-06-01,,PJM ATRR & NITS rates posting,True,,60.9
+PJM,PEPCO,Potomac Electric Power,DC;MD,2024,mid-year (in effect 1 Jul),54820.88,4.57,2024-06-01,,PJM ATRR & NITS rates posting,True,,106.7
+PJM,PEPCO,Potomac Electric Power,DC;MD,2025,mid-year (in effect 1 Jul),60516.97,5.04,2025-06-01,,PJM ATRR & NITS rates posting,True,,128.2
+PJM,PEPCO,Potomac Electric Power,DC;MD,2026,mid-year (in effect 1 Jul),60491.36,5.04,2026-06-01,363883639.0,PJM ATRR & NITS rates posting,True,,128.1
+PJM,PEPCO,Potomac Electric Power,DC;MD,2026,latest (posting as of 2026-10-01),60491.36,5.04,2026-10-01,363883639.0,PJM ATRR & NITS rates posting (latest),True,,128.1
+PJM,PPL,PPL Electric Utilities,PA,2015,mid-year (in effect 1 Jul),34595.0,2.88,2015 (Jan/Jun update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,PPL,PPL Electric Utilities,PA,2016,mid-year (in effect 1 Jul),41952.0,3.5,2016 (Jan/Jun update),,ETCC compilation of PJM TO formula-rate filings,True,,21.3
+PJM,PPL,PPL Electric Utilities,PA,2017,mid-year (in effect 1 Jul),61792.0,5.15,2017 (Jan/Jun update),,ETCC compilation of PJM TO formula-rate filings,True,,78.6
+PJM,PPL,PPL Electric Utilities,PA,2018,mid-year (in effect 1 Jul),58865.0,4.91,2018 (Jan/Jun update),,ETCC compilation of PJM TO formula-rate filings,True,,70.2
+PJM,PPL,PPL Electric Utilities,PA,2019,mid-year (in effect 1 Jul),68031.0,5.67,2019 (Jan/Jun update),,ETCC compilation of PJM TO formula-rate filings,True,,96.6
+PJM,PPL,PPL Electric Utilities,PA,2020,mid-year (in effect 1 Jul),75204.0,6.27,2020 (Jan/Jun update),,ETCC compilation of PJM TO formula-rate filings,True,,117.4
+PJM,PPL,PPL Electric Utilities,PA,2021,mid-year (in effect 1 Jul),90836.0,7.57,2021 (Jan/Jun update),,ETCC compilation of PJM TO formula-rate filings,True,,162.6
+PJM,PPL,PPL Electric Utilities,PA,2022,mid-year (in effect 1 Jul),88606.0,7.38,2022-06-01,,PJM ATRR & NITS rates posting,True,,156.1
+PJM,PPL,PPL Electric Utilities,PA,2023,mid-year (in effect 1 Jul),95644.0,7.97,2023-06-01,,PJM ATRR & NITS rates posting,True,,176.5
+PJM,PPL,PPL Electric Utilities,PA,2024,mid-year (in effect 1 Jul),104055.0,8.67,2024-06-01,,PJM ATRR & NITS rates posting,True,,200.8
+PJM,PPL,PPL Electric Utilities,PA,2025,mid-year (in effect 1 Jul),108778.0,9.06,2025-06-01,,PJM ATRR & NITS rates posting,True,,214.4
+PJM,PPL,PPL Electric Utilities,PA,2026,mid-year (in effect 1 Jul),112973.0,9.41,2026-06-01,906528971.0407693,PJM ATRR & NITS rates posting,True,,226.6
+PJM,PPL,PPL Electric Utilities,PA,2026,latest (posting as of 2026-10-01),111751.0,9.31,2026-10-01,896685877.0,PJM ATRR & NITS rates posting (latest),True,,223.0
+PJM,PSEG,Public Service Electric & Gas,NJ,2015,mid-year (in effect 1 Jul),96521.0,8.04,2015 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,PSEG,Public Service Electric & Gas,NJ,2016,mid-year (in effect 1 Jul),110916.0,9.24,2016 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,14.9
+PJM,PSEG,Public Service Electric & Gas,NJ,2017,mid-year (in effect 1 Jul),120931.0,10.08,2017 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,25.3
+PJM,PSEG,Public Service Electric & Gas,NJ,2018,mid-year (in effect 1 Jul),130535.0,10.88,2018 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,35.2
+PJM,PSEG,Public Service Electric & Gas,NJ,2019,mid-year (in effect 1 Jul),119736.0,9.98,2019 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,24.1
+PJM,PSEG,Public Service Electric & Gas,NJ,2020,mid-year (in effect 1 Jul),156503.0,13.04,2020 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,62.1
+PJM,PSEG,Public Service Electric & Gas,NJ,2021,mid-year (in effect 1 Jul),172190.0,14.35,2021 (January update),,ETCC compilation of PJM TO formula-rate filings,True,,78.4
+PJM,PSEG,Public Service Electric & Gas,NJ,2022,mid-year (in effect 1 Jul),159248.37,13.27,2022-06-01,,PJM ATRR & NITS rates posting,True,,65.0
+PJM,PSEG,Public Service Electric & Gas,NJ,2023,mid-year (in effect 1 Jul),164718.69,13.73,2023-06-01,,PJM ATRR & NITS rates posting,True,,70.7
+PJM,PSEG,Public Service Electric & Gas,NJ,2024,mid-year (in effect 1 Jul),180897.79,15.07,2024-06-01,,PJM ATRR & NITS rates posting,True,,87.4
+PJM,PSEG,Public Service Electric & Gas,NJ,2025,mid-year (in effect 1 Jul),176708.98,14.73,2025-06-01,,PJM ATRR & NITS rates posting,True,,83.1
+PJM,PSEG,Public Service Electric & Gas,NJ,2026,mid-year (in effect 1 Jul),183352.99,15.28,2026-06-01,1875609415.0,PJM ATRR & NITS rates posting,True,,90.0
+PJM,PSEG,Public Service Electric & Gas,NJ,2026,latest (posting as of 2026-10-01),183352.99,15.28,2026-10-01,1875609415.0,PJM ATRR & NITS rates posting (latest),True,,90.0
+PJM,RECO,Rockland Electric,NJ,2015,mid-year (in effect 1 Jul),32114.0,2.68,2015 (STATED update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,RECO,Rockland Electric,NJ,2016,mid-year (in effect 1 Jul),32114.0,2.68,2016 (STATED update),,ETCC compilation of PJM TO formula-rate filings,True,,0.0
+PJM,RECO,Rockland Electric,NJ,2017,mid-year (in effect 1 Jul),49695.0,4.14,2017 (STATED update),,ETCC compilation of PJM TO formula-rate filings,True,,54.7
+PJM,RECO,Rockland Electric,NJ,2018,mid-year (in effect 1 Jul),44799.0,3.73,2018 (STATED update),,ETCC compilation of PJM TO formula-rate filings,True,,39.5
+PJM,RECO,Rockland Electric,NJ,2019,mid-year (in effect 1 Jul),42548.0,3.55,2019 (STATED update),,ETCC compilation of PJM TO formula-rate filings,True,,32.5
+PJM,RECO,Rockland Electric,NJ,2020,mid-year (in effect 1 Jul),42548.0,3.55,2020 (STATED update),,ETCC compilation of PJM TO formula-rate filings,True,,32.5
+PJM,RECO,Rockland Electric,NJ,2021,mid-year (in effect 1 Jul),42458.0,3.54,2021 (STATED update),,ETCC compilation of PJM TO formula-rate filings,True,,32.2
+PJM,RECO,Rockland Electric,NJ,2022,mid-year (in effect 1 Jul),42548.0,3.55,2022-06-01,,PJM ATRR & NITS rates posting,True,ETCC table shows 51530,32.5
+PJM,RECO,Rockland Electric,NJ,2023,mid-year (in effect 1 Jul),51530.0,4.29,2023-06-01,,PJM ATRR & NITS rates posting,True,,60.5
+PJM,RECO,Rockland Electric,NJ,2024,mid-year (in effect 1 Jul),53766.0,4.48,2024-06-01,,PJM ATRR & NITS rates posting,True,,67.4
+PJM,RECO,Rockland Electric,NJ,2025,mid-year (in effect 1 Jul),53766.0,4.48,2025-06-01,,PJM ATRR & NITS rates posting,True,,67.4
+PJM,RECO,Rockland Electric,NJ,2026,mid-year (in effect 1 Jul),53766.0,4.48,2026-06-01,20700000.0,PJM ATRR & NITS rates posting,True,,67.4
+PJM,RECO,Rockland Electric,NJ,2026,latest (posting as of 2026-10-01),53766.0,4.48,2026-10-01,20700000.0,PJM ATRR & NITS rates posting (latest),True,,67.4

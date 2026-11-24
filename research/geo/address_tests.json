@@ -1,0 +1,368 @@
+{
+ "run_at": "2026-11-23T20:43:51.579Z",
+ "origin_header_sent": "https://example.org",
+ "results": [
+  {
+   "address": "21715 Filigree Ct, Ashburn, VA 20147",
+   "label": "Ashburn VA (Equinix DC campus)",
+   "census": {
+    "status": 200,
+    "ms": 238,
+    "cors_acao": null,
+    "locations_status": 200,
+    "locations_ms": 170,
+    "lng": -77.457841872855,
+    "lat": 39.014362866764,
+    "matched": "21715 FILIGREE CT, ASHBURN, VA, 20147",
+    "county_fips": "51107",
+    "county": "Loudoun County",
+    "zip": "20147"
+   },
+   "photon": {
+    "status": 200,
+    "ms": 515,
+    "cors_acao": "*",
+    "lng": -77.4587688,
+    "lat": 39.0163342,
+    "label": "Equinix DC2 21715 Filigree Court Ashburn 20147"
+   },
+   "census_vs_photon_km": "0.233",
+   "best_guess": {
+    "id": "19876",
+    "name": "VIRGINIA ELECTRIC & POWER CO",
+    "res": 2517958,
+    "inZip": true
+   },
+   "ranked_candidates": [
+    {
+     "id": "19876",
+     "name": "VIRGINIA ELECTRIC & POWER CO",
+     "res": 2517958,
+     "inZip": true
+    }
+   ],
+   "territories_pip": [
+    "VIRGINIA ELECTRIC & POWER CO [19876, Investor Owned]"
+   ],
+   "iso_pip": [
+    "PJM"
+   ],
+   "zip": "20147",
+   "zip_fallback": [
+    "Virginia Electric & Power Co [19876, Bundled, res 0.15197]",
+    "Virginia Electric & Power Co [19876, Delivery, res ]"
+   ],
+   "county_fallback": [
+    "Northern Virginia Elec Coop [13640]",
+    "Virginia Electric & Power Co [19876]"
+   ]
+  },
+  {
+   "address": "1 Capitol Square, Columbus, OH 43215",
+   "label": "Columbus OH (Ohio Statehouse)",
+   "census": {
+    "status": 200,
+    "ms": 175,
+    "cors_acao": null,
+    "locations_status": 200,
+    "locations_ms": 164
+   },
+   "photon": {
+    "status": 200,
+    "ms": 479,
+    "cors_acao": "*",
+    "lng": -82.9983197,
+    "lat": 39.959776,
+    "label": "Capitol Square 65 East State Street Columbus 43215"
+   },
+   "census_vs_photon_km": null,
+   "best_guess": {
+    "id": "4065",
+    "name": "CITY OF COLUMBUS - (OH)",
+    "res": 15346,
+    "inZip": true
+   },
+   "ranked_candidates": [
+    {
+     "id": "4065",
+     "name": "CITY OF COLUMBUS - (OH)",
+     "res": 15346,
+     "inZip": true
+    },
+    {
+     "id": "14006",
+     "name": "OHIO POWER CO",
+     "res": 537711,
+     "inZip": false
+    }
+   ],
+   "territories_pip": [
+    "OHIO POWER CO [14006, Investor Owned]",
+    "CITY OF COLUMBUS - (OH) [4065, Municipal]"
+   ],
+   "iso_pip": [
+    "PJM"
+   ],
+   "zip": "43215",
+   "zip_fallback": [
+    "City of Columbus - (OH) [4065, Bundled, res 0.12973]"
+   ],
+   "county_fallback": []
+  },
+  {
+   "address": "206 Washington St SW, Atlanta, GA 30334",
+   "label": "Atlanta GA (Georgia State Capitol)",
+   "census": {
+    "status": 200,
+    "ms": 195,
+    "cors_acao": null,
+    "locations_status": 200,
+    "locations_ms": 191,
+    "lng": -84.388565089734,
+    "lat": 33.74979815619,
+    "matched": "206 WASHINGTON ST SW, ATLANTA, GA, 30334",
+    "county_fips": "13121",
+    "county": "Fulton County",
+    "zip": "30334"
+   },
+   "photon": {
+    "status": 200,
+    "ms": 454,
+    "cors_acao": "*",
+    "lng": -84.3881711,
+    "lat": 33.7490553,
+    "label": "The Georgia State Capitol 206 Washington Street Southwest Atlanta 30334"
+   },
+   "census_vs_photon_km": "0.090",
+   "best_guess": {
+    "id": "7140",
+    "name": "GEORGIA POWER CO",
+    "res": 2480484,
+    "inZip": true
+   },
+   "ranked_candidates": [
+    {
+     "id": "7140",
+     "name": "GEORGIA POWER CO",
+     "res": 2480484,
+     "inZip": true
+    }
+   ],
+   "territories_pip": [
+    "GEORGIA POWER CO [7140, Investor Owned]"
+   ],
+   "iso_pip": [],
+   "zip": "30334",
+   "zip_fallback": [
+    "Georgia Power Co [7140, Bundled, res 0.16279]"
+   ],
+   "county_fallback": [
+    "Cobb Electric Membership Corp [3916]",
+    "City of College Park - (GA) [3939]",
+    "Coweta-Fayette El Member Corp [4432]",
+    "City of East Point - (GA) [5582]",
+    "City of Fairburn - (GA) [6130]",
+    "GreyStone Power Corporation [7090]",
+    "Georgia Power Co [7140]",
+    "City of Palmetto - (GA) [14396]",
+    "Sawnee Electric Membership Corporation [16865]"
+   ]
+  },
+  {
+   "address": "1700 W Washington St, Phoenix, AZ 85007",
+   "label": "Phoenix AZ (Arizona State Capitol)",
+   "census": {
+    "status": 200,
+    "ms": 184,
+    "cors_acao": null,
+    "locations_status": 200,
+    "locations_ms": 186,
+    "lng": -112.098251192919,
+    "lat": 33.448174841255,
+    "matched": "1700 W WASHINGTON ST, PHOENIX, AZ, 85007",
+    "county_fips": "04013",
+    "county": "Maricopa County",
+    "zip": "85007"
+   },
+   "photon": {
+    "status": 200,
+    "ms": 378,
+    "cors_acao": "*",
+    "lng": -112.0966244,
+    "lat": 33.4486295,
+    "label": "Arizona State House of Representatives 1700 Washington Phoenix 85007"
+   },
+   "census_vs_photon_km": "0.159",
+   "best_guess": {
+    "id": "803",
+    "name": "ARIZONA PUBLIC SERVICE CO",
+    "res": 1287097,
+    "inZip": true
+   },
+   "ranked_candidates": [
+    {
+     "id": "803",
+     "name": "ARIZONA PUBLIC SERVICE CO",
+     "res": 1287097,
+     "inZip": true
+    },
+    {
+     "id": "12351",
+     "name": "CITY OF MESA - (AZ)",
+     "res": 15507,
+     "inZip": false
+    },
+    {
+     "id": "19604",
+     "name": "USBIA-SAN CARLOS PROJECT",
+     "res": 12018,
+     "inZip": false
+    },
+    {
+     "id": "65261",
+     "name": "GILA RIVER INDIAN UTILITY AUTHORITY (GRICUA)",
+     "res": 2707,
+     "inZip": false
+    },
+    {
+     "id": "13961",
+     "name": "OCOTILLO WATER CONSERV. DIST.",
+     "res": 0,
+     "inZip": false
+    },
+    {
+     "id": "14543",
+     "name": "TOHONO O'ODHAM UTILITY AUTHORITY",
+     "res": 0,
+     "inZip": false
+    },
+    {
+     "id": "19016",
+     "name": "TONOPAH IRRIGATION DISTRICT",
+     "res": 0,
+     "inZip": false
+    },
+    {
+     "id": "2469",
+     "name": "BUCKEYE WATER C&D DISTRICT",
+     "res": 0,
+     "inZip": false
+    },
+    {
+     "id": "27000",
+     "name": "WAPA-- WESTERN AREA POWER ADMINISTRATION",
+     "res": 0,
+     "inZip": false
+    },
+    {
+     "id": "40355",
+     "name": "MARICOPA COUNTY M W C DIST #1",
+     "res": 0,
+     "inZip": false
+    },
+    {
+     "id": "5729",
+     "name": "ELECTRICAL DIST NO8 MARICOPA",
+     "res": 0,
+     "inZip": false
+    },
+    {
+     "id": "8139",
+     "name": "HARQUAHALA VALLEY PWR DISTRICT",
+     "res": 0,
+     "inZip": false
+    }
+   ],
+   "territories_pip": [
+    "CITY OF MESA - (AZ) [12351, Municipal]",
+    "OCOTILLO WATER CONSERV. DIST. [13961, Political Subdivision]",
+    "TOHONO O'ODHAM UTILITY AUTHORITY [14543, Political Subdivision]",
+    "TONOPAH IRRIGATION DISTRICT [19016, Political Subdivision]",
+    "USBIA-SAN CARLOS PROJECT [19604, Federal]",
+    "BUCKEYE WATER C&D DISTRICT [2469, Political Subdivision]",
+    "WAPA-- WESTERN AREA POWER ADMINISTRATION [27000, Federal]",
+    "MARICOPA COUNTY M W C DIST #1 [40355, Political Subdivision]",
+    "ELECTRICAL DIST NO8 MARICOPA [5729, Political Subdivision]",
+    "GILA RIVER INDIAN UTILITY AUTHORITY (GRICUA) [65261, Cooperative]",
+    "ARIZONA PUBLIC SERVICE CO [803, Investor Owned]",
+    "HARQUAHALA VALLEY PWR DISTRICT [8139, Political Subdivision]"
+   ],
+   "iso_pip": [],
+   "zip": "85007",
+   "zip_fallback": [
+    "Arizona Public Service Co [803, Bundled, res 0.17031]",
+    "Salt River Project [16572, Bundled, res 0.13976]"
+   ],
+   "county_fallback": [
+    "Arizona Public Service Co [803]",
+    "Buckeye Water C&D District [2469]",
+    "Electrical Dist No8 Maricopa [5729]",
+    "Harquahala Valley Pwr District [8139]",
+    "City of Mesa - (AZ) [12351]",
+    "Ocotillo Water Conserv. Dist. [13961]",
+    "Tohono O'Odham Utility Authority [14543]",
+    "Salt River Project [16572]",
+    "USBIA-San Carlos Project [19604]",
+    "Town of Wickenburg [20618]",
+    "WAPA-- Western Area Power Administration [27000]",
+    "Maricopa County M W C Dist #1 [40355]",
+    "Gila River Indian Utility Authority (GRICUA) [65261]"
+   ]
+  },
+  {
+   "address": "1400 John F Kennedy Blvd, Philadelphia, PA 19107",
+   "label": "Philadelphia PA (City Hall)",
+   "census": {
+    "status": 200,
+    "ms": 1211,
+    "cors_acao": null,
+    "locations_status": 200,
+    "locations_ms": 181,
+    "lng": -75.163410120237,
+    "lat": 39.953309151422,
+    "matched": "1400 JOHN F KENNEDY BLVD, PHILADELPHIA, PA, 19107",
+    "county_fips": "42101",
+    "county": "Philadelphia County",
+    "zip": "19107"
+   },
+   "photon": {
+    "status": 200,
+    "ms": 431,
+    "cors_acao": "*",
+    "lng": -75.1643762,
+    "lat": 39.953206,
+    "label": "Dilworth Park Café 1400 John F. Kennedy Boulevard Philadelphia 19107"
+   },
+   "census_vs_photon_km": "0.083",
+   "best_guess": {
+    "id": "14940",
+    "name": "PECO ENERGY CO",
+    "res": 1225334,
+    "inZip": true
+   },
+   "ranked_candidates": [
+    {
+     "id": "14940",
+     "name": "PECO ENERGY CO",
+     "res": 1225334,
+     "inZip": true
+    }
+   ],
+   "territories_pip": [
+    "PECO ENERGY CO [14940, Investor Owned]"
+   ],
+   "iso_pip": [
+    "PJM"
+   ],
+   "zip": "19107",
+   "zip_fallback": [
+    "PECO Energy Co [14940, Bundled, res 0.18016]",
+    "PECO Energy Co [14940, Delivery, res 0.1049]"
+   ],
+   "county_fallback": [
+    "PECO Energy Co [14940]",
+    "Philadelphia Authority for Industrial Development [61353]"
+   ]
+  }
+ ]
+}

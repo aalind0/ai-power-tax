@@ -1,0 +1,180 @@
+{
+  "description": "Data-center share of national (or regional) electricity consumption, realized/measured where available. Comparable only loosely: definitions (colocation/hyperscale vs enterprise), metering basis and denominators differ.",
+  "generated_by": "scripts/load/build_disclosures_international.py",
+  "points": [
+    {
+      "country": "Ireland",
+      "iso2": "IE",
+      "year": 2025,
+      "dc_twh": 7.663,
+      "total_twh": 32.986,
+      "dc_share_pct": 23,
+      "series": {
+        "2015": 5,
+        "2016": 6,
+        "2017": 7,
+        "2018": 8,
+        "2019": 9,
+        "2020": 11,
+        "2021": 14,
+        "2022": 18,
+        "2023": 21,
+        "2024": 22,
+        "2025": 23
+      },
+      "series_dc_gwh": {
+        "2015": 1240,
+        "2019": 2490,
+        "2023": 6339,
+        "2024": 6973,
+        "2025": 7663
+      },
+      "basis": "Metered electricity consumption (CSO identifies data-centre meters by operator name, industry reports, high-consumption checks)",
+      "source": "Central Statistics Office (CSO), Data Centres Metered Electricity Consumption 2025, released 7 July 2026",
+      "source_url": "https://www.cso.ie/en/releasesandpublications/ep/p-dcmec/datacentresmeteredelectricityconsumption2025/keyfindings/",
+      "note": "Data centres 23% vs all urban households 18% and rural households 9%. DC use +10% in 2025 vs +2% for all other users.",
+      "verified": true
+    },
+    {
+      "country": "Netherlands",
+      "iso2": "NL",
+      "year": 2025,
+      "dc_twh": 5.664,
+      "dc_share_pct": 5.0,
+      "series": {
+        "2017": 1.5,
+        "2018": 2.1,
+        "2019": 2.4,
+        "2020": 2.8,
+        "2021": 3.3,
+        "2022": 4.0,
+        "2023": 4.2,
+        "2024": 4.6,
+        "2025": 5.0
+      },
+      "basis": "Electricity supplied to ~200 data centres (CBS); ~50 sites >=10 GWh/yr use ~90%. Excludes in-house DCs of universities/hospitals (est. 142 GWh).",
+      "source": "Statistics Netherlands (CBS), news release 18 Nov 2026 (2025 provisional)",
+      "source_url": "https://www.cbs.nl/en-gb/news/2026/47/data-centres-consume-5-percent-of-the-netherlands-electricity",
+      "verified": true
+    },
+    {
+      "country": "Germany",
+      "iso2": "DE",
+      "year": 2024,
+      "dc_twh": 20.0,
+      "dc_share_pct": 4.2,
+      "basis": "Eurostat services energy consumption (data centres), as compiled by CBS",
+      "source": "CBS (18 Nov 2026) citing Eurostat nrg_d_serq_n and nrg_cb_e",
+      "source_url": "https://www.cbs.nl/en-gb/news/2026/47/data-centres-consume-5-percent-of-the-netherlands-electricity",
+      "verified": true
+    },
+    {
+      "country": "EU comparison (Eurostat via CBS)",
+      "iso2": null,
+      "year": 2024,
+      "shares_pct": {
+        "Ireland": 21.3,
+        "Netherlands": 4.6,
+        "Germany": 4.2,
+        "Finland": 3.1,
+        "Sweden": 2.1,
+        "Belgium": 2.0,
+        "Norway": 1.6,
+        "France": 1.1,
+        "Czechia": 0.6,
+        "Spain": 0.3,
+        "Poland": 0.3
+      },
+      "basis": "Eurostat; no data for Denmark, Italy, Luxembourg, Bulgaria, Croatia, Malta, Serbia",
+      "source": "CBS (18 Nov 2026) citing Eurostat",
+      "source_url": "https://www.cbs.nl/en-gb/news/2026/47/data-centres-consume-5-percent-of-the-netherlands-electricity",
+      "verified": true
+    },
+    {
+      "country": "United Kingdom (Great Britain)",
+      "iso2": "GB",
+      "year": 2024,
+      "dc_twh": 4.5,
+      "total_twh": 249.2,
+      "dc_share_pct": 2,
+      "basis": "Meter-level grid consumption of 2,423 matched colocation/managed-hosting/hyperscale sites; excludes enterprise DCs. Official Statistics in Development.",
+      "local_extremes": {
+        "Slough_share_pct": 65,
+        "Hillingdon_share_pct": 28,
+        "Tower_Hamlets_share_pct": 18,
+        "London_share_pct": 5,
+        "South_East_share_pct": 5
+      },
+      "growth": "2020-2024: +1.3 TWh (+41%)",
+      "method_gap": "NESO capacity-based estimate for 2023 = 7.6 TWh vs DESNZ meter-based 4.1 TWh",
+      "source": "DESNZ Energy Trends special article, 30 June 2026: Data centre electricity consumption in Great Britain, 2020-2024",
+      "source_url": "https://assets.publishing.service.gov.uk/media/6a3e9f25da47783d87723bf2/Data_centre_electricity_consumption_in_Great_Britain__2020_to_2024.pdf",
+      "verified": true
+    },
+    {
+      "country": "Singapore",
+      "iso2": "SG",
+      "year": null,
+      "dc_share_pct": 7,
+      "basis": "Government statement; reference year not stated (speech of 30 May 2024)",
+      "source": "MDDI, Opening remarks by SMS Janil Puthucheary at ATxSummit Digital Sustainability Forum, 30 May 2024",
+      "source_url": "https://www.mddi.gov.sg/newsroom/opening-by-sms-janil-puthucheary-at-atxsummit-digital-sustainability-forum/",
+      "note": "Secondary reports (Eco-Business) put 2024 at ~6.5 TWh, roughly 11% of ~58 TWh national use: UNVERIFIED.",
+      "verified": true
+    },
+    {
+      "country": "Denmark",
+      "iso2": "DK",
+      "year": null,
+      "dc_share_pct": 7,
+      "basis": "Industry association claim (Danish Data Center Industry, DDI), year not stated; no official realized figure found (Eurostat has no Danish DC data)",
+      "source": "DDI report (industry/advocacy) via search snippet; Danish Energy Agency AF25 projects 6.0 TWh in 2030, 26.8 TWh in 2040",
+      "source_url": "https://www.danskindustri.dk/globalassets/brancher/di-digital/ddi-rapport-final.pdf",
+      "official_projection": {
+        "source": "Energistyrelsen, Analyseforudsaetninger til Energinet 2025 - Datacentre (Nov 2025)",
+        "url": "https://ens.dk/media/7603/download",
+        "twh": {
+          "2030": 6.0,
+          "2040": 26.8,
+          "2050": 35.9
+        },
+        "capacity_utilisation_2023_pct": 60,
+        "verified": true
+      },
+      "verified": false
+    },
+    {
+      "country": "United States",
+      "iso2": "US",
+      "year": 2024,
+      "dc_twh": 192,
+      "dc_share_pct": 4.7,
+      "basis": "LBNL bottom-up model (excludes crypto). EPRI 2026: 177-192 TWh incl. crypto, 4-5%.",
+      "source": "LBNL, US Data Center Energy Usage Report: 2025 Update (June 2026)",
+      "source_url": "https://doi.org/10.71468/P1RP4F",
+      "verified": true
+    },
+    {
+      "country": "United States - Virginia",
+      "iso2": "US-VA",
+      "year": 2023,
+      "dc_twh": 33.85,
+      "dc_share_pct": 25.59,
+      "basis": "EPRI state estimate; Dominion reports data centers = 28% of Virginia Power sales in 2025",
+      "source": "EPRI Powering Intelligence (2024), Table A1; Dominion 2025 10-K",
+      "source_url": "https://www.epri.com/research/products/000000003002028905",
+      "verified": true
+    },
+    {
+      "country": "World",
+      "iso2": null,
+      "year": 2025,
+      "dc_growth_pct": 20,
+      "basis": "IEA: \"data centre electricity demand grew by almost 20% in 2025\"",
+      "source": "IEA, Key questions on energy and AI (slides, 11 June 2026, hosted by ADB Asia Clean Energy Forum)",
+      "source_url": "https://asiacleanenergyforum.adb.org/wp-content/uploads/2026/06/Key-questions-on-energy-and-AI.pdf",
+      "note": "IEA Energy and AI (Apr 2025) global ~415 TWh in 2024 (~1.5% of world electricity), US ~45% of it; 2025 ~485 TWh per IEA update: UNVERIFIED (iea.org blocked automated access).",
+      "verified": true
+    }
+  ]
+}

@@ -1,0 +1,1118 @@
+{
+ "run_at": "2026-11-23T20:39:09.465Z",
+ "queries": {
+  "\"data center\" electricity demand": {
+   "total": 24,
+   "items": [
+    {
+     "full_name": "LBNL-DataCenter-CoE/shape_maker",
+     "url": "https://github.com/LBNL-DataCenter-CoE/shape_maker",
+     "stars": 13,
+     "pushed_at": "2026-04-06T22:10:34Z",
+     "license": "NOASSERTION",
+     "archived": false,
+     "description": "This repo contains the data center and industrial electrical load Shape Maker. The Shape Maker allows users to generate hypothetical electricity loads capturing the key characteristics around variabil"
+    },
+    {
+     "full_name": "Hemanthsai456/Data-Center-Resource-Analytics",
+     "url": "https://github.com/Hemanthsai456/Data-Center-Resource-Analytics",
+     "stars": 4,
+     "pushed_at": "2026-10-22T14:41:13Z",
+     "license": "MIT",
+     "archived": false,
+     "description": "To develop a predictive analytics system that analyzes data center operational conditions and predicts cooling and water requirements while studying the relationship between workload, electricity cons"
+    },
+    {
+     "full_name": "dchen219/ai-data-center-electricity",
+     "url": "https://github.com/dchen219/ai-data-center-electricity",
+     "stars": 1,
+     "pushed_at": "2026-08-20T01:35:44Z",
+     "license": null,
+     "archived": false,
+     "description": "Code and data processing pipeline for AI data center siting inference, electricity demand projection, and regional electricity demand pressure (EDPI) analysis."
+    },
+    {
+     "full_name": "JiaweiQi3/us-datacenter-electricity-forecasts",
+     "url": "https://github.com/JiaweiQi3/us-datacenter-electricity-forecasts",
+     "stars": 1,
+     "pushed_at": "2026-11-03T21:19:21Z",
+     "license": null,
+     "archived": false,
+     "description": "Comparing U.S. electricity and data center demand forecasts from 16 institutions (MySQL + Python)"
+    },
+    {
+     "full_name": "jaizem/Data-Center-Construction-and-Supporting-Utilities-Consumption",
+     "url": "https://github.com/jaizem/Data-Center-Construction-and-Supporting-Utilities-Consumption",
+     "stars": 1,
+     "pushed_at": "2026-03-26T01:50:24Z",
+     "license": "GPL-3.0",
+     "archived": false,
+     "description": "This project seeks to investigate the reality of data center impacts by analyzing U.S. data center construction data alongside national water and electricity consumption records from the past 25 years"
+    },
+    {
+     "full_name": "XKnight134/Data-Center-Operationalization-Electricity-Demand",
+     "url": "https://github.com/XKnight134/Data-Center-Operationalization-Electricity-Demand",
+     "stars": 0,
+     "pushed_at": "2026-04-19T05:02:36Z",
+     "license": null,
+     "archived": false,
+     "description": ""
+    },
+    {
+     "full_name": "eakarsu/ai-electricity-demand-data-center-load-planner",
+     "url": "https://github.com/eakarsu/ai-electricity-demand-data-center-load-planner",
+     "stars": 0,
+     "pushed_at": "2026-10-23T21:24:42Z",
+     "license": null,
+     "archived": false,
+     "description": ""
+    },
+    {
+     "full_name": "sarikahussain67-commits/AI-Electricity-Demand-Forecasting",
+     "url": "https://github.com/sarikahussain67-commits/AI-Electricity-Demand-Forecasting",
+     "stars": 0,
+     "pushed_at": "2026-08-02T14:20:08Z",
+     "license": "MIT",
+     "archived": false,
+     "description": "Forecasting Electricity Demand for AI Data Centers Using Machine Learning (Prophet, XGBoost, LSTM)"
+    },
+    {
+     "full_name": "vxguo1/powertracker",
+     "url": "https://github.com/vxguo1/powertracker",
+     "stars": 0,
+     "pushed_at": "2026-11-23T18:59:07Z",
+     "license": null,
+     "archived": false,
+     "description": "Tracking US electricity grid demand around AI data centers"
+    },
+    {
+     "full_name": "al3sha9/Data-Center-Map",
+     "url": "https://github.com/al3sha9/Data-Center-Map",
+     "stars": 0,
+     "pushed_at": "2026-06-24T23:41:15Z",
+     "license": null,
+     "archived": false,
+     "description": "(Research Work) An in progress visual map of how data centers and AI infrastructure are changing global electricity demand."
+    },
+    {
+     "full_name": "Dylan-Gunn/Data_Center_Growth_And_Electricity_Affects",
+     "url": "https://github.com/Dylan-Gunn/Data_Center_Growth_And_Electricity_Affects",
+     "stars": 0,
+     "pushed_at": "2026-11-23T20:37:01Z",
+     "license": null,
+     "archived": false,
+     "description": "This project looks at the affects of the growth and construction of data centers in the state of Texas as well as the affects on electricity load and pricing. This project uses SQL and Python to manip"
+    },
+    {
+     "full_name": "Maria777l/grid-quest-learning-journey",
+     "url": "https://github.com/Maria777l/grid-quest-learning-journey",
+     "stars": 0,
+     "pushed_at": "2026-07-13T20:28:59Z",
+     "license": null,
+     "archived": false,
+     "description": "Arcade learning game about electricity, AI, data centers, and AI energy demand."
+    },
+    {
+     "full_name": "Lantern567/climate-data-center-24x7-cfe",
+     "url": "https://github.com/Lantern567/climate-data-center-24x7-cfe",
+     "stars": 0,
+     "pushed_at": "2026-10-26T11:50:00Z",
+     "license": null,
+     "archived": false,
+     "description": "Analysis code and derived data for climate-sensitive data-centre demand and hourly carbon-free electricity planning"
+    },
+    {
+     "full_name": "Andreas-Ja/datacenter-grid-demand",
+     "url": "https://github.com/Andreas-Ja/datacenter-grid-demand",
+     "stars": 0,
+     "pushed_at": "2026-07-20T06:01:54Z",
+     "license": "MIT",
+     "archived": false,
+     "description": "SQL analysis of US electricity demand vs trend: which states broke out, and is it data centers? EIA data in SQLite"
+    },
+    {
+     "full_name": "dm574-design/AI_Data-Center_Utility_Cost_Analysis",
+     "url": "https://github.com/dm574-design/AI_Data-Center_Utility_Cost_Analysis",
+     "stars": 0,
+     "pushed_at": "2026-10-29T15:05:06Z",
+     "license": null,
+     "archived": false,
+     "description": "Data analytics project examining U.S. data center electricity demand, residential utility prices, and potential cost mitigation strategies using Python, EIA data, and Power BI."
+    }
+   ]
+  },
+  "datacenter power demand forecast": {
+   "total": 1,
+   "items": [
+    {
+     "full_name": "rmkenv/datacenter-energy-forecasting",
+     "url": "https://github.com/rmkenv/datacenter-energy-forecasting",
+     "stars": 1,
+     "pushed_at": "2026-02-08T13:59:47Z",
+     "license": null,
+     "archived": false,
+     "description": "ML-based estimation of datacenter power demand and grid impact analysis for US electrical infrastructure."
+    }
+   ]
+  },
+  "data center load growth utility": {
+   "total": 1,
+   "items": [
+    {
+     "full_name": "AthenaTheOwl/ratepayer-exposure",
+     "url": "https://github.com/AthenaTheOwl/ratepayer-exposure",
+     "stars": 0,
+     "pushed_at": "2026-10-30T20:47:58Z",
+     "license": "MIT",
+     "archived": false,
+     "description": "For any US ratepayer, estimate how much of their electricity bill increase over 2026-2030 is attributable to data-center load growth in their utility/ISO, given current cost-allocation rules."
+    }
+   ]
+  },
+  "utility rate case": {
+   "total": 14,
+   "items": [
+    {
+     "full_name": "Gabriel1231n2j3n/hacks-para-krunker",
+     "url": "https://github.com/Gabriel1231n2j3n/hacks-para-krunker",
+     "stars": 30,
+     "pushed_at": "2021-01-30T07:00:06Z",
+     "license": null,
+     "archived": false,
+     "description": "// ==UserScript== // @name          aimbot gratis para krunker.io // @description   Este es el mejor aimbot mod menuq puedas obtener // @version       2.19 // @author        Gabriel - // @iconURL     "
+    },
+    {
+     "full_name": "GoogleAppsBackup/Google-Apps-Backup-Software",
+     "url": "https://github.com/GoogleAppsBackup/Google-Apps-Backup-Software",
+     "stars": 9,
+     "pushed_at": "2014-11-17T10:47:11Z",
+     "license": null,
+     "archived": false,
+     "description": "Effective Way to Procure Data with Google Apps Backup Software Google Apps is a collection of tools for organizations worldwide; covering all the aspects like Emails, Calendars, Documents, Google spre"
+    },
+    {
+     "full_name": "9in6is69/krunk-hack",
+     "url": "https://github.com/9in6is69/krunk-hack",
+     "stars": 9,
+     "pushed_at": "2019-09-19T20:19:26Z",
+     "license": null,
+     "archived": false,
+     "description": "// ==UserScript== // @name         Krunker.io Hacks for AUGUST | Really Working Krunker Mods // @description  Krunkerio Mods Features: Show FPS, Aim Fire, Auto Bunny, ESP, Adblock, Change Background /"
+    },
+    {
+     "full_name": "flybunctious/The-Game-of-Hog",
+     "url": "https://github.com/flybunctious/The-Game-of-Hog",
+     "stars": 9,
+     "pushed_at": "2020-09-30T16:07:46Z",
+     "license": null,
+     "archived": false,
+     "description": "Introduction In this project, you will develop a simulator and multiple strategies for the dice game Hog. You will need to use control statements and higher-order functions together, as described in S"
+    },
+    {
+     "full_name": "rajaryan/FDR-is-not-supported-on-this-device",
+     "url": "https://github.com/rajaryan/FDR-is-not-supported-on-this-device",
+     "stars": 6,
+     "pushed_at": "2016-09-10T08:28:35Z",
+     "license": null,
+     "archived": false,
+     "description": "libi error on 6G device Setting to interface 0:0 WARNING: set interface failed, error -8 Recovery Mode Environment: iBoot build-version=iBoot-2817.60.2 iBoot build-style=RELEASE Sending AppleLogo... D"
+    },
+    {
+     "full_name": "aws-samples/sample-energy-utility-rate-engine",
+     "url": "https://github.com/aws-samples/sample-energy-utility-rate-engine",
+     "stars": 4,
+     "pushed_at": "2026-10-18T14:12:09Z",
+     "license": "MIT-0",
+     "archived": false,
+     "description": "Serverless utility rate engine on AWS: author bill calculations in a spreadsheet-like language (RDL) that transpiles to compiled Rust Lambda. React UI for rate authoring, plus batch processing for rat"
+    },
+    {
+     "full_name": "yutongsi/Utility-Rate-Cases",
+     "url": "https://github.com/yutongsi/Utility-Rate-Cases",
+     "stars": 0,
+     "pushed_at": "2024-07-29T02:47:03Z",
+     "license": "MIT",
+     "archived": false,
+     "description": "This repository collects utility rate cases at the state level."
+    },
+    {
+     "full_name": "shawna-tuli-silicon-valley/accenture-utility-rate-case-management-ai",
+     "url": "https://github.com/shawna-tuli-silicon-valley/accenture-utility-rate-case-management-ai",
+     "stars": 0,
+     "pushed_at": "2026-05-18T15:53:20Z",
+     "license": null,
+     "archived": false,
+     "description": "[ML & Data Science Leadership] SP25 Accenture & UCI | I remotely led 7 Data Scientists in solutioning AI for utility rate case management nationally."
+    },
+    {
+     "full_name": "AdrianNie123/utilities-data-practice-rate-case",
+     "url": "https://github.com/AdrianNie123/utilities-data-practice-rate-case",
+     "stars": 0,
+     "pushed_at": "2026-01-13T22:08:38Z",
+     "license": null,
+     "archived": false,
+     "description": "Wrangling utilities data"
+    },
+    {
+     "full_name": "kevinrambhia11/rate-case-workbench",
+     "url": "https://github.com/kevinrambhia11/rate-case-workbench",
+     "stars": 0,
+     "pushed_at": "2026-10-13T09:11:31Z",
+     "license": null,
+     "archived": false,
+     "description": "Charger Rate Case Workbench: interactive demo for a fictional utility (sample data)"
+    },
+    {
+     "full_name": "aqeelahmed168/pythonPackagesForPlotingOpenFoamPostprocessData",
+     "url": "https://github.com/aqeelahmed168/pythonPackagesForPlotingOpenFoamPostprocessData",
+     "stars": 0,
+     "pushed_at": "2019-11-09T22:04:34Z",
+     "license": null,
+     "archived": false,
+     "description": "Packages to plot data obtained through the openFoam post-processing utility, like mass flow rate, velocities, probes for many cases"
+    },
+    {
+     "full_name": "kazirafsanmahboob29-create/anchored-returns",
+     "url": "https://github.com/kazirafsanmahboob29-create/anchored-returns",
+     "stars": 0,
+     "pushed_at": "2026-11-19T23:09:33Z",
+     "license": null,
+     "archived": false,
+     "description": "How state regulators set utility returns on equity: 1,785 rate cases, out-of-sample prediction tests, and original commission orders."
+    },
+    {
+     "full_name": "OmGhate26/qa-api-testing-project",
+     "url": "https://github.com/OmGhate26/qa-api-testing-project",
+     "stars": 0,
+     "pushed_at": "2026-05-28T06:12:47Z",
+     "license": null,
+     "archived": false,
+     "description": "Built an API testing framework with 66 test cases covering CRUD,    schema validation, negative testing, and performance checks - Automated testing of REST endpoints (GET/POST/PUT/DELETE) using    Pyt"
+    },
+    {
+     "full_name": "buzinessware90/Web-Hosting-Dubai",
+     "url": "https://github.com/buzinessware90/Web-Hosting-Dubai",
+     "stars": 0,
+     "pushed_at": "2018-04-10T13:19:30Z",
+     "license": null,
+     "archived": false,
+     "description": "You know the world wide web, you like the world wide web, you want to be a part of the world wide web?. Lets help you achieve that. One of the primary concerns of the beginner web hosting seekers is t"
+    }
+   ]
+  },
+  "electricity bills utility rates": {
+   "total": 16,
+   "items": [
+    {
+     "full_name": "Harshith-Yadlapalli/utility-bill-calculator",
+     "url": "https://github.com/Harshith-Yadlapalli/utility-bill-calculator",
+     "stars": 6,
+     "pushed_at": "2026-04-06T16:41:00Z",
+     "license": null,
+     "archived": false,
+     "description": "A utility bill calculator is a program that calculates electricity or water charges based on units consumed using progressive slab rates, validates meter readings, applies taxes, and generates a detai"
+    },
+    {
+     "full_name": "shingalajaynesh/EnergyBillLab",
+     "url": "https://github.com/shingalajaynesh/EnergyBillLab",
+     "stars": 1,
+     "pushed_at": "2026-11-17T17:06:25Z",
+     "license": "MIT",
+     "archived": false,
+     "description": "Public-first U.S. home-energy utility bill analysis and electricity rate platform"
+    },
+    {
+     "full_name": "kumararnav21/Utility-spend-Auditor-",
+     "url": "https://github.com/kumararnav21/Utility-spend-Auditor-",
+     "stars": 1,
+     "pushed_at": "2026-08-24T06:49:38Z",
+     "license": null,
+     "archived": false,
+     "description": "Utility Spend Auditor For businesses running many sites - retail chains, manufacturers, logistics networks - quietly paying the wrong electricity or gas rate across dozens of meters. Reads utility bil"
+    },
+    {
+     "full_name": "Electronica12/https-www.efl.co.in-blogs-how-beneficial-are-rooftop-solar-panel-loans-",
+     "url": "https://github.com/Electronica12/https-www.efl.co.in-blogs-how-beneficial-are-rooftop-solar-panel-loans-",
+     "stars": 1,
+     "pushed_at": "2020-02-22T06:11:12Z",
+     "license": null,
+     "archived": false,
+     "description": "How beneficial are Rooftop Solar Panel Loans? By admin | February 11, 2020 Did you know that the energy produced by sunrays in one hour could meet the global energy needs for one year? Solar energy is"
+    },
+    {
+     "full_name": "greencalculus/us-utility-electricity-rates",
+     "url": "https://github.com/greencalculus/us-utility-electricity-rates",
+     "stars": 0,
+     "pushed_at": "2026-11-09T05:09:44Z",
+     "license": "CC-BY-4.0",
+     "archived": false,
+     "description": "What homes pay at the 40 biggest US electric utilities: monthly since 1990 (EIA), with bills, outages, rooftop solar and counties. CC BY 4.0, DOI 10.5281/zenodo.24071582"
+    },
+    {
+     "full_name": "aidanmcjones/us-utility-electricity-rates",
+     "url": "https://github.com/aidanmcjones/us-utility-electricity-rates",
+     "stars": 0,
+     "pushed_at": "2026-11-05T02:42:57Z",
+     "license": "CC0-1.0",
+     "archived": false,
+     "description": "Residential electricity price, usage and bill for 514 US utilities plus state price history, from EIA-861 and EIA API, CSV, CC0."
+    },
+    {
+     "full_name": "electricbillmath/us-utility-rates",
+     "url": "https://github.com/electricbillmath/us-utility-rates",
+     "stars": 0,
+     "pushed_at": "2026-11-08T10:01:56Z",
+     "license": "CC-BY-4.0",
+     "archived": false,
+     "description": "Residential electricity price, usage and bill for every U.S. utility, 2025 (EIA-861), CSV + JSON, CC BY 4.0"
+    },
+    {
+     "full_name": "courtkillion/utility-api",
+     "url": "https://github.com/courtkillion/utility-api",
+     "stars": 0,
+     "pushed_at": "2026-08-21T05:33:17Z",
+     "license": null,
+     "archived": false,
+     "description": "Exact residential electricity rates and bills for SRP (Phoenix, AZ), computed from filed tariffs with citations. HTTP API + MCP server. Add topics: mcp, energy, utility-rates, arizona, x402"
+    },
+    {
+     "full_name": "sanjanagowda11yy-ctrl/Power-bill-Slab-Based-Utility-Billing-Engine-",
+     "url": "https://github.com/sanjanagowda11yy-ctrl/Power-bill-Slab-Based-Utility-Billing-Engine-",
+     "stars": 0,
+     "pushed_at": "2026-11-18T04:37:24Z",
+     "license": null,
+     "archived": false,
+     "description": "A slab-based electricity billing system that calculates consumer bills using meter readings, domestic and commercial tariff rates, fixed charges, and provides a detailed bill breakdown."
+    },
+    {
+     "full_name": "syedahajra/Electricity-Billing-System",
+     "url": "https://github.com/syedahajra/Electricity-Billing-System",
+     "stars": 0,
+     "pushed_at": "2024-03-10T11:43:15Z",
+     "license": null,
+     "archived": false,
+     "description": " This C++ project efficiently manages bills for residential and commercial customers. With customer classes, an admin interface for rate management, and a registration system, it handles billing, rate"
+    },
+    {
+     "full_name": "AsjadHasan/ElectricityBillCalculator",
+     "url": "https://github.com/AsjadHasan/ElectricityBillCalculator",
+     "stars": 0,
+     "pushed_at": "2026-10-10T06:34:19Z",
+     "license": null,
+     "archived": false,
+     "description": "A utility charges tiered rates: 5 BDT/unit for the first 100 units, 7 BDT/unit for the next 200 units, and 10 BDT/unit beyond that. Ask the user how many units they consumed and print the total bill."
+    },
+    {
+     "full_name": "MercyMiraj/Safaricom-KPLC-Utility-Budget-Planner",
+     "url": "https://github.com/MercyMiraj/Safaricom-KPLC-Utility-Budget-Planner",
+     "stars": 0,
+     "pushed_at": "2026-11-09T19:16:31Z",
+     "license": null,
+     "archived": false,
+     "description": "A practical tracking app for households or small offices to monitor prepaid electricity (KPLC tokens), internet bundles (Zuku/Safaricom Home), and water bills. It can calculate daily burn rates and pr"
+    },
+    {
+     "full_name": "ShwenarU/Eectricity-Bill-Calculator",
+     "url": "https://github.com/ShwenarU/Eectricity-Bill-Calculator",
+     "stars": 0,
+     "pushed_at": "2026-01-16T17:45:21Z",
+     "license": null,
+     "archived": false,
+     "description": "This Python project develops a practical tool to calculate electricity bills based on tiered pricing structures, simulating real-world utility billing systems. The program takes user input for the num"
+    },
+    {
+     "full_name": "AngelGabreel/WattWise",
+     "url": "https://github.com/AngelGabreel/WattWise",
+     "stars": 0,
+     "pushed_at": "2026-11-20T13:35:26Z",
+     "license": null,
+     "archived": false,
+     "description": "WattWise estimates your monthly electricity bill by room and appliance based on typical wattage ranges, daily hours/minutes, a 30-day month, and ~₱15.55/kWh—actual bills may vary depending on unit con"
+    },
+    {
+     "full_name": "Manasa9951/SmartPay",
+     "url": "https://github.com/Manasa9951/SmartPay",
+     "stars": 0,
+     "pushed_at": "2026-04-08T06:09:59Z",
+     "license": null,
+     "archived": false,
+     "description": "SmartPay is a municipality-grade utility bill generator built with plain Java (no external libraries). It calculates electricity/water bills based on meter readings, applies India's progressive slab-r"
+    }
+   ]
+  },
+  "eia-861": {
+   "total": 19,
+   "items": [
+    {
+     "full_name": "IMMM-SFA/electricity_entity_boundaries",
+     "url": "https://github.com/IMMM-SFA/electricity_entity_boundaries",
+     "stars": 7,
+     "pushed_at": "2020-04-28T17:13:22Z",
+     "license": "BSD-2-Clause",
+     "archived": false,
+     "description": "Nested boundaries for electricity entities using the EIA-861 dataset"
+    },
+    {
+     "full_name": "AaronHolm/EIA-861",
+     "url": "https://github.com/AaronHolm/EIA-861",
+     "stars": 1,
+     "pushed_at": "2020-02-12T13:00:37Z",
+     "license": null,
+     "archived": false,
+     "description": ""
+    },
+    {
+     "full_name": "ahmaddshbg-blip/eia861m-electricity-market-monitor",
+     "url": "https://github.com/ahmaddshbg-blip/eia861m-electricity-market-monitor",
+     "stars": 1,
+     "pushed_at": "2026-09-19T16:40:17Z",
+     "license": "MIT",
+     "archived": false,
+     "description": "Decision intelligence for U.S. electricity retail sales using EIA-861M data, Python, SQL, and Streamlit."
+    },
+    {
+     "full_name": "SejalKhade/Power-Outage-Risk-Pipeline",
+     "url": "https://github.com/SejalKhade/Power-Outage-Risk-Pipeline",
+     "stars": 1,
+     "pushed_at": "2026-10-02T23:06:21Z",
+     "license": null,
+     "archived": false,
+     "description": "End-to-end ML pipeline predicting high-risk electric utilities across 50 US states — EIA-861 + NOAA Storm Events | FastAPI + Docker + GitHub Actions"
+    },
+    {
+     "full_name": "Dex947/distribution-reliability-outage-analytics",
+     "url": "https://github.com/Dex947/distribution-reliability-outage-analytics",
+     "stars": 1,
+     "pushed_at": "2025-10-04T13:05:53Z",
+     "license": "MIT",
+     "archived": false,
+     "description": "Comprehensive analytics framework for electric distribution system reliability metrics (SAIDI, SAIFI, CAIDI) and Cost of Energy Not Supplied (CENS) estimation. Built on EIA Form 861 data with ML-power"
+    },
+    {
+     "full_name": "civic-interconnect/explorer-electricity-reliability",
+     "url": "https://github.com/civic-interconnect/explorer-electricity-reliability",
+     "stars": 1,
+     "pushed_at": "2026-11-01T20:13:42Z",
+     "license": "Apache-2.0",
+     "archived": false,
+     "description": "Explore the public record of electricity reliability in the United States."
+    },
+    {
+     "full_name": "jalalawan-sudo/eia-disconnections-data",
+     "url": "https://github.com/jalalawan-sudo/eia-disconnections-data",
+     "stars": 0,
+     "pushed_at": "2026-04-27T23:55:03Z",
+     "license": null,
+     "archived": false,
+     "description": "EIA residential utility disconnections data by state, 2024 (EIA-112, EIA-861, LEAD Tool)"
+    },
+    {
+     "full_name": "nsbowden/eia861",
+     "url": "https://github.com/nsbowden/eia861",
+     "stars": 0,
+     "pushed_at": "2019-11-10T02:57:26Z",
+     "license": "MIT",
+     "archived": false,
+     "description": "creating useful datasets from eia 861 publications"
+    },
+    {
+     "full_name": "tnrbuilds/eia861-utility-analytics",
+     "url": "https://github.com/tnrbuilds/eia861-utility-analytics",
+     "stars": 0,
+     "pushed_at": "2026-02-27T19:08:20Z",
+     "license": null,
+     "archived": false,
+     "description": ""
+    },
+    {
+     "full_name": "earino/factory-eia861-reliability-deterioration",
+     "url": "https://github.com/earino/factory-eia861-reliability-deterioration",
+     "stars": 0,
+     "pushed_at": "2026-11-13T05:50:16Z",
+     "license": "NOASSERTION",
+     "archived": false,
+     "description": "Dataset Factory: eia861-reliability-deterioration"
+    },
+    {
+     "full_name": "jbarbour3/EIA-861_ETL",
+     "url": "https://github.com/jbarbour3/EIA-861_ETL",
+     "stars": 0,
+     "pushed_at": "2019-11-01T16:15:15Z",
+     "license": null,
+     "archived": false,
+     "description": "A script to process EIA's Annual Electric Power Industry Report (Form 861)"
+    },
+    {
+     "full_name": "aidanmcjones/us-utility-electricity-rates",
+     "url": "https://github.com/aidanmcjones/us-utility-electricity-rates",
+     "stars": 0,
+     "pushed_at": "2026-11-05T02:42:57Z",
+     "license": "CC0-1.0",
+     "archived": false,
+     "description": "Residential electricity price, usage and bill for 514 US utilities plus state price history, from EIA-861 and EIA API, CSV, CC0."
+    },
+    {
+     "full_name": "CooperMA2015/Electric-utility-reporting-tool",
+     "url": "https://github.com/CooperMA2015/Electric-utility-reporting-tool",
+     "stars": 0,
+     "pushed_at": "2026-10-08T14:07:29Z",
+     "license": null,
+     "archived": false,
+     "description": "Excel workbook that acts as a reporting system based on EIA-861 data starting from 2015"
+    },
+    {
+     "full_name": "saketh1433/dominion-reliability-review",
+     "url": "https://github.com/saketh1433/dominion-reliability-review",
+     "stars": 0,
+     "pushed_at": "2026-11-03T21:15:22Z",
+     "license": null,
+     "archived": false,
+     "description": "Dominion Energy Virginia reliability indices rebuilt from public data (EIA-861, NOAA Storm Events, EIA-930), loaded into Snowflake, tested and presented in Power BI."
+    },
+    {
+     "full_name": "ebbcoder/Florida-Municipal-Power-Association-Dashboard",
+     "url": "https://github.com/ebbcoder/Florida-Municipal-Power-Association-Dashboard",
+     "stars": 0,
+     "pushed_at": "2026-08-07T13:11:45Z",
+     "license": null,
+     "archived": false,
+     "description": "Allows municipal utilities to easily compare rates and bills between all Florida utilities filing EIA Form 861"
+    }
+   ]
+  },
+  "interconnection queue": {
+   "total": 76,
+   "items": [
+    {
+     "full_name": "yaodongwang41-droid/PDIN-simulator",
+     "url": "https://github.com/yaodongwang41-droid/PDIN-simulator",
+     "stars": 2,
+     "pushed_at": "2026-05-28T05:57:34Z",
+     "license": null,
+     "archived": false,
+     "description": "This repository provides multiple simulators (packet latency et.al) in multiple queue interconnection network."
+    },
+    {
+     "full_name": "coderjolly/data-ingestion-pipeline",
+     "url": "https://github.com/coderjolly/data-ingestion-pipeline",
+     "stars": 2,
+     "pushed_at": "2024-04-16T23:54:39Z",
+     "license": "GPL-3.0",
+     "archived": false,
+     "description": "It is kubernetes microservice that ingests Steam data, deployed as a service using sQLite for storing processes followed by an event driven message queue controlled by RabbitMQ. This message queue is "
+    },
+    {
+     "full_name": "selormdzakpasu/gen_interconnection_queues",
+     "url": "https://github.com/selormdzakpasu/gen_interconnection_queues",
+     "stars": 1,
+     "pushed_at": "2025-02-17T17:37:16Z",
+     "license": null,
+     "archived": false,
+     "description": "Compilation of Generator Interconnection Queues from the Seven ISOs (CAISO, ERCOT, MISO, PJM, SPP, NYISO & NEISO)"
+    },
+    {
+     "full_name": "kellyswu/interconnect_with_bids",
+     "url": "https://github.com/kellyswu/interconnect_with_bids",
+     "stars": 1,
+     "pushed_at": "2026-11-11T02:18:30Z",
+     "license": null,
+     "archived": false,
+     "description": "15s09 project on interconnection queue bidding"
+    },
+    {
+     "full_name": "wlouer/UTL000001_PJM_Interconnect",
+     "url": "https://github.com/wlouer/UTL000001_PJM_Interconnect",
+     "stars": 1,
+     "pushed_at": "2024-12-09T21:49:14Z",
+     "license": null,
+     "archived": false,
+     "description": "Exploratory Data Analysis of PJM's 1st Cluster Study Interconnection Queue of approximately 300 projects.  Analysis of Project Location, Technology, Interconnection Utility, Interconnection Cost, and "
+    },
+    {
+     "full_name": "manynames3/queuewatch",
+     "url": "https://github.com/manynames3/queuewatch",
+     "stars": 1,
+     "pushed_at": "2026-06-20T05:12:59Z",
+     "license": null,
+     "archived": false,
+     "description": "Authenticated AWS serverless product for public interconnection queue intelligence: signed evidence, customer-scoped reports, editable portal settings, audit trail, and production monitoring."
+    },
+    {
+     "full_name": "selormdzakpasu/iso_gen_queues_using_apis",
+     "url": "https://github.com/selormdzakpasu/iso_gen_queues_using_apis",
+     "stars": 1,
+     "pushed_at": "2025-05-08T14:56:19Z",
+     "license": null,
+     "archived": false,
+     "description": "Compilation of Generator Interconnection Queues from the Seven ISOs (CAISO, ERCOT, MISO, PJM, SPP, NYISO & NEISO) using APIs"
+    },
+    {
+     "full_name": "killianpzk/mp_energy_investment",
+     "url": "https://github.com/killianpzk/mp_energy_investment",
+     "stars": 1,
+     "pushed_at": "2026-09-28T17:08:49Z",
+     "license": null,
+     "archived": false,
+     "description": "This thesis estimates the causal effect of interest rate hikes on planned US renewable projects by merging monetary policy surprises with interconnection queues dataset."
+    },
+    {
+     "full_name": "Richat04/Flight-Planner",
+     "url": "https://github.com/Richat04/Flight-Planner",
+     "stars": 1,
+     "pushed_at": "2025-05-11T15:03:34Z",
+     "license": null,
+     "archived": false,
+     "description": "A Python-based flight planning program for optimal trip selection based on customer demand, offering options for the cheapest trip, fastest trip, and least interconnections. Graphs, stacks, and priori"
+    },
+    {
+     "full_name": "uiiopoi/Data-Center-colocation-model",
+     "url": "https://github.com/uiiopoi/Data-Center-colocation-model",
+     "stars": 1,
+     "pushed_at": "2026-10-03T22:25:18Z",
+     "license": null,
+     "archived": false,
+     "description": "Financial models (Excel) for UC Berkeley SPUR research: can queued renewable projects in CAISO build early and sell power behind the meter to AI data centers while waiting for grid interconnection? In"
+    },
+    {
+     "full_name": "Kladar/ercot_iq_analysis",
+     "url": "https://github.com/Kladar/ercot_iq_analysis",
+     "stars": 0,
+     "pushed_at": "2022-10-20T00:40:29Z",
+     "license": null,
+     "archived": false,
+     "description": "For quick and dirty analysis of the ERCOT Interconnection queue, complete with virtualenv and data."
+    },
+    {
+     "full_name": "kvrkr866/unblocking_icq_phase1",
+     "url": "https://github.com/kvrkr866/unblocking_icq_phase1",
+     "stars": 0,
+     "pushed_at": "2025-11-09T01:28:13Z",
+     "license": null,
+     "archived": false,
+     "description": "AI role in Unlocking the interconnection queue to power grids - Phase 1"
+    },
+    {
+     "full_name": "ritulsaini1/InterconnectionQueueData",
+     "url": "https://github.com/ritulsaini1/InterconnectionQueueData",
+     "stars": 0,
+     "pushed_at": "2026-09-21T13:06:18Z",
+     "license": null,
+     "archived": false,
+     "description": "L&T Interconnection Queue"
+    },
+    {
+     "full_name": "Eshana-jain/interconnection",
+     "url": "https://github.com/Eshana-jain/interconnection",
+     "stars": 0,
+     "pushed_at": "2026-05-13T05:21:28Z",
+     "license": null,
+     "archived": false,
+     "description": "MLC final Project - ML for Grid Interconnection Queue Analysis"
+    },
+    {
+     "full_name": "AmyArsenal/queue-insights",
+     "url": "https://github.com/AmyArsenal/queue-insights",
+     "stars": 0,
+     "pushed_at": "2026-01-27T17:32:41Z",
+     "license": null,
+     "archived": false,
+     "description": "US Interconnection Queue Tracker"
+    }
+   ]
+  },
+  "gridstatus": {
+   "total": 54,
+   "items": [
+    {
+     "full_name": "gridstatus/gridstatus",
+     "url": "https://github.com/gridstatus/gridstatus",
+     "stars": 456,
+     "pushed_at": "2026-11-20T20:44:10Z",
+     "license": "BSD-3-Clause",
+     "archived": false,
+     "description": "Extract data from ISOs and other energy grid sources"
+    },
+    {
+     "full_name": "gridstatus/gridstatusio",
+     "url": "https://github.com/gridstatus/gridstatusio",
+     "stars": 58,
+     "pushed_at": "2026-11-16T01:11:09Z",
+     "license": "BSD-3-Clause",
+     "archived": false,
+     "description": "Python client for accessing the GridStatus.io Hosted API."
+    },
+    {
+     "full_name": "mos3abof/gridstatusnow",
+     "url": "https://github.com/mos3abof/gridstatusnow",
+     "stars": 17,
+     "pushed_at": "2015-11-16T13:42:38Z",
+     "license": "MIT",
+     "archived": true,
+     "description": "Grid Status Now : Egypt's Power Grid Load Status As A Web Service! [Legacy]"
+    },
+    {
+     "full_name": "jo20ow/Obsyd",
+     "url": "https://github.com/jo20ow/Obsyd",
+     "stars": 12,
+     "pushed_at": "2026-11-11T11:26:04Z",
+     "license": "AGPL-3.0",
+     "archived": false,
+     "description": "The European electricity desk — a free 'gridstatus for Europe': 37 bidding zones, 15-min day-ahead prices, generation mix, cross-border flows, live outage board. ENTSO-E data · AGPL-3.0"
+    },
+    {
+     "full_name": "romilandc/battery-storage-optimization-energy-ancillary",
+     "url": "https://github.com/romilandc/battery-storage-optimization-energy-ancillary",
+     "stars": 11,
+     "pushed_at": "2025-11-08T18:08:21Z",
+     "license": "Apache-2.0",
+     "archived": false,
+     "description": "A co-optimization model between Energy and Ancillary Service (AS) products.  We pull Energy and AS prices using the Gridstatus API using Pyomo for model setup and GLPK for solver."
+    },
+    {
+     "full_name": "andypicke/rgridstatus",
+     "url": "https://github.com/andypicke/rgridstatus",
+     "stars": 4,
+     "pushed_at": "2024-09-24T16:57:03Z",
+     "license": "NOASSERTION",
+     "archived": false,
+     "description": "API Wrapper For GridStatus"
+    },
+    {
+     "full_name": "kardashev-lab/kardashev-py",
+     "url": "https://github.com/kardashev-lab/kardashev-py",
+     "stars": 2,
+     "pushed_at": "2026-09-15T05:21:42Z",
+     "license": "MIT",
+     "archived": false,
+     "description": "Free, open-source Python library for US ISO/RTO energy data (CAISO, ERCOT, MISO, NYISO, ISONE, SPP, PJM) - no API key required. Alternative to gridstatus."
+    },
+    {
+     "full_name": "ziraddingulumjanly/gridstatus",
+     "url": "https://github.com/ziraddingulumjanly/gridstatus",
+     "stars": 1,
+     "pushed_at": "2024-06-10T11:16:06Z",
+     "license": "MIT",
+     "archived": false,
+     "description": ""
+    },
+    {
+     "full_name": "lokyst/gridstatusdungeonrole",
+     "url": "https://github.com/lokyst/gridstatusdungeonrole",
+     "stars": 1,
+     "pushed_at": "2018-01-06T14:55:44Z",
+     "license": null,
+     "archived": false,
+     "description": ""
+    },
+    {
+     "full_name": "matthew-rt/CP2030-gridstatus",
+     "url": "https://github.com/matthew-rt/CP2030-gridstatus",
+     "stars": 1,
+     "pushed_at": "2026-06-24T11:58:22Z",
+     "license": null,
+     "archived": false,
+     "description": ""
+    },
+    {
+     "full_name": "GabeStah/GridStatusHotter",
+     "url": "https://github.com/GabeStah/GridStatusHotter",
+     "stars": 1,
+     "pushed_at": "2025-07-28T04:36:00Z",
+     "license": "AGPL-3.0",
+     "archived": false,
+     "description": "A Grid Status module to display HoT/aura information, while allowing much easier aura additions in the near future over the most common module, GridStatusHoTs."
+    },
+    {
+     "full_name": "slaren/GridStatusDirectionArrows",
+     "url": "https://github.com/slaren/GridStatusDirectionArrows",
+     "stars": 1,
+     "pushed_at": "2018-09-23T13:04:43Z",
+     "license": null,
+     "archived": false,
+     "description": ""
+    },
+    {
+     "full_name": "whoIsClownHere/pjm-dart-prediction",
+     "url": "https://github.com/whoIsClownHere/pjm-dart-prediction",
+     "stars": 1,
+     "pushed_at": "2026-10-29T02:27:03Z",
+     "license": "MIT",
+     "archived": false,
+     "description": "Machine-learning research on extreme day-ahead vs. real-time price spreads in PJM Dominion, with virtual INC/DEC signal backtesting."
+    },
+    {
+     "full_name": "pipeworx-io/mcp-gridstatus",
+     "url": "https://github.com/pipeworx-io/mcp-gridstatus",
+     "stars": 0,
+     "pushed_at": "2026-11-16T20:28:37Z",
+     "license": "MIT",
+     "archived": false,
+     "description": "GridStatus MCP — wraps the GridStatus.io REST API (api.gridstatus.io/v1)"
+    },
+    {
+     "full_name": "djudo82/gridstatus-static-site",
+     "url": "https://github.com/djudo82/gridstatus-static-site",
+     "stars": 0,
+     "pushed_at": "2026-04-23T20:37:28Z",
+     "license": null,
+     "archived": false,
+     "description": "GridStatus Control Deck — static landing"
+    }
+   ]
+  },
+  "pudl catalyst": {
+   "total": 4,
+   "items": [
+    {
+     "full_name": "catalyst-cooperative/pudl-catalog",
+     "url": "https://github.com/catalyst-cooperative/pudl-catalog",
+     "stars": 9,
+     "pushed_at": "2024-01-12T16:47:02Z",
+     "license": "MIT",
+     "archived": true,
+     "description": "An Intake catalog for distributing open energy system data liberated by Catalyst Cooperative."
+    },
+    {
+     "full_name": "conda-forge/catalystcoop.pudl-feedstock",
+     "url": "https://github.com/conda-forge/catalystcoop.pudl-feedstock",
+     "stars": 1,
+     "pushed_at": "2026-04-23T20:45:14Z",
+     "license": "BSD-3-Clause",
+     "archived": false,
+     "description": "A conda-smithy repository for catalystcoop.pudl."
+    },
+    {
+     "full_name": "conda-forge/catalystcoop.pudl_catalog-feedstock",
+     "url": "https://github.com/conda-forge/catalystcoop.pudl_catalog-feedstock",
+     "stars": 0,
+     "pushed_at": "2026-04-23T20:45:18Z",
+     "license": "BSD-3-Clause",
+     "archived": false,
+     "description": "A conda-smithy repository for catalystcoop.pudl_catalog."
+    },
+    {
+     "full_name": "conda-forge/catalystcoop.pudl_diff-feedstock",
+     "url": "https://github.com/conda-forge/catalystcoop.pudl_diff-feedstock",
+     "stars": 0,
+     "pushed_at": "2026-10-19T22:53:32Z",
+     "license": "BSD-3-Clause",
+     "archived": false,
+     "description": "A conda-smithy repository for catalystcoop.pudl_diff."
+    }
+   ]
+  },
+  "large load tariff": {
+   "total": 3,
+   "items": [
+    {
+     "full_name": "shishir349/Prediction-of-Tariff-Rates",
+     "url": "https://github.com/shishir349/Prediction-of-Tariff-Rates",
+     "stars": 3,
+     "pushed_at": "2020-05-25T15:22:10Z",
+     "license": "GPL-3.0",
+     "archived": false,
+     "description": "Tariff is a list of expenses that incur while transporting the goods from one distance to another distance. Tariff is also dependent on seasonal and non-seasonal factors also. This project is aimed at"
+    },
+    {
+     "full_name": "jphoebus/large-load-tariffs",
+     "url": "https://github.com/jphoebus/large-load-tariffs",
+     "stars": 0,
+     "pushed_at": "2026-11-23T15:56:37Z",
+     "license": null,
+     "archived": false,
+     "description": "How five states set the terms data centers and other large electricity customers must accept"
+    },
+    {
+     "full_name": "vladimiragadzhiieva/tariffazione-rc-auto-glm",
+     "url": "https://github.com/vladimiragadzhiieva/tariffazione-rc-auto-glm",
+     "stars": 0,
+     "pushed_at": "2026-11-12T16:12:13Z",
+     "license": null,
+     "archived": false,
+     "description": "Motor insurance pricing in R: Poisson and Gamma GLMs, large claims loading and premium table (UniBo MSc project)"
+    }
+   ]
+  },
+  "electric utility service territory": {
+   "total": 4,
+   "items": [
+    {
+     "full_name": "ChelseaKR/wildfire-service-territory-overlap",
+     "url": "https://github.com/ChelseaKR/wildfire-service-territory-overlap",
+     "stars": 1,
+     "pushed_at": "2026-11-09T07:36:20Z",
+     "license": "Apache-2.0",
+     "archived": true,
+     "description": "Beta. How much of California's public wildfire damage-inspection record set can be attributed to a published electric service territory, and how much cannot. 37.9% of records fall inside more than one"
+    },
+    {
+     "full_name": "JackieLDay/san-antonio-data-centers-power-water",
+     "url": "https://github.com/JackieLDay/san-antonio-data-centers-power-water",
+     "stars": 0,
+     "pushed_at": "2026-04-16T02:45:56Z",
+     "license": "MIT",
+     "archived": false,
+     "description": "Interactive map exploring data center locations, electric utility service territories, and Edwards Aquifer zones in San Antonio, TX using Python, GeoPandas, and Folium."
+    },
+    {
+     "full_name": "api-evangelist/peco-energy",
+     "url": "https://github.com/api-evangelist/peco-energy",
+     "stars": 0,
+     "pushed_at": "2026-10-31T14:09:40Z",
+     "license": null,
+     "archived": false,
+     "description": "PECO Energy — independent third-party profile of a public API surface, by API Evangelist. PECO Energy Company is the largest electric and natural gas utility in Pennsylvania, serving roughly 1.7 milli"
+    },
+    {
+     "full_name": "api-evangelist/southern-california-edison",
+     "url": "https://github.com/api-evangelist/southern-california-edison",
+     "stars": 0,
+     "pushed_at": "2026-11-01T03:08:11Z",
+     "license": null,
+     "archived": false,
+     "description": "Southern California Edison — independent third-party profile of a public API surface, by API Evangelist. Southern California Edison (SCE) is the regulated electric utility subsidiary of Edison Interna"
+    }
+   ]
+  },
+  "electricity price data center": {
+   "total": 22,
+   "items": [
+    {
+     "full_name": "PEESEgroup/Data-Center-Equality",
+     "url": "https://github.com/PEESEgroup/Data-Center-Equality",
+     "stars": 5,
+     "pushed_at": "2026-09-28T19:21:02Z",
+     "license": "MIT",
+     "archived": false,
+     "description": "This repository contains the data, code, and derived results used to quantify how data-center load growth affects wholesale electricity prices, transmission cost allocation, and downstream burden and "
+    },
+    {
+     "full_name": "DayKnight-1/AI-Data-Center-Compute-Power-Co-Scheduling-Demo",
+     "url": "https://github.com/DayKnight-1/AI-Data-Center-Compute-Power-Co-Scheduling-Demo",
+     "stars": 3,
+     "pushed_at": "2026-10-24T08:59:59Z",
+     "license": "MIT",
+     "archived": false,
+     "description": "This project is a Streamlit demo that co-schedules computing tasks and electricity for an AI data center. It shifts workloads in time, adjusts GPU compute tiers, splits long tasks, and coordinates bat"
+    },
+    {
+     "full_name": "danielamendirichaga/data-centers-and-electricity-prices",
+     "url": "https://github.com/danielamendirichaga/data-centers-and-electricity-prices",
+     "stars": 1,
+     "pushed_at": "2026-03-28T01:37:22Z",
+     "license": null,
+     "archived": false,
+     "description": "Econometrics project analyzing whether county-level data center activity is associated with residential electricity prices in the U.S. in 2023."
+    },
+    {
+     "full_name": "Akamemz/Predicting-electricity-prices",
+     "url": "https://github.com/Akamemz/Predicting-electricity-prices",
+     "stars": 1,
+     "pushed_at": "2024-05-07T12:18:14Z",
+     "license": null,
+     "archived": false,
+     "description": "Project, focusing on predictive modeling for hourly electricity prices. Through rigorous time series analysis, we've crafted robust forecasting models tailored for a data center in Ireland (based on t"
+    },
+    {
+     "full_name": "PlanetPhilip/Project-RL",
+     "url": "https://github.com/PlanetPhilip/Project-RL",
+     "stars": 1,
+     "pushed_at": "2025-01-30T12:50:56Z",
+     "license": null,
+     "archived": false,
+     "description": "The project is about optimizing the use of a data center, given some past time series of the daily electricity price."
+    },
+    {
+     "full_name": "malankgoel/data-centers-residential-electricity-prices",
+     "url": "https://github.com/malankgoel/data-centers-residential-electricity-prices",
+     "stars": 0,
+     "pushed_at": "2026-06-19T06:01:00Z",
+     "license": null,
+     "archived": false,
+     "description": ""
+    },
+    {
+     "full_name": "17060/ai-data-center-electricity-rates",
+     "url": "https://github.com/17060/ai-data-center-electricity-rates",
+     "stars": 0,
+     "pushed_at": "2026-08-31T05:44:51Z",
+     "license": null,
+     "archived": false,
+     "description": "2026 market report on US electricity rates for AI data centers — pricing models, regional differences, tariffs, and ratepayer impact"
+    },
+    {
+     "full_name": "dnaxdrongo/datacenter-electricity-prices-us",
+     "url": "https://github.com/dnaxdrongo/datacenter-electricity-prices-us",
+     "stars": 0,
+     "pushed_at": "2026-01-11T18:54:56Z",
+     "license": "MIT",
+     "archived": false,
+     "description": "Capstone to quantify whether US data center presence/load is associated with higher retail electricity prices. Integrates public facility data with EIA state-month metrics and generation/fuel cost fac"
+    },
+    {
+     "full_name": "Dylan-Gunn/Data_Center_Growth_And_Electricity_Affects",
+     "url": "https://github.com/Dylan-Gunn/Data_Center_Growth_And_Electricity_Affects",
+     "stars": 0,
+     "pushed_at": "2026-11-23T20:37:01Z",
+     "license": null,
+     "archived": false,
+     "description": "This project looks at the affects of the growth and construction of data centers in the state of Texas as well as the affects on electricity load and pricing. This project uses SQL and Python to manip"
+    },
+    {
+     "full_name": "yyan-26/electricity-price-forecasting-tes",
+     "url": "https://github.com/yyan-26/electricity-price-forecasting-tes",
+     "stars": 0,
+     "pushed_at": "2026-05-09T00:45:37Z",
+     "license": null,
+     "archived": false,
+     "description": "Probabilistic electricity price forecasting with quantile LSTM (P10/P50/P90) and LP-based Thermal Energy Storage dispatch optimization for data center energy cost reduction."
+    },
+    {
+     "full_name": "tedngai/datacenter-efficiency-study",
+     "url": "https://github.com/tedngai/datacenter-efficiency-study",
+     "stars": 0,
+     "pushed_at": "2026-11-08T23:16:37Z",
+     "license": "MIT",
+     "archived": false,
+     "description": "Source-linked inventory of 442 AI and hyperscale data centers, with US power, water and electricity-price impacts."
+    },
+    {
+     "full_name": "dm574-design/AI_Data-Center_Utility_Cost_Analysis",
+     "url": "https://github.com/dm574-design/AI_Data-Center_Utility_Cost_Analysis",
+     "stars": 0,
+     "pushed_at": "2026-10-29T15:05:06Z",
+     "license": null,
+     "archived": false,
+     "description": "Data analytics project examining U.S. data center electricity demand, residential utility prices, and potential cost mitigation strategies using Python, EIA data, and Power BI."
+    },
+    {
+     "full_name": "Serious-Snail-312/Illinois-Data-Centers",
+     "url": "https://github.com/Serious-Snail-312/Illinois-Data-Centers",
+     "stars": 0,
+     "pushed_at": "2026-07-09T16:06:32Z",
+     "license": null,
+     "archived": false,
+     "description": "An interactive policy briefing for policy students on how hyperscale data centers reach Illinois residents through electricity rates and the state budget, with sourced charts on PJM and MISO capacity "
+    },
+    {
+     "full_name": "SeLeNa-QAQ/AI_Data-Center_Scheduling",
+     "url": "https://github.com/SeLeNa-QAQ/AI_Data-Center_Scheduling",
+     "stars": 0,
+     "pushed_at": "2026-10-24T15:10:07Z",
+     "license": null,
+     "archived": false,
+     "description": "A simulator comparing baseline and our smart AI data-center scheduling. It weighs electricity price, green supply, PUE (power usage effectiveness), battery state, and task urgency to cut cost and carb"
+    },
+    {
+     "full_name": "HopkinsICARUS/ICARUS-DC-Dataset",
+     "url": "https://github.com/HopkinsICARUS/ICARUS-DC-Dataset",
+     "stars": 0,
+     "pushed_at": "2026-09-28T17:18:53Z",
+     "license": "NOASSERTION",
+     "archived": false,
+     "description": "The ICARUS Data Center Dataset provides a structured and extensible framework for analyzing how data center infrastructure and operations impact regional power dynamics, electricity pricing, and grid "
+    }
+   ]
+  }
+ }
+}

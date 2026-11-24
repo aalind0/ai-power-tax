@@ -1,0 +1,921 @@
+{
+ "meta": {
+  "title": "Who profits from scarcity: IPPs, hyperscaler nuclear deals, power M&A",
+  "built": "2026-11-23",
+  "stock_source": "Nasdaq.com historical quotes (close, split-adjusted, not dividend-adjusted); see data/processed/finance_stock_moves.csv",
+  "capacity_context": "PJM capacity cost (cleared MW x price): $2.2B for 2024/25 -> $14.7B for 2025/26 -> $16.1B for 2026/27; see data/processed/markets_capacity_prices.csv (markets area)",
+  "caveat": "Company figures are non-GAAP as reported; deals list is not exhaustive."
+ },
+ "independent_power_producers": [
+  {
+   "ticker": "CEG",
+   "name": "Constellation Energy",
+   "fleet": "~55 GW (nuclear, gas, geothermal, hydro, wind, solar) after Calpine",
+   "earnings": [
+    {
+     "metric": "Adjusted (non-GAAP) operating EPS",
+     "value": 6.28,
+     "unit": "USD/share",
+     "period": "2023",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827525000020/ceg-20250218991.htm",
+     "verified": true
+    },
+    {
+     "metric": "Adjusted (non-GAAP) operating EPS",
+     "value": 8.67,
+     "unit": "USD/share",
+     "period": "2024",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827525000020/ceg-20250218991.htm",
+     "verified": true
+    },
+    {
+     "metric": "Adjusted (non-GAAP) operating EPS",
+     "value": 9.39,
+     "unit": "USD/share",
+     "period": "2025",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000029/ceg-20260224991.htm",
+     "verified": true
+    },
+    {
+     "metric": "Adjusted operating EPS guidance (raised Nov-2026)",
+     "value": [
+      12.5,
+      12.8
+     ],
+     "unit": "USD/share range",
+     "period": "2026",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000116/ceg-20261109991.htm",
+     "verified": true
+    },
+    {
+     "metric": "Adjusted EBITDA (metric reported for 2023)",
+     "value": 4025000000.0,
+     "unit": "USD",
+     "period": "2023",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827524000010/ceg-20240227991.htm",
+     "verified": true
+    },
+    {
+     "metric": "GAAP EPS",
+     "value": 11.89,
+     "unit": "USD/share",
+     "period": "2024",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827525000020/ceg-20250218991.htm",
+     "verified": true
+    },
+    {
+     "metric": "GAAP EPS",
+     "value": 7.4,
+     "unit": "USD/share",
+     "period": "2025",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000029/ceg-20260224991.htm",
+     "verified": true
+    },
+    {
+     "metric": "Q3 adjusted operating EPS",
+     "value": 5.06,
+     "unit": "USD/share",
+     "period": "Q3-2026 (vs 3.04 in Q3-2025)",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000116/ceg-20261109991.htm",
+     "verified": true
+    }
+   ],
+   "capacity_revenue": [
+    {
+     "metric": "Q3-2026 drivers",
+     "value": "Contribution from Calpine; strong commercial performance; higher capacity revenue",
+     "unit": "text",
+     "period": "Q3-2026",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000116/ceg-20261109992.htm",
+     "verified": true
+    }
+   ],
+   "shareholder_returns": [
+    {
+     "metric": "Share repurchases YTD",
+     "value": 3000000000.0,
+     "unit": "USD (approx., ~11M shares)",
+     "period": "2026 YTD",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000116/ceg-20261109992.htm",
+     "verified": true,
+     "note": "Buyback authorization $5.0B; ~$2.0B remaining."
+    }
+   ],
+   "contracts": [
+    {
+     "metric": "Long-term agreements signed",
+     "value": 8500,
+     "unit": "MW",
+     "period": "2026 YTD",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000116/ceg-20261109992.htm",
+     "verified": true
+    }
+   ],
+   "stock": {
+    "ticker": "CEG",
+    "group": "IPP",
+    "base_date": "2022-12-30",
+    "close_base": 86.21,
+    "close_2023_end": 116.89,
+    "close_2024_end": 223.71,
+    "close_2025_end": 353.27,
+    "latest_date": "2026-11-20",
+    "close_latest": 237.41,
+    "peak_close": 403.95,
+    "peak_date": "2025-10-15",
+    "pct_2023": 35.6,
+    "pct_2024": 91.4,
+    "pct_2025": 57.9,
+    "pct_2026_ytd": -32.8,
+    "pct_base_to_latest": 175.4,
+    "pct_latest_vs_peak": -41.2,
+    "price_basis": "close, not dividend-adjusted",
+    "source_url": "https://api.nasdaq.com/api/quote/CEG/historical?assetclass=stocks"
+   }
+  },
+  {
+   "ticker": "VST",
+   "name": "Vistra",
+   "fleet": "~50 GW incl. Cogentrix (closed Oct-2026), Energy Harbor nuclear (Mar-2024), Lotus gas (Oct-2025)",
+   "earnings": [
+    {
+     "metric": "Ongoing Operations Adjusted EBITDA",
+     "value": 4140000000.0,
+     "unit": "USD",
+     "period": "2023",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1692819/000119312524049124/d784050dex991.htm",
+     "verified": true
+    },
+    {
+     "metric": "Ongoing Operations Adjusted EBITDA",
+     "value": 5656000000.0,
+     "unit": "USD",
+     "period": "2024",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1692819/000119312525037636/d126557dex991.htm",
+     "verified": true
+    },
+    {
+     "metric": "Ongoing Operations Adjusted EBITDA",
+     "value": 5912000000.0,
+     "unit": "USD",
+     "period": "2025",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1692819/000119312526073364/d21122dex991.htm",
+     "verified": true
+    },
+    {
+     "metric": "Ongoing Operations Adjusted EBITDA guidance (narrowed Nov-2026)",
+     "value": [
+      7100000000.0,
+      7500000000.0
+     ],
+     "unit": "USD range",
+     "period": "2026",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000023/vistra-20260930xearningsre.htm",
+     "verified": true
+    },
+    {
+     "metric": "Ongoing Operations Adjusted EBITDA guidance (initiated Nov-2026)",
+     "value": [
+      7700000000.0,
+      8500000000.0
+     ],
+     "unit": "USD range",
+     "period": "2027",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000023/vistra-20260930xearningsre.htm",
+     "verified": true
+    },
+    {
+     "metric": "Q3 Ongoing Operations Adjusted EBITDA",
+     "value": 2378000000.0,
+     "unit": "USD",
+     "period": "Q3-2026 (>50% y/y)",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000023/vistra-20260930xearningsre.htm",
+     "verified": true
+    }
+   ],
+   "capacity_revenue": [
+    {
+     "metric": "Q3-2026 drivers",
+     "value": "Higher realized energy and capacity prices; Lotus plants; Martin Lake 1 return",
+     "unit": "text",
+     "period": "Q3-2026",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000023/vistra-20260930xearningsre.htm",
+     "verified": true
+    }
+   ],
+   "shareholder_returns": [
+    {
+     "metric": "Cumulative share repurchases since Nov-2021",
+     "value": 6700000000.0,
+     "unit": "USD",
+     "period": "to 2026-11-02",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000023/vistra-20260930xearningsre.htm",
+     "verified": true,
+     "note": "+$1.5B new authorization; ~$2.5B remaining through 2028."
+    }
+   ],
+   "contracts": [
+    {
+     "metric": "Meta 20-yr PPAs (Perry + Davis-Besse) plus uprate energy",
+     "value": 2176,
+     "unit": "MW",
+     "period": "announced 2026-01-09",
+     "source_url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/",
+     "verified": true,
+     "note": "Uprates +433 MW across Perry, Davis-Besse, Beaver Valley by early 2030s."
+    },
+    {
+     "metric": "Hedged share of expected generation",
+     "value": [
+      100,
+      98,
+      78
+     ],
+     "unit": "percent for 2026/2027/2028",
+     "period": "as of 2026-10-30",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000023/vistra-20260930xearningsre.htm",
+     "verified": true
+    }
+   ],
+   "stock": {
+    "ticker": "VST",
+    "group": "IPP",
+    "base_date": "2022-12-30",
+    "close_base": 23.2,
+    "close_2023_end": 38.52,
+    "close_2024_end": 137.87,
+    "close_2025_end": 161.33,
+    "latest_date": "2026-11-20",
+    "close_latest": 115.25,
+    "peak_close": 217.92,
+    "peak_date": "2025-09-22",
+    "pct_2023": 66.0,
+    "pct_2024": 257.9,
+    "pct_2025": 17.0,
+    "pct_2026_ytd": -28.6,
+    "pct_base_to_latest": 396.8,
+    "pct_latest_vs_peak": -47.1,
+    "price_basis": "close, not dividend-adjusted",
+    "source_url": "https://api.nasdaq.com/api/quote/VST/historical?assetclass=stocks"
+   }
+  },
+  {
+   "ticker": "TLN",
+   "name": "Talen Energy",
+   "fleet": "Susquehanna nuclear + PJM gas incl. Freedom & Guernsey CCGTs (+~2.8 GW, closed 2025-11-25)",
+   "earnings": [
+    {
+     "metric": "Adjusted EBITDA",
+     "value": null,
+     "unit": "USD",
+     "period": "2023",
+     "source_url": "",
+     "verified": false,
+     "note": "Emerged from bankruptcy May-2023; not collected."
+    },
+    {
+     "metric": "Adjusted EBITDA",
+     "value": 770000000.0,
+     "unit": "USD",
+     "period": "2024",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828025008641/a20250227q42024earningsrel.htm",
+     "verified": true
+    },
+    {
+     "metric": "Adjusted EBITDA",
+     "value": 1035000000.0,
+     "unit": "USD",
+     "period": "2025",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000014/a20260226q42025earningsrel.htm",
+     "verified": true
+    },
+    {
+     "metric": "Adjusted EBITDA guidance (reaffirmed Nov-2026)",
+     "value": [
+      2050000000.0,
+      2200000000.0
+     ],
+     "unit": "USD range",
+     "period": "2026",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000084/a20261103q32026earningsrel.htm",
+     "verified": true
+    },
+    {
+     "metric": "Adjusted EBITDA guidance (initiated)",
+     "value": [
+      2500000000.0,
+      2850000000.0
+     ],
+     "unit": "USD range",
+     "period": "2027",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000084/a20261103q32026earningsrel.htm",
+     "verified": true
+    }
+   ],
+   "capacity_revenue": [
+    {
+     "metric": "PJM capacity monetization",
+     "value": 1500000000.0,
+     "unit": "USD of future PJM capacity cash flows sold (2027/28 + 2028/29 delivery years) for $1.3B net proceeds, closed 2026-10-01; proceeds funded a $1.5B accelerated share repurchase",
+     "period": "2027/28-2028/29",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000084/a20261103q32026earningsrel.htm",
+     "verified": true
+    }
+   ],
+   "shareholder_returns": [
+    {
+     "metric": "Share repurchases since start of 2024 (on ASR completion)",
+     "value": 4000000000.0,
+     "unit": "USD (~19.5M shares)",
+     "period": "2024-2026",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000084/a20261103q32026earningsrel.htm",
+     "verified": true
+    }
+   ],
+   "contracts": [
+    {
+     "metric": "Amazon PPA (front-of-meter) at full quantity",
+     "value": 1920,
+     "unit": "MW through 2042",
+     "period": "announced 2025-06-11",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828025030559/a20250611pressreleasebusin.htm",
+     "verified": true,
+     "note": "~$18B lifetime revenue at full quantity per Talen investor presentation (as reported by Utility Dive / POWER; not read in primary)."
+    }
+   ],
+   "stock": {
+    "ticker": "TLN",
+    "group": "IPP",
+    "base_date": "2023-06-02",
+    "close_base": 46.5,
+    "close_2023_end": 64.0,
+    "close_2024_end": 201.47,
+    "close_2025_end": 374.84,
+    "latest_date": "2026-11-20",
+    "close_latest": 332.92,
+    "peak_close": 445.84,
+    "peak_date": "2025-10-08",
+    "pct_2023": 37.6,
+    "pct_2024": 214.8,
+    "pct_2025": 86.1,
+    "pct_2026_ytd": -11.2,
+    "pct_base_to_latest": 616.0,
+    "pct_latest_vs_peak": -25.3,
+    "price_basis": "close, not dividend-adjusted",
+    "source_url": "https://api.nasdaq.com/api/quote/TLN/historical?assetclass=stocks"
+   }
+  },
+  {
+   "ticker": "NRG",
+   "name": "NRG Energy",
+   "fleet": "~25 GW after LS Power portfolio (closed 2026-01-30), less 4.9 GW being sold back to LS Power",
+   "earnings": [
+    {
+     "metric": "Adjusted EBITDA",
+     "value": 3282000000.0,
+     "unit": "USD",
+     "period": "2023",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387124000003/ex991-q42023.htm",
+     "verified": true
+    },
+    {
+     "metric": "Adjusted EBITDA",
+     "value": 3752000000.0,
+     "unit": "USD",
+     "period": "2024",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387125000004/ex991-q42024.htm",
+     "verified": true,
+     "note": "Derived: 2023 + $470M improvement stated in FY2024 release."
+    },
+    {
+     "metric": "Adjusted EBITDA",
+     "value": 4050000000.0,
+     "unit": "USD",
+     "period": "2025",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000002/ex991-q42025.htm",
+     "verified": true,
+     "note": "Derived: 2024 + $298M improvement stated in FY2025 release."
+    },
+    {
+     "metric": "Adjusted EPS",
+     "value": 4.72,
+     "unit": "USD/share",
+     "period": "2023",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387125000004/ex991-q42024.htm",
+     "verified": true,
+     "note": "Derived: $6.83 - $2.11."
+    },
+    {
+     "metric": "Adjusted EPS",
+     "value": 6.83,
+     "unit": "USD/share",
+     "period": "2024",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387125000004/ex991-q42024.htm",
+     "verified": true
+    },
+    {
+     "metric": "Adjusted EPS",
+     "value": 8.24,
+     "unit": "USD/share",
+     "period": "2025",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000002/ex991-q42025.htm",
+     "verified": true
+    },
+    {
+     "metric": "Adjusted EBITDA guidance",
+     "value": [
+      5325000000.0,
+      5825000000.0
+     ],
+     "unit": "USD range",
+     "period": "2026",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000022/nrgq32026ex991.htm",
+     "verified": true
+    },
+    {
+     "metric": "Adjusted EPS guidance",
+     "value": [
+      7.9,
+      9.9
+     ],
+     "unit": "USD/share range",
+     "period": "2026",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000022/nrgq32026ex991.htm",
+     "verified": true
+    },
+    {
+     "metric": "Adjusted EBITDA guidance (initiated)",
+     "value": [
+      5500000000.0,
+      6000000000.0
+     ],
+     "unit": "USD range",
+     "period": "2027",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000022/nrgq32026ex991.htm",
+     "verified": true
+    }
+   ],
+   "capacity_revenue": [
+    {
+     "metric": "East segment Adjusted EBITDA (PJM/Northeast)",
+     "value": 1547000000.0,
+     "unit": "USD (+$867M y/y)",
+     "period": "9M-2026",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000022/nrgq32026ex991.htm",
+     "verified": true,
+     "note": "Q3-2026 East $614M, +$507M y/y; segment is where PJM capacity-price exposure sits (attribution to capacity prices is our inference)."
+    }
+   ],
+   "shareholder_returns": [
+    {
+     "metric": "Planned share repurchases 2026-2027",
+     "value": 3000000000.0,
+     "unit": "USD",
+     "period": "2026-2027",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000022/nrgq32026ex991.htm",
+     "verified": true,
+     "note": "Funded partly by $4.0B sale of 4.9 GW to LS Power (agreed 2026-11-09)."
+    }
+   ],
+   "contracts": [
+    {
+     "metric": "Bring-your-own-power data-center project",
+     "value": 1200,
+     "unit": "MW",
+     "period": "on track (Q3-2026)",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000022/nrgq32026ex991.htm",
+     "verified": true
+    }
+   ],
+   "stock": {
+    "ticker": "NRG",
+    "group": "IPP",
+    "base_date": "2022-12-30",
+    "close_base": 31.82,
+    "close_2023_end": 51.7,
+    "close_2024_end": 90.22,
+    "close_2025_end": 159.24,
+    "latest_date": "2026-11-20",
+    "close_latest": 87.8,
+    "peak_close": 184.03,
+    "peak_date": "2026-02-24",
+    "pct_2023": 62.5,
+    "pct_2024": 74.5,
+    "pct_2025": 76.5,
+    "pct_2026_ytd": -44.9,
+    "pct_base_to_latest": 175.9,
+    "pct_latest_vs_peak": -52.3,
+    "price_basis": "close, not dividend-adjusted",
+    "source_url": "https://api.nasdaq.com/api/quote/NRG/historical?assetclass=stocks"
+   }
+  }
+ ],
+ "benchmarks": {
+  "XLU": {
+   "ticker": "XLU",
+   "group": "benchmark: S&P 500 utilities ETF",
+   "base_date": "2022-12-30",
+   "close_base": 35.25,
+   "close_2023_end": 31.665,
+   "close_2024_end": 37.845,
+   "close_2025_end": 42.69,
+   "latest_date": "2026-11-20",
+   "close_latest": 42.69,
+   "peak_close": 47.73,
+   "peak_date": "2026-02-27",
+   "pct_2023": -10.2,
+   "pct_2024": 19.5,
+   "pct_2025": 12.8,
+   "pct_2026_ytd": 0.0,
+   "pct_base_to_latest": 21.1,
+   "pct_latest_vs_peak": -10.6,
+   "price_basis": "close, not dividend-adjusted",
+   "source_url": "https://api.nasdaq.com/api/quote/XLU/historical?assetclass=etf"
+  },
+  "SPY": {
+   "ticker": "SPY",
+   "group": "benchmark: S&P 500 ETF",
+   "base_date": "2022-12-30",
+   "close_base": 382.43,
+   "close_2023_end": 475.31,
+   "close_2024_end": 586.08,
+   "close_2025_end": 681.92,
+   "latest_date": "2026-11-20",
+   "close_latest": 689.81,
+   "peak_close": 779.09,
+   "peak_date": "2026-10-06",
+   "pct_2023": 24.3,
+   "pct_2024": 23.3,
+   "pct_2025": 16.4,
+   "pct_2026_ytd": 1.2,
+   "pct_base_to_latest": 80.4,
+   "pct_latest_vs_peak": -11.5,
+   "price_basis": "close, not dividend-adjusted",
+   "source_url": "https://api.nasdaq.com/api/quote/SPY/historical?assetclass=etf"
+  },
+  "GEV": {
+   "ticker": "GEV",
+   "group": "equipment (turbines/grid)",
+   "base_date": "2024-03-27",
+   "close_base": 131.25,
+   "close_2023_end": "",
+   "close_2024_end": 328.93,
+   "close_2025_end": 653.57,
+   "latest_date": "2026-11-20",
+   "close_latest": 699.33,
+   "peak_close": 1174.86,
+   "peak_date": "2026-06-30",
+   "pct_2023": "",
+   "pct_2024": "",
+   "pct_2025": 98.7,
+   "pct_2026_ytd": 7.0,
+   "pct_base_to_latest": 432.8,
+   "pct_latest_vs_peak": -40.5,
+   "price_basis": "close, not dividend-adjusted",
+   "source_url": "https://api.nasdaq.com/api/quote/GEV/historical?assetclass=stocks"
+  },
+  "OKLO": {
+   "ticker": "OKLO",
+   "group": "nuclear developer",
+   "base_date": "2022-12-30",
+   "close_base": 9.92,
+   "close_2023_end": 10.56,
+   "close_2024_end": 21.23,
+   "close_2025_end": 71.76,
+   "latest_date": "2026-11-20",
+   "close_latest": 19.85,
+   "peak_close": 174.14,
+   "peak_date": "2025-10-14",
+   "pct_2023": 6.5,
+   "pct_2024": 101.0,
+   "pct_2025": 238.0,
+   "pct_2026_ytd": -72.3,
+   "pct_base_to_latest": 100.1,
+   "pct_latest_vs_peak": -88.6,
+   "price_basis": "close, not dividend-adjusted",
+   "source_url": "https://api.nasdaq.com/api/quote/OKLO/historical?assetclass=stocks"
+  },
+  "SMR": {
+   "ticker": "SMR",
+   "group": "nuclear developer",
+   "base_date": "2022-12-30",
+   "close_base": 10.26,
+   "close_2023_end": 3.29,
+   "close_2024_end": 17.93,
+   "close_2025_end": 14.17,
+   "latest_date": "2026-11-20",
+   "close_latest": 3.36,
+   "peak_close": 53.43,
+   "peak_date": "2025-10-15",
+   "pct_2023": -67.9,
+   "pct_2024": 445.0,
+   "pct_2025": -21.0,
+   "pct_2026_ytd": -76.3,
+   "pct_base_to_latest": -67.3,
+   "pct_latest_vs_peak": -93.7,
+   "price_basis": "close, not dividend-adjusted",
+   "source_url": "https://api.nasdaq.com/api/quote/SMR/historical?assetclass=stocks"
+  }
+ },
+ "hyperscaler_nuclear_deals": [
+  {
+   "buyer": "Microsoft",
+   "seller": "Constellation",
+   "asset": "Crane Clean Energy Center (Three Mile Island Unit 1 restart), PA (PJM)",
+   "mw": 835,
+   "mw_note": "\"more than 800 MW\"; unit was 837 MW before 2019 retirement (835 MW widely reported)",
+   "term_years": 20,
+   "announced": "2024-09-20",
+   "start": "2028 at announcement (later reported accelerated to 2027 - UNVERIFIED)",
+   "price": "not disclosed",
+   "structure": "PPA; DOE guarantee up to $1B for restart loan (Nov-2025)",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827524000058/ceg-202409208kexh991.htm",
+   "verified": true
+  },
+  {
+   "buyer": "Amazon (AWS)",
+   "seller": "Talen",
+   "asset": "Susquehanna nuclear, PA (PJM)",
+   "mw": 1920,
+   "term_years": 17,
+   "announced": "2025-06-11 (expanded; original Mar-2024 Cumulus campus sale)",
+   "start": "ramping: 840-1,200 MW by 2029, 1,680-1,920 MW by 2032 (Utility Dive)",
+   "price": "~$18B lifetime revenue at full quantity (Talen deck via trade press)",
+   "structure": "front-of-meter PPA through 2042; Talen as retail supplier, PPL Electric delivers",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828025030559/a20250611pressreleasebusin.htm",
+   "verified": true,
+   "note": "MW/term verified in 8-K; $18B and ramp from trade press."
+  },
+  {
+   "buyer": "Meta",
+   "seller": "Constellation",
+   "asset": "Clinton Clean Energy Center, IL (MISO)",
+   "mw": 1121,
+   "term_years": 20,
+   "announced": "2025-06-03",
+   "start": "2027-06",
+   "price": "not disclosed",
+   "structure": "virtual PPA; supports relicensing after Illinois ZEC expires 2027",
+   "source_url": "https://www.utilitydive.com/news/meta-constellation-illinois-clinton-nuclear-ppa-support-ai-goals/749992/",
+   "verified": true,
+   "note": "Verified via trade press (Utility Dive/The Register); CEG 8-K not retrieved."
+  },
+  {
+   "buyer": "Google",
+   "seller": "NextEra Energy Resources",
+   "asset": "Duane Arnold Energy Center restart, IA (MISO)",
+   "mw": 615,
+   "term_years": 25,
+   "announced": "2025-10-27",
+   "start": "no later than Q1-2029 (possibly Q4-2028)",
+   "price": "not disclosed",
+   "structure": "PPA; CIPCO buys 50 MW on same terms; NEE to buy 30% minority stakes; up to $0.16/yr adjusted EPS avg first 10 years",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/753308/000075330825000055/neeq32025exhibit99.htm",
+   "verified": true
+  },
+  {
+   "buyer": "Meta",
+   "seller": "Vistra",
+   "asset": "Perry + Davis-Besse (OH) existing output; uprates incl. Beaver Valley (PA), PJM",
+   "mw": 2176,
+   "mw_note": "plus 433 MW of uprates by early 2030s",
+   "term_years": 20,
+   "announced": "2026-01-09",
+   "start": "not stated",
+   "price": "not disclosed",
+   "structure": "PPAs; enable subsequent license renewals",
+   "source_url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/",
+   "verified": true
+  },
+  {
+   "buyer": "Meta",
+   "seller": "TerraPower",
+   "asset": "2 Natrium units (+ rights to 6 more, ~2.1 GW)",
+   "mw": 690,
+   "term_years": null,
+   "announced": "2026-01-09",
+   "start": "as early as 2032; options by 2035",
+   "price": "not disclosed",
+   "structure": "development funding + offtake rights",
+   "source_url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/",
+   "verified": true
+  },
+  {
+   "buyer": "Meta",
+   "seller": "Oklo",
+   "asset": "Pike County, OH advanced-nuclear campus (PJM)",
+   "mw": 1200,
+   "term_years": null,
+   "announced": "2026-01-09",
+   "start": "as early as 2030; full 1.2 GW by 2034",
+   "price": "not disclosed",
+   "structure": "prepayment/development support",
+   "source_url": "https://www.ans.org/news/article-7666/meta-strikes-deals-with-vistra-oklo-terrapower",
+   "verified": true
+  },
+  {
+   "buyer": "Amazon",
+   "seller": "Constellation",
+   "asset": "Calvert Cliffs, MD (PJM)",
+   "mw": 690,
+   "mw_note": "+190 MW expansion 2030-2032",
+   "term_years": 20,
+   "announced": "2026-09",
+   "start": "not stated",
+   "price": "not disclosed",
+   "structure": "PPA + retail supply agreement; enables >$3B investment",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000116/ceg-20261109991.htm",
+   "verified": true
+  },
+  {
+   "buyer": "Google",
+   "seller": "Constellation",
+   "asset": "Uprates at 11 nuclear units in IL, PA, NJ (PJM)",
+   "mw": 890,
+   "term_years": 20,
+   "announced": "2026-10",
+   "start": "first uprate 2028",
+   "price": "not disclosed",
+   "structure": "PPA enabling >$4.3B uprate investment; plus 15-yr financial load-following agreement for 2,700 MW in PJM",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000116/ceg-20261109991.htm",
+   "verified": true
+  },
+  {
+   "buyer": "undisclosed",
+   "seller": "NextEra Energy Resources",
+   "asset": "Point Beach nuclear, WI",
+   "mw": 1000,
+   "term_years": 20,
+   "announced": "Q3-2026",
+   "start": "",
+   "price": "\"competitive price\"",
+   "structure": "PPA, subject to PSC of Wisconsin approval",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/753308/000075330826000077/neeq32026exhibit99.htm",
+   "verified": true
+  },
+  {
+   "buyer": "Google",
+   "seller": "Kairos Power",
+   "asset": "fleet of SMRs (incl. Hermes 2 via TVA)",
+   "mw": 500,
+   "term_years": null,
+   "announced": "2024-10-14",
+   "start": "first by 2030, full by 2035",
+   "price": "not disclosed",
+   "structure": "SMR offtake agreement; Aug-2025 step: Hermes 2 (Oak Ridge) to supply up to 50 MW to TVA grid serving Google sites from 2030",
+   "source_url": "https://www.axios.com/2024/10/14/google-nuclear-deal-power-ai",
+   "verified": true,
+   "note": "Verified via trade press (Axios, TechCrunch, Fox Business); 500 MW vs 50 MW refer to the full deal vs the TVA/Hermes 2 phase."
+  },
+  {
+   "buyer": "Amazon",
+   "seller": "X-energy (first project with Energy Northwest)",
+   "asset": "Xe-100 SMRs",
+   "mw": 5000,
+   "term_years": null,
+   "announced": "2024-10",
+   "start": "by 2039 (target)",
+   "price": "Amazon anchored ~$500M X-energy financing round",
+   "structure": "equity + deployment target (not contracted capacity); first project 4 units/320 MW in WA, expandable to 960 MW",
+   "source_url": "https://techcrunch.com/2024/10/14/google-signed-a-deal-to-power-data-centers-with-nuclear-micro-reactors-from-kairos-but-the-2030-timeline-is-very-optimistic",
+   "verified": true,
+   "note": "Verified via search snippets of trade press only; 5 GW is a collaboration target."
+  }
+ ],
+ "m_and_a": [
+  {
+   "deal": "Constellation acquires Calpine",
+   "announced": "2025-01-10",
+   "status": "completed (reported in CEG FY2025 release, 2026-02-24)",
+   "value_usd": 26600000000.0,
+   "value_note": "net purchase price; equity $16.4B (50M CEG shares at $237.98 VWAP + $4.5B cash) + ~$12.7B net debt; 7.9x 2026 EV/EBITDA",
+   "assets": "~27 GW (79 facilities): gas + geothermal",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827525000006/ceg-202501108kxexh991.htm",
+   "verified": true
+  },
+  {
+   "deal": "NRG acquires LS Power gas portfolio + CPower",
+   "announced": "2025-05-12",
+   "status": "closed 2026-01-30",
+   "value_usd": 12000000000.0,
+   "value_note": "enterprise value; 7.5x 2026 EV/EBITDA; ~50% of new-build replacement cost",
+   "assets": "13 GW gas (18 plants, 9 states) + CPower ~6 GW C&I demand response",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1013871/000110465925047007/tm2514561d1_ex99-1.htm",
+   "verified": true
+  },
+  {
+   "deal": "NRG sells six gas plants back to LS Power",
+   "announced": "2026-11-09",
+   "status": "definitive agreement",
+   "value_usd": 4000000000.0,
+   "value_note": "cash; proceeds to fund $3B buybacks 2026-27 and debt reduction",
+   "assets": "4.9 GW gas",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000022/nrgq32026ex991.htm",
+   "verified": true
+  },
+  {
+   "deal": "Vistra acquires Cogentrix Energy (from Quantum)",
+   "announced": "2026-01-05",
+   "status": "closed Oct-2026",
+   "value_usd": 4000000000.0,
+   "value_note": "net purchase price (~$2.3B cash + 5M VST shares at $185 + assumed debt); ~$730/kW; ~7.25x 2027 EBITDA",
+   "assets": "~5,500 MW gas (PJM, ISO-NE, ERCOT)",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1692819/000119312526002589/d62722dex991.htm",
+   "verified": true
+  },
+  {
+   "deal": "Vistra acquires Lotus Infrastructure gas plants",
+   "announced": "2025",
+   "status": "closed Oct-2025",
+   "value_usd": null,
+   "value_note": "price not collected",
+   "assets": "7 gas plants, >2,300 MW",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126042013/ef20084950_ex99-1.htm",
+   "verified": true
+  },
+  {
+   "deal": "Talen acquires Freedom (PA) and Guernsey (OH) CCGTs",
+   "announced": "2025",
+   "status": "closed 2025-11-25",
+   "value_usd": null,
+   "value_note": "price not collected (~$3.5B reported - UNVERIFIED)",
+   "assets": "~2.8 GW gas",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000014/a20260226q42025earningsrel.htm",
+   "verified": true
+  },
+  {
+   "deal": "Constellation agrees to acquire Rhode Island State Energy Center",
+   "announced": "Q3-2026",
+   "status": "agreement",
+   "value_usd": null,
+   "value_note": "price not collected",
+   "assets": "609 MW CCGT",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000116/ceg-20261109991.htm",
+   "verified": true
+  },
+  {
+   "deal": "NextEra Energy + Dominion Energy all-stock combination",
+   "announced": "2026-05-18",
+   "status": "pending regulatory approvals",
+   "value_usd": null,
+   "value_note": "0.8138 NEE share per D share; NEE holders 74.5% / D holders 25.5%; $360M one-time cash to D holders; $2.25B proposed bill credits for Dominion customers (VA, NC, SC), residential credits extended from 2 to 4 years in Sept-2026; combined rate base $138B growing ~11%/yr to 2032; >130 GW large-load pipeline",
+   "assets": "~10M utility accounts (FL, VA, NC, SC); 110 GW generation",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/753308/000110465926063001/tm2614888d1_ex99-1.htm",
+   "verified": true
+  },
+  {
+   "deal": "Blackstone Infrastructure acquires TXNM Energy (PNM, TNMP)",
+   "announced": "2025-05",
+   "status": "pending: PUCT approved 2026-02-06 ($45M rate credits); FERC/FCC/HSR cleared; NMPRC and NRC pending; outside date extended to 2027-05-31 (as of Jul-2026)",
+   "value_usd": 11500000000.0,
+   "value_note": "$61.25/share cash; enterprise value",
+   "assets": "NM + TX wires/vertically integrated utilities",
+   "source_url": "https://www.abqjournal.com/business/txnm-blackstone-extend-115-billion-sale-deadline-after-regulatory-setback/3084994",
+   "verified": true,
+   "note": "Secondary sources (Albuquerque Journal, Barchart/PR). Status after Jul-2026 not checked."
+  },
+  {
+   "deal": "CenterPoint sells Ohio gas LDC",
+   "announced": "2025-10",
+   "status": "announced",
+   "value_usd": 2620000000.0,
+   "value_note": "gross; ~1.9x 2024 rate base and ~26x 2024 earnings - a market price for regulated rate base",
+   "assets": "gas distribution (Ohio)",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1130310/000110465926118963/tm2628051d1_ex99-2.htm",
+   "verified": true
+  }
+ ],
+ "headwinds_2025_2026": [
+  {
+   "date": "2026-01-16",
+   "event": "White House + all PJM governors \"statement of principles\": Reliability Backstop Auction by Sept-2026 with 15-yr contracts for new capacity, costs allocated to load-serving entities with new data centers that did not self-procure; extended capacity price cap",
+   "market_reaction": "CEG fell ~9.8% on 2026-01-16 (secondary, lower-reliability source)",
+   "source_url": "https://www.utilitydive.com/news/trump-governors-pjm-emergency-auction-data-centers/809853/",
+   "verified": true
+  },
+  {
+   "date": "2026-10",
+   "event": "PJM auction delay; S&P: the four IPP stocks down ~22%-41% over prior 12 months; analysts see hyperscalers preferring utility PPAs",
+   "market_reaction": "see stock table",
+   "source_url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2026/10/pjm-auction-delay-complicates-independent-power-producers-stock-price-recovery-106494914",
+   "verified": false,
+   "note": "Headline + search snippet only; S&P page not readable from this session."
+  },
+  {
+   "date": "2026-11",
+   "event": "Midterm results (Democratic gains, Texas governor) read as raising regulatory risk for merchant generators",
+   "market_reaction": "VST about -15%, CEG about -9% (Stocktwits)",
+   "source_url": "https://stocktwits.com/news-articles/markets/equity/vst-ceg-stocks-drop-as-election-outcome-hits-merchant-power-generators/cNGLkduR93x",
+   "verified": false,
+   "note": "Search snippet only."
+  },
+  {
+   "date": "2025-01-27",
+   "event": "DeepSeek efficiency shock",
+   "market_reaction": "VST -28%, TLN -22% in one day (Utility Dive)",
+   "source_url": "https://www.utilitydive.com/news/ipp-stocks-reel-as-low-cost-deepseek-chills-ai-load-growth-thesis/738482/",
+   "verified": false,
+   "note": "Search snippet only."
+  }
+ ]
+}

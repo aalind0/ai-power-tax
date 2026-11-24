@@ -1,0 +1,8 @@
+territory_eia_utility_id,territory_name,current_eia_utility_id,current_name,effective_date,source,note
+20387,WEST PENN POWER COMPANY,66101,FirstEnergy Pennsylvania Electric Co,2024-01-01,EIA-861 2024 Mergers_2024.xlsx (id 66101 'see footnotes'),FirstEnergy consolidated its four PA utilities into FE PA; legacy ids report through 2023
+14711,PENNSYLVANIA ELECTRIC CO,66101,FirstEnergy Pennsylvania Electric Co,2024-01-01,EIA-861 2024 Mergers_2024.xlsx,HIFLD lists state=OH for this PA utility (HIFLD attribute error)
+12390,METROPOLITAN EDISON CO,66101,FirstEnergy Pennsylvania Electric Co,2024-01-01,EIA-861 2024 Mergers_2024.xlsx,HIFLD lists state=OH for this PA utility (HIFLD attribute error)
+14716,PENNSYLVANIA POWER CO,66101,FirstEnergy Pennsylvania Electric Co,2024-01-01,EIA-861 2024 Mergers_2024.xlsx,HIFLD lists state=OH for this PA utility (HIFLD attribute error)
+14557,PEE DEE ELECTRIC COOP INC,66073,MPD Electric Cooperative,2023-11-10,EIA-861 2023 Mergers_2023.xlsx,Pee Dee + Marlboro coops merged into MPD Electric Cooperative
+11693,MARLBORO ELECTRIC COOP INC,66073,MPD Electric Cooperative,2023-11-10,EIA-861 2023 Mergers_2023.xlsx,Pee Dee + Marlboro coops merged into MPD Electric Cooperative
+10229,CITY OF HICKMAN - (NE),13664,Norris Public Power District,2024-10-01,EIA-861 2025 Mergers_2025.xlsx,City of Hickman system merged into Norris PPD

@@ -1,0 +1,320 @@
+{
+ "as_of": "2026-11",
+ "method_note": "All verified=false: page fetches were denied, figures come from search-result summaries only. retail_twh values are approximate (EIA-scale) and not sourced. 1 c/kWh over 1 TWh = $10M.",
+ "regions": {
+  "ERCOT": {
+   "retail_twh": 480,
+   "dc_load_share_pct": null,
+   "dc_share_of_growth_pct": null,
+   "official_estimate": null,
+   "channels": [
+    {
+     "channel": "checked",
+     "url": "https://www.utilitydive.com/news/texas-puc-ercot-765-kv-transmission-lines-regional-transmission/738990/",
+     "source": "Utility Dive / PUCT; Sierra Club ($33B STEP)",
+     "basis": "PUCT approved 765 kV Permian plan Apr 2025; STEP ~$33B, socialized across ERCOT. Full plan ~$4B/yr (12% carrying) / ~450 TWh = 0.88c; ~half data centers -> 0.44c high once built. Little in rates today. TPPF (opposed) claims >$200/household/yr all-in.",
+     "verified": true
+    },
+    {
+     "channel": "energy",
+     "usd_per_year_attributable": null,
+     "basis": "Energy-only market, no capacity market. IMM 2024 report not opened; no data-center-attributed price effect found.",
+     "source": "Potomac Economics 2024 State of the Market",
+     "url": "https://potomaceconomics.com/wp-content/uploads/2025/06/2024-State-of-the-Market-Report.pdf",
+     "verified": false
+    },
+    {
+     "channel": "transmission",
+     "usd_per_year_attributable": null,
+     "basis": "765 kV plan about $33B total (Permian piece about $13.8B), approved Apr 2025. Annual revenue requirement at roughly 12% of capex would be about $4B/yr at full build (my arithmetic), under 1 c/kWh on 480 TWh. Drivers mixed: oil and gas first, data centers second. Little is in rates yet. Cost allocation to large loads still under review.",
+     "source": "Sierra Club summary of ERCOT filing; Utility Dive; TPPF",
+     "url": "https://www.sierraclub.org/texas/blog/2026/06/texas-transmission-series-part-2-texas-33-billion-transmission-plan",
+     "verified": false
+    }
+   ],
+   "recommended": {
+    "low": 0,
+    "central": 0.1,
+    "high": 0.44,
+    "confidence": "estimate",
+    "one_line_basis": "Transmission is the only channel: partial share of a build-out only starting to reach rates, split with oil and gas. Not computed from a measured figure."
+   },
+   "notes": "No official estimate. Energy-only market, so no capacity channel. Large-load cost allocation unresolved. LBNL finds high-load-growth states saw real prices fall 2019-2024, which may include Texas (unconfirmed).",
+   "checked": {
+    "url": "https://www.utilitydive.com/news/texas-puc-ercot-765-kv-transmission-lines-regional-transmission/738990/",
+    "source": "Utility Dive / PUCT; Sierra Club ($33B STEP)",
+    "note": "PUCT approved 765 kV Permian plan Apr 2025; STEP ~$33B, socialized across ERCOT. Full plan ~$4B/yr (12% carrying) / ~450 TWh = 0.88c; ~half data centers -> 0.44c high once built. Little in rates today. TPPF (opposed) claims >$200/household/yr all-in.",
+    "checked": "2026-11, via search results"
+   }
+  },
+  "CAISO": {
+   "retail_twh": 230,
+   "dc_load_share_pct": null,
+   "dc_share_of_growth_pct": null,
+   "official_estimate": null,
+   "channels": [
+    {
+     "channel": "transmission",
+     "usd_per_year_attributable": 240000000.0,
+     "basis": "CAISO approved >$2B South Bay Area network upgrades (May 2025) for 2.5 GW of data-center and electrification load, 2026-2039; socialized across CAISO under FERC rules. ~$2B x ~12%/yr carrying charge = ~$240M/yr once in service, upper bound (shared with electrification).",
+     "source": "CPUC Public Advocates Office commentary, 2025-10-28",
+     "url": "https://publicadvocatesa.cpuc.ca.gov/press-room/commentary/251027-how-will-data-center-growth-impact-california-ratepayers",
+     "verified": true
+    }
+   ],
+   "recommended": {
+    "low": 0,
+    "central": 0.02,
+    "high": 0.11,
+    "confidence": "estimate",
+    "one_line_basis": "$240M/yr upper bound / ~215 TWh CAISO retail = 0.11c when fully in service; little in rates today; PG&E claims load growth lowers rates (company claim, 1-2% per GW)."
+   },
+   "notes": "Verified Cal Advocates page 2025-10-28. PG&E says residential rates ~11% lower Jan 2026 vs Jan 2024 and credits load growth in part (company claim). CPUC opened a large-load rate design rulemaking in Apr 2026."
+  },
+  "MISO": {
+   "retail_twh": 600,
+   "dc_load_share_pct": null,
+   "dc_share_of_growth_pct": null,
+   "official_estimate": null,
+   "channels": [
+    {
+     "channel": "checked",
+     "url": "https://www.utilitydive.com/news/miso-capacity-auction/746576/",
+     "source": "Utility Dive; Constellation (annual avg $217 vs $21/MW-day)",
+     "basis": "2025/26 PRA summer $666.50/MW-day; annual ~10x. Most MISO load is self-supplied by vertically integrated utilities, so auction prices reach few retail bills (e.g., Ameren Illinois). No IMM data-center attribution.",
+     "verified": true
+    },
+    {
+     "channel": "capacity",
+     "usd_per_year_attributable": 1000000000,
+     "basis": "2025/26 PRA about $217/MW-day annualized. At about 125 GW (my assumption) that is roughly $9.9B/yr, about $9B above the prior year. The spike is mostly shrinking surplus and the new demand curve. Assumed 10-15% data-center attribution gives about $1B. 2026/27 fell about 42% to about $120/MW-day, so about $0.6B.",
+     "source": "Utility Dive / Modo Energy / Enel on MISO PRA",
+     "url": "https://www.utilitydive.com/news/miso-capacity-auction-nerc/818797/",
+     "verified": false
+    },
+    {
+     "channel": "generation",
+     "usd_per_year_attributable": null,
+     "basis": "Entergy Louisiana/Meta: $3.2B for 3 gas plants approved Aug 2025, with Meta minimum bills; 7 more plants requested Apr 2026. Critics warn of stranded-asset risk. Residential effect disputed (about +/-$1/mo to +$8/mo).",
+     "source": "S&P Global; UCS; Axios New Orleans",
+     "url": "https://www.axios.com/local/new-orleans/2026/07/13/meta-rate-increase-louisiana-power-plants",
+     "verified": false
+    }
+   ],
+   "recommended": {
+    "low": 0,
+    "central": 0.08,
+    "high": 0.4,
+    "confidence": "estimate",
+    "one_line_basis": "About $1B of data-center-attributed capacity cost (my assumed 10-15% of the 2025/26 spike) over 600 TWh is about 0.17 c; 2026/27 prices are lower."
+   },
+   "notes": "No MISO market monitor attribution found. Data-center share of the capacity spike is my assumption. Large-load forecast (34 to 218 TWh by 2035) is future, not current. Missouri, Kansas and Indiana have large-load tariffs.",
+   "checked": {
+    "url": "https://www.utilitydive.com/news/miso-capacity-auction/746576/",
+    "source": "Utility Dive; Constellation (annual avg $217 vs $21/MW-day)",
+    "note": "2025/26 PRA summer $666.50/MW-day; annual ~10x. Most MISO load is self-supplied by vertically integrated utilities, so auction prices reach few retail bills (e.g., Ameren Illinois). No IMM data-center attribution.",
+    "checked": "2026-11, via search results"
+   }
+  },
+  "SPP": {
+   "retail_twh": 290,
+   "dc_load_share_pct": null,
+   "dc_share_of_growth_pct": null,
+   "official_estimate": null,
+   "channels": [
+    {
+     "channel": "checked",
+     "url": "https://psc.mo.gov/Electric/PSC_Approves_Evergy_Large_Load_Power_Service_Plan_with_Customer_Protections--pr-26-38",
+     "source": "Missouri PSC; Kansas KCC (Nov 2025)",
+     "basis": "Evergy large-load tariffs approved KS 2025-11-06 and MO 2025-11-14 to recover all large-load costs; MO SB4 bars shifting to residential.",
+     "verified": true
+    },
+    {
+     "channel": "generation",
+     "usd_per_year_attributable": null,
+     "basis": "No capacity market. Utility-level: Evergy LLPS tariff (over 75 MW) designed to cover incremental cost; Missouri 2025 law bars shifting large-load costs to residential. PSO got a 3.55% increase in Nov 2026 plus a new large-load tariff. No $ attribution found.",
+     "source": "Kansas KCC; Missouri PSC fact sheet; GCN on Oklahoma PSO",
+     "url": "https://psc.mo.gov/CMSInternetData/Community%20Outreach/Large%20Load%20Tariff%20Fact%20Sheet.pdf",
+     "verified": false
+    }
+   ],
+   "recommended": {
+    "low": 0,
+    "central": 0.02,
+    "high": 0.15,
+    "confidence": "estimate",
+    "one_line_basis": "No market-level channel and tariffs designed to protect residential customers. Central is a small placeholder, not a calculation."
+   },
+   "notes": "Evidence is thin. Large-load tariffs (Evergy, PSO, OG&E pending) aim to make data centers cover their incremental cost. Intervenors dispute some protections. Data-center buildout is mostly future.",
+   "checked": {
+    "url": "https://psc.mo.gov/Electric/PSC_Approves_Evergy_Large_Load_Power_Service_Plan_with_Customer_Protections--pr-26-38",
+    "source": "Missouri PSC; Kansas KCC (Nov 2025)",
+    "note": "Evergy large-load tariffs approved KS 2025-11-06 and MO 2025-11-14 to recover all large-load costs; MO SB4 bars shifting to residential.",
+    "checked": "2026-11, via search results"
+   }
+  },
+  "ISO-NE": {
+   "retail_twh": 120,
+   "dc_load_share_pct": null,
+   "dc_share_of_growth_pct": null,
+   "official_estimate": {
+    "cents_per_kwh": 0.0,
+    "usd_per_year": 0,
+    "what": "ISO-NE stated (Feb 2026 letter to senators) that data centers have not yet been a driver of wholesale costs, with little development in the region.",
+    "source": "ISO-NE letter responding to senators; ISO Newswire",
+    "url": "https://www.iso-ne.com/static-assets/documents/100032/combined_data_center_letters.pdf",
+    "verified": false
+   },
+   "channels": [
+    {
+     "channel": "checked",
+     "url": "https://isonewswire.com/2026/05/18/iso-ne-establishes-forecast-framework-for-data-centers-other-large-loads/",
+     "source": "ISO-NE CELT 2026 large-load forecast",
+     "basis": "ISO-NE: large loads not yet a major driver of load growth; a couple hundred MW in formal study.",
+     "verified": true
+    },
+    {
+     "channel": "capacity",
+     "usd_per_year_attributable": 0,
+     "basis": "2026 CELT large-load forecast only about 110 MW in the 2030s, negligible against a roughly 25 GW peak. Proposed rules would keep large loads out of capacity demand curves.",
+     "source": "ISO Newswire on CELT 2026",
+     "url": "https://isonewswire.com/2026/05/18/iso-ne-establishes-forecast-framework-for-data-centers-other-large-loads/",
+     "verified": false
+    }
+   ],
+   "recommended": {
+    "low": 0,
+    "central": 0.0,
+    "high": 0.02,
+    "confidence": "estimate",
+    "one_line_basis": "ISO-NE says data centers are not yet a driver of wholesale cost; forecast large load is about 110 MW."
+   },
+   "notes": "Rated official only because ISO-NE self-reports, and I did not open the letter. New England rates are high for other reasons (gas, transmission, policy). Senators asked in Jan 2026 how residents will be shielded.",
+   "checked": {
+    "url": "https://isonewswire.com/2026/05/18/iso-ne-establishes-forecast-framework-for-data-centers-other-large-loads/",
+    "source": "ISO-NE CELT 2026 large-load forecast",
+    "note": "ISO-NE: large loads not yet a major driver of load growth; a couple hundred MW in formal study.",
+    "checked": "2026-11, via search results"
+   }
+  },
+  "NYISO": {
+   "retail_twh": 145,
+   "dc_load_share_pct": null,
+   "dc_share_of_growth_pct": null,
+   "official_estimate": null,
+   "channels": [
+    {
+     "channel": "checked",
+     "url": "https://www.nyiso.com/documents/d/guest/2026-power-trends",
+     "source": "NYISO",
+     "basis": "Few large data centers connected yet; forecast growth through 2030 largely large loads (Modo summary of NYISO forecast, not confirmed).",
+     "verified": true
+    },
+    {
+     "channel": "capacity",
+     "usd_per_year_attributable": null,
+     "basis": "No NYISO or MMU data-center attribution found. Queue holds about 6 GW across 29 large-load proposals, but the forecast counts only likely projects, so current effect is small.",
+     "source": "Modo Energy on NYISO demand forecast; NYISO Power Trends 2026",
+     "url": "https://www.nyiso.com/documents/d/guest/2026-power-trends",
+     "verified": false
+    }
+   ],
+   "recommended": {
+    "low": 0,
+    "central": 0.01,
+    "high": 0.05,
+    "confidence": "estimate",
+    "one_line_basis": "No evidence of a measurable current data-center cost; placeholder near zero given the small operating load."
+   },
+   "notes": "Very thin evidence. Existing crypto and data load is modest. Forecast growth is dominated by electrification and large industrial and chip fabs, with data centers a minority.",
+   "checked": {
+    "url": "https://www.nyiso.com/documents/d/guest/2026-power-trends",
+    "source": "NYISO",
+    "note": "Few large data centers connected yet; forecast growth through 2030 largely large loads (Modo summary of NYISO forecast, not confirmed).",
+    "checked": "2026-11, via search results"
+   }
+  },
+  "Southeast non-RTO": {
+   "retail_twh": 800,
+   "dc_load_share_pct": null,
+   "dc_share_of_growth_pct": null,
+   "official_estimate": null,
+   "channels": [
+    {
+     "channel": "checked",
+     "url": "https://www.ajc.com/news/2025/12/georgia-power-psc-staff-strike-deal-to-allow-historic-data-center-expansion",
+     "source": "AJC; Georgia PSC (Dec 2025)",
+     "basis": "PSC staff warned of $20+/mo; Dec 2025 settlement: Georgia Power guarantees large-load revenue 2029-2031 so the $20 increase does not materialize, plus $8.50/mo downward pressure pledge in 2028. Staff: DC forecasts overestimated. Others (Duke etc.) no figure.",
+     "verified": true
+    },
+    {
+     "channel": "generation",
+     "usd_per_year_attributable": null,
+     "basis": "Georgia Power: PSC staff say its 10 GW build-out could raise residential bills at least $20/mo by 2030 (future). Company claims $2.89/mo downward pressure in 2026-28. Base rates frozen through 2028. About 80% of the 69 GW pipeline is data centers.",
+     "source": "AJC; Georgia PSC; Georgia Power press release",
+     "url": "https://www.ajc.com/business/2025/11/analysts-warn-georgia-power-bills-will-rise-if-psc-approves-data-center-buildout",
+     "verified": false
+    },
+    {
+     "channel": "generation",
+     "usd_per_year_attributable": null,
+     "basis": "Duke Carolinas: data centers are over 85% of expected economic-development load growth (8 GW added through 2035). NC approved a 2-year increase from Jan 2027 with new data-center rules. Duke declined to say what share is data-center driven.",
+     "source": "WUNC; NC Newsline; Canary Media",
+     "url": "https://www.wunc.org/2026-11-18/nc-regulators-approve-new-rates-for-data-centers-in-rate-hike-plan",
+     "verified": false
+    }
+   ],
+   "recommended": {
+    "low": 0,
+    "central": 0.03,
+    "high": 0.2,
+    "confidence": "estimate",
+    "one_line_basis": "Georgia's $20/mo by 2030 is about 1.8 c/kWh for GA, about 0.3 c region-wide at full impact; today's effect is a fraction of that."
+   },
+   "notes": "Vertically integrated, so costs flow into rate cases, mostly 2026-2030. Large-load rules (GA Jan 2025, NC Nov 2026) and minimum bills aim to protect residential customers. Many GA contracts predate the rules per PSC staff.",
+   "checked": {
+    "url": "https://www.ajc.com/news/2025/12/georgia-power-psc-staff-strike-deal-to-allow-historic-data-center-expansion",
+    "source": "AJC; Georgia PSC (Dec 2025)",
+    "note": "PSC staff warned of $20+/mo; Dec 2025 settlement: Georgia Power guarantees large-load revenue 2029-2031 so the $20 increase does not materialize, plus $8.50/mo downward pressure pledge in 2028. Staff: DC forecasts overestimated. Others (Duke etc.) no figure.",
+    "checked": "2026-11, via search results"
+   }
+  },
+  "West non-RTO": {
+   "retail_twh": 430,
+   "dc_load_share_pct": null,
+   "dc_share_of_growth_pct": null,
+   "official_estimate": null,
+   "channels": [
+    {
+     "channel": "checked",
+     "url": "https://www.axios.com/local/phoenix/2025/10/02/aps-14-percent-rate-hike-mayes-response",
+     "source": "Axios; APS 2025 rate case (pending)",
+     "basis": "APS asks ~45% increase for the data-center class (XHLF) vs ~14% residential to avoid subsidies; case pending at ACC.",
+     "verified": true
+    },
+    {
+     "channel": "generation",
+     "usd_per_year_attributable": null,
+     "basis": "APS: data centers about 5-7% of peak. Rate case proposes residential +14-16% but data centers +45%, framed to avoid cross-subsidy. Ruling expected end of 2026. No NV Energy or other utility figures found.",
+     "source": "ABC15; KTAR; Axios Phoenix",
+     "url": "https://www.axios.com/local/phoenix/2025/10/02/aps-14-percent-rate-hike-mayes-response",
+     "verified": false
+    }
+   ],
+   "recommended": {
+    "low": 0,
+    "central": 0.03,
+    "high": 0.2,
+    "confidence": "estimate",
+    "one_line_basis": "Data centers are about 5-7% of APS peak and are assigned larger increases than residential; placeholder, not computed."
+   },
+   "notes": "Evidence thin and AZ-only. LBNL notes New Mexico saw real price declines with large data center and industrial additions. Much of the Western residential increase is wildfire, transmission and gas cost, not data centers.",
+   "checked": {
+    "url": "https://www.axios.com/local/phoenix/2025/10/02/aps-14-percent-rate-hike-mayes-response",
+    "source": "Axios; APS 2025 rate case (pending)",
+    "note": "APS asks ~45% increase for the data-center class (XHLF) vs ~14% residential to avoid subsidies; case pending at ACC.",
+    "checked": "2026-11, via search results"
+   }
+  }
+ }
+}

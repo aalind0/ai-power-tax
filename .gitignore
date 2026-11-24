@@ -1,0 +1,14 @@
+# Raw downloads are large and reproducible with scripts/; keep only processed data in git
+data/raw/
+# S&P Global-sourced rate-case detail (via EEI): licence not cleared for redistribution; publish aggregates only
+data/processed/finance_rate_cases.csv
+scripts/site/node_modules/
+node_modules/
+.claude/
+.DS_Store
+*.log
+# local test pages, recordings and stills (not part of the site)
+lab/
+*.mp4
+*.mov
+research/geo/api_probes.json

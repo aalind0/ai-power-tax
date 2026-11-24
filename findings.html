@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Findings · The AI Power Tax</title>
+  <meta name="description" content="The most surprising things in our data on power bills, data centers, utilities and the money behind them. Interactive, sourced, both sides." />
+  <meta name="theme-color" content="#08090b" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0b0b'/%3E%3Cpath d='M36 6 16 36h14l-4 22 22-32H34z' fill='%23ffd60a'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body class="findings-page">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="The AI Power Tax, home">
+      <span class="bolt" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M36 6 16 36h14l-4 22 22-32H34z" /></svg></span>
+      <span>The AI Power Tax</span>
+    </a>
+    <nav class="nav" aria-label="Pages">
+      <a href="index.html">Your bill</a>
+      <a href="story.html">How it works</a>
+      <a href="findings.html" aria-current="page" class="current">Findings</a>
+      <a href="story.html#ch-evidence">The evidence</a>
+      <a href="story.html#about">About</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="f-hero">
+      <p class="kicker">The findings · <span id="f-updated">November 2026</span></p>
+      <h1>What the data says about <span class="hl">power bills and AI</span></h1>
+      <p class="dek" id="f-dek">The most surprising patterns from our research. Every chart is interactive and every number is sourced.</p>
+      <div class="f-stats" id="f-stats"></div>
+      <div class="seg f-filters" role="group" aria-label="Filter findings by theme" id="f-filters"></div>
+    </section>
+    <section class="f-grid" id="f-grid" aria-live="polite"></section>
+    <section class="f-end">
+      <h2>See what it means for <em>your</em> bill</h2>
+      <p>Type your address and we'll put your utility's numbers next to these trends.</p>
+      <a class="btn" href="index.html#top">Look up my bill →</a>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p><strong>The AI Power Tax</strong> is an open-source data investigation. Data: EIA, FERC via Catalyst PUDL, PJM and its market monitor, LBNL, EPRI, DOE LEAD, EEI, state PUCs, Nasdaq quotes, and the polls and studies cited on each card. Stock moves are context, not cause. Not financial, legal or energy advice.</p>
+  </footer>
+
+  <div class="tip" id="tip" role="tooltip" hidden></div>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script type="module" src="js/findings.js"></script>
+</body>
+</html>

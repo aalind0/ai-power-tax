@@ -1,0 +1,1396 @@
+{
+ "meta": {
+  "area": "households",
+  "built": "2026-11-23",
+  "script": "scripts/households/build_arrears_json.py",
+  "notes": "NEADA = National Energy Assistance Directors Association (represents state LIHEAP directors; advocacy for LIHEAP funding). Its arrears numbers are estimates extrapolated from select state/utility data and its methods have changed over time; levels are not strictly comparable across releases."
+ },
+ "neada_arrears_series": [
+  {
+   "as_of": "2020-12-31",
+   "total_arrears_usd_bn": 20.2,
+   "households_in_arrears_m": 23.0,
+   "avg_arrears_usd": 879,
+   "source_title": "NEADA Arrearage and Moratorium Update, 1/20/22",
+   "url": "https://neada.org/wp-content/uploads/2022/01/arrearagesjan2022.pdf",
+   "method_note": "NEADA national projection from selected state data (electric + gas).",
+   "verified": true
+  },
+  {
+   "as_of": "2021-12-31",
+   "total_arrears_usd_bn": 22.3,
+   "households_in_arrears_m": 21.0,
+   "avg_arrears_usd": 1060,
+   "source_title": "NEADA Arrearage and Moratorium Update, 1/20/22",
+   "url": "https://neada.org/wp-content/uploads/2022/01/arrearagesjan2022.pdf",
+   "method_note": "Same method as 2020 point.",
+   "verified": true
+  },
+  {
+   "as_of": "2022-01-31",
+   "total_arrears_usd_bn": 15.9,
+   "households_in_arrears_m": null,
+   "avg_arrears_usd": null,
+   "source_title": "NEADA press release: End of Winter Energy Update (2023-04-17)",
+   "url": "https://neada.org/press-release-neada-releases-end-of-winter-energy-update/",
+   "method_note": "Later NEADA series; not comparable with the $22.3B Dec-2021 projection above (different method/sample). Feb-2026 NEADA report gives $15.4B for Jan 2022 in the same later series.",
+   "verified": true
+  },
+  {
+   "as_of": "2023-01-31",
+   "total_arrears_usd_bn": 17.8,
+   "households_in_arrears_m": 20.5,
+   "avg_arrears_usd": null,
+   "source_title": "NEADA press release: End of Winter Energy Update (2023-04-17)",
+   "url": "https://neada.org/press-release-neada-releases-end-of-winter-energy-update/",
+   "method_note": "20.5M households behind on ELECTRIC bills (19.0M a year earlier); ~13M behind on gas. NEADA Jan-2024 release restates Jan 2023 as $17.7B.",
+   "verified": true
+  },
+  {
+   "as_of": "2023-03-31",
+   "total_arrears_usd_bn": 19.5,
+   "households_in_arrears_m": null,
+   "avg_arrears_usd": null,
+   "source_title": "NEADA: Utility Arrearages Rise After Winter Shutoff Moratoriums End (2023-05-24)",
+   "url": "https://neada.org/wp-content/uploads/2023/05/arrearagesmay2023.pdf",
+   "method_note": "",
+   "verified": true
+  },
+  {
+   "as_of": "2023-12-31",
+   "total_arrears_usd_bn": 20.3,
+   "households_in_arrears_m": 21.2,
+   "avg_arrears_usd": null,
+   "source_title": "NEADA press release 01/23/2024 (States Call for Congress to Restore Funding for LIHEAP)",
+   "url": "https://neada.org/wp-content/uploads/2024/01/pr-recordhhbehind.pdf",
+   "method_note": "16% of U.S. households behind. CONFLICT: NEADA's Aug-2024 release says debt rose 8.4% 'since December 2023' to $17.4B, which implies ~$16.0B at Dec 2023, not $20.3B. Treat levels as NEADA estimates with method changes.",
+   "verified": true
+  },
+  {
+   "as_of": "2024-06 (approx; NEADA Q3 2024 report)",
+   "total_arrears_usd_bn": 17.4,
+   "households_in_arrears_m": null,
+   "avg_arrears_usd": null,
+   "source_title": "NEADA press release: As LIHEAP Funding Runs Dry, Utility Debt Increases by 8.4% to $17.4 Billion (embargoed to 2024-08-28)",
+   "url": "https://neada.org/wp-content/uploads/2024/08/August-Arrearages-Press-Release-8.26.24.pdf",
+   "method_note": "Spread across 17.4M electric and 11M gas households (overlapping). Exact as-of month not stated.",
+   "verified": true
+  },
+  {
+   "as_of": "2025-03-31",
+   "total_arrears_usd_bn": 21.4,
+   "households_in_arrears_m": 21.5,
+   "avg_arrears_usd": null,
+   "source_title": "NEADA Energy Hardship Report, February 2026 (slide 11)",
+   "url": "https://neada.org/wp-content/uploads/2026/02/energyhardshipfeb26.pptx",
+   "method_note": "'Outstanding utility debt jumped from $15.4 billion in January 2022 to $21.4 billion at the end of March 2025'; 21.5M households (~1 in 6) behind (household count as of the Feb-2026 report).",
+   "verified": true
+  },
+  {
+   "as_of": "2025-12 (NEADA estimate)",
+   "total_arrears_usd_bn": 23.0,
+   "households_in_arrears_m": null,
+   "avg_arrears_usd": null,
+   "source_title": "NEADA: Winter Heating Costs Expected to Jump 9.2% (2025-12-16)",
+   "url": "https://neada.org/wp-content/uploads/2025/12/winterheatingdec25PR.pdf",
+   "method_note": "'one in six U.S. households is already behind on energy bills, owing utilities a combined $23 billion'.",
+   "verified": true
+  },
+  {
+   "as_of": "2026-03/04 (NEADA estimate)",
+   "total_arrears_usd_bn": 25.0,
+   "households_in_arrears_m": null,
+   "avg_arrears_usd": null,
+   "source_title": "NEADA: President's FY2027 Budget Eliminates Federal Funding for LIHEAP (2026-04-03); NEADA letter to HHS (2026-03-20)",
+   "url": "https://neada.org/wp-content/uploads/2026/04/PresidentBudget2027Response.pdf",
+   "method_note": "'approximately $25 billion—the highest level since 2021 and a 30 percent increase since the end of 2023'. NEADA's June-2026 update instead frames ~$25B as a projection for end-2026.",
+   "verified": true
+  },
+  {
+   "as_of": "2026-12-31 (projection)",
+   "total_arrears_usd_bn": 25.0,
+   "households_in_arrears_m": null,
+   "avg_arrears_usd": null,
+   "source_title": "NEADA June Price Update (2026-06-09)",
+   "url": "https://neada.org/summer-cooling-costs-projected-to-hit-record-highs-as-household-electric-bills-rise-10-5-june-price-update/",
+   "method_note": "'Total utility debt is projected to reach approximately $25 billion by the end of 2026.' Projection, not a measurement.",
+   "verified": true
+  }
+ ],
+ "eia112_disconnections_2024": {
+  "survey": "EIA Form EIA-112 Residential Utility Disconnections Survey, calendar year 2024 (first ever national collection)",
+  "released": "2026-04-14 (report); utility-level files later in 2026",
+  "report_url": "https://www.eia.gov/analysis/requests/residential/utility/",
+  "data_url": "https://www.eia.gov/analysis/requests/residential/utility/xls/112%20electric%20utility%20level%20data%202024.xlsx",
+  "unit_note": "Counts are EVENTS, not unique households: an account can receive several final notices/disconnections a year. Texas retail-choice disconnections are reported by wires utilities (Oncor, CenterPoint) on behalf of retailers.",
+  "national_2024": {
+   "electric_disconnections": 13447912,
+   "electric_final_notices": 94870685,
+   "electric_reconnections": 11370529,
+   "electric_residential_customers_avg": 143033986,
+   "electric_disconnections_per_100_customers": 9.4,
+   "gas_disconnections_report": 1700000.0,
+   "gas_final_notices_report": 27100000.0,
+   "gas_reconnections_report": 1200000.0,
+   "response_rate_weighted_electric_pct": 93.5,
+   "response_rate_weighted_gas_pct": 96.1,
+   "peak_month_electric_disconnections": "October (1.5M)",
+   "verified": true
+  },
+  "states_by_disconnection_rate": [
+   {
+    "state": "OK",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 572480,
+    "final_notices": 3172348,
+    "avg_residential_customers": 1885053,
+    "disconnections_per_100_customers": 30.37
+   },
+   {
+    "state": "TX",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 3028150,
+    "final_notices": 6266959,
+    "avg_residential_customers": 12814619,
+    "disconnections_per_100_customers": 23.63
+   },
+   {
+    "state": "FL",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 2177336,
+    "final_notices": 12045492,
+    "avg_residential_customers": 10572548,
+    "disconnections_per_100_customers": 20.59
+   },
+   {
+    "state": "AL",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 454814,
+    "final_notices": 1830067,
+    "avg_residential_customers": 2398847,
+    "disconnections_per_100_customers": 18.96
+   },
+   {
+    "state": "LA",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 397599,
+    "final_notices": 3360043,
+    "avg_residential_customers": 2141006,
+    "disconnections_per_100_customers": 18.57
+   },
+   {
+    "state": "TN",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 557648,
+    "final_notices": 3708896,
+    "avg_residential_customers": 3167473,
+    "disconnections_per_100_customers": 17.61
+   },
+   {
+    "state": "MS",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 216446,
+    "final_notices": 1642170,
+    "avg_residential_customers": 1353324,
+    "disconnections_per_100_customers": 15.99
+   },
+   {
+    "state": "AR",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 210901,
+    "final_notices": 2085046,
+    "avg_residential_customers": 1489876,
+    "disconnections_per_100_customers": 14.16
+   },
+   {
+    "state": "NV",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 185302,
+    "final_notices": 934079,
+    "avg_residential_customers": 1312801,
+    "disconnections_per_100_customers": 14.12
+   },
+   {
+    "state": "VA",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 461586,
+    "final_notices": 2484571,
+    "avg_residential_customers": 3647370,
+    "disconnections_per_100_customers": 12.66
+   },
+   {
+    "state": "WV",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 87889,
+    "final_notices": 835587,
+    "avg_residential_customers": 866847,
+    "disconnections_per_100_customers": 10.14
+   },
+   {
+    "state": "KS",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 130587,
+    "final_notices": 495469,
+    "avg_residential_customers": 1311978,
+    "disconnections_per_100_customers": 9.95
+   },
+   {
+    "state": "SC",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 255522,
+    "final_notices": 2176970,
+    "avg_residential_customers": 2575100,
+    "disconnections_per_100_customers": 9.92
+   },
+   {
+    "state": "GA",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 458435,
+    "final_notices": 7738128,
+    "avg_residential_customers": 4756508,
+    "disconnections_per_100_customers": 9.64
+   },
+   {
+    "state": "MO",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 272912,
+    "final_notices": 2249805,
+    "avg_residential_customers": 2938704,
+    "disconnections_per_100_customers": 9.29
+   },
+   {
+    "state": "MI",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 375510,
+    "final_notices": 4277995,
+    "avg_residential_customers": 4538689,
+    "disconnections_per_100_customers": 8.27
+   },
+   {
+    "state": "NC",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 401956,
+    "final_notices": 3207922,
+    "avg_residential_customers": 5082629,
+    "disconnections_per_100_customers": 7.91
+   },
+   {
+    "state": "KY",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 152798,
+    "final_notices": 2505475,
+    "avg_residential_customers": 2207268,
+    "disconnections_per_100_customers": 6.92
+   },
+   {
+    "state": "OH",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 333649,
+    "final_notices": 4728970,
+    "avg_residential_customers": 5181356,
+    "disconnections_per_100_customers": 6.44
+   },
+   {
+    "state": "ID",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 54645,
+    "final_notices": 225128,
+    "avg_residential_customers": 862794,
+    "disconnections_per_100_customers": 6.33
+   },
+   {
+    "state": "NM",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 60320,
+    "final_notices": 724867,
+    "avg_residential_customers": 960527,
+    "disconnections_per_100_customers": 6.28
+   },
+   {
+    "state": "DE",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 30536,
+    "final_notices": 116578,
+    "avg_residential_customers": 492063,
+    "disconnections_per_100_customers": 6.21
+   },
+   {
+    "state": "SD",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 25889,
+    "final_notices": 123342,
+    "avg_residential_customers": 429623,
+    "disconnections_per_100_customers": 6.03
+   },
+   {
+    "state": "IN",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 188575,
+    "final_notices": 1950673,
+    "avg_residential_customers": 3169452,
+    "disconnections_per_100_customers": 5.95
+   },
+   {
+    "state": "NE",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 46619,
+    "final_notices": 560554,
+    "avg_residential_customers": 895296,
+    "disconnections_per_100_customers": 5.21
+   },
+   {
+    "state": "ME",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 37823,
+    "final_notices": 372135,
+    "avg_residential_customers": 728150,
+    "disconnections_per_100_customers": 5.19
+   },
+   {
+    "state": "CO",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 133697,
+    "final_notices": 994297,
+    "avg_residential_customers": 2591228,
+    "disconnections_per_100_customers": 5.16
+   },
+   {
+    "state": "DC",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 15623,
+    "final_notices": 216970,
+    "avg_residential_customers": 318780,
+    "disconnections_per_100_customers": 4.9
+   },
+   {
+    "state": "PA",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 258470,
+    "final_notices": 1176068,
+    "avg_residential_customers": 5524784,
+    "disconnections_per_100_customers": 4.68
+   },
+   {
+    "state": "OR",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 85289,
+    "final_notices": 792548,
+    "avg_residential_customers": 1874696,
+    "disconnections_per_100_customers": 4.55
+   },
+   {
+    "state": "CT",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 68659,
+    "final_notices": 433483,
+    "avg_residential_customers": 1601766,
+    "disconnections_per_100_customers": 4.29
+   },
+   {
+    "state": "WI",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 120484,
+    "final_notices": 766192,
+    "avg_residential_customers": 2842305,
+    "disconnections_per_100_customers": 4.24
+   },
+   {
+    "state": "WA",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 122751,
+    "final_notices": 927136,
+    "avg_residential_customers": 3323267,
+    "disconnections_per_100_customers": 3.69
+   },
+   {
+    "state": "ND",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 14657,
+    "final_notices": 126080,
+    "avg_residential_customers": 397899,
+    "disconnections_per_100_customers": 3.68
+   },
+   {
+    "state": "AZ",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 111773,
+    "final_notices": 648837,
+    "avg_residential_customers": 3133319,
+    "disconnections_per_100_customers": 3.57
+   },
+   {
+    "state": "IL",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 191537,
+    "final_notices": 1582678,
+    "avg_residential_customers": 5360195,
+    "disconnections_per_100_customers": 3.57
+   },
+   {
+    "state": "NJ",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 128828,
+    "final_notices": 2460516,
+    "avg_residential_customers": 3732364,
+    "disconnections_per_100_customers": 3.45
+   },
+   {
+    "state": "MN",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 88776,
+    "final_notices": 1268436,
+    "avg_residential_customers": 2594290,
+    "disconnections_per_100_customers": 3.42
+   },
+   {
+    "state": "CA",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 473543,
+    "final_notices": 3592373,
+    "avg_residential_customers": 13985134,
+    "disconnections_per_100_customers": 3.39
+   },
+   {
+    "state": "MD",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 83044,
+    "final_notices": 1740670,
+    "avg_residential_customers": 2446256,
+    "disconnections_per_100_customers": 3.39
+   },
+   {
+    "state": "VT",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 10557,
+    "final_notices": 529176,
+    "avg_residential_customers": 326028,
+    "disconnections_per_100_customers": 3.24
+   },
+   {
+    "state": "IA",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 46314,
+    "final_notices": 625148,
+    "avg_residential_customers": 1453931,
+    "disconnections_per_100_customers": 3.19
+   },
+   {
+    "state": "HI",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 13586,
+    "final_notices": 160530,
+    "avg_residential_customers": 446636,
+    "disconnections_per_100_customers": 3.04
+   },
+   {
+    "state": "NH",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 19426,
+    "final_notices": 203852,
+    "avg_residential_customers": 657913,
+    "disconnections_per_100_customers": 2.95
+   },
+   {
+    "state": "UT",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 34083,
+    "final_notices": 256736,
+    "avg_residential_customers": 1277784,
+    "disconnections_per_100_customers": 2.67
+   },
+   {
+    "state": "AK",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 7354,
+    "final_notices": 84262,
+    "avg_residential_customers": 299775,
+    "disconnections_per_100_customers": 2.45
+   },
+   {
+    "state": "NY",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 173612,
+    "final_notices": 4995125,
+    "avg_residential_customers": 7095248,
+    "disconnections_per_100_customers": 2.45
+   },
+   {
+    "state": "MA",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 50115,
+    "final_notices": 1070407,
+    "avg_residential_customers": 2704513,
+    "disconnections_per_100_customers": 1.85
+   },
+   {
+    "state": "MT",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 9322,
+    "final_notices": 63097,
+    "avg_residential_customers": 523044,
+    "disconnections_per_100_customers": 1.78
+   },
+   {
+    "state": "RI",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 6954,
+    "final_notices": 270550,
+    "avg_residential_customers": 458385,
+    "disconnections_per_100_customers": 1.52
+   },
+   {
+    "state": "WY",
+    "utility_name": "State Total",
+    "eia_utility_id": "",
+    "disconnections": 3531,
+    "final_notices": 66249,
+    "avg_residential_customers": 284545,
+    "disconnections_per_100_customers": 1.24
+   }
+  ],
+  "top_utilities_by_count": [
+   {
+    "state": "TX",
+    "utility_name": "Oncor Electric Delivery Company LLC",
+    "eia_utility_id": "44372",
+    "disconnections": 1241425,
+    "final_notices": null,
+    "avg_residential_customers": 3477214,
+    "disconnections_per_100_customers": 35.7
+   },
+   {
+    "state": "FL",
+    "utility_name": "Florida Power & Light Co",
+    "eia_utility_id": "6452",
+    "disconnections": 1229818,
+    "final_notices": 5974157,
+    "avg_residential_customers": 5297328,
+    "disconnections_per_100_customers": 23.22
+   },
+   {
+    "state": "TX",
+    "utility_name": "Centerpoint Energy",
+    "eia_utility_id": "8901",
+    "disconnections": 954139,
+    "final_notices": null,
+    "avg_residential_customers": 2493149,
+    "disconnections_per_100_customers": 38.27
+   },
+   {
+    "state": "VA",
+    "utility_name": "Virginia Electric & Power Co",
+    "eia_utility_id": "19876",
+    "disconnections": 368473,
+    "final_notices": 1222331,
+    "avg_residential_customers": 2383548,
+    "disconnections_per_100_customers": 15.46
+   },
+   {
+    "state": "OK",
+    "utility_name": "Public Service Co Of Oklahoma",
+    "eia_utility_id": "15474",
+    "disconnections": 290739,
+    "final_notices": 1207605,
+    "avg_residential_customers": 498578,
+    "disconnections_per_100_customers": 58.31
+   },
+   {
+    "state": "FL",
+    "utility_name": "Duke Energy Florida, Llc",
+    "eia_utility_id": "6455",
+    "disconnections": 275826,
+    "final_notices": 2024652,
+    "avg_residential_customers": 1820759,
+    "disconnections_per_100_customers": 15.15
+   },
+   {
+    "state": "AL",
+    "utility_name": "Alabama Power Co",
+    "eia_utility_id": "195",
+    "disconnections": 208579,
+    "final_notices": 269813,
+    "avg_residential_customers": 1335705,
+    "disconnections_per_100_customers": 15.62
+   },
+   {
+    "state": "CA",
+    "utility_name": "Pacific Gas & Electric Co.",
+    "eia_utility_id": "14328",
+    "disconnections": 191055,
+    "final_notices": 1022257,
+    "avg_residential_customers": 4750916,
+    "disconnections_per_100_customers": 4.02
+   },
+   {
+    "state": "MI",
+    "utility_name": "DTE Electric Company",
+    "eia_utility_id": "5109",
+    "disconnections": 190173,
+    "final_notices": 1041643,
+    "avg_residential_customers": 2065856,
+    "disconnections_per_100_customers": 9.21
+   },
+   {
+    "state": "GA",
+    "utility_name": "Georgia Power Co",
+    "eia_utility_id": "7140",
+    "disconnections": 187007,
+    "final_notices": 5367532,
+    "avg_residential_customers": 2429276,
+    "disconnections_per_100_customers": 7.7
+   },
+   {
+    "state": "TN",
+    "utility_name": "City of Memphis - (TN)",
+    "eia_utility_id": "12293",
+    "disconnections": 182151,
+    "final_notices": 1107634,
+    "avg_residential_customers": 380286,
+    "disconnections_per_100_customers": 47.9
+   },
+   {
+    "state": "OH",
+    "utility_name": "Ohio Power Co",
+    "eia_utility_id": "14006",
+    "disconnections": 172411,
+    "final_notices": 1975985,
+    "avg_residential_customers": 1339232,
+    "disconnections_per_100_customers": 12.87
+   },
+   {
+    "state": "FL",
+    "utility_name": "Tampa Electric Co",
+    "eia_utility_id": "18454",
+    "disconnections": 168629,
+    "final_notices": 1055467,
+    "avg_residential_customers": 757280,
+    "disconnections_per_100_customers": 22.27
+   },
+   {
+    "state": "OK",
+    "utility_name": "Oklahoma Gas & Electric Co",
+    "eia_utility_id": "14063",
+    "disconnections": 167275,
+    "final_notices": 1252971,
+    "avg_residential_customers": 711360,
+    "disconnections_per_100_customers": 23.51
+   },
+   {
+    "state": "LA",
+    "utility_name": "Entergy Louisiana LLC",
+    "eia_utility_id": "11241",
+    "disconnections": 153971,
+    "final_notices": 1290583,
+    "avg_residential_customers": 957522,
+    "disconnections_per_100_customers": 16.08
+   }
+  ],
+  "top_large_utilities_by_rate_min100k_customers": [
+   {
+    "state": "OK",
+    "utility_name": "Public Service Co Of Oklahoma",
+    "eia_utility_id": "15474",
+    "disconnections": 290739,
+    "final_notices": 1207605,
+    "avg_residential_customers": 498578,
+    "disconnections_per_100_customers": 58.31
+   },
+   {
+    "state": "AL",
+    "utility_name": "City of Huntsville - (AL)",
+    "eia_utility_id": "9094",
+    "disconnections": 107061,
+    "final_notices": 430307,
+    "avg_residential_customers": 198345,
+    "disconnections_per_100_customers": 53.98
+   },
+   {
+    "state": "TN",
+    "utility_name": "City of Memphis - (TN)",
+    "eia_utility_id": "12293",
+    "disconnections": 182151,
+    "final_notices": 1107634,
+    "avg_residential_customers": 380286,
+    "disconnections_per_100_customers": 47.9
+   },
+   {
+    "state": "TN",
+    "utility_name": "City Of Chattanooga - (TN)",
+    "eia_utility_id": "3408",
+    "disconnections": 73540,
+    "final_notices": 326710,
+    "avg_residential_customers": 163693,
+    "disconnections_per_100_customers": 44.93
+   },
+   {
+    "state": "TX",
+    "utility_name": "Centerpoint Energy",
+    "eia_utility_id": "8901",
+    "disconnections": 954139,
+    "final_notices": null,
+    "avg_residential_customers": 2493149,
+    "disconnections_per_100_customers": 38.27
+   },
+   {
+    "state": "TX",
+    "utility_name": "Oncor Electric Delivery Company LLC",
+    "eia_utility_id": "44372",
+    "disconnections": 1241425,
+    "final_notices": null,
+    "avg_residential_customers": 3477214,
+    "disconnections_per_100_customers": 35.7
+   },
+   {
+    "state": "LA",
+    "utility_name": "Cleco Power LLC",
+    "eia_utility_id": "3265",
+    "disconnections": 80509,
+    "final_notices": 536032,
+    "avg_residential_customers": 235328,
+    "disconnections_per_100_customers": 34.21
+   },
+   {
+    "state": "FL",
+    "utility_name": "City Of Tallahassee - (FL)",
+    "eia_utility_id": "18445",
+    "disconnections": 33605,
+    "final_notices": 64033,
+    "avg_residential_customers": 108476,
+    "disconnections_per_100_customers": 30.98
+   },
+   {
+    "state": "FL",
+    "utility_name": "Sumter Electric Coop, Inc",
+    "eia_utility_id": "18304",
+    "disconnections": 68617,
+    "final_notices": 209490,
+    "avg_residential_customers": 247294,
+    "disconnections_per_100_customers": 27.75
+   },
+   {
+    "state": "FL",
+    "utility_name": "Clay Electric Cooperative, Inc",
+    "eia_utility_id": "3757",
+    "disconnections": 47325,
+    "final_notices": 241557,
+    "avg_residential_customers": 171257,
+    "disconnections_per_100_customers": 27.63
+   },
+   {
+    "state": "TX",
+    "utility_name": "Texas-New Mexico Power Co",
+    "eia_utility_id": "40051",
+    "disconnections": 62740,
+    "final_notices": null,
+    "avg_residential_customers": 232882,
+    "disconnections_per_100_customers": 26.94
+   },
+   {
+    "state": "TX",
+    "utility_name": "Magic Valley Electric Coop Inc",
+    "eia_utility_id": "11501",
+    "disconnections": 31381,
+    "final_notices": 426800,
+    "avg_residential_customers": 124074,
+    "disconnections_per_100_customers": 25.29
+   },
+   {
+    "state": "OK",
+    "utility_name": "Oklahoma Gas & Electric Co",
+    "eia_utility_id": "14063",
+    "disconnections": 167275,
+    "final_notices": 1252971,
+    "avg_residential_customers": 711360,
+    "disconnections_per_100_customers": 23.51
+   },
+   {
+    "state": "FL",
+    "utility_name": "Florida Power & Light Co",
+    "eia_utility_id": "6452",
+    "disconnections": 1229818,
+    "final_notices": 5974157,
+    "avg_residential_customers": 5297328,
+    "disconnections_per_100_customers": 23.22
+   },
+   {
+    "state": "MS",
+    "utility_name": "Entergy Mississippi LLC",
+    "eia_utility_id": "12685",
+    "disconnections": 87163,
+    "final_notices": 664047,
+    "avg_residential_customers": 384611,
+    "disconnections_per_100_customers": 22.66
+   }
+  ],
+  "data_center_hotspot_utilities": [
+   {
+    "state": "AZ",
+    "utility_name": "Arizona Public Service Co",
+    "eia_utility_id": "803",
+    "disconnections": 41871,
+    "final_notices": 59903,
+    "avg_residential_customers": 1258323,
+    "disconnections_per_100_customers": 3.33,
+    "label": "APS (Phoenix data centers)"
+   },
+   {
+    "state": "AZ",
+    "utility_name": "Salt River Project",
+    "eia_utility_id": "16572",
+    "disconnections": 32759,
+    "final_notices": 377198,
+    "avg_residential_customers": 1053407,
+    "disconnections_per_100_customers": 3.11,
+    "label": "SRP (Phoenix/Mesa data centers)"
+   },
+   {
+    "state": "DC",
+    "utility_name": "Potomac Electric Power Co",
+    "eia_utility_id": "15270",
+    "disconnections": 15623,
+    "final_notices": 216970,
+    "avg_residential_customers": 318780,
+    "disconnections_per_100_customers": 4.9,
+    "label": "Pepco DC"
+   },
+   {
+    "state": "GA",
+    "utility_name": "Georgia Power Co",
+    "eia_utility_id": "7140",
+    "disconnections": 187007,
+    "final_notices": 5367532,
+    "avg_residential_customers": 2429276,
+    "disconnections_per_100_customers": 7.7,
+    "label": "Georgia Power (Atlanta metro data centers)"
+   },
+   {
+    "state": "IA",
+    "utility_name": "MidAmerican Energy Co",
+    "eia_utility_id": "12341",
+    "disconnections": 15107,
+    "final_notices": 228366,
+    "avg_residential_customers": 631006,
+    "disconnections_per_100_customers": 2.39,
+    "label": "MidAmerican (Council Bluffs/Des Moines data centers)"
+   },
+   {
+    "state": "IL",
+    "utility_name": "Commonwealth Edison Co",
+    "eia_utility_id": "4110",
+    "disconnections": 95605,
+    "final_notices": 686033,
+    "avg_residential_customers": 3691840,
+    "disconnections_per_100_customers": 2.59,
+    "label": "ComEd (Chicago data centers)"
+   },
+   {
+    "state": "IN",
+    "utility_name": "Indiana Michigan Power Co",
+    "eia_utility_id": "9324",
+    "disconnections": 66766,
+    "final_notices": 492906,
+    "avg_residential_customers": 422062,
+    "disconnections_per_100_customers": 15.82,
+    "label": "Indiana Michigan Power (AEP; northern IN data centers)"
+   },
+   {
+    "state": "LA",
+    "utility_name": "Entergy Louisiana LLC",
+    "eia_utility_id": "11241",
+    "disconnections": 153971,
+    "final_notices": 1290583,
+    "avg_residential_customers": 957522,
+    "disconnections_per_100_customers": 16.08,
+    "label": "Entergy Louisiana (Meta Hyperion, Richland Parish)"
+   },
+   {
+    "state": "MD",
+    "utility_name": "Baltimore Gas & Electric Co",
+    "eia_utility_id": "1167",
+    "disconnections": 46591,
+    "final_notices": 1055613,
+    "avg_residential_customers": 1206868,
+    "disconnections_per_100_customers": 3.86,
+    "label": "BGE (MD; PJM capacity-price pass-through)"
+   },
+   {
+    "state": "MD",
+    "utility_name": "Potomac Electric Power Co",
+    "eia_utility_id": "15270",
+    "disconnections": 12611,
+    "final_notices": 102010,
+    "avg_residential_customers": 553607,
+    "disconnections_per_100_customers": 2.28,
+    "label": "Pepco MD"
+   },
+   {
+    "state": "NJ",
+    "utility_name": "Public Service Elec & Gas Co",
+    "eia_utility_id": "15477",
+    "disconnections": 98288,
+    "final_notices": 1934409,
+    "avg_residential_customers": 2056231,
+    "disconnections_per_100_customers": 4.78,
+    "label": "PSE&G (NJ; PJM capacity-price pass-through)"
+   },
+   {
+    "state": "NV",
+    "utility_name": "Nevada Power Co",
+    "eia_utility_id": "13407",
+    "disconnections": 139553,
+    "final_notices": 719153,
+    "avg_residential_customers": 916385,
+    "disconnections_per_100_customers": 15.23,
+    "label": "NV Energy south (Las Vegas data centers)"
+   },
+   {
+    "state": "OH",
+    "utility_name": "Ohio Power Co",
+    "eia_utility_id": "14006",
+    "disconnections": 172411,
+    "final_notices": 1975985,
+    "avg_residential_customers": 1339232,
+    "disconnections_per_100_customers": 12.87,
+    "label": "AEP Ohio (Columbus/New Albany data centers)"
+   },
+   {
+    "state": "PA",
+    "utility_name": "PPL Electric Utilities Corp",
+    "eia_utility_id": "14715",
+    "disconnections": 62802,
+    "final_notices": 284682,
+    "avg_residential_customers": 1285925,
+    "disconnections_per_100_customers": 4.88,
+    "label": "PPL (PA; Susquehanna/AWS campus)"
+   },
+   {
+    "state": "TX",
+    "utility_name": "Oncor Electric Delivery Company LLC",
+    "eia_utility_id": "44372",
+    "disconnections": 1241425,
+    "final_notices": null,
+    "avg_residential_customers": 3477214,
+    "disconnections_per_100_customers": 35.7,
+    "label": "Oncor (Dallas-Fort Worth data centers)"
+   },
+   {
+    "state": "VA",
+    "utility_name": "Northern Virginia Elec Coop",
+    "eia_utility_id": "13640",
+    "disconnections": 5252,
+    "final_notices": 68458,
+    "avg_residential_customers": 165918,
+    "disconnections_per_100_customers": 3.17,
+    "label": "NOVEC (Loudoun/Prince William data-center co-op)"
+   },
+   {
+    "state": "VA",
+    "utility_name": "Virginia Electric & Power Co",
+    "eia_utility_id": "19876",
+    "disconnections": 368473,
+    "final_notices": 1222331,
+    "avg_residential_customers": 2383548,
+    "disconnections_per_100_customers": 15.46,
+    "label": "Dominion Energy Virginia (Northern Virginia data-center alley)"
+   }
+  ],
+  "full_table": "data/processed/households_eia112_disconnections_2024.csv"
+ },
+ "epi_disconnections_analysis": {
+  "publisher": "Energy and Policy Institute (EPI) - advocacy/watchdog",
+  "title": "New nationwide data reveals utility-specific disconnection information",
+  "date": "2026-06-22",
+  "url": "https://energyandpolicy.org/new-nationwide-data-reveals-utility-specific-disconnection-information/",
+  "key_points": [
+   "Analysis of EIA-112 2024 data: AEP's Public Service Co. of Oklahoma had the highest IOU disconnection rate (58 per 100 customers).",
+   "Oncor led IOUs in total residential electric disconnections (1,241,425); FPL second (1.23M); CenterPoint Houston third (954,139); Dominion's Virginia Electric & Power fourth; PSO fifth (290,739).",
+   "By ownership: municipal utilities 12.3 disconnections per 100 customers, co-ops 7.8, investor-owned 6.3. Large munis (>100k customers) 16.4; South Kentucky RECC highest of all (~86 per 100).",
+   "EEI and AGA opposed the federal survey as unnecessary and burdensome."
+  ],
+  "dashboard_note": "EPI's Utility Disconnections Dashboard and Indiana University Energy Justice Lab's dashboard (energyjustice.indiana.edu/disconnection-dashboard) were not downloaded: IU site failed TLS verification from this environment; EIA-112 is used as the primary national source instead.",
+  "verified": true
+ },
+ "census_household_pulse_energy_insecurity": {
+  "survey": "Census Household Pulse Survey, Phase 4.2 Cycle 09 (fielded 2024-08-20 to 2024-09-16), Housing Table 4",
+  "note": "Final HPS cycle; the HPS ended in Sept 2024 (succeeded by the Household Trends and Outlook Pulse Survey, which does not publish these state energy tables). So 2024 is the latest state-level reading; no 2025-26 waves exist.",
+  "question": "In the last 12 months, how many months was your household unable to pay an energy bill or unable to pay the full bill amount? (also: reduced/forwent basic necessities to pay an energy bill; kept home at an unsafe/unhealthy temperature)",
+  "unit": "Adults 18+ living in such households; share excludes 'did not report'.",
+  "url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2024/cycle09/housing4_cycle09.xlsx",
+  "national": {
+   "state": "US",
+   "unable_to_pay_pct": 23.4,
+   "unable_to_pay_almost_every_month_pct": 5.8,
+   "forwent_necessities_pct": 34.3,
+   "forwent_necessities_almost_every_month_pct": 10.4,
+   "unsafe_temperature_pct": 22.8,
+   "unsafe_temperature_almost_every_month_pct": 6.0,
+   "adults_responding": 223631985.0,
+   "lt50k_unable_to_pay_pct": 37.4,
+   "lt50k_forwent_necessities_pct": 51.0,
+   "lt50k_unsafe_temperature_pct": 31.7,
+   "lt50k_adults_responding": 71600917.0
+  },
+  "trend_from_neada": {
+   "all_unable_to_pay_pct": {
+    "2023": 22.0,
+    "2024": 23.4
+   },
+   "lt50k_unable_to_pay_pct": {
+    "2023": 35.5,
+    "2024": 37.4
+   },
+   "source": "NEADA Energy Hardship Report Feb 2026 (citing HPS)",
+   "url": "https://neada.org/wp-content/uploads/2026/02/energyhardshipfeb26.pptx",
+   "verified": true
+  },
+  "top10_states_unable_to_pay": [
+   {
+    "state": "MS",
+    "unable_to_pay_pct": 33.4,
+    "lt50k_unable_to_pay_pct": 45.6
+   },
+   {
+    "state": "CT",
+    "unable_to_pay_pct": 29.6,
+    "lt50k_unable_to_pay_pct": 42.8
+   },
+   {
+    "state": "AL",
+    "unable_to_pay_pct": 29.4,
+    "lt50k_unable_to_pay_pct": 43.4
+   },
+   {
+    "state": "LA",
+    "unable_to_pay_pct": 28.5,
+    "lt50k_unable_to_pay_pct": 33.6
+   },
+   {
+    "state": "NJ",
+    "unable_to_pay_pct": 28.2,
+    "lt50k_unable_to_pay_pct": 39.0
+   },
+   {
+    "state": "WY",
+    "unable_to_pay_pct": 27.1,
+    "lt50k_unable_to_pay_pct": 42.3
+   },
+   {
+    "state": "NM",
+    "unable_to_pay_pct": 26.9,
+    "lt50k_unable_to_pay_pct": 40.7
+   },
+   {
+    "state": "WV",
+    "unable_to_pay_pct": 26.5,
+    "lt50k_unable_to_pay_pct": 39.0
+   },
+   {
+    "state": "CA",
+    "unable_to_pay_pct": 26.3,
+    "lt50k_unable_to_pay_pct": 41.1
+   },
+   {
+    "state": "MI",
+    "unable_to_pay_pct": 25.9,
+    "lt50k_unable_to_pay_pct": 41.0
+   }
+  ],
+  "bottom5_states_unable_to_pay": [
+   {
+    "state": "MT",
+    "unable_to_pay_pct": 17.3
+   },
+   {
+    "state": "MN",
+    "unable_to_pay_pct": 17.0
+   },
+   {
+    "state": "WI",
+    "unable_to_pay_pct": 16.4
+   },
+   {
+    "state": "WA",
+    "unable_to_pay_pct": 15.8
+   },
+   {
+    "state": "DC",
+    "unable_to_pay_pct": 11.9
+   }
+  ],
+  "full_table": "data/processed/households_hps_energy_insecurity_state.csv",
+  "verified": true
+ },
+ "liheap_funding_by_fiscal_year": [
+  {
+   "fiscal_year": 2018,
+   "total_released_usd": 3637316000,
+   "notes": "Regular funds (page mislabels total as FY 2020).",
+   "scope": "states and territories (excludes tribal grants)",
+   "source_url": "https://liheapch.ncat.org/node/62",
+   "verified": true
+  },
+  {
+   "fiscal_year": 2019,
+   "total_released_usd": null,
+   "notes": "~$3.65B regular released 2018-10-26; total not itemised on page.",
+   "scope": "states and territories (excludes tribal grants)",
+   "source_url": "https://liheapch.ncat.org/node/62",
+   "verified": true
+  },
+  {
+   "fiscal_year": 2020,
+   "total_released_usd": 4637316000,
+   "notes": "Includes $900M CARES Act supplemental.",
+   "scope": "states and territories (excludes tribal grants)",
+   "source_url": "https://liheapch.ncat.org/node/62",
+   "verified": true
+  },
+  {
+   "fiscal_year": 2021,
+   "total_released_usd": 8209300960,
+   "notes": "Includes $4.5B American Rescue Plan supplemental.",
+   "scope": "states and territories (excludes tribal grants)",
+   "source_url": "https://liheapch.ncat.org/node/62",
+   "verified": true
+  },
+  {
+   "fiscal_year": 2022,
+   "total_released_usd": 3876220260,
+   "notes": "Includes $99.5M IIJA.",
+   "scope": "states and territories (excludes tribal grants)",
+   "source_url": "https://liheapch.ncat.org/node/62",
+   "verified": true
+  },
+  {
+   "fiscal_year": 2023,
+   "total_released_usd": 6090400000,
+   "notes": "Includes $1B supplemental (CR) + $1B Consolidated Appropriations Act 2023 + IIJA $100M.",
+   "scope": "states and territories (excludes tribal grants)",
+   "source_url": "https://liheapch.ncat.org/node/62",
+   "verified": true
+  },
+  {
+   "fiscal_year": 2024,
+   "total_released_usd": 4115400000,
+   "notes": "Regular + IIJA $100M; ~$2B lower than FY2023.",
+   "scope": "states and territories (excludes tribal grants)",
+   "source_url": "https://liheapch.ncat.org/node/62",
+   "verified": true
+  },
+  {
+   "fiscal_year": 2025,
+   "total_released_usd": 4115508197,
+   "notes": "Full-year CR; final $401.5M released 2025-05-01 (after the April 2025 staff layoff).",
+   "scope": "states and territories (excludes tribal grants)",
+   "source_url": "https://liheapch.ncat.org/node/62",
+   "verified": true
+  },
+  {
+   "fiscal_year": 2026,
+   "total_released_usd": 4130596037,
+   "notes": "$3.714B released 2025-11-28 after the Oct 1-Nov 12 2025 shutdown; final $421.5M on 2026-04-17 under the Consolidated Appropriations Act, 2026 (H.R. 7148).",
+   "scope": "states and territories (excludes tribal grants)",
+   "source_url": "https://liheapch.ncat.org/node/62",
+   "verified": true
+  },
+  {
+   "fiscal_year": 2027,
+   "total_released_usd": 3631860000,
+   "notes": "PARTIAL: released 2026-10-09 under the Continuing Appropriations and Extensions Act, 2027 (H.R. 6500). Full-year level not yet set.",
+   "scope": "states and territories (excludes tribal grants)",
+   "source_url": "https://liheapch.ncat.org/node/62",
+   "verified": true
+  }
+ ],
+ "liheap_households_served": [
+  {
+   "fiscal_year": 2022,
+   "households_m": 5.8,
+   "source": "NEADA press release 2024-01-23",
+   "url": "https://neada.org/wp-content/uploads/2024/01/pr-recordhhbehind.pdf",
+   "verified": true
+  },
+  {
+   "fiscal_year": 2023,
+   "households_m": 7.3,
+   "source": "NEADA press release 2024-01-23 (record; table total 7.2M est.)",
+   "url": "https://neada.org/wp-content/uploads/2024/01/pr-recordhhbehind.pdf",
+   "verified": true
+  },
+  {
+   "fiscal_year": 2024,
+   "households_m": 6.0,
+   "source": "Utility Dive 2026-02-04 ('about 6 million households in 2024')",
+   "url": "https://www.utilitydive.com/news/federal-energy-assistance-programs-survive-budget-gauntlet/811389/",
+   "verified": true
+  }
+ ],
+ "liheap_2025_2026_events": [
+  {
+   "date": "2025-04",
+   "event": "HHS reduction in force removed the federal LIHEAP program staff (~two dozen people).",
+   "source": "Utility Dive, 2026-02-04",
+   "url": "https://www.utilitydive.com/news/federal-energy-assistance-programs-survive-budget-gauntlet/811389/",
+   "verified": true
+  },
+  {
+   "date": "2025-05-02",
+   "event": "President's FY2026 budget proposed $0 for LIHEAP (eliminating ~$4B serving ~6M households); rationale: state shutoff protections make it 'unnecessary'.",
+   "source": "NEADA; Utility Dive",
+   "url": "https://neada.org/wp-content/uploads/2025/05/Presidents-FY-26-Budget-LIHEAP-1-1.pdf",
+   "verified": true
+  },
+  {
+   "date": "2025-10-01/2025-11-12",
+   "event": "Federal shutdown delayed release of FY2026 LIHEAP funds; NEADA asked utilities to suspend shutoffs (2025-10-21). Some states (e.g., PA) delayed program start.",
+   "source": "NEADA; PBS/AP",
+   "url": "https://neada.org/wp-content/uploads/2025/10/PRshutdownshutoffs.pdf",
+   "verified": true
+  },
+  {
+   "date": "2025-11-28",
+   "event": "$3.71B of FY2026 LIHEAP block grant released.",
+   "source": "LIHEAP Clearinghouse",
+   "url": "https://liheapch.ncat.org/node/62",
+   "verified": true
+  },
+  {
+   "date": "2026-02-03",
+   "event": "Consolidated Appropriations Act, 2026 signed; LIHEAP funded at about $4.05B for FY2026 (slight increase over FY2025).",
+   "source": "Utility Dive, 2026-02-04",
+   "url": "https://www.utilitydive.com/news/federal-energy-assistance-programs-survive-budget-gauntlet/811389/",
+   "verified": true
+  },
+  {
+   "date": "2026-04-03",
+   "event": "President's FY2027 budget again proposes eliminating LIHEAP (~$4B, ~6M households).",
+   "source": "NEADA",
+   "url": "https://neada.org/wp-content/uploads/2026/04/PresidentBudget2027Response.pdf",
+   "verified": true
+  },
+  {
+   "date": "2026-04-16",
+   "event": "NEADA asks Congress for $7B in FY2027 ($6B base + $1B contingency); says funds reach ~1 in 5 eligible households.",
+   "source": "NEADA testimony",
+   "url": "https://neada.org/wp-content/uploads/2026/07/housetestimonyFY27.pdf",
+   "verified": true
+  },
+  {
+   "date": "2026-07-23",
+   "event": "NEADA asks for a $3.0B emergency anomaly in the FY2027 CR as crude reaches $100/bbl (Iran war) and heating oil spikes.",
+   "source": "NEADA",
+   "url": "https://neada.org/neada-increases-emergency-liheap-funding-request-to-3-billion-as-crude-oil-reaches-100-per-barrel/",
+   "verified": true
+  },
+  {
+   "date": "2026-10-09",
+   "event": "$3.63B of FY2027 funds released under a CR.",
+   "source": "LIHEAP Clearinghouse",
+   "url": "https://liheapch.ncat.org/node/62",
+   "verified": true
+  }
+ ],
+ "neada_context_figures": [
+  {
+   "claim": "Low-income households' average energy burden ~8.6% vs 3.0% for others",
+   "date": "2026 (NEADA Energy Hardship Project page)",
+   "url": "https://neada.org/?p=8468",
+   "verified": true
+  },
+  {
+   "claim": "Low-income energy burden 9.1% vs 2.4% for other households (3.8x)",
+   "date": "2026-02",
+   "url": "https://neada.org/wp-content/uploads/2026/02/energyhardshipfeb26.pptx",
+   "verified": true
+  },
+  {
+   "claim": "BLS Consumer Expenditure Survey: lowest income quintile spent $1,705 on electricity+gas in 2025 = 9.86% of $17,291 income (9.38% in 2024); top quintile 1.25%",
+   "date": "2026-02",
+   "url": "https://neada.org/wp-content/uploads/2026/02/energyhardshipfeb26.pptx",
+   "verified": true,
+   "caveat": "NEADA slide labels both years oddly; numbers as printed."
+  },
+  {
+   "claim": "Average monthly residential electric bill rose from ~$121 (2021) to ~$156 (2025), +29%",
+   "date": "2026-02",
+   "url": "https://neada.org/wp-content/uploads/2026/02/energyhardshipfeb26.pptx",
+   "verified": true,
+   "caveat": "EIA annual average (bills area: $121.01 in 2021 -> $150.68 in 2025) is lower than NEADA's $156; NEADA likely uses a monthly peak/recent figure."
+  },
+  {
+   "claim": "NEADA-estimated utility shutoffs (households): ~3.3M (2023), ~3.5M (2024), up to 4.0M (2025)",
+   "date": "2026-02",
+   "url": "https://neada.org/wp-content/uploads/2026/02/energyhardshipfeb26.pptx",
+   "verified": true,
+   "caveat": "Far below EIA-112's 13.4M electric disconnection EVENTS in 2024: NEADA counts households from select state data; EIA counts every disconnection event."
+  },
+  {
+   "claim": "33 states lack summer shutoff protections",
+   "date": "2024-08",
+   "url": "https://neada.org/wp-content/uploads/2024/08/August-Arrearages-Press-Release-8.26.24.pdf",
+   "verified": true
+  },
+  {
+   "claim": "Only ~17% of eligible households receive LIHEAP",
+   "date": "2025-12",
+   "url": "https://neada.org/wp-content/uploads/2025/12/winterheatingdec25PR.pdf",
+   "verified": true
+  },
+  {
+   "claim": "Winter 2025-26 average heating cost $995 (+9.2%), electric-heat homes +12.2%; later revised to $1,011 (+11%)",
+   "date": "2025-12 / 2026-03",
+   "url": "https://neada.org/wp-content/uploads/2025/12/winterheatingdec25PR.pdf",
+   "verified": true
+  }
+ ]
+}

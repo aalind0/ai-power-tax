@@ -1,0 +1,194 @@
+report,state,utility,region,customers,type,when_requested,requested_increase_busd,source_as_listed
+powerlines_q1_2026,CA,Southern California Edison,West,15000000,Electric,March 2026,1.9,California Public Utilities Commission
+powerlines_q2_2026,TX,Oncor,South,13000000,Electric,April 2026,1.2,Public Utility Commission of Texas
+powerlines_q1_2026,WA,Puget Sound Energy,West,1100000,Electric,January 2026,1.2,Washington Utilities and Transportation
+powerlines_q2_2026,VA,Dominion,South,2700000,Electric,May 2026,1.1,Virginia State Corporation
+powerlines_q1_2026,GA,Georgia Power,South,2804000,Electric,February 2026,0.9,Georgia Public Service Commission
+powerlines_q3_2026,NJ,Jersey Central Power & Light,Northeast,1200000,Electric,August 2026,0.7,New Jersey Board of Public Utilities
+powerlines_q1_2026,OK,Public Service Company of Oklahoma,South,575000,Electric,January 2026,0.6,Oklahoma Corporation
+powerlines_q2_2026,CT,Eversource,Northeast,1300000,Electric,May 2026,0.5,Connecticut Public Utilities Regulatory
+powerlines_q3_2026,IN,Indiana-Michigan Power,Midwest,471000,Electric,August 2026,0.5,Indiana Utility Regulatory Commission
+powerlines_q2_2026,MI,DTE,Midwest,2300000,Electric,April 2026,0.5,Michigan Public Service Commission
+powerlines_q2_2026,MI,Consumers Energy,Midwest,1900000,Electric,June 2026,0.5,Michigan Public Service Commission
+powerlines_q2_2026,NC,Duke Energy Carolinas,South,2220000,Electric,April 2026,0.5,North Carolina Utilities Commission
+powerlines_q3_2026,VA,Dominion Energy Virginia,South,2700000,Electric,August 2026,0.5,Virginia State Corporation
+powerlines_q2_2026,NC,Duke Energy Progress,South,1620000,Electric,April 2026,0.4,North Carolina Utilities Commission
+powerlines_q3_2026,OK,Oklahoma Gas & Electric,South,915000,Electric,August 2026,0.4,Oklahoma Corporation Commission
+powerlines_q1_2026,PA,PECO,Northeast,1700000,Electric,March 2026,0.4,PECO South Carolina
+powerlines_q2_2026,TX,Electric Transmission Texas,South,1110000,Electric,April 2026,0.4,Public Utility Commission of Texas
+powerlines_q1_2026,CA,PacifiCorp,West,46000,Electric,February 2026,0.3,California Public Utilities Commission
+powerlines_q2_2026,CA,San Diego Gas & Electric,West,1490000,Electric,June 2026,0.3,California Public Utilities Commission
+powerlines_q2_2026,CA,SoCalGas,West,6000000,Gas,April 2026,0.3,California Public Utilities Commission
+powerlines_q1_2026,MA,National Grid,Northeast,1200000,Gas,January 2026,0.3,Massachusetts Department of Public
+powerlines_q2_2026,MO,Ameren,Midwest,1300000,Electric,June 2026,0.3,Ameren Montana
+powerlines_q1_2026,SC,Dominion,South,782000,Electric,January 2026,0.3,South Carolina Public Service Commission
+powerlines_q3_2026,TX,CenterPoint Energy,South,2400000,Electric,August 2026,0.3,Public Utility Commission of Texas
+powerlines_q1_2026,WA,Puget Sound Energy Puget Sound Energy,West,900000,Gas,January 2026,0.3,Washington Utilities and Transportation
+powerlines_q2_2026,WI,Wisconsin Electric Power,Midwest,1175000,Electric,April 2026,0.3,Wisconsin Public Service Commission
+powerlines_q1_2026,HI,Hawaiian Electric,West,1330000,Electric,March 2026,0.2,Honolulu Star Advertiser
+powerlines_q3_2026,HI,Hawaiian Electric Company,West,1330000,Electric,July 2026,0.2,Hawaii Public Utilities Commission
+powerlines_q1_2026,IL,Peoples Gas Light and Coke,Midwest,894000,Gas,January 2026,0.2,Illinois Commerce Commission
+powerlines_q1_2026,IL,Nicor Gas,Midwest,2300000,Gas,January 2026,0.2,Illinois Commerce Commission
+powerlines_q3_2026,MD,Baltimore Gas and Electric,South,1300000,Electric,July 2026,0.2,Maryland Public Service Commission
+powerlines_q1_2026,ME,Central Maine Power,Northeast,670000,Electric,February 2026,0.2,Maine Morning Star Maryland
+powerlines_q2_2026,OH,Cleveland Illuminating Company,Midwest,755000,Electric,May 2026,0.2,Public Utilities Commission of Ohio
+powerlines_q2_2026,OH,Ohio Edison,Midwest,1000000,Electric,May 2026,0.2,Public Utilities Commission of Ohio
+powerlines_q2_2026,OR,Pacific Power,West,623000,Electric,May 2026,0.2,Oregon Public Utility Commission
+powerlines_q3_2026,OR,Portland General Electric,West,960000,Electric,July 2026,0.2,Oregon Public Utility Commission
+powerlines_q1_2026,TX,CenterPoint Houston,South,2500000,Electric,February 2026,0.2,Public Utility Commission of Texas
+powerlines_q2_2026,VA,Dominion,South,2700000,Electric,April 2026,0.2,Virginia State Corporation
+powerlines_q2_2026,VA,Dominion,South,2700000,Electric,May 2026,0.2,Virginia State Corporation
+powerlines_q3_2026,VA,Dominion Energy Virginia,South,2700000,Electric,July 2026,0.2,Virginia State Corporation
+powerlines_q1_2026,WA,Avista,West,403000,Electric,January 2026,0.2,Avista Utilities Washington
+powerlines_q2_2026,WI,Wisconsin Electric Power,Midwest,515000,Gas,April 2026,0.2,Wisconsin Public Service Commission
+powerlines_q2_2026,WV,Monongahela Power and Potomac Edison,South,588000,Electric,May 2026,0.2,West Virginia Public Service Commission
+powerlines_q1_2026,AZ,Southwest Gas,West,1153000,Gas,February 2026,0.1,Arizona Corporation Commission
+powerlines_q1_2026,CA,Southern California Edison,West,15000000,Electric,January 2026,0.1,California Public Utilities Commission
+powerlines_q2_2026,CA,San Diego Gas & Electric,West,905000,Gas,April 2026,0.1,California Public Utilities Commission
+powerlines_q3_2026,CO,Xcel Energy,West,1600000,Electric,July 2026,0.1,Colorado Public Utilities Commission
+powerlines_q2_2026,FL,Florida City Gas,South,125000,Gas,April 2026,0.1,Florida City Gas State
+powerlines_q3_2026,IA,MidAmerican Energy,Midwest,803000,Gas,July 2026,0.1,Iowa Utilities Commission
+powerlines_q2_2026,ID,Idaho Power,West,640000,Electric,April 2026,0.1,Idaho Public Utilities Commission
+powerlines_q3_2026,IN,NIPSCO,Midwest,500000,Electric,August 2026,0.1,Indiana Utility Regulatory Commission
+powerlines_q1_2026,KY,Kentucky Power,South,162000,Electric,February 2026,0.1,Lexington Herald Leader
+powerlines_q1_2026,LA,Entergy Louisiana,South,1100000,Electric,March 2026,0.1,Louisiana Public Service Commission
+powerlines_q3_2026,MA,Eversource,Northeast,1400000,Electric,September 2026,0.1,Massachusetts Department of Public
+powerlines_q1_2026,MD,Baltimore Gas & Electric,South,1300000,Electric,February 2026,0.1,Maryland Public Service Commission
+powerlines_q3_2026,MD,Potomac Edison,South,295000,Electric,September 2026,0.1,Maryland Public Service Commission
+powerlines_q1_2026,MI,SEMCO,Midwest,305000,Gas,February 2026,0.1,Michigan Public Service Commission
+powerlines_q1_2026,MO,Evergy Metro,Midwest,314000,Electric,February 2026,0.1,Missouri Public Service Commission
+powerlines_q3_2026,MO,Spire Missouri,Midwest,1100000,Gas,July 2026,0.1,Missouri Public Service Commission
+powerlines_q2_2026,MT,NorthWestern Energy,West,413000,Electric,June 2026,0.1,Daily Montanan New
+powerlines_q1_2026,NC,Enbridge Gas,South,667000,Gas,March 2026,0.1,North Carolina Utilities Commission
+powerlines_q3_2026,NJ,Atlantic City Electric,Northeast,547000,Electric,July 2026,0.1,New Jersey Board of Public Utilities
+powerlines_q1_2026,NM,PNM,West,550000,Electric,February 2026,0.1,Halcyon Ohio
+powerlines_q2_2026,NM,El Paso Electric,West,111000,Electric,April 2026,0.1,New Mexico Public Regulation Commission
+powerlines_q2_2026,NM,PNM,West,550000,Electric,April 2026,0.1,Halcyon North Carolina
+powerlines_q1_2026,NV,Southwest Gas,West,803000,Gas,March 2026,0.1,Public Utilities Commission of
+powerlines_q1_2026,OH,AEP Ohio,Midwest,1530000,Electric,January 2026,0.1,Public Utilities Commission of Ohio
+powerlines_q1_2026,OH,AES Ohio,Midwest,527000,Electric,March 2026,0.1,Public Utilities Commission of Ohio
+powerlines_q1_2026,OH,Duke Energy Ohio,Midwest,840000,Electric,January 2026,0.1,Public Utilities Commission of Ohio
+powerlines_q2_2026,OH,Toledo Edison,Midwest,315000,Electric,May 2026,0.1,Public Utilities Commission of Ohio
+powerlines_q3_2026,OR,Northwest Natural Gas,West,710000,Gas,August 2026,0.1,Oregon Public Utility Commission
+powerlines_q1_2026,PA,UGI Utilities,Northeast,680000,Gas,January 2026,0.1,Pennsylvania Public Utility Commission
+powerlines_q1_2026,PA,PECO,Northeast,553000,Gas,March 2026,0.1,"PECO Electric and Gas Utility Rate Increases from the 1st Quarter, 2026"
+powerlines_q1_2026,SC,Duke Energy Carolinas,South,680000,Electric,March 2026,0.1,South Carolina Public Service Commission
+powerlines_q1_2026,SD,Black Hills Energy,Midwest,75000,Electric,February 2026,0.1,Black Hills Corporation
+powerlines_q3_2026,TX,CenterPoint Energy,South,2400000,Electric,July 2026,0.1,Public Utility Commission of Texas
+powerlines_q3_2026,TX,El Paso Electric,South,358000,Electric,August 2026,0.1,Public Utility Commission of Texas
+powerlines_q3_2026,TX,Sharyland Utilities,South,54000,Electric,August 2026,0.1,Public Utility Commission of Texas
+powerlines_q3_2026,TX,Southwestern Public Service,South,167000,Electric,September 2026,0.1,Public Utility Commission of Texas
+powerlines_q3_2026,TX,Texas-New Mexico Power,South,260000,Electric,August 2026,0.1,Public Utility Commission of Texas
+powerlines_q1_2026,VA,Dominion,South,2700000,Electric,March 2026,0.1,Virginia State Corporation
+powerlines_q2_2026,VA,Appalachian Power,South,530000,Electric,May 2026,0.1,Virginia State Corporation
+powerlines_q2_2026,WI,Wisconsin Public Service,Midwest,474000,Electric,April 2026,0.1,Wisconsin Public Service Commission
+powerlines_q1_2026,WV,Appalachian and Wheeling Power,South,740000,Electric,February 2026,0.1,WV Press Wisconsin
+powerlines_q2_2026,WY,Rocky Mountain Power,West,150000,Electric,May 2026,0.1,Wyoming Public Service Commission
+powerlines_q1_2026,AR,Entergy Arkansas,South,738000,Electric,February 2026,0.0,Arkansas Public Service Commission
+powerlines_q3_2026,AR,Entergy,South,738000,Electric,August 2026,0.0,Arkansas Public Service Commission
+powerlines_q3_2026,AR,SWEPCO,South,128000,Electric,August 2026,0.0,Arkansas Public Service Commission
+powerlines_q3_2026,AZ,Arizona Public Service,West,1400000,Electric,August 2026,0.0,Halcyon Arkansas
+powerlines_q1_2026,CA,Bear Valley Electric,West,25000,Electric,February 2026,0.0,California Public Utilities Commission
+powerlines_q1_2026,CA,Pacific Gas & Electric,West,16000000,Electric,March 2026,0.0,Halcyon California
+powerlines_q1_2026,CA,San Diego Gas & Electric,West,1490000,Electric,February 2026,0.0,California Public Utilities Commission
+powerlines_q3_2026,CA,Pacific Gas & Electric,West,4600000,Gas,July 2026,0.0,California Public Utilities Commission
+powerlines_q3_2026,CA,SoCalGas,West,5900000,Gas,July 2026,0.0,California Public Utilities Commission
+powerlines_q1_2026,CO,Black Hills Energy,West,190000,Gas,February 2026,0.0,Black Hills Energy Illinois
+powerlines_q2_2026,CO,Black Hills Energy,West,102000,Electric,June 2026,0.0,Black Hills Energy Connecticut
+powerlines_q2_2026,FL,Tampa Electric,South,840000,Electric,April 2026,0.0,Florida Public Service Commission
+powerlines_q3_2026,HI,Hawaiian Electric Company,West,1330000,Electric,August 2026,0.0,Hawaii Public Utilities Commission
+powerlines_q1_2026,ID,Avista,West,145000,Electric,February 2026,0.0,Avista Utilities Illinois
+powerlines_q2_2026,ID,Avista,West,423000,Electric,June 2026,0.0,Idaho Public Utilities Commission
+powerlines_q2_2026,ID,Rocky Mountain Power,West,91000,Electric,April 2026,0.0,Idaho Public Utilities Commission
+powerlines_q3_2026,ID,Avista Utilities,West,423000,Electric,July 2026,0.0,Idaho Public Utilities Commission
+powerlines_q3_2026,ID,Idaho Power,West,648000,Electric,August 2026,0.0,Idaho Public Utilities Commission
+powerlines_q1_2026,IL,MidAmerican Energy,Midwest,85000,Electric,March 2026,0.0,Illinois Commerce Commission
+powerlines_q1_2026,IL,North Shore Gas,Midwest,160000,Gas,January 2026,0.0,Illinois Commerce Commission
+powerlines_q1_2026,IL,MidAmerican Energy,Midwest,65000,Gas,March 2026,0.0,Illinois Commerce Commission
+powerlines_q3_2026,IN,AES Indiana,Midwest,530000,Electric,July 2026,0.0,Indiana Utility Regulatory Commission
+powerlines_q3_2026,IN,Duke Energy Indiana,Midwest,930000,Electric,July 2026,0.0,Indiana Utility Regulatory Commission
+powerlines_q1_2026,KS,Evergy Central,Midwest,736000,Electric,March 2026,0.0,Kansas Corporation Commission
+powerlines_q1_2026,KS,Black Hills Energy,Midwest,116000,Gas,March 2026,0.0,Kansas Corporation Commission
+powerlines_q2_2026,KS,Liberty Utilities,Midwest,10000,Electric,June 2026,0.0,Kansas Corporation Commission
+powerlines_q2_2026,KS,Atmos Energy,Midwest,139000,Gas,April 2026,0.0,Kansas Corporation Commission
+powerlines_q3_2026,KS,Atmos Energy,Midwest,129000,Gas,August 2026,0.0,Kansas Corporation Commission
+powerlines_q3_2026,KS,Black Hills Kansas,Midwest,116000,Gas,August 2026,0.0,Kansas Corporation Commission
+powerlines_q3_2026,KS,Evergy Kansas Central,Midwest,736000,Electric,September 2026,0.0,Kansas Corporation Commission
+powerlines_q3_2026,KS,Kansas Gas,Midwest,653000,Gas,July 2026,0.0,Kansas Corporation Commission
+powerlines_q1_2026,KY,Louisville Gas & Electric,South,336000,Gas,March 2026,0.0,Kentucky Public Service Commission
+powerlines_q2_2026,KY,Kentucky Power,South,162000,Electric,April 2026,0.0,Kentucky Public Service Commission
+powerlines_q3_2026,KY,Atmos Energy,South,181000,Gas,July 2026,0.0,Kentucky Public Service Commission
+powerlines_q3_2026,KY,Duke Energy Kentucky,South,143000,Electric,July 2026,0.0,Kentucky Public Service Commission
+powerlines_q1_2026,MA,Unitil,Northeast,16000,Electric,February 2026,0.0,Massachusetts Department of Public
+powerlines_q1_2026,MA,Eversource,Northeast,1400000,Gas,January 2026,0.0,Massachusetts Department of Public
+powerlines_q1_2026,MA,Unitil,Northeast,30000,Gas,January 2026,0.0,Massachusetts Department of Public
+powerlines_q3_2026,MA,Eversource,Northeast,1400000,Electric,September 2026,0.0,Massachusetts Department of Public
+powerlines_q3_2026,MA,Liberty Utilities,Northeast,61000,Gas,August 2026,0.0,Massachusetts Department of Public
+powerlines_q3_2026,MA,National Grid,Northeast,950000,Gas,August 2026,0.0,Massachusetts Department of Public
+powerlines_q1_2026,ME,Unitil,Northeast,44000,Gas,February 2026,0.0,Halcyon Massachusetts
+powerlines_q2_2026,ME,Unitil,Northeast,35000,Electric,April 2026,0.0,Maine Public Utilities Commission
+powerlines_q3_2026,ME,Central Maine Power,Northeast,670000,Electric,September 2026,0.0,Maine Public Utilities Commission
+powerlines_q1_2026,MI,Upper Peninsula Power Company,Midwest,52000,Electric,March 2026,0.0,Michigan Public Service Commission
+powerlines_q2_2026,MO,Empire District Electric,Midwest,148000,Electric,April 2026,0.0,Missouri Public Service Commission
+powerlines_q3_2026,MO,Ameren Missouri,Midwest,1300000,Electric,September 2026,0.0,Missouri Public Service Commission
+powerlines_q3_2026,MO,Ameren Missouri,Midwest,135000,Gas,August 2026,0.0,Missouri Public Service Commission
+powerlines_q3_2026,MS,Mississippi Power,South,191000,Electric,August 2026,0.0,Mississippi Public Service Commission
+powerlines_q1_2026,NC,Piedmont Gas,South,817000,Gas,February 2026,0.0,North Carolina Utilities Commission
+powerlines_q2_2026,NC,Dominion,South,129000,Electric,April 2026,0.0,North Carolina Utilities Commission
+powerlines_q3_2026,NC,Enbridge Gas,South,675000,Gas,August 2026,0.0,North Carolina Utilities Commission
+powerlines_q1_2026,ND,Xcel Energy,Midwest,63000,Gas,January 2026,0.0,Xcel Energy Pennsylvania
+powerlines_q2_2026,NH,Public Service Company of New Hampshire,Northeast,523000,Electric,May 2026,0.0,New Hampshire Public Utilities Commission
+powerlines_q2_2026,NH,Liberty Utilities,Northeast,98000,Gas,June 2026,0.0,New Hampshire Public Utilities Commission
+powerlines_q3_2026,NH,Eversource,Northeast,534000,Electric,July 2026,0.0,New Hampshire Public Utilities Commission
+powerlines_q3_2026,NH,Liberty Utilities,Northeast,46000,Electric,July 2026,0.0,New Hampshire Public Utilities Commission
+powerlines_q3_2026,NH,Unitil,Northeast,81000,Electric,August 2026,0.0,New Hampshire Public Utilities Commission
+powerlines_q1_2026,NJ,PSEG,Northeast,2400000,Electric,March 2026,0.0,New Jersey Board of Public Utilities
+powerlines_q2_2026,NJ,Elizabethtown Gas,Northeast,322000,Gas,April 2026,0.0,New Jersey Board of Public Utilities
+powerlines_q2_2026,NJ,South Jersey Gas,Northeast,431000,Gas,April 2026,0.0,New Jersey Board of Public Utilities
+powerlines_q3_2026,NJ,Rockland Electric Company,Northeast,75000,Electric,August 2026,0.0,New Jersey Board of Public Utilities
+powerlines_q3_2026,NM,El Paso Electric,West,109000,Electric,August 2026,0.0,Halcyon New Mexico
+powerlines_q3_2026,NM,New Mexico Gas,West,553000,Gas,July 2026,0.0,Halcyon New Mexico
+powerlines_q3_2026,NM,Southwestern Public Service,West,126000,Electric,July 2026,0.0,Halcyon Halcyon
+powerlines_q1_2026,NV,NV Energy,West,2400000,Electric,March 2026,0.0,Public Utilities Commission of
+powerlines_q3_2026,NV,NV Energy,West,1450000,Electric,August 2026,0.0,Public Utilities Commission of Nevada
+powerlines_q3_2026,NV,NV Energy,West,189000,Gas,August 2026,0.0,Public Utilities Commission of Nevada
+powerlines_q2_2026,NY,National Fuel,Northeast,747000,Gas,May 2026,0.0,New York Department of Public Service
+powerlines_q2_2026,OH,AES Ohio,Midwest,1530000,Electric,April 2026,0.0,Public Utilities Commission of Ohio
+powerlines_q2_2026,OH,CenterPoint Energy,Midwest,316000,Gas,April 2026,0.0,Public Utilities Commission of Ohio
+powerlines_q2_2026,OH,Ohio Gas,Midwest,52000,Gas,May 2026,0.0,Public Utilities Commission of Ohio
+powerlines_q3_2026,OH,CenterPoint Energy,Midwest,335000,Electric,July 2026,0.0,Public Utilities Commission of Ohio
+powerlines_q2_2026,OK,Oklahoma Natural Gas,South,931000,Gas,April 2026,0.0,KFOR South Carolina
+powerlines_q3_2026,OK,Liberty Utilities,South,50,Electric,July 2026,0.0,Halcyon Oklahoma
+powerlines_q1_2026,OR,Idaho Power,West,660000,Electric,February 2026,0.0,Oregon Public Utility Commission
+powerlines_q1_2026,OR,PacifiCorp,West,629000,Electric,February 2026,0.0,Oregon Public Utility Commission
+powerlines_q1_2026,OR,Portland General Electric,West,963000,Electric,February 2026,0.0,Oregon Public Utility Commission
+powerlines_q3_2026,OR,Portland General Electric,West,960000,Electric,July 2026,0.0,Oregon Public Utility Commission
+powerlines_q1_2026,PA,National Fuel,Northeast,214000,Gas,January 2026,0.0,Pennsylvania Public Utility Commission
+powerlines_q2_2026,SC,Piedmont Gas,South,170000,Gas,April 2026,0.0,South Carolina Public Service Commission
+powerlines_q3_2026,SC,Dominion Energy South Carolina,South,500000,Gas,August 2026,0.0,South Carolina Public Service Commission
+powerlines_q3_2026,SC,Duke Energy Progress,South,177000,Electric,July 2026,0.0,South Carolina Public Service Commission
+powerlines_q3_2026,SD,Black Hills Energy,Midwest,78000,Electric,August 2026,0.0,South Dakota Public Utilities Commission
+powerlines_q3_2026,SD,MidAmerican Energy,Midwest,117000,Gas,August 2026,0.0,South Dakota Public Utilities Commission
+powerlines_q1_2026,TN,Appalachian Power,South,49000,Electric,February 2026,0.0,Tennessee Public Utility Commission
+powerlines_q1_2026,TN,Atmos Energy,South,161000,Gas,January 2026,0.0,Tennessee Public Utility Commission
+powerlines_q2_2026,TX,El Paso Electric,South,452000,Electric,June 2026,0.0,Public Utility Commission of Texas
+powerlines_q2_2026,TX,Entergy Texas,South,538000,Electric,April 2026,0.0,Public Utility Commission of Texas
+powerlines_q2_2026,TX,Southwestern Public Service,South,263000,Electric,May 2026,0.0,Public Utility Commission of Texas
+powerlines_q2_2026,TX,SWEPCO,South,191000,Electric,May 2026,0.0,Public Utility Commission of Texas
+powerlines_q2_2026,UT,Enbridge Gas,West,900000,Gas,May 2026,0.0,Utah Public Service Commission
+powerlines_q3_2026,UT,Rocky Mountain Power,West,800000,Electric,August 2026,0.0,Utah Public Service Commission
+powerlines_q1_2026,VA,Virginia Natural Gas,South,310000,Gas,February 2026,0.0,Virginia State Corporation
+powerlines_q2_2026,VA,Kentucky Utilities,South,28000,Electric,April 2026,0.0,Virginia State Corporation
+powerlines_q3_2026,VA,Atmos Energy,South,23000,Gas,July 2026,0.0,Virginia State Corporation
+powerlines_q1_2026,VT,Green Mountain Power,Northeast,275000,Electric,January 2026,0.0,Vermont Public Utility Commission
+powerlines_q2_2026,VT,Green Mountain Power,Northeast,275000,Electric,April 2026,0.0,Vermont Public Utility Commission
+powerlines_q1_2026,WA,Avista,West,369000,Gas,January 2026,0.0,Avista Utilities Washington
+powerlines_q1_2026,WI,Wisconsin Electric Power Company,Midwest,1100000,Electric,March 2026,0.0,Public Service Commission of
+powerlines_q1_2026,WI,Wisconsin Gas,Midwest,1100000,Gas,March 2026,0.0,Public Service Commission of
+powerlines_q2_2026,WI,Northern States Power,Midwest,270000,Electric,May 2026,0.0,Halcyon Wyoming
+powerlines_q2_2026,WI,Wisconsin Public Service,Midwest,350000,Gas,April 2026,0.0,Wisconsin Public Service Commission
+powerlines_q1_2026,WV,Mon Power,South,395000,Electric,February 2026,0.0,Halcyon West Virginia
+powerlines_q1_2026,WV,Mountaineer Gas,South,220000,Gas,February 2026,0.0,WSAZ Wisconsin
+powerlines_q2_2026,WV,Appalachian Power and Wheeling Power,South,460000,Electric,May 2026,0.0,Halcyon West Virginia
+powerlines_q1_2026,WY,Black Hills Power,West,133000,Gas,January 2026,0.0,"Halcyon Electric and Gas Utility Rate Increases from the 1st Quarter, 2026"
+powerlines_q2_2026,WY,Black Hills Energy,West,46000,Electric,April 2026,0.0,Halcyon Wyoming

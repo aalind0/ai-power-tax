@@ -1,0 +1,10 @@
+{
+  "name": "ai-power-tax-site-build",
+  "private": true,
+  "description": "Build-time helpers for the site data (not shipped)",
+  "dependencies": {
+    "topojson-server": "3.0.1",
+    "topojson-simplify": "3.0.3",
+    "topojson-client": "3.1.0"
+  }
+}

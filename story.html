@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>How it works · The AI Power Tax</title>
+  <meta name="description" content="Type your address to see how your electricity bill changed, what's inside it, and how much of the increase traces back to data centers, with the evidence on both sides." />
+  <meta name="theme-color" content="#08090b" />
+  <meta property="og:title" content="The AI Power Tax" />
+  <meta property="og:description" content="Type your address. See how much your power bill has gone up, and how much of it is because of data centers." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0b0b'/%3E%3Cpath d='M36 6 16 36h14l-4 22 22-32H34z' fill='%23ffd60a'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body class="story-page">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="The AI Power Tax, home">
+      <span class="bolt" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M36 6 16 36h14l-4 22 22-32H34z" /></svg></span>
+      <span>The AI Power Tax</span>
+    </a>
+    <nav class="nav" aria-label="Pages">
+      <a href="index.html">Your bill</a>
+      <a href="story.html" aria-current="page" class="current">How it works</a>
+      <a href="findings.html">Findings</a>
+      <a href="story.html#ch-evidence">The evidence</a>
+      <a href="story.html#about">About</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="sp-hero">
+      <p class="kicker">How it works · the full story</p>
+      <h1>How data centers reach <span class="hl">your power bill</span></h1>
+      <p class="dek">Eight short chapters: what's in a bill, where prices rose, the PJM auction spike, the wires, where data centers draw power, and the evidence on both sides.</p>
+      <nav class="sp-toc" aria-label="Chapters">
+        <a href="#follow">Follow the dollar</a><a href="#ch-calm">01 National picture</a><a href="#ch-kwh">02 How a bill works</a><a href="#ch-map">03 The map</a><a href="#ch-spike">04 The spike</a><a href="#ch-wires">05 The wires</a><a href="#ch-load">06 The load</a><a href="#ch-evidence">07 The evidence</a><a href="#ch-act">08 What you can do</a>
+      </nav>
+    </section>
+    <section class="sp-flow" id="follow">
+      <div class="hero-flow-wrap">
+        <div class="hf-head">
+          <div><p class="ch-num">Follow the dollar</p><h2 class="hf-title" id="hf-title">Where every $1 of the average US power bill goes</h2></div>
+          <div class="seg" role="group" aria-label="Choose which dollar to follow" id="hf-toggle">
+            <button aria-pressed="true" data-v="us" title="The average US electricity bill">US average</button>
+            <button aria-pressed="false" data-v="pjm24" title="PJM wholesale power, 2024">PJM 2024</button>
+            <button aria-pressed="false" data-v="pjm26" title="PJM wholesale power, 2026">PJM 2026</button>
+          </div>
+        </div>
+        <figure class="hero-flow" id="hero-flow"></figure>
+        <p class="hf-insight" id="hf-insight"></p>
+      </div>
+    </section>
+
+    <!-- STORY ------------------------------------------------------------->
+    <section class="chapter" id="ch-calm">
+      <div class="ch-text">
+        <p class="ch-num">01 · The national picture</p>
+        <h2>Nationally, power has been <em>flat</em> for a decade, until this year.</h2>
+        <div class="ch-body" id="calm-text"></div>
+      </div>
+      <figure class="ch-fig" id="calm-chart"></figure>
+    </section>
+
+    <section class="chapter wide kwh" id="ch-kwh">
+      <div class="ch-text">
+        <p class="ch-num">02 · How a bill works</p>
+        <h2>The life of a <em>kilowatt-hour</em>.</h2>
+        <div class="ch-body" id="kwh-intro"></div>
+      </div>
+      <div class="kwh-wrap">
+        <div class="kwh-sticky"><figure class="kwh-fig" id="kwh-fig" aria-label="Animated journey of electricity from power plant to home"></figure></div>
+        <div class="kwh-steps" id="kwh-steps"></div>
+      </div>
+    </section>
+
+    <section class="chapter wide" id="ch-map">
+      <div class="ch-text">
+        <p class="ch-num">03 · The map</p>
+        <h2>The pain is <em>local</em>.</h2>
+        <div class="ch-body" id="map-text"></div>
+      </div>
+      <div class="map-controls" id="map-controls"></div>
+      <figure class="ch-fig map-fig" id="map-fig"></figure>
+      <div class="map-side" id="map-side"></div>
+    </section>
+
+    <section class="chapter" id="ch-spike">
+      <div class="ch-text">
+        <p class="ch-num">04 · The spike</p>
+        <h2>In the PJM grid, one auction reset the bill for <em>65 million</em> people.</h2>
+        <div class="ch-body" id="spike-text"></div>
+      </div>
+      <figure class="ch-fig" id="spike-chart"></figure>
+    </section>
+
+    <section class="chapter" id="ch-wires">
+      <div class="ch-text">
+        <p class="ch-num">05 · The wires</p>
+        <h2>The quiet driver: <em>poles and wires</em>.</h2>
+        <div class="ch-body" id="wires-text"></div>
+      </div>
+      <figure class="ch-fig" id="wires-chart"></figure>
+      <figure class="ch-fig" id="nits-chart"></figure>
+    </section>
+
+    <section class="chapter" id="ch-load">
+      <div class="ch-text">
+        <p class="ch-num">06 · The load</p>
+        <h2>Where the data centers <em>actually</em> draw power.</h2>
+        <div class="ch-body" id="load-text"></div>
+      </div>
+      <figure class="ch-fig" id="load-chart"></figure>
+    </section>
+
+    <section class="chapter wide" id="ch-evidence">
+      <div class="ch-text">
+        <p class="ch-num">07 · The evidence</p>
+        <h2>So how much is <em>really</em> data centers?</h2>
+        <div class="ch-body" id="evidence-text"></div>
+      </div>
+      <div class="evidence" id="evidence"></div>
+    </section>
+
+
+    <section class="chapter" id="ch-act">
+      <div class="ch-text">
+        <p class="ch-num">08 · What you can do</p>
+        <h2>Your bill is set in a <em>public</em> process. You can be in the room.</h2>
+        <div class="ch-body" id="act-text"></div>
+      </div>
+      <div class="act" id="act"></div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-inner" id="about-inner"></div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p><strong>The AI Power Tax</strong> is an open-source data investigation. Companion to <a href="https://aalind0.github.io/compute-atlas/">Compute Atlas</a>. Data: EIA, FERC via Catalyst PUDL, PJM and its market monitor, LBNL, EPRI, DOE LEAD, state PUCs, and the studies cited. Not financial, legal or energy advice.</p>
+  </footer>
+
+  <div class="tip" id="tip" role="tooltip" hidden></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+  <script type="module" src="js/story-page.js"></script>
+</body>
+</html>
