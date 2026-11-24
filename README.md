@@ -2,6 +2,8 @@
 
 **How much of your electricity bill is AI? Type your address and find out.**
 
+### 👉 [Try it: aalind0.github.io/ai-power-tax](https://aalind0.github.io/ai-power-tax/)
+
 Look up any US address to see how much your utility's price has gone up since 2020, how much of it traces to
 data-center demand, and what's already locked in. The home page opens on a 3D spike map of the extra dollars a
 month the same electricity costs versus 2020, then shows the data-center slice in the PJM grid.
