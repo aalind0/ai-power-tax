@@ -9,7 +9,7 @@ data-center demand, and what's already locked in. The home page opens on a 3D sp
 month the same electricity costs versus 2020, then shows the data-center slice in the PJM grid.
 
 - **Your bill** (`index.html`): the answer up top (increase since 2020, data-center share, locked-in charges), then tabs for why it went up, past & next, your dollar, data centers near you, who pays, and what you can do.
-- **How it works** (`story.html`): eight short chapters, from the life of a kilowatt-hour to the evidence on both sides.
+- **How it works** (`story.html`): seven short chapters, from the life of a kilowatt-hour to the evidence on both sides.
 - **Findings** (`findings.html`): 14 interactive findings from the data.
 
 Companion to [Compute Atlas](https://github.com/aalind0/compute-atlas).

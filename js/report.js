@@ -270,7 +270,10 @@ export async function renderReport(host, { entry, place, candidates = [], onSwit
         <div class="bill-sub">${place?.label ? `Service address: <b>${esc(place.label)}</b> · ` : ''}${own} · ${fmt.int(u.c)} homes served</div>
         ${others.length ? `<div class="switch">Not your utility? ${others.slice(0, 5).map((o, i) => `<button data-i="${i}">${esc(shortName(o.n))}</button>`).join('')}</div>` : ''}
       </div>
-      ${nomCh != null ? '<div class="head-cta"><button class="btn share-btn" id="share-card" type="button">Share my bill card</button></div>' : ''}
+      <div class="head-cta">
+        ${nomCh != null ? '<button class="btn share-btn" id="share-card" type="button">Share my bill card</button>' : ''}
+        <div class="head-links"><button type="button" id="copy-link">Copy link</button><a target="_blank" rel="noopener" href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(share_url)}">Share on LinkedIn</a></div>
+      </div>
     </header>
 
     <div class="answer" aria-label="The short answer">
@@ -388,18 +391,6 @@ export async function renderReport(host, { entry, place, candidates = [], onSwit
         ${shut ? `<div class="msg"><div class="k">Shutoffs at ${esc(shortName(u.n))}</div><div class="v">${shut[0].toFixed(1)}</div><div class="s">per 100 homes in 2024 (${fmt.int(shut[1])} disconnections). National: ${hh.shutNational.per100.toFixed(1)}.</div></div>` : ''}
       </div>
     </section>` : ''}
-
-    <section class="bsec" aria-labelledby="h-act">
-      <div class="bsec-h"><h3 id="h-act">What you can do</h3></div>
-      <p class="lead">Rates are set in public proceedings, and your comments go on the record.</p>
-      <div class="cta">
-        ${policy?.adv?.url ? `<a class="btn" href="${safeUrl(policy.adv.url)}" target="_blank" rel="noopener">Contact your consumer advocate</a>` : '<span class="note">' + esc(stName) + ' has no official residential utility advocate.</span>'}
-        ${policy?.puc?.url ? `<a class="btn ghost" href="${safeUrl(policy.puc.url)}" target="_blank" rel="noopener">${esc(policy.puc.name || 'Public utility commission')}</a>` : ''}
-        ${nomCh != null ? '<button class="btn ghost" id="share-card2" type="button">Make my bill card</button>' : ''}
-        <button class="btn ghost" id="copy-link">Copy link to this bill</button>
-        <a class="btn ghost" target="_blank" rel="noopener" href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(share_url)}">Share on LinkedIn</a>
-      </div>
-    </section>
     <footer class="bill-foot"><span>Data: EIA-861 / 861M, PJM & Monitoring Analytics, EPRI, DOE LEAD, EIA-112, state PUCs. Prices are revenue ÷ sales averages, so your own bill varies.</span><span>Your address stays in your browser; only the geocoder sees it.</span></footer>
   </article>`;
 
@@ -452,19 +443,19 @@ export async function renderReport(host, { entry, place, candidates = [], onSwit
     url: (location.host + location.pathname).replace(/\/$/, ''), link: share_url, slug: `${u.id}-${u.st}`.toLowerCase(),
     caption: `My power bill is up ${Math.round(nomCh)}% since 2020. I looked into why, including how much of it traces back to data centers.`,
   };
-  ['#share-card', '#share-card2'].forEach((sel) => $(sel, host)?.addEventListener('click', () => openShare(shareData)));
+  $('#share-card', host)?.addEventListener('click', () => openShare(shareData));
   host.querySelectorAll('.circled').forEach(circleIt);
 
   host.querySelectorAll('.switch button').forEach((b) => b.addEventListener('click', () => onSwitch?.(others[+b.dataset.i])));
   $('#copy-link', host)?.addEventListener('click', async (e) => {
-    try { await navigator.clipboard.writeText(share_url); e.target.textContent = 'Link copied ✓'; } catch { prompt('Copy this link', share_url); }
+    try { await navigator.clipboard.writeText(share_url); e.target.textContent = 'Copied ✓'; } catch { prompt('Copy this link', share_url); }
   });
   detailTabs(host);
   history.replaceState(null, '', `?u=${u.id}-${u.st}${location.hash}`);
 }
 
 // Keep the answer on top; tuck the detail sections into tabs (charts redraw at full width when a tab opens).
-const TABS = [['why', 'Why it went up', ['h-wf']], ['time', 'Past & next', ['h-lock', 'h-hist']], ['dollar', 'Your dollar', ['h-items']], ['near', 'Data centers near you', ['h-grid', 'h-verdict']], ['pays', 'Who pays', ['h-pays', 'h-hurt']], ['act', 'What you can do', ['h-act']]];
+const TABS = [['why', 'Why it went up', ['h-wf']], ['time', 'Past & next', ['h-lock', 'h-hist']], ['dollar', 'Your dollar', ['h-items']], ['near', 'Data centers near you', ['h-grid', 'h-verdict']], ['pays', 'Who pays', ['h-pays', 'h-hurt']]];
 function detailTabs(host) {
   const first = host.querySelector('section.bsec');
   const tabs = TABS.map(([k, label, ids]) => [k, label, ids.map((id) => host.querySelector(`section[aria-labelledby="${id}"]`)).filter(Boolean)]).filter(([, , els]) => els.length);

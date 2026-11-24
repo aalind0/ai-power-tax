@@ -439,33 +439,6 @@ export async function chEvidence() {
 }
 
 // ---------------------------------------------------------------- 07 act
-export async function chAct() {
-  const pol = await D.policy();
-  const nat = pol.national;
-  $('#act-text').innerHTML = `<p>Utilities asked regulators for record rate increases: about <strong>$31B</strong> across gas and electric in 2025, double 2024, and <strong>$23.1B</strong> through Q3 2026 (PowerLines). Regulators typically grant <strong>about 60%</strong> of what's requested. The gap is where public comments, consumer advocates and intervenors matter.</p><p>${Object.values(pol.states).filter((s) => s.llt.status === 'adopted').length} states have adopted large-load tariffs that make data centers sign long contracts and pay minimum bills. State rules can't reach PJM's regional capacity and transmission costs, though; those are fought at FERC.</p>`;
-  const opts = Object.entries(pol.states).sort((a, b) => a[1].name.localeCompare(b[1].name)).map(([k, v]) => `<option value="${k}">${esc(v.name)}</option>`).join('');
-  $('#act').innerHTML = `
-    <ol class="steps">
-      <li><div><b>Find your utility's rate case</b><span>Search your public utility commission's docket for your utility's name. Look for "base rate case" or "general rate case" and the public comment deadline.</span></div></li>
-      <li><div><b>Call your consumer advocate</b><span>Most states have an office that represents residential customers in rate cases. They can tell you which hearings matter.</span></div></li>
-      <li><div><b>File a comment or show up</b><span>Commissions take written comments and hold public hearings. Short, personal comments about your bill count.</span></div></li>
-      <li><div><b>Ask the data-center question</b><span>Does your state have a large-load tariff? Who pays for new transmission and generation built for data centers?</span></div></li>
-    </ol>
-    <figure class="ch-fig"><p class="fig-title">Your state's contacts</p><label class="sr-only" for="st-pick">Choose a state</label><select class="select" id="st-pick">${opts}</select><div id="st-info" style="margin-top:12px"></div></figure>`;
-  const show = (st) => {
-    const s = pol.states[st];
-    $('#st-info').innerHTML = `<dl class="kv">
-      <dt>Consumer advocate</dt><dd>${s.adv?.url ? `<a href="${safeUrl(s.adv.url)}" target="_blank" rel="noopener">${esc(s.adv.office || 'Website')}</a>` : 'None (no official residential advocate)'}</dd>
-      <dt>Utility commission</dt><dd>${s.puc?.url ? `<a href="${safeUrl(s.puc.url)}" target="_blank" rel="noopener">${esc(s.puc.name)}</a>` : '—'}</dd>
-      <dt>Large-load tariff</dt><dd>${esc(s.llt.status || '—')}</dd>
-      <dt>Data-center tax break</dt><dd>${esc(s.inc.type || '—')}${s.inc.cost ? ` · ≈${fmt.big(s.inc.cost)}/yr` : ''}</dd></dl>`;
-  };
-  $('#st-pick').value = 'VA';
-  show('VA');
-  $('#st-pick').addEventListener('change', (e) => show(e.target.value));
-  return (st) => { if (pol.states[st]) { $('#st-pick').value = st; show(st); } };
-}
-
 // ---------------------------------------------------------------- about
 export function about() {
   $('#about-inner').innerHTML = `
